@@ -16,7 +16,7 @@ description: Use this design library to learn about all the frontend templates a
     <h2 class="govuk-heading-m govuk-!-margin-bottom-2">Components</h2>
     <p class="govuk-body">Description of what components are.</p>
     <p class="govuk-body govuk-!-margin-bottom-0">
-        <a href="" class="govuk-link govuk-!-font-weight-bold">Browse components</a>
+        <a href="/components" class="govuk-link govuk-!-font-weight-bold">Browse components</a>
     </p>
   </section>
 </div>
