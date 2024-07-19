@@ -3,6 +3,7 @@ const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 module.exports = function(eleventyConfig) {
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
+    homeKey: "",
     header: {
       productName: 'Design Library'
     },
