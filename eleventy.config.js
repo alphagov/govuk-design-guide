@@ -5,6 +5,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
       productName: 'Design Library'
+    },
+    navigation: {
+      items: [
+        { 
+          text: "Frontend templates",
+          href: "#"
+        },
+        {
+          text: "Components",
+          href: "#"
+        } 
+      ]
     }
   })
 
