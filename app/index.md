@@ -1,8 +1,22 @@
 ---
 homepage: true
 layout: product
-title: GOV.UK Design Library
+title: The one-stop shop for designers working in the GOV.UK Programme
+description: Use this design library to learn about all the frontend templates and components that make-up GOV.UK.
 ---
-This is my first page, built using Eleventy and `@x-govuk/govuk-eleventy-plugin`.
-
-I know how to code. HAHAHAHAHA
+<div class="govuk-grid-row">
+  <section class="govuk-grid-column-one-half-from-desktop">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-2">Frontend templates</h2>
+    <p class="govuk-body">Description of what frontend templates are.</p>
+    <p class="govuk-body govuk-!-margin-bottom-0">
+        <a href="" class="govuk-link govuk-!-font-weight-bold">Browse frontend templates</a>
+    </p>
+  </section>
+  <section class="govuk-grid-column-one-half-from-desktop">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-2">Components</h2>
+    <p class="govuk-body">Description of what components are.</p>
+    <p class="govuk-body govuk-!-margin-bottom-0">
+        <a href="" class="govuk-link govuk-!-font-weight-bold">Browse components</a>
+    </p>
+  </section>
+</div>
