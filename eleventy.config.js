@@ -10,11 +10,11 @@ module.exports = function(eleventyConfig) {
       items: [
         { 
           text: "Frontend templates",
-          href: "#"
+          href: "/frontend-templates"
         },
         {
           text: "Components",
-          href: "#"
+          href: "/components"
         } 
       ]
     }
