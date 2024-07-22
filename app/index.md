@@ -1,6 +1,6 @@
 ---
 homepage: true
-layout: product
+layout: homepage
 title: The one-stop shop for designers working in the GOV.UK Programme
 description: Use this design library to learn about all the frontend templates and components that make-up GOV.UK.
 ---

@@ -1,5 +1,5 @@
 ---
-layout: sub-navigation
+layout: component-documentation
 title: Component example
 description: Description of the component.
 sectionKey: Components

@@ -1,5 +1,5 @@
 ---
-layout: sub-navigation
+layout: frontend-template-index-documentation
 title: Finders
 description: Description of what frontend templates are.
 sectionKey: Frontend templates

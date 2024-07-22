@@ -1,5 +1,5 @@
 ---
-layout: sub-navigation
+layout: frontend-template-documentation
 title: Search finder
 description: Description of what search finder is.
 sectionKey: Frontend templates

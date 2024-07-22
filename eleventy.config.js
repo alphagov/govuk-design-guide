@@ -29,7 +29,8 @@ module.exports = function(eleventyConfig) {
       // The folder where all your content will live:
       input: 'app',
       // Use layouts from the plugin
-      layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
+      // layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
+      includes: '../_includes'
     }
   }
 };
