@@ -1,0 +1,55 @@
+{% extends "layouts/base.njk" %}
+
+{% block beforeContent %}
+
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter-from-desktop">
+      {{ xGovukSubNavigation({
+        items: collections.ordered | eleventyNavigation(sectionKey or options.homeKey) | itemsFromNavigation(page.url, { pathPrefix: options.pathPrefix })
+      }) }}
+    </div>
+    
+    <div class="govuk-grid-column-three-quarters-from-desktop">
+      <header class="app-document-header">
+        <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
+        <h1 class="app-document-header__title govuk-heading-xl">
+          {{ title | smart }}
+        </h1>
+        {% if description %}
+          <p class="app-document-header__description govuk-body-l">
+            {{ description | markdown("inline") }}
+          </p>
+        {% endif %}
+      </header>
+
+
+      {% if (examples | length ) > 1 %}
+        <section class="app-document-examples">
+
+          <h2 class="app-document-examples__title govuk-heading-l">Examples</h2>
+          <ul class="app-document-examples__items govuk-list">
+            {% for i in range(0, examples | length ) %}
+              <li>
+                <a class="govuk-link" href="{{ examples[i].pageURL }}">{{ examples[i].pageTitle }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+      
+          {% else %}
+
+          <h2 class="app-document-examples__title govuk-heading-l">Example</h2>
+          <a class="govuk-link govuk-body" href="{{ examples[0].pageURL }}">{{ examples[0].pageTitle }}</a>
+        
+        </section>
+      {% endif %}
+
+
+      {{ appProseScope(content) if content }}
+
+      {% include "layouts/shared/related.njk" %}
+    </div>
+  </div>
+{% endblock %}
