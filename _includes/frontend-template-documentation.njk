@@ -1,4 +1,5 @@
 {% extends "layouts/base.njk" %}
+{% from "govuk/components/details/macro.njk" import govukDetails %}
 
 {% block beforeContent %}
 
@@ -25,26 +26,123 @@
         {% endif %}
       </header>
 
-
-      {% if (examples | length ) > 1 %}
+      {% if examples %}
         <section class="app-document-examples">
-
-          <h2 class="app-document-examples__title govuk-heading-l">Examples</h2>
-          <ul class="app-document-examples__items govuk-list">
-            {% for i in range(0, examples | length ) %}
-              <li>
-                <a class="govuk-link" href="{{ examples[i].pageURL }}">{{ examples[i].pageTitle }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-      
+          {% if (examples | length ) > 1 %}
+            <h2 class="app-document-examples__title govuk-heading-l">Examples</h2>
+            <ul class="app-document-examples__items govuk-list">
+              {% for i in range(0, examples | length ) %}
+                <li>
+                  <a class="govuk-link" href="{{ examples[i].link }}">{{ examples[i].title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% if contentDataLink %}
+              <p class="govuk-body">Complete list of examples available on <a href="{{ contentDataLink }}" class="govuk-link">Content Data</a>.</p>
+            {% endif %}
           {% else %}
+            <h2 class="app-document-examples__title govuk-heading-l">Example</h2>
+            <p class="govuk-body">
+              <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+            </p>
+          {% endif %}
+        </section>      
+      {% endif %}
 
-          <h2 class="app-document-examples__title govuk-heading-l">Example</h2>
-          <a class="govuk-link govuk-body" href="{{ examples[0].pageURL }}">{{ examples[0].pageTitle }}</a>
-        
+      {% if contentSchema or contentType or publishingApp %}
+        <section class="app-document-how-its-built">
+          <h2 class="app-document-how-its-built__title govuk-heading-l">How it's built</h2>
+          <div class="govuk-grid-row">
+            {% if contentSchema %}
+              <div class="govuk-grid-column-one-half">
+                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Content schema</h3>
+                <p class="govuk-body">
+                  <a href="{{ contentSchema.link }}" class="govuk-link">{{ contentSchema.title }}</a>
+                </p>
+                {{ govukDetails({
+                  summaryText: "What is a content schema?",
+                  text: "A GOV.UK content schema is a JSON schema that defines the data structure of a piece of content. It determines what content and metadata attributes the page has. It’s different from the GOV.UK document type. For example ‘publication’ is the schema for transparency data."
+                }) }}
+              </div>
+            {% endif %}
+            {% if contentType %}
+              <div class="govuk-grid-column-one-half">
+                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Content type</h3>
+                <p class="govuk-body">
+                  <a href="{{contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
+                {{ govukDetails({
+                  summaryText: "What is a content type?",
+                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
+                }) }}
+              </div>
+            {% endif %}
+            {% if publishingApp %}
+              <div class="govuk-grid-column-one-half">
+                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Publishing app</h3>
+                {% if publishingApp === "collections publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/collections-publisher.html" class="govuk-link">collections-publisher</a>
+                  </p>
+                {% elif publishingApp === "contacts admin" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/contacts-admin.html" class="govuk-link">contacts-admin</a>
+                  </p>
+                {% elif publishingApp === "content publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/content-publisher.html" class="govuk-link">content-admin</a>
+                  </p>
+                {% elif publishingApp === "content tagger" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/content-tagger.html" class="govuk-link">content-tagger</a>
+                  </p>
+                {% elif publishingApp === "local links manager" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/local-links-manager.html" class="govuk-link">local-links-manager</a>
+                  </p>
+                {% elif publishingApp === "mainstream publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/publisher.html" class="govuk-link">mainstream-publisher</a>
+                  </p>
+                {% elif publishingApp === "manuals publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/manuals-publisher.html" class="govuk-link">manuals-publisher</a>
+                  </p>
+                {% elif publishingApp === "maslow" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/maslow.html" class="govuk-link">maslow</a>
+                  </p>
+                {% elif publishingApp === "service manual publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/service-manual-publisher.html" class="govuk-link">service-manual-publisher</a>
+                  </p>
+                {% elif publishingApp === "short url manager" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/short-url-manager.html" class="govuk-link">short-url-manager</a>
+                  </p>
+                {% elif publishingApp === "specialist publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/specialist-publisher.html" class="govuk-link">specialist-publisher</a>
+                  </p>
+                {% elif publishingApp === "travel advice publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/travel-advice-publisher.html" class="govuk-link">travel-advice-publisher</a>
+                  </p>
+                {% elif publishingApp === "whitehall" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/whitehall.html" class="govuk-link">whitehall</a>
+                  </p>
+                {% endif %}
+                {{ govukDetails({
+                  summaryText: "What is a publishing app?",
+                  text: "A publishing app is a software application that is used to publishing and manage the content that appears on GOV.UK"
+                }) }}
+              </div>
+            {% endif %}
+          </div>
         </section>
       {% endif %}
+
+      <h2 class="govuk-heading-l">Components that make up this frontend template</h2>
 
 
       {{ appProseScope(content) if content }}
