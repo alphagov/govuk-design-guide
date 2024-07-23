@@ -1,0 +1,11 @@
+{% macro documentation(insightType) %}
+  {% for i in range(0, insightType | length ) %}
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">
+        <a href="{{ insightType[i].link }}" class="govuk-link">{{ insightType[i].title }}</a>
+      </th>
+      <td class="govuk-table__cell">{{ insightType[i].description }} </td>
+      <td class="govuk-table__cell">{{ insightType[i].date }}</td>
+    </tr>
+  {% endfor %}
+{% endmacro %}
