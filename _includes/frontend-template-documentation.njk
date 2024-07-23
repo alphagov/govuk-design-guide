@@ -142,7 +142,39 @@
         </section>
       {% endif %}
 
-      <h2 class="govuk-heading-l">Components that make up this frontend template</h2>
+      {% if components %}
+        <h2 class="govuk-heading-l">Components</h2>
+        <table class="govuk-table">
+          <thead class="govuk-table__head">
+            
+            <tr class="govuk-table__row">
+              <th scope="col" class="govuk-table__header">Component</th>
+              <th scope="col" class="govuk-table__header">Source</th>
+              <th scope="col" class="govuk-table__header">Publishing app input field</th>
+            </tr>            
+            
+          </thead>
+          <tbody class="govuk-table__body">
+            {% for i in range(0, components | length ) %}
+              <tr class="govuk-table__row">
+                
+                <th scope="row" class="govuk-table__header">
+                  {% if components[i].componentURL %}  
+                    <a href="{{ components[i].componentURL }}">{{ components[i].componentName }}</a>
+                  {% else %}
+                    {{ components[i].componentName | markdown("inline") }}
+                  {% endif %}  
+                </th>
+                
+                <td class="govuk-table__cell">{{ components[i].generated }}</td>
+                <td class="govuk-table__cell">{{ components[i].input }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% endif %}
+
+      
 
 
       {{ appProseScope(content) if content }}
