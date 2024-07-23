@@ -1,11 +1,25 @@
-{% macro documentation(insightType) %}
-  {% for i in range(0, insightType | length ) %}
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">
-        <a href="{{ insightType[i].link }}" class="govuk-link">{{ insightType[i].title }}</a>
-      </th>
-      <td class="govuk-table__cell">{{ insightType[i].description }} </td>
-      <td class="govuk-table__cell">{{ insightType[i].date }}</td>
-    </tr>
-  {% endfor %}
+{% macro documentation(insightType, insightData) %}
+  {% if insightData %}
+    <table class="govuk-table">
+      <caption class="govuk-table__caption govuk-table__caption--m">{{ insightType }}</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Document</th>
+          <th scope="col" class="govuk-table__header">Description</th>
+          <th scope="col" class="govuk-table__header">Date</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        {% for i in range(0, insightData | length ) %}
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">
+            <a href="{{ insightData[i].link }}" class="govuk-link">{{ insightData[i].title }}</a>
+          </th>
+          <td class="govuk-table__cell">{{ insightData[i].description }} </td>
+          <td class="govuk-table__cell">{{ insightData[i].date }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
 {% endmacro %}
