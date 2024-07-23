@@ -1,0 +1,10 @@
+{% from 'macros/documentation.njk' import documentation %}
+
+{% if designData or researchData or analyticsData %}
+  <section class="app-document-evidence and insights">
+    <h2 class="govuk-heading-l">Evidence and insights</h2>
+    {{ documentation("Design", designData) }}
+    {{ documentation("User reserach", researchData) }}
+    {{ documentation("Analytics", analyticsData) }}
+  </section>
+{% endif %}
