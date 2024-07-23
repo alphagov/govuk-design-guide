@@ -2,17 +2,14 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Frontend templates
-title: Mainstream browse
+  parent: Mainstream browse
+title: Level two
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
 examples:
   0:
-    title: Level 1 browse page - Driving and transport
-    link: https://www.gov.uk/browse/driving
-  1:
     title: Curated level 2 browse page - Vehicle, tax MOT and insurance
     link: https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
-  2:
+  1:
     title: Alphabetical level 2 browse page - School admissions and transport to school
     link: https://www.gov.uk/browse/education/school-admissions-transport
 contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=mainstream_browse_page&organisation_id=all
@@ -47,28 +44,23 @@ components:
   4:
     componentName: Heading
     componentURL: https://components.publishing.service.gov.uk/component-guide/heading
-    generated: auto
-    input:
-  5:
-    componentName: H1 styled as a [Page title](https://components.publishing.service.gov.uk/component-guide/title) component
-    componentURL:
     generated: publisher
     input: Title (required)
-  6:
+  5:
     componentName: Lead paragraph
     componentURL: https://components.publishing.service.gov.uk/component-guide/lead_paragraph
     generated: publisher
     input: Description (required)
-  7:
-    componentName: Cards
-    componentURL: https://components.publishing.service.gov.uk/component-guide/cards
+  6:
+    componentName: List component
+    componentURL: https://components.publishing.service.gov.uk/component-guide/list
     generated: publisher
-    input: Subtopics
-  8:
-    componentName: Action link
-    componentURL: https://components.publishing.service.gov.uk/component-guide/action_link
-    generated: hardcode
-    input:
+    input: Add link to current list
+  7:
+    componentName: Heading
+    componentURL: https://components.publishing.service.gov.uk/component-guide/heading
+    generated: publisher
+    input: Subtopic title (required)
 designData:
   0:
     title: How to curate mainstream browse pages 
