@@ -5,6 +5,8 @@ eleventyNavigation:
   parent: Mainstream browse
 title: Level two
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
+howItWorks:
+  Level 2 pages link to mostly mainstream content or they can also include Whitehall content, where there is a user need. Level 2 pages can be curated or alphabetical.
 examples:
   0:
     title: Curated level 2 browse page - Vehicle, tax MOT and insurance
@@ -12,7 +14,6 @@ examples:
   1:
     title: Alphabetical level 2 browse page - School admissions and transport to school
     link: https://www.gov.uk/browse/education/school-admissions-transport
-contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=mainstream_browse_page&organisation_id=all
 contentSchema:
   title: mainstream_browse_page
   link: https://docs.publishing.service.gov.uk/content-schemas/mainstream_browse_page.html

@@ -5,6 +5,8 @@ eleventyNavigation:
   parent: Mainstream browse
 title: Level one
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
+howItWorks:
+
 examples:
   0:
     title: Driving and transport
