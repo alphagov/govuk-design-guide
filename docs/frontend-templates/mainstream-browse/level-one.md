@@ -25,7 +25,7 @@ components:
     input:
   1:
     componentName: Breadcrumbs
-    componentURL: https://components.publishing.service.gov.uk/component-guide/breadcrumbs
+    componentURL: ../../../components/breadcrumbs
     generated: auto
     input:
   2:
