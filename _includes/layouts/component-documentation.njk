@@ -13,13 +13,13 @@
     </div>
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
-      <header class="app-document-header">
+      <header class="doc-header">
         <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
-        <h1 class="app-document-header__title govuk-heading-xl">
+        <h1 class="doc-header__title govuk-heading-xl">
           {{ title | smart }}
         </h1>
         {% if description %}
-          <p class="app-document-header__description govuk-body-l">
+          <p class="doc-header__description govuk-body-l">
             {{ description | markdown("inline") }}
           </p>
         {% endif %}

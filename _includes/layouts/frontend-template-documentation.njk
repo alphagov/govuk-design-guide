@@ -14,23 +14,23 @@
     </div>
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
-      <header class="app-document-header">
+      <header class="doc-header">
         <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
-        <h1 class="app-document-header__title govuk-heading-xl">
+        <h1 class="doc-header__title govuk-heading-xl">
           {{ title | smart }}
         </h1>
         {% if description %}
-          <p class="app-document-header__description govuk-body-l">
+          <p class="doc-header__description govuk-body-l">
             {{ description | markdown("inline") }}
           </p>
         {% endif %}
       </header>
 
       {% if examples %}
-        <section class="app-document-examples">
+        <section class="doc-examples">
           {% if (examples | length ) > 1 %}
-            <h2 class="app-document-examples__title govuk-heading-l">Examples</h2>
-            <ul class="app-document-examples__items govuk-list">
+            <h2 class="doc-examples__title govuk-heading-l">Examples</h2>
+            <ul class="doc-examples__items govuk-list">
               {% for i in range(0, examples | length ) %}
                 <li>
                   <a class="govuk-link" href="{{ examples[i].link }}">{{ examples[i].title }}</a>
@@ -41,7 +41,7 @@
               <p class="govuk-body">Complete list of examples available on <a href="{{ contentDataLink }}" class="govuk-link">Content Data</a>.</p>
             {% endif %}
           {% else %}
-            <h2 class="app-document-examples__title govuk-heading-l">Example</h2>
+            <h2 class="doc-examples__title govuk-heading-l">Example</h2>
             <p class="govuk-body">
               <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
             </p>
@@ -50,12 +50,12 @@
       {% endif %}
 
       {% if contentSchema or contentType or publishingApp %}
-        <section class="app-document-how-its-built">
-          <h2 class="app-document-how-its-built__title govuk-heading-l">How it's built</h2>
+        <section class="doc-how-its-built">
+          <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
           <div class="govuk-grid-row">
             {% if contentSchema %}
               <div class="govuk-grid-column-one-half">
-                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Content schema</h3>
+                <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content schema</h3>
                 <p class="govuk-body">
                   <a href="{{ contentSchema.link }}" class="govuk-link">{{ contentSchema.title }}</a>
                 </p>
@@ -67,7 +67,7 @@
             {% endif %}
             {% if contentType %}
               <div class="govuk-grid-column-one-half">
-                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Content type</h3>
+                <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content type</h3>
                 <p class="govuk-body">
                   <a href="{{contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
                 {{ govukDetails({
@@ -78,7 +78,7 @@
             {% endif %}
             {% if publishingApp %}
               <div class="govuk-grid-column-one-half">
-                <h3 class="app-document-how-its-built__subtitle govuk-heading-m">Publishing app</h3>
+                <h3 class="doc-how-its-built__subtitle govuk-heading-m">Publishing app</h3>
                 {% if publishingApp === "collections publisher" %}
                   <p class="govuk-body">
                     <a href="https://docs.publishing.service.gov.uk/repos/collections-publisher.html" class="govuk-link">collections-publisher</a>
@@ -143,7 +143,7 @@
       {% endif %}
 
       {% if components %}
-        <section class="app-document-components">
+        <section class="doc-components">
           <h2 class="govuk-heading-l">Components</h2>
           <table class="govuk-table">
             <thead class="govuk-table__head">
