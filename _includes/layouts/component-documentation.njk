@@ -24,6 +24,40 @@
           </p>
         {% endif %}
       </header>
+
+      {% if whenToUse %}
+        <section class="doc-when-to-use-component">
+          <h2 class="govuk-heading-l">When to use this component</h2>
+          {{ whenToUse | markdown }}
+        </section>
+      {% endif %}
+
+      {% if whenNotToUse %}
+        <section class="doc-when-not-to-use-component">
+          <h2 class="govuk-heading-l">When not to use this component</h2>
+          {{ whenNotToUse | markdown }}
+        </section>
+      {% endif %}
+
+      {% if accessibilty %}
+        <section class="doc-accessibility-criteria">
+          <h2 class="govuk-heading-l">Accessibilty criteria</h2>
+          {{ accessibilty | markdown }}
+        </section>
+      {% endif %}
+
+      {% if howItWorksSummary %}
+        <section class="doc-how-it-works">
+          <h2 class="govuk-heading-l">How it works</h2>
+          {{ howItWorksSummary | markdown }}
+          {% for i in range(0, variations | length ) %}
+            <h3 class="govuk-heading-m">{{ variations[i].title }}</h3>
+            {% if variations[i].description %}
+              {{ variations[i].description | markdown }}
+            {% endif %}
+          {% endfor %}
+        </section>
+      {% endif %}
       
       {% include 'partials/insights.njk' %}
       {% include 'partials/improve.njk' %}
