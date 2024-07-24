@@ -69,5 +69,14 @@ variations:
       
 
       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/with_border).
-  
+designLibaries:
+  0:
+    title: GOV.UK Design System
+    link: https://design-system.service.gov.uk/components/breadcrumbs/
+  1:
+    title: NHS Digital service manual
+    link: https://service-manual.nhs.uk/design-system/components/breadcrumbs
+  2:
+    title: Ministry of Defence Design System
+    link: https://design-system.service.mod.gov.uk/components/breadcrumbs/
 ---
