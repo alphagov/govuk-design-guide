@@ -26,6 +26,13 @@
         {% endif %}
       </header>
 
+      {% if howItWorks %}
+        <section class="doc-how-it-works">
+          <h2 class="govuk-heading-l">How it works</h2>
+          {{ howItWorks | markdown }}
+        </section>
+      {% endif %}
+
       {% if examples %}
         <section class="doc-examples">
           {% if (examples | length ) > 1 %}
