@@ -1,10 +1,10 @@
-{% from 'macros/documentation.njk' import documentation %}
+{% from 'macros/discipline-insights.njk' import disciplineInsights %}
 
 {% if designData or researchData or analyticsData %}
   <section class="doc-evidence and insights">
     <h2 class="govuk-heading-l">Evidence and insights</h2>
-    {{ documentation("Design", designData) }}
-    {{ documentation("User reserach", researchData) }}
-    {{ documentation("Analytics", analyticsData) }}
+    {{ disciplineInsights("Design", designData) }}
+    {{ disciplineInsights("User reserach", researchData) }}
+    {{ disciplineInsights("Analytics", analyticsData) }}
   </section>
 {% endif %}
