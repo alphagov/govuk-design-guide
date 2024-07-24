@@ -27,10 +27,9 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
       // The folder where all your content will live:
-      input: 'app',
-      // Use layouts from the plugin
-      // layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
-      includes: '../_includes'
+      input: 'docs',
+      includes: '../_includes',
+      layouts: '../_includes/layouts'
     }
   }
 };
