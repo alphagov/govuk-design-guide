@@ -1,5 +1,5 @@
 ---
-layout: section-homepage
+layout: landing-page
 sectionKey: Components
 title: Components
 description: Save time with reusable, accessible components for forms, navigation, panels, tables and more.
