@@ -1,4 +1,5 @@
 {% extends "layouts/sub-navigation.njk" %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
 
 {% block beforeContent %}
 
@@ -67,11 +68,7 @@
             <h2 class="govuk-heading-l">Other design libraries</h2>
             <p class="govuk-body">Other UK government design libraries that has documented this component.</p>
             <ul class="doc-examples__items govuk-list">
-              {% for i in range(0, designLibaries | length ) %}
-                <li>
-                  <a class="govuk-link" href="{{ designLibaries[i].link }}">{{ designLibaries[i].title }}</a>
-                </li>
-              {% endfor %}
+              {{ listItemsWithLink(designLibaries) }}
             </ul>
           {% else %}
             <h2 class="govuk-heading-l">Other design library</h2>
