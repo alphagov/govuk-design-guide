@@ -1,10 +1,25 @@
-{% from 'macros/discipline-insights.njk' import disciplineInsights %}
-
-{% if designData or researchData or analyticsData %}
+{% if insights %}
   <section class="doc-evidence and insights">
     <h2 class="govuk-heading-l">Evidence and insights</h2>
-    {{ disciplineInsights("Design", designData) }}
-    {{ disciplineInsights("User reserach", researchData) }}
-    {{ disciplineInsights("Analytics", analyticsData) }}
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Document</th>
+          <th scope="col" class="govuk-table__header">Description</th>
+          <th scope="col" class="govuk-table__header">Date</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        {% for i in range(0, insights | length ) %}
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">
+            <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
+          </th>
+          <td class="govuk-table__cell">{{ insights[i].description }} </td>
+          <td class="govuk-table__cell">{{ insights[i].date }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
   </section>
 {% endif %}

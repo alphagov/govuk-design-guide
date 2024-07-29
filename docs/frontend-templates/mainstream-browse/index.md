@@ -25,7 +25,7 @@ examples:
     title: Alphabetical level 2 browse page - School admissions and transport to school
     link: https://www.gov.uk/browse/education/school-admissions-transport
 contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=mainstream_browse_page&organisation_id=all
-designData:
+insights:
   0:
     title: How to curate mainstream browse pages 
     link: https://docs.google.com/presentation/d/1Kp69ojze0kbyIaE2rAyyMIB9hfOBiXNCwbQ37TxQyYQ/edit
