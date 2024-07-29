@@ -23,7 +23,7 @@ description: Use this design library to learn about all the frontend templates a
     <h2 class="govuk-heading-m govuk-!-margin-bottom-2">Patterns</h2>
     <p class="govuk-body">Patterns are best practice design solutions for specific user-focused tasks.</p>
     <p class="govuk-body">
-        <a href="/components" class="govuk-link govuk-!-font-weight-bold">Browse patterns</a>
+        <a href="/patterns" class="govuk-link govuk-!-font-weight-bold">Browse patterns</a>
     </p>
   </section>
 </div>
