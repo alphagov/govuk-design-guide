@@ -16,7 +16,11 @@ module.exports = function(eleventyConfig) {
         {
           text: "Components",
           href: "/components"
-        } 
+        },
+        {
+          text: "Patterns",
+          href: "/patterns"
+        }
       ]
     }
   })

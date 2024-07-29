@@ -1,0 +1,77 @@
+{% extends "layouts/base.njk" %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+
+{% block beforeContent %}
+
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    {% include 'partials/sub-navigation.njk' %}
+    
+    <div class="govuk-grid-column-three-quarters-from-desktop">
+      {% include 'partials/header.njk' %}
+
+      {% if whenToUse %}
+        <section class="doc-when-to-use-component">
+          <h2 class="govuk-heading-l">When to use this component</h2>
+          {{ whenToUse | markdown }}
+        </section>
+      {% endif %}
+
+      {% if whenNotToUse %}
+        <section class="doc-when-not-to-use-component">
+          <h2 class="govuk-heading-l">When not to use this component</h2>
+          {{ whenNotToUse | markdown }}
+        </section>
+      {% endif %}
+
+      {% if accessibilty %}
+        <section class="doc-accessibility-criteria">
+          <h2 class="govuk-heading-l">Accessibilty criteria</h2>
+          {{ accessibilty | markdown }}
+        </section>
+      {% endif %}
+
+      {% if howItWorksSummary %}
+        <section class="doc-how-it-works">
+          <h2 class="govuk-heading-l">How it works</h2>
+          {{ howItWorksSummary | markdown }}
+          {% for i in range(0, variations | length ) %}
+            <h3 class="govuk-heading-m">{{ variations[i].title }}</h3>
+            {% if variations[i].description %}
+              {{ variations[i].description | markdown }}
+            {% endif %}
+          {% endfor %}
+        </section>
+      {% endif %}
+      
+      {% include 'partials/insights.njk' %}
+
+      {% if designLibaries %}
+        <section class="doc-other-libraries">
+          {% if (designLibaries | length ) > 1 %}
+            <h2 class="govuk-heading-l">Other design libraries</h2>
+            <p class="govuk-body">Other UK government design libraries that has documented this component.</p>
+            <ul class="doc-examples__items govuk-list">
+              {{ listItemsWithLink(designLibaries) }}
+            </ul>
+          {% else %}
+            <h2 class="govuk-heading-l">Other design library</h2>
+            <p class="govuk-body">Another UK government design library that has documented this component.</p>
+            <p class="govuk-body">
+              <a class="govuk-link" href="{{ designLibaries[0].link }}">{{ designLibaries[0].title }}</a>
+            </p>
+          {% endif %}
+        </section>
+      {% endif %}
+
+      {% include 'partials/improve.njk' %}
+      {% include 'partials/contribute.njk' %}
+
+      {{ appProseScope(content) if content }}
+
+      {% include "layouts/shared/related.njk" %}
+    </div>
+  </div>
+{% endblock %}
