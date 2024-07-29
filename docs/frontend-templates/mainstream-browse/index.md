@@ -5,6 +5,7 @@ eleventyNavigation:
   parent: Frontend templates
 title: Mainstream browse
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
+figmaLink: 
 howItWorks:
   "Mainstream browse is a topic system that groups together content by popular topics on GOV.UK. It has two levels:
   

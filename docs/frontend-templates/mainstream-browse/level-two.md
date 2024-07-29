@@ -5,6 +5,7 @@ eleventyNavigation:
   parent: Mainstream browse
 title: Level two
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
+figmaLink:
 howItWorks:
   Level 2 pages link to mostly mainstream content or they can also include Whitehall content, where there is a user need. Level 2 pages can be curated or alphabetical.
 examples:
