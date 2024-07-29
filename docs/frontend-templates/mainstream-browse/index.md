@@ -32,16 +32,26 @@ insights:
     description: Guidance on how to curate mainstream browse pages
     date: July 2023
   1:
+    title: GOV.UK Navigation mainstream browse follow-up A/B test 
+    link: https://docs.google.com/presentation/d/1poSeFuf2KMR2gzMI3A2ePT2xWi7n6QXMf6cBo8aHiZ4/edit?usp=sharing
+    description: Findings after A/B test with introduction of accordion component to Mainstream browse page
+    date: August 15, 2022
+  2:
+    title: GOV.UK Navigation mainstream browse A/B test 
+    link: https://docs.google.com/presentation/d/1s1d4BYJZaZmt5J0CFORRmMTKPush88_yiT7_OR8WxHw/edit?usp=sharing
+    description: This document sets out how the new topic pages will look and work, why we are replacing the current Mainstream Browse topic page, and what we plan to do in the future
+    date: June 16, 2022
+  3:
     title: Topic page design implementation 
     link: https://docs.google.com/document/d/1MbhUjXLMUvEvqRU_w5S7RD9_wVhB3LkcdfDIxnSOz4g/edit?usp=sharing
-    description: This document sets out how the new topic pages will look and work, why we are replacing the current Mainstream Browse topic page, and what we plan to do in the future
+    description: Early-thinking overhaul design of Mainstream browse page replacing miller columns and merging Specialist topics into updated topic pages
     date: January 26, 2022
-  2:
+  4:
     title: What is Mainstream Browse 
     link: https://docs.google.com/document/d/13IkO2ZnknFDiNTn-z9E4LwCbTTN1Dnw2xcfO3iU_v9E/edit#heading=h.yw8vk47ou0r5
     description: Replacing Mainstream Browse taxonomy and replace with new site-wide taxonomy
     date: August 20, 2018
-  3:
+  5:
     title: Mainstream Browse design sprint 
     link: https://docs.google.com/document/d/1aCUbrdqaCCF6mblDfddw1Wck_DmTsHADMYR-Ny-9Xw4/edit#heading=h.yo2pwekzv7t0
     description: How the design sprint will run for Mainstream Browse pages
