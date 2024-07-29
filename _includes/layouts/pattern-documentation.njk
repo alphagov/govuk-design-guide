@@ -45,6 +45,11 @@
           {% endfor %}
         </section>
       {% endif %}
+
+      <section class="doc-components">
+        <h2 class="govuk-heading-l">Components</h2>
+        {{ listItemsWithLink("doc-components-list", components) }}
+      </section>
       
       {% include 'partials/insights.njk' %}
       {% include 'partials/improve.njk' %}

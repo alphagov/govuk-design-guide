@@ -24,5 +24,8 @@ howItWorksSummary:
 
 
   On mobile the same functionality occurs, however the filters move into an accordion and a ‘Go to search results’ call to action appears to help users jump down to the top of their search results. In the past the filters have lived in an interstitial page, this changed around 2021 to the accordion interaction due to accessibility issues with interstitial pages.
-
+components:
+  0:
+    title: banana
+    link: https://nikin.design
 ---
