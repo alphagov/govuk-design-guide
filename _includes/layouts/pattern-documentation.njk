@@ -47,25 +47,6 @@
       {% endif %}
       
       {% include 'partials/insights.njk' %}
-
-      {% if designLibaries %}
-        <section class="doc-other-libraries">
-          {% if (designLibaries | length ) > 1 %}
-            <h2 class="govuk-heading-l">Other design libraries</h2>
-            <p class="govuk-body">Other UK government design libraries that has documented this component.</p>
-            <ul class="doc-examples__items govuk-list">
-              {{ listItemsWithLink(designLibaries) }}
-            </ul>
-          {% else %}
-            <h2 class="govuk-heading-l">Other design library</h2>
-            <p class="govuk-body">Another UK government design library that has documented this component.</p>
-            <p class="govuk-body">
-              <a class="govuk-link" href="{{ designLibaries[0].link }}">{{ designLibaries[0].title }}</a>
-            </p>
-          {% endif %}
-        </section>
-      {% endif %}
-
       {% include 'partials/improve.njk' %}
       {% include 'partials/contribute.njk' %}
 
