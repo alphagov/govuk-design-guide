@@ -53,9 +53,7 @@
           {% if (designLibaries | length ) > 1 %}
             <h2 class="govuk-heading-l">Other design libraries</h2>
             <p class="govuk-body">Other UK government design libraries that has documented this component.</p>
-            <ul class="doc-examples__items govuk-list">
-              {{ listItemsWithLink(designLibaries) }}
-            </ul>
+            {{ listItemsWithLink("doc-design-library-list", designLibaries) }}
           {% else %}
             <h2 class="govuk-heading-l">Other design library</h2>
             <p class="govuk-body">Another UK government design library that has documented this component.</p>

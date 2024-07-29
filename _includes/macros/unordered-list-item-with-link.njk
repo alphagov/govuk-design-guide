@@ -1,7 +1,9 @@
-{% macro listItemsWithLink(listItem) %}
-  {% for i in range(0, listItem | length ) %}
-    <li>
-      <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
-    </li>
-  {% endfor %}
+{% macro listItemsWithLink(listClass, listItem) %}
+  <ul class="{{ listClass }} govuk-list">
+    {% for i in range(0, listItem | length ) %}
+      <li>
+        <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endmacro %}

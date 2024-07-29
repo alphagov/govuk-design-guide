@@ -4,9 +4,7 @@
   <section class="doc-examples">
     {% if (examples | length ) > 1 %}
       <h2 class="doc-examples__title govuk-heading-l">Examples</h2>
-      <ul class="doc-examples__items govuk-list">
-        {{ listItemsWithLink(examples) }}
-      </ul>
+      {{ listItemsWithLink("doc-examples-list", examples) }}
       {% if contentDataLink %}
         <p class="govuk-body">Complete list of examples available on <a href="{{ contentDataLink }}" class="govuk-link">Content Data</a>.</p>
       {% endif %}
