@@ -2,7 +2,7 @@
 homepage: true
 layout: homepage
 title: A design library for anyone working on GOV.UK
-description: Use this design library to learn about all the frontend templates and components that make-up GOV.UK.
+description: Use this design library to learn about all the frontend templates, components and patterns that make-up GOV.UK.
 ---
 <div class="govuk-grid-row">
   <section class="govuk-grid-column-one-third">
