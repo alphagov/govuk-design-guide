@@ -1,1 +1,66 @@
-{% extends "layouts/product.njk" %}
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  <main id="main-content" role="main" {%- if mainLang %} lang="{{ mainLang }}"{% endif %}>
+    {{ xGovukMasthead({
+      title: {
+        html: title | smart
+      } if title,
+      description: {
+        html: description | markdown("inline") | noOrphans
+      } if description,
+      startButton: {
+        href: startButton.href,
+        text: startButton.text
+      } if startButton,
+      image: {
+        alt: image.alt,
+        src: image.src
+      } if image,
+      breadcrumbs: {
+        classes: "govuk-!-display-none-print",
+        items: breadcrumbItems
+      } if showBreadcrumbs
+    }) }}
+    <div class="govuk-main-wrapper {%- if mainClasses %} {{ mainClasses }}{% endif %}">
+      <div class="govuk-width-container {%- if containerClasses %} {{ containerClasses }}{% endif %}">
+        {% block content %}
+        
+          {% if whatsNew and whatsNewDate %}
+            <section class="doc-whatsNew">
+              <h2 class="govuk-heading-l">What's new</h2>
+              <p class="govuk-body">{{ whatsNewDate }}</p>
+              <p class="govuk-body">{{ whatsNew | markdown }}</p>
+            </section>
+            <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+          {% endif %}
+
+          {% if documentItems %}
+            <section class="doc-items">
+              <div class="govuk-grid-row">
+                {% for i in range(0, documentItems | length ) %}
+                  <div class="govuk-grid-column-one-third">
+                    {% if documentItems[i].documentItemTitle %}
+                      <h2 class="govuk-heading-m govuk-!-margin-bottom-2">{{ documentItems[i].documentItemTitle }}</h2>
+                    {% endif %}
+                    {% if documentItems[i].documentItemDescription %}
+                      <p class="govuk-body">{{ documentItems[i].documentItemDescription }}</p>
+                    {% endif %}
+                    {% if documentItems[i].documentItemURL and documentItems[i].documentItemTitle %}
+                      <p class="govuk-body">
+                        <a href="{{ documentItems[i].documentItemURL }}" class="govuk-link govuk-!-font-weight-bold">Browse {{ documentItems[i].documentItemTitle | lower }}</a>
+                      </p>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+
+          {{ appProseScope(content) if content }}
+        
+        {% endblock %}
+      </div>
+    </div>
+  </main>
+{% endblock %}
