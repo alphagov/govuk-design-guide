@@ -1,5 +1,7 @@
 <header class="doc-header">
-  <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
+  {% if eleventyNavigation.parent %}
+    <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
+  {% endif %}
   <h1 class="doc-header__title govuk-heading-xl">
     {{ title | smart }}
   </h1>
