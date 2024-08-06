@@ -2,7 +2,7 @@
 homepage: true
 layout: homepage
 title: A design library for anyone working on the GOV.UK website
-description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service, use this design library to share frontend templates, components and patterns on the GOV.UK website and publishing tools.
+description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
 whatsNewDate:
 whatsNew: 
 documentItems:
