@@ -8,6 +8,6 @@ By encouraging collaboration across disciplines, we can create a more consistent
 It will also help onboard new designers and familiarise them with GOV.UK’s design approach.
 
 ## What is the GOV.UK Design Library not?
-The GOV.UK Design Library does not replace the [GOV.UK Design System](Link to design system).
+The GOV.UK Design Library does not replace the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
 Frontend templates, components and patterns in the Design Library should not duplicate those in the GOV.UK Design System. Things that have relevance outside of the GOV.UK website should be contributed back to the Design System.
