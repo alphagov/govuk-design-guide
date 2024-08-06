@@ -5,14 +5,20 @@ eleventyNavigation:
   parent: Mainstream browse
 title: Level one
 description: Mainstream browse is a topic system that groups together content by popular topics on GOV.UK.
-figmaLink: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FwZgUBjANbaddOIwTKnNots%2FFrontend-Templates-for-Q2%3Fnode-id%3D67-2%26t%3Dp55X43qBraAepzco-1
+# figmaLink: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FwZgUBjANbaddOIwTKnNots%2FFrontend-Templates-for-Q2%3Fnode-id%3D67-2%26t%3Dp55X43qBraAepzco-1
 howItWorks:
 
 examples:
   0:
     title: Driving and transport
     link: https://www.gov.uk/browse/driving
-contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=mainstream_browse_page&organisation_id=all
+  1:
+    title: Benefits
+    link: https://www.gov.uk/browse/benefits
+  2:
+    title: Money and tax
+    link: https://www.gov.uk/browse/tax
+# contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=mainstream_browse_page&organisation_id=all
 contentSchema:
   title: mainstream_browse_page
   link: https://docs.publishing.service.gov.uk/content-schemas/mainstream_browse_page.html
