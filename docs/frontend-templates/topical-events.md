@@ -8,17 +8,20 @@ description: Topical event are used to communicate government activity about hig
 howItWorks:
  "Topical events pages used to communicate government activity about high-profile events or in response to a major crisis. Can be used for an event or crisis that is:
 
-- of high profile
+  - of high profile
 
-- that is current or relevant only for a short time (for example Ebola virus: UK government response)
+  - that is current or relevant only for a short time (for example Ebola virus: UK government response)
 
-- of significance to the majority of GOV.UK’s users (ie the event is receiving extensive coverage by major news media such as the Today programme)
+  - of significance to the majority of GOV.UK’s users (ie the event is receiving extensive coverage by major news media such as the Today programme)
 
-- the responsibility of central government
+  - the responsibility of central government
 
-- linked to more than one government department or agency
+  - linked to more than one government department or agency
 
-- likely to generate a high volume of content (not just one or two news stories)"
+  - likely to generate a high volume of content (not just one or two news stories)
+  
+
+  Also worth noting that there may be a corresponding topical event's about page, which is made using the [topical event about frontend template](../about/topical-events)."
 examples:
   0:
     title: D-Day 80
