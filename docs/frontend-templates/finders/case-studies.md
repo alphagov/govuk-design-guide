@@ -4,7 +4,7 @@ sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finders
 title: Case studies
-description: A finder solely for case studies that are on GOV.UK
+description: A directory of all the case studies that can be found on GOV.UK
 howItWorks:
   Case Studies finder lists all case studies that is published on GOV.UK. End-users can use the search component to filter the returned results on the page.
 examples:
