@@ -3,13 +3,13 @@
 {% if examples %}
   <section class="doc-examples">
     {% if (examples | length ) > 1 %}
-      <h2 class="doc-examples__title govuk-heading-l">Examples</h2>
+      <h2 class="doc-examples__title govuk-heading-l">Live examples</h2>
       {{ listItemsWithLink("doc-examples__list", examples) }}
       {% if contentDataLink %}
         <p class="govuk-body">Complete list of examples available and page data on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state">Content Data</a>.</p>
       {% endif %}
     {% else %}
-      <h2 class="doc-examples__title govuk-heading-l">Example</h2>
+      <h2 class="doc-examples__title govuk-heading-l">Live example</h2>
       <p class="govuk-body">
         <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
       </p>
