@@ -109,8 +109,8 @@ components:
     generated: publisher
     input: Documents
   14:
-    componentName: Organisation logo (only appears if lead organisation)
-    componentURL: https://components.publishing.service.gov.uk/component-guide/organisation_logo
+    componentName: "[Organisation logo](https://components.publishing.service.gov.uk/component-guide/organisation_logo) - only appears if lead organisation"
+    componentURL:
     generated: publisher
     input: Organisation
 insights:
