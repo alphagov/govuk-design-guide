@@ -35,12 +35,12 @@ components:
     componentName: Breadcrumbs
     componentURL: ../../../components/breadcrumbs
     generated: auto
-    input: Tagging to customise breadcrumbs
+    input: Breadcrumb
   2:
     componentName: Page title
     componentURL: https://components.publishing.service.gov.uk/component-guide/title
     generated: publisher
-    input:
+    input: Title (required)
   3:
     componentName: Govspeak content
     componentURL: https://components.publishing.service.gov.uk/component-guide/govspeak
@@ -61,4 +61,54 @@ components:
     componentURL: https://components.publishing.service.gov.uk/component-guide/button
     generated: publisher
     input: Radio options (1) Start now & (2) Sign in. Start button text if "start now" selected
+  7:
+    componentName: Start now button with info text
+    componentURL: https://components.publishing.service.gov.uk/component-guide/button/start_now_button_with_info_text
+    generated: publisher
+    input: Will continue on
+  8:
+    componentName: "[Tabs](https://components.publishing.service.gov.uk/component-guide/tabs) - activated when at least two of the corresponding input fields have content inside them"
+    componentURL: 
+    generated: publisher
+    input: (1) More information, (2) Other ways to apply and (3) What you need to know
+  9:
+    componentName: Heading
+    componentURL: https://components.publishing.service.gov.uk/component-guide/heading
+    generated: publisher
+    input:
+  10:
+    componentName: Govspeak content
+    componentURL: https://components.publishing.service.gov.uk/component-guide/govspeak
+    generated: publisher
+    input: More information
+  11:
+    componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)"
+    componentURL:
+    generated: publisher
+    input: Mainstream browse page
+  12:
+    componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+    componentURL:
+    generated: publisher
+    input: Related content items
+  13:
+    componentName: Step by step navigation
+    componentURL: https://components.publishing.service.gov.uk/component-guide/step_by_step_nav
+    generated:
+    input:
+  14:
+    componentName: Step by step navigation header
+    componentURL: https://components.publishing.service.gov.uk/component-guide/step_by_step_nav_header
+    generated:
+    input:
+  15:
+    componentName: Feedback
+    componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
+    generated: auto
+    input:
+  16:
+    componentName: Layout footer
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
+    generated: auto
+    input:
 ---
