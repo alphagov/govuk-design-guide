@@ -132,7 +132,7 @@
                 <tr class="govuk-table__row">
                   <th scope="row" class="govuk-table__header">
                     {% if components[i].componentURL %}  
-                      <a href="{{ components[i].componentURL }}">{{ components[i].componentName }}</a>
+                      <a href="{{ components[i].componentURL }}" class="govuk-link>{{ components[i].componentName }}</a>
                     {% else %}
                       {{ components[i].componentName | markdown("inline") }}
                     {% endif %}  
