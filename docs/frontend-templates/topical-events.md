@@ -7,6 +7,7 @@ title: Topical events
 description: Topical event are used to communicate government activity about high-profile events or in response to a major crisis.
 howItWorks:
  "Topical events pages used to communicate government activity about high-profile events or in response to a major crisis. Can be used for an event or crisis that is:
+
 - of high profile
 
 - that is current or relevant only for a short time (for example Ebola virus: UK government response)
