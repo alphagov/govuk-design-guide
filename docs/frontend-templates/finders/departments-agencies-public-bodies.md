@@ -54,7 +54,7 @@ components:
     generated: auto
     input:
   7:
-    componentName: Details [https://components.publishing.service.gov.uk/component-guide/details] is displayed if an organization is sponsored by another organization
+    componentName: Details [https://components.publishing.service.gov.uk/component-guide/details] is displayed if the organization is sponsored by another organization
     componentURL:
     generated: publisher
     input: Sponsoring organisation
