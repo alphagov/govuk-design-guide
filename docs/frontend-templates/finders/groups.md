@@ -6,7 +6,7 @@ eleventyNavigation:
 title: Groups
 description: A directory of all the groups within the UK government
 howItWorks:
-    This finder lists all the groups within the UK government. End-users can use the search component to filter the returned results on the page.
+  This finder lists all the groups within the UK government. End-users can use the search component to filter the returned results on the page.
 examples:
   0:
     title: Groups
