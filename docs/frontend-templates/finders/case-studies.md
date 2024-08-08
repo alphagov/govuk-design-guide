@@ -24,8 +24,8 @@ components:
     generated: auto
     input:
   1:
-    componentName: Breadcrumbs
-    componentURL: https://components.publishing.service.gov.uk/component-guide/breadcrumbs
+    componentName: Contextual breadcrumbs
+    componentURL: https://components.publishing.service.gov.uk/component-guide/contextual_breadcrumbs
     generated: auto
     input:
   2:
