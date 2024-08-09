@@ -133,5 +133,9 @@ designLibaries:
   0:
     title: GOV.UK Component guide
     link: https://components.publishing.service.gov.uk/component-guide/attachment
-
+issues:
+  0:
+    title: Audit of all attachment component variations
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4146
+repoLink: https://github.com/alphagov/govuk_publishing_components/issues/new
 ---
