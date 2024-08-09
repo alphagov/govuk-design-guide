@@ -1,0 +1,15 @@
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+
+{% if issues %}
+  <section class="doc-issues">
+    {% if (issues | length ) > 1 %}
+      <h2 class="doc-issues__title govuk-heading-l">Existing issues</h2>
+      {{ listItemsWithLink("doc-issues__list", issues) }}
+    {% else %}
+      <h2 class="doc-issues__title govuk-heading-l">Existing issue</h2>
+      <p class="govuk-body">
+        <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
+      </p>
+    {% endif %}
+  </section>      
+{% endif %}
