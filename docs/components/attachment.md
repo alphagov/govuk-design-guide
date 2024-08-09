@@ -137,5 +137,5 @@ issues:
   0:
     title: Audit of all attachment component variations
     link: https://github.com/alphagov/govuk_publishing_components/issues/4146
-repoLink: https://github.com/alphagov/govuk_publishing_components/issues/new
+issueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
 ---

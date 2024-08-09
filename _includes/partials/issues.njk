@@ -12,7 +12,7 @@
         <h2 class="doc-issues__title govuk-heading-l">Existing issues with this pattern</h2>
       {% endif %}
       {{ listItemsWithLink("doc-issues__list", issues) }}
-      {% if repoLink %}
+      {% if issueLink %}
         {{ reportIssue("h3", "m") }}
         {% include "./instructions-report-issue.njk" %}
       {% endif %}
@@ -27,13 +27,13 @@
       <p class="govuk-body">
         <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
       </p>
-      {% if repoLink %}
+      {% if issueLink %}
         {{ reportIssue("h3", "m") }}
         {% include "./instructions-report-issue.njk" %}
       {% endif %}
     {% endif %}
   {% else %}
-    {% if repoLink %}
+    {% if issueLink %}
       {{ reportIssue("h2", "l") }}
       {% include "./instructions-report-issue.njk" %}
     {% endif %}
