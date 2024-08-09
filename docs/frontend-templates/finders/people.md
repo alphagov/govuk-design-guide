@@ -9,8 +9,8 @@ howItWorks:
   This finder lists all the contacts within HMRC. End-users can use the search component to filter the returned results on the page based on a topic and via search.
 examples:
   0:
-    title: Contact HM Revenue & Customs
-    link: https://www.gov.uk/government/organisations/hm-revenue-customs/contact
+    title: All ministers and senior officials on GOV.UK
+    link: https://www.gov.uk/government/people
 contentSchema:
   title: finder
   link: https://docs.publishing.service.gov.uk/content-schemas/finder.html
