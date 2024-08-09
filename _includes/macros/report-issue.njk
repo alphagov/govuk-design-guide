@@ -1,0 +1,6 @@
+{% macro reportIssue(headingLevel, headingClass) %}
+  <{{ headingLevel }} class="govuk-heading-{{ headingClass }}">How to report an issue</{{ headingLevel }}>
+  <p class="govuk-body">
+    If you happen to come across an issue, you can report it on <a href="{{ repoLink }}" class="govuk-link">Github</a>.
+  </p>
+{% endmacro %}
