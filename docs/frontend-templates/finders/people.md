@@ -23,4 +23,45 @@ components:
     componentURL: https://components.publishing.service.gov.uk/component-guide/layout_super_navigation_header
     generated: auto
     input:
+  1:
+    componentName: Contextual breadcrumbs
+    componentURL: https://components.publishing.service.gov.uk/component-guide/contextual_breadcrumbs
+    generated: auto
+    input:
+  2:
+    componentName: Page title
+    componentURL: https://components.publishing.service.gov.uk/component-guide/title
+    generated: auto
+    input:
+  3:
+    componentName: Search
+    componentURL: https://components.publishing.service.gov.uk/component-guide/search
+    generated: auto
+    input:
+  4:
+    componentName: Heading
+    componentURL: https://components.publishing.service.gov.uk/component-guide/heading
+    generated: auto
+    input:    
+  5:
+    componentName: Subscription link
+    componentURL: https://components.publishing.service.gov.uk/component-guide/subscription_links
+    generated: auto
+    input:
+  6:
+    componentName: Document list
+    componentURL: https://components.publishing.service.gov.uk/component-guide/document_list
+    generated: auto
+    input:
+  7:
+    componentName: Feedback
+    componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
+    generated: auto
+    input:
+  8:
+    componentName: Layout footer
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
+    generated: auto
+    input:
+    
 ---
