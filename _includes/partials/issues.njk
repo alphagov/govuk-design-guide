@@ -1,15 +1,38 @@
 {% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+{% from 'macros/report-issue.njk' import reportIssue %}
 
-{% if issues %}
-  <section class="doc-issues">
+<section class="doc-issues">
+  {% if issues %}
     {% if (issues | length ) > 1 %}
-      <h2 class="doc-issues__title govuk-heading-l">Existing issues</h2>
+      {% if sectionKey === "Frontend templates" %}
+        <h2 class="doc-issues__title govuk-heading-l">Existing issues with this frontend template</h2>
+      {% elif sectionKey === "Components" %}
+        <h2 class="doc-issues__title govuk-heading-l">Existing issues with this component</h2>
+      {% elif sectionKey === "Patterns" %}
+        <h2 class="doc-issues__title govuk-heading-l">Existing issues with this pattern</h2>
+      {% endif %}
       {{ listItemsWithLink("doc-issues__list", issues) }}
+      {% if repoLink %}
+        {{ reportIssue("h3", "m") }}
+      {% endif %}
     {% else %}
-      <h2 class="doc-issues__title govuk-heading-l">Existing issue</h2>
+      {% if sectionKey === "Frontend templates" %}
+        <h2 class="doc-issues__title govuk-heading-l">An existing issue with this frontend template</h2>
+      {% elif sectionKey === "Components" %}
+        <h2 class="doc-issues__title govuk-heading-l">An existing issue with this component</h2>
+      {% elif sectionKey === "Patterns" %}
+        <h2 class="doc-issues__title govuk-heading-l">An existing issue with this pattern</h2>
+      {% endif %}
       <p class="govuk-body">
         <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
       </p>
+      {% if repoLink %}
+        {{ reportIssue("h3", "m") }}
+      {% endif %}
     {% endif %}
-  </section>      
-{% endif %}
+  {% else %}
+    {% if repoLink %}
+      {{ reportIssue("h2", "l") }}
+    {% endif %}
+  {% endif %}
+</section>
