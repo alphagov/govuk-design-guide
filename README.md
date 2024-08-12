@@ -4,12 +4,15 @@
 - GOV.UK Design System is intended for transactional services used across government departments
 - Design library can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
 
+
 ## Documenation guidance
 
 - [Homepage options](#homepage-options)
   - [documentItems options](#documentitems-options)
+- [Frontend template index options](#frontend-template-index-options)
 
-### Homepage options
+
+### Homepage
 ```
 homepage:
 layout:
@@ -33,6 +36,7 @@ documentItems:
 |**whatsNew**|string|Required field to display *What's new* section on the homepage|
 |**documentItems**|object|This displays the different types of documentations available within the design library. See [documentItems options](#documentitems-options)|
 
+
 #### documentItems options
 All options must have a value in order a document item to appear on the homepage.
 
@@ -42,5 +46,31 @@ Name|Type|Notes|
 |**documentItems[i].documentItemDescription**|string|Required to display the document item on the page|
 |**documentItems[i].documentItemURL**|string|Required to display the document item on the page|
 
-### Frontend template index options
+
+### Frontend template index
 This layout is used to group related frontend templates. For example, *finders* and *mainstream browse*.
+```
+layout:
+sectionKey:
+eleventyNavigation:
+  parent:
+title:
+description:
+figmaLink: 
+howItWorks:
+examples:
+  0:
+    title:
+    link:
+contentDataLink:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+```
+
+|Name|Type|Notes|
+|---|---|---|
+|**layout**|string|Must be set to `frontend-template-index-documentation`|
