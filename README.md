@@ -33,7 +33,7 @@ documentItems:
 |**whatsNew**|string|Required field to display *What's new* section on the homepage|
 |**documentItems**|object|This displays the different types of documentations available within the design library. See [documentItems options](#documentitems-options)|
 
-### documentItems options
+#### documentItems options
 All options must have a value in order a document item to appear on the homepage.
 
 Name|Type|Notes|
