@@ -91,11 +91,69 @@ issueLink:
 |**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
+### Frontend template documentation
+```
+layout:
+sectionKey:
+eleventyNavigation:
+  parent:
+title:
+description:
+figmaLink:
+howItWorks:
+examples:
+  0:
+    title:
+    link:
+contentDataLink:
+contentSchema:
+  title:
+  link:
+contentType:
+  title:
+  link:
+publishingApp:
+components:
+  0:
+    componentName:
+    componentURL:
+    generated:
+    input:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+issues:
+  0:
+    title:
+    link:
+issueLink:
+```
+
+|Name|Type|Notes|
+|---|---|---|
+|**layout**|string|Must be set to `frontend-template-documentation`|
+|**sectionKey**|string|Must be set to `Frontend templates`|
+|**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
+|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**figmaLink**|string|Use the embed link of the artboard to display the Figma embed on the page|
+|**howItWorks**|string or markdown|A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
+|**examples**|object|See [examples options](#examples-options)|
+|**contentDataLink**|string|Required to display the a link to content data on the page|
+|**contentSchema**|object|See [contentSchema options](#contentschema-options)|
+|**contentType**|object|See [contentType options](#contenttype-options)|
+|**insights**|object|See [insights options](#insight-options)|
+|**issues**|object|See [issues options](#issues-options)|
+|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+
 
 #### eleventyNavigation options
 |Name|Type|Notes|
 |---|---|---|
-|**parent**|string|Must be set to `Frontend templates`|
+|**parent**|string|Must be set to `Frontend templates`. In the case of some frontend templates (ie. *finders* or *mainstream browse*) it should correspond to the parent frontend template|
 
 
 #### examples options
@@ -103,6 +161,21 @@ issueLink:
 |---|---|---|
 |**examples[i].title**|string|The page title of the webpage|
 |**examples[i].link**|string|This is where the URL of the webpage is entered|
+
+
+#### contentSchema options
+|Name|Type|Notes|
+|---|---|---|
+|**contentSchema.title**|string|Enter the name of the content schema of the frontend template.<br><br>The [GOV.UK browsser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the contentSchema of the frontend template|
+|**contentSchema.link**|string|Enter the corresponding URL of the content schema's documentation, which can be found in the [developer documenation](https://docs.publishing.service.gov.uk/content-schemas.html)|
+
+
+#### contentType options
+|Name|Type|Notes|
+|---|---|---|
+|**contentType.title**|string|Enter the name of the content type of the frontend template.<br><br>The [GOV.UK browsser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the content type (also known as document type) of the frontend template|
+|**contentType.link**|string|Enter the corresponding URL of the content type's documentation, which can be found in the [developer documenation](https://docs.publishing.service.gov.uk/document-types.html)|
+
 
 #### insight options
 |Name|Type|Notes|
