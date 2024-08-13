@@ -7,8 +7,11 @@
 
 ## Documenation guidance
 
+A list of all the fields associated with the different layouts. All the fields are optional. If there is no corresponding value to a parameter it will not be rendered on the page.
+
 - [Homepage options](#homepage)
 - [Frontend template index options](#frontend-template-index)
+- [Frontend template documentation](#frontend-template-documentation)
 
 
 ### Homepage
