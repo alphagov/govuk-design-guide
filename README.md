@@ -68,6 +68,11 @@ insights:
     link:
     description:
     date:
+issues:
+  0:
+    title:
+    link:
+issueLink:
 ```
 
 |Name|Type|Notes|
@@ -81,7 +86,9 @@ insights:
 |**howItWorks**|string or markdown|A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
 |**examples**|object|See [examples options](#examples-options)|
 |**contentDataLink**|string|Required to display the a link to content data on the page|
-|**insights**|object|See [insights options]()|
+|**insights**|object|See [insights options](#insight-options)|
+|**issues**|object|See [issues options](#issues-options)|
+|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
 
@@ -104,3 +111,9 @@ insights:
 |**insights[i].link**|string|The URL of the document|
 |**insights[i].description**|string|A brief description of the what the insight documentation is about|
 |**insights[i].date**|string|The date when the document was published|
+
+#### issues options
+|Name|Type|Notes|
+|---|---|---|
+|**issues[i].title**|string|Display the title of the issue, which matches what was recorded on Github|
+|**issues[i].link**|string|The link to the Github issue|
