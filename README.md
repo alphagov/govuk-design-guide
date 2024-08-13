@@ -7,9 +7,8 @@
 
 ## Documenation guidance
 
-- [Homepage options](#homepage-options)
-  - [documentItems options](#documentitems-options)
-- [Frontend template index options](#frontend-template-index-options)
+- [Homepage options](#homepage)
+- [Frontend template index options](#frontend-template-index)
 
 
 ### Homepage
