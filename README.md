@@ -74,3 +74,34 @@ insights:
 |Name|Type|Notes|
 |---|---|---|
 |**layout**|string|Must be set to `frontend-template-index-documentation`|
+|**sectionKey**|string|Must be set to `Frontend templates`|
+|**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
+|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**figmaLink**|string|Use the embed link of the artboard to display the Figma embed on the page|
+|**howItWorks**|string or markdown|A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
+|**examples**|object|See [examples options](#examples-options)|
+|**contentDataLink**|string|Required to display the a link to content data on the page|
+|**insights**|object|See [insights options]()|
+
+
+
+#### eleventyNavigation options
+|Name|Type|Notes|
+|---|---|---|
+|**parent**|string|Must be set to `Frontend templates`|
+
+
+#### examples options
+|Name|Type|Notes|
+|---|---|---|
+|**examples[i].title**|string|The page title of the webpage|
+|**examples[i].link**|string|This is where the URL of the webpage is entered|
+
+#### insight options
+|Name|Type|Notes|
+|---|---|---|
+|**insights[i].title**|string|Display the title of the document|
+|**insights[i].link**|string|The URL of the document|
+|**insights[i].description**|string|A brief description of the what the insight documentation is about|
+|**insights[i].date**|string|The date when the document was published|
