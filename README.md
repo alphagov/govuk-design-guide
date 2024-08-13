@@ -9,12 +9,20 @@
 
 A list of all the fields associated with the different layouts. All the fields are optional. If there is no corresponding value to a parameter it will not be rendered on the page.
 
-- [Homepage options](#homepage)
-- [Frontend template index options](#frontend-template-index)
-- [Frontend template documentation](#frontend-template-documentation)
+- [Homepage options](#homepage-options)
+- [Frontend template index options](#frontend-template-index-options)
+- [Frontend template documentation options](#frontend-template-documentation-options)
+- [Component documentation options](#component-documentation-options)
+- [Additional documentation options](#additional-documentation-options)
+  - [eleventyNavigation options](#eleventynavigation-options)
+  - [examples options](#examples-options)
+  - [contentSchema options](#contentschema-options)
+  - [contentType options](#contenttype-options)
+  - [insight options](#insight-options)
+  - [issues options](#issues-options)
 
 
-### Homepage
+### Homepage options
 ```
 homepage:
 layout:
@@ -49,7 +57,7 @@ Name|Type|Notes|
 |**documentItems[i].documentItemURL**|string|Required to display the document item on the page|
 
 
-### Frontend template index
+### Frontend template index options
 This layout is used to group related frontend templates. For example, *finders* and *mainstream browse*.
 ```
 layout:
@@ -94,7 +102,7 @@ issueLink:
 |**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
-### Frontend template documentation
+### Frontend template documentation options
 ```
 layout:
 sectionKey:
@@ -153,10 +161,46 @@ issueLink:
 |**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
+### Component documentation options
+```
+layout:
+sectionKey:
+eleventyNavigation:
+  parent:
+title:
+description:
+whenToUse:
+whenNotToUse: 
+accessibilty:
+howItWorksSummary:
+variations:
+  0:
+    title:
+    description:
+designLibaries:
+  0:
+    title:
+    link:
+issues:
+  0:
+    title:
+    link:
+issueLink:
+```
+
+|Name|Type|Notes|
+|---|---|---|
+|**layout**|string|Must be set to `component-documentation`|
+|**sectionKey**|string|Must be set to `Components`|
+|**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
+
+
+### Additional documentation options
+
 #### eleventyNavigation options
 |Name|Type|Notes|
 |---|---|---|
-|**parent**|string|Must be set to `Frontend templates`. In the case of some frontend templates (ie. *finders* or *mainstream browse*) it should correspond to the parent frontend template|
+|**parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value msut be set to `Components`|
 
 
 #### examples options
