@@ -200,7 +200,7 @@ issueLink:
 #### eleventyNavigation options
 |Name|Type|Notes|
 |---|---|---|
-|**parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value msut be set to `Components`|
+|**eleventyNavigation.parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value msut be set to `Components`|
 
 
 #### examples options
