@@ -31,6 +31,7 @@ A list of all the fields associated with the different layouts. All the fields a
 
 ### Homepage options
 ```
+---
 homepage:
 layout:
 title:
@@ -42,6 +43,7 @@ documentItems:
     documentItemTitle:
     documentItemDescirption:
     documentItemURL:
+---
 ```
 |Name|Type|Notes|
 |---|---|---|
