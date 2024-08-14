@@ -65,6 +65,7 @@ Name|Type|Notes|
 ### Frontend template index options
 This layout is used to group related frontend templates. For example, *finders* and *mainstream browse*.
 ```
+---
 layout:
 sectionKey:
 eleventyNavigation:
@@ -89,6 +90,7 @@ issues:
     title:
     link:
 issueLink:
+---
 ```
 
 |Name|Type|Notes|
@@ -109,6 +111,7 @@ issueLink:
 
 ### Frontend template documentation options
 ```
+---
 layout:
 sectionKey:
 eleventyNavigation:
@@ -146,6 +149,7 @@ issues:
     title:
     link:
 issueLink:
+---
 ```
 
 |Name|Type|Options|Notes|
@@ -170,6 +174,7 @@ issueLink:
 
 ### Component documentation options
 ```
+---
 layout:
 sectionKey:
 eleventyNavigation:
@@ -179,7 +184,7 @@ description:
 whenToUse:
 whenNotToUse: 
 accessibilty:
-howItWorksSummary:
+howItWorks:
 variations:
   0:
     title:
@@ -199,6 +204,7 @@ issues:
     title:
     link:
 issueLink:
+---
 ```
 
 |Name|Type|Notes|
@@ -211,7 +217,7 @@ issueLink:
 |**whenToUse**|string or markdown|Requried field to display when to use the component|
 |**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
 |**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
-|**howItWorksSummary**|string or markdown|Required field if you want to display a description how the component works|
+|**howItWorks**|string or markdown|Required field if you want to display a description how the component works|
 |**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
 |**insights**|object|See [insights options](#insight-options)|
 |**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options](#designlibraries-options)|
@@ -221,6 +227,7 @@ issueLink:
 
 ### Pattern documentation options
 ```
+---
 layout:
 sectionKey:
 eleventyNavigation:
@@ -230,7 +237,7 @@ description:
 whenToUse:
 whenNotToUse:
 accessibility:
-howItWorksSummary:
+howItWorks:
 variations:
   0:
     title:
@@ -250,6 +257,7 @@ issues:
     title:
     link:
 issueLink:
+---
 ```
 
 |Name|Type|Notes|
@@ -262,7 +270,7 @@ issueLink:
 |**whenToUse**|string or markdown|Requried field to display when to use the component|
 |**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
 |**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
-|**howItWorksSummary**|string or markdown|Required field if you want to display a description how the component works|
+|**howItWorks**|string or markdown|Required field if you want to display a description how the component works|
 |**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
 |**components**|object|List all the components that makes up a pattern. See [components options for patterns](#components-options-for-patterns)|
 |**insights**|object|See [insights options](#insight-options)|
