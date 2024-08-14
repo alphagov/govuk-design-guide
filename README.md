@@ -18,6 +18,8 @@ A list of all the fields associated with the different layouts. All the fields a
   - [examples options](#examples-options)
   - [contentSchema options](#contentschema-options)
   - [contentType options](#contenttype-options)
+  - [variations options](#variations-options)
+  - [designLibraries options](#designlibraries-options)
   - [insight options](#insight-options)
   - [issues options](#issues-options)
 
