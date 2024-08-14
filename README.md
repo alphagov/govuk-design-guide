@@ -21,6 +21,7 @@ A list of all the fields associated with the different layouts. All the fields a
   - [contentType options](#contenttype-options)
   - [variations options](#variations-options)
   - [designLibraries options](#designlibraries-options)
+  - [components options for frontend templates](#components-options-for-frontend-templates)
   - [components options for patterns](#components-options-for-patterns)
   - [insight options](#insight-options)
   - [issues options](#issues-options)
@@ -147,22 +148,24 @@ issues:
 issueLink:
 ```
 
-|Name|Type|Notes|
-|---|---|---|
-|**layout**|string|Must be set to `frontend-template-documentation`|
-|**sectionKey**|string|Must be set to `Frontend templates`|
-|**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
-|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
-|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
-|**figmaLink**|string|Use the embed link of the artboard to display the Figma embed on the page|
-|**howItWorks**|string or markdown|A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
-|**examples**|object|See [examples options](#examples-options)|
-|**contentDataLink**|string|Required to display the a link to content data on the page|
-|**contentSchema**|object|See [contentSchema options](#contentschema-options)|
-|**contentType**|object|See [contentType options](#contenttype-options)|
-|**insights**|object|See [insights options](#insight-options)|
-|**issues**|object|See [issues options](#issues-options)|
-|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+|Name|Type|Options|Notes|
+|---|---|---|---|
+|**layout**|string||Must be set to `frontend-template-documentation`|
+|**sectionKey**|string||Must be set to `Frontend templates`|
+|**eleventyNavigation**|object||See [eleventyNavigation options](#eleventynavigation-options)|
+|**title**|string||Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string||Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**figmaLink**|string||Use the embed link of the artboard to display the Figma embed on the page|
+|**howItWorks**|string or markdown||A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
+|**examples**|object||See [examples options](#examples-options)|
+|**contentDataLink**|string||Required to display the a link to content data on the page|
+|**contentSchema**|object||See [contentSchema options](#contentschema-options)|
+|**contentType**|object||See [contentType options](#contenttype-options)|
+|**publishingApp**|string|`collections publisher`, `contacts admin`, `content publisher`, `content tagger`, `local links manager`, `mainstream publisher`, `manuals publisher`, `maslow`, `service manual publisher`, `short url manager`, `specialist publisher`, `travel advice publisher`, and  `whitehall`|By entering the name of publishing app it will automatically link to the appropriate documentaiton of said publishing within the [developer docs](https://docs.publishing.service.gov.uk/apps.html)|
+|**components**|object||Required in order to show list of all the components that are associated with said frontend template. See [components options for frontend templates](#components-options-for-frontend-templates)|
+|**insights**|object||See [insights options](#insight-options)|
+|**issues**|object||See [issues options](#issues-options)|
+|**issueLink**|string||The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Component documentation options
@@ -286,14 +289,14 @@ issueLink:
 |Name|Type|Notes|
 |---|---|---|
 |**contentSchema.title**|string|Enter the name of the content schema of the frontend template.<br><br>The [GOV.UK browsser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the contentSchema of the frontend template|
-|**contentSchema.link**|string|Enter the corresponding URL of the content schema's documentation, which can be found in the [developer documenation](https://docs.publishing.service.gov.uk/content-schemas.html)|
+|**contentSchema.link**|string|Enter the corresponding URL of the content schema's documentation, which can be found in the [developer docs](https://docs.publishing.service.gov.uk/content-schemas.html)|
 
 
 #### contentType options
 |Name|Type|Notes|
 |---|---|---|
 |**contentType.title**|string|Enter the name of the content type of the frontend template.<br><br>The [GOV.UK browsser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the content type (also known as document type) of the frontend template|
-|**contentType.link**|string|Enter the corresponding URL of the content type's documentation, which can be found in the [developer documenation](https://docs.publishing.service.gov.uk/document-types.html)|
+|**contentType.link**|string|Enter the corresponding URL of the content type's documentation, which can be found in the [developer docs](https://docs.publishing.service.gov.uk/document-types.html)|
 
 
 #### variations options
@@ -308,6 +311,15 @@ issueLink:
 |---|---|---|
 |**designLibraries[i].title**|string|Required field to display the name of the design library that also documented the very component|
 |**designLibaries[i].link**|string|Required field that links to the other design library's documentation of said component|
+
+
+#### components options for frontend templates
+|Name|Type|Options|Notes|
+|---|---|---|---|
+|**components[i].componentName**|string or markdown||Required field that will display the name of the component.<br><br>Can provide additional context on how component is rendered on the frontend template. In that case, markdown could be applied, linking to appropriate documention for said component|
+|**components[i].componentURL**|string||If **components[i].componentName** is entered as a string, this field is required in order to link to the appropriate document for said component|
+|**components[i].generated**|string|`auto`, `publisher`, and `hardcode`|By entering the any of the listed options it will automatically display how said component is generated onto the frontend template|
+|**components[i].input**|string||If the component is generated by a publisher, provide the name of the input field withing the corresponding publishing app. Also, indicate whether or not if it's a required input field|
 
 
 #### components options for patterns
