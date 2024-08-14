@@ -10,14 +10,7 @@
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
       {% include 'partials/header.njk' %}
-
-      {% if howItWorks %}
-        <section class="doc-how-it-works">
-          <h2 class="govuk-heading-l">How it works</h2>
-          {{ howItWorks | markdown }}
-        </section>
-      {% endif %}
-
+      {% include 'partials/how-it-works-with-variations.njk' %}
       {% include 'partials/examples.njk' %}
       {% include 'partials/insights.njk' %}
       {% include 'partials/issues.njk' %}

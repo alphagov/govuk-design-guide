@@ -7,7 +7,7 @@ title: Search filter
 description: Search filters are used to help refine search results
 whenToUse: Used exclusively for [finders](/frontend-templates/finders).
 accessibilty: There was an accessibility driven design change made to the mobile filters around 2021.
-howItWorksSummary:
+howItWorks:
   Search filters are used to help refine search results which appear on the right side of the page.
 
 

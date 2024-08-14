@@ -33,18 +33,7 @@
         </section>
       {% endif %}
 
-      {% if howItWorksSummary %}
-        <section class="doc-how-it-works">
-          <h2 class="govuk-heading-l">How it works</h2>
-          {{ howItWorksSummary | markdown }}
-          {% for i in range(0, variations | length ) %}
-            <h3 class="govuk-heading-m">{{ variations[i].title }}</h3>
-            {% if variations[i].description %}
-              {{ variations[i].description | markdown }}
-            {% endif %}
-          {% endfor %}
-        </section>
-      {% endif %}
+      {% include 'partials/how-it-works-with-variations.njk' %}
 
       <section class="doc-components">
         <h2 class="govuk-heading-l">Components</h2>

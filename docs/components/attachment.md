@@ -38,7 +38,7 @@ accessibilty:
 
 
   Considerations and Criteria taken from the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria)"
-howItWorksSummary:
+howItWorks:
   This component displays a link to a document that is attached to GOV.UK content along with a thumbnail and relevant file data (title of the document, format type, file size, link to view online, and request accessible format details). 
 
 
