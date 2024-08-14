@@ -37,7 +37,7 @@ accessibilty:
   - have visible text
 
   - have meaningful text"
-howItWorksSummary:
+howItWorks:
   Accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
 variations:
   0:
