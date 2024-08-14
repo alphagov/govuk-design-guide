@@ -177,7 +177,13 @@ variations:
   0:
     title:
     description:
-designLibaries:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+designLibraries:
   0:
     title:
     link:
@@ -193,6 +199,17 @@ issueLink:
 |**layout**|string|Must be set to `component-documentation`|
 |**sectionKey**|string|Must be set to `Components`|
 |**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
+|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**whenToUse**|string or markdown|Requried field to display when to use the component|
+|**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
+|**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
+|**howItWorksSummary**|string or markdown|Required field if you want to display a description how the component works|
+|**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
+|**insights**|object|See [insights options](#insight-options)|
+|**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options]()|
+|**issues**|object|See [issues options](#issues-options)|
+|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Additional documentation options
@@ -222,6 +239,20 @@ issueLink:
 |---|---|---|
 |**contentType.title**|string|Enter the name of the content type of the frontend template.<br><br>The [GOV.UK browsser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the content type (also known as document type) of the frontend template|
 |**contentType.link**|string|Enter the corresponding URL of the content type's documentation, which can be found in the [developer documenation](https://docs.publishing.service.gov.uk/document-types.html)|
+
+
+#### variations options
+|Name|Type|Notes|
+|---|---|---|
+|**variations[i].title**|string|Required field to display the name of the variation|
+|**variations[i].description**|string or markdown|Required field to display a brief description of what the variation of the component is. Also, this is where the link to the component guide itself lives to view what the variation is|
+
+
+#### designLibraries options
+|Name|Type|Notes|
+|---|---|---|
+|**designLibraries[i].title**|string|Required field to display the name of the design library that also documented the very component|
+|**designLibaries[i].link**|string|Required field that links to the other design library's documentation of said component|
 
 
 #### insight options
