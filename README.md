@@ -207,7 +207,7 @@ issueLink:
 |**howItWorksSummary**|string or markdown|Required field if you want to display a description how the component works|
 |**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
 |**insights**|object|See [insights options](#insight-options)|
-|**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options]()|
+|**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options](#designlibraries-options)|
 |**issues**|object|See [issues options](#issues-options)|
 |**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
