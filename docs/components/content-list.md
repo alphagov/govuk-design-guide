@@ -54,7 +54,7 @@ accessibilty:
 
   Considerations and criteria taken from the [component Guide](https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria)"
 
-howItWorksSummary:
+howItWorks:
   "This components helps users:
 
   - navigate complex documents that span multiple pages
