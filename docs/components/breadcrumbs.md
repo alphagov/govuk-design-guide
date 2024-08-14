@@ -69,7 +69,7 @@ variations:
       
 
       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/with_border).
-designLibaries:
+designLibraries:
   0:
     title: GOV.UK Design System
     link: https://design-system.service.gov.uk/components/breadcrumbs/
