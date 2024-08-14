@@ -129,7 +129,7 @@ variations:
       title: External attachment
       description: 
         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/external_attachment).
-designLibaries:
+designLibraries:
   0:
     title: GOV.UK Component guide
     link: https://components.publishing.service.gov.uk/component-guide/attachment
