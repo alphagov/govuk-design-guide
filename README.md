@@ -13,6 +13,7 @@ A list of all the fields associated with the different layouts. All the fields a
 - [Frontend template index options](#frontend-template-index-options)
 - [Frontend template documentation options](#frontend-template-documentation-options)
 - [Component documentation options](#component-documentation-options)
+- [Pattern documentation options](#pattern-documentation-options)
 - [Additional documentation options](#additional-documentation-options)
   - [eleventyNavigation options](#eleventynavigation-options)
   - [examples options](#examples-options)
@@ -20,6 +21,7 @@ A list of all the fields associated with the different layouts. All the fields a
   - [contentType options](#contenttype-options)
   - [variations options](#variations-options)
   - [designLibraries options](#designlibraries-options)
+  - [components options for patterns](#components-options-for-patterns)
   - [insight options](#insight-options)
   - [issues options](#issues-options)
 
@@ -214,6 +216,57 @@ issueLink:
 |**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
+### Pattern documentation options
+```
+layout:
+sectionKey:
+eleventyNavigation:
+  parent:
+title:
+description:
+whenToUse:
+whenNotToUse:
+accessibility:
+howItWorksSummary:
+variations:
+  0:
+    title:
+    description:
+components:
+  0:
+    title:
+    link:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+issues:
+  0:
+    title:
+    link:
+issueLink:
+```
+
+|Name|Type|Notes|
+|---|---|---|
+|**layout**|string|Must be set to `component-documentation`|
+|**sectionKey**|string|Must be set to `Components`|
+|**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
+|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**whenToUse**|string or markdown|Requried field to display when to use the component|
+|**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
+|**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
+|**howItWorksSummary**|string or markdown|Required field if you want to display a description how the component works|
+|**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
+|**components**|object|List all the components that makes up a pattern. See [components options for patterns](#components-options-for-patterns)|
+|**insights**|object|See [insights options](#insight-options)|
+|**issues**|object|See [issues options](#issues-options)|
+|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+
+
 ### Additional documentation options
 
 #### eleventyNavigation options
@@ -255,6 +308,13 @@ issueLink:
 |---|---|---|
 |**designLibraries[i].title**|string|Required field to display the name of the design library that also documented the very component|
 |**designLibaries[i].link**|string|Required field that links to the other design library's documentation of said component|
+
+
+#### components options for patterns
+|Name|Type|Notes|
+|---|---|---|
+|**components[i].title**|string|Required to display the title of the component|
+|**components[i].link**|string|Required to link to appropriate documentation for said component|
 
 
 #### insight options
