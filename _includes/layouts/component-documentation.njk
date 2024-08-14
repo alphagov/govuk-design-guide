@@ -48,17 +48,17 @@
       
       {% include 'partials/insights.njk' %}
 
-      {% if designLibaries %}
+      {% if designLibraries %}
         <section class="doc-other-libraries">
-          {% if (designLibaries | length ) > 1 %}
+          {% if (designLibraries | length ) > 1 %}
             <h2 class="govuk-heading-l">Other design libraries</h2>
             <p class="govuk-body">Other UK government design libraries that has documented this component.</p>
-            {{ listItemsWithLink("doc-design-library__list", designLibaries) }}
+            {{ listItemsWithLink("doc-design-library__list", designLibraries) }}
           {% else %}
             <h2 class="govuk-heading-l">Other design library</h2>
             <p class="govuk-body">Another UK government design library that has documented this component.</p>
             <p class="govuk-body">
-              <a class="govuk-link" href="{{ designLibaries[0].link }}">{{ designLibaries[0].title }}</a>
+              <a class="govuk-link" href="{{ designLibraries[0].link }}">{{ designLibraries[0].title }}</a>
             </p>
           {% endif %}
         </section>

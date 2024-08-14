@@ -137,7 +137,7 @@ insights:
     link: https://docs.google.com/presentation/d/1wsiH0OJPyS9DtxvUXri-tNkqFhU6N00xjdsWSAHK2Fw/edit#slide=id.g1006224b8f4_0_85
     description: Project debrief that provides project context and opportunities for improvements
     date: November 2022
-designLibaries:
+designLibraries:
   0:
     title: GOV.UK Component guide
     link: https://components.publishing.service.gov.uk/component-guide/contents_list
