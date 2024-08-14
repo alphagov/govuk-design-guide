@@ -1,5 +1,19 @@
-{% extends "layouts/sub-navigation.njk" %}
+{% extends "layouts/base.njk" %}
 
 {% block beforeContent %}
   {% include 'partials/phase-banner.njk' %}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    {% include 'partials/sub-navigation.njk' %}
+    
+    <div class="govuk-grid-column-three-quarters-from-desktop">
+      {% include 'partials/header.njk' %}
+      <section class="doc-details">
+        {{ details | markdown }}
+      </section>
+      {{ appProseScope(content) if content }}
+    </div>
+  </div>
 {% endblock %}
