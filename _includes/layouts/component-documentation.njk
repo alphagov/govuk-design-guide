@@ -11,28 +11,9 @@
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
       {% include 'partials/header.njk' %}
-
-      {% if whenToUse %}
-        <section class="doc-when-to-use-component">
-          <h2 class="govuk-heading-l">When to use this component</h2>
-          {{ whenToUse | markdown }}
-        </section>
-      {% endif %}
-
-      {% if whenNotToUse %}
-        <section class="doc-when-not-to-use-component">
-          <h2 class="govuk-heading-l">When not to use this component</h2>
-          {{ whenNotToUse | markdown }}
-        </section>
-      {% endif %}
-
-      {% if accessibilty %}
-        <section class="doc-accessibility-criteria">
-          <h2 class="govuk-heading-l">Accessibilty criteria</h2>
-          {{ accessibilty | markdown }}
-        </section>
-      {% endif %}
-
+      {% include 'partials/when-to-use.njk' %}
+      {% include 'partials/when-not-to-use.njk' %}
+      {% include 'partials/accessibility.njk' %}
       {% include 'partials/how-it-works-with-variations.njk' %}
       {% include 'partials/insights.njk' %}
 
