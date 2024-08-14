@@ -10,6 +10,7 @@
 A list of all the fields associated with the different layouts. All the fields are optional. If there is no corresponding value to a parameter it will not be rendered on the page.
 
 - [Homepage options](#homepage-options)
+- [Landing page options](#landing-page-options)
 - [Frontend template index options](#frontend-template-index-options)
 - [Frontend template documentation options](#frontend-template-documentation-options)
 - [Component documentation options](#component-documentation-options)
@@ -25,6 +26,7 @@ A list of all the fields associated with the different layouts. All the fields a
   - [components options for patterns](#components-options-for-patterns)
   - [insight options](#insight-options)
   - [issues options](#issues-options)
+  - [documentItems options](#documentitems-options)
 
 
 ### Homepage options
@@ -52,14 +54,22 @@ documentItems:
 |**documentItems**|object|This displays the different types of documentations available within the design library. See [documentItems options](#documentitems-options)|
 
 
-#### documentItems options
-All options must have a value in order a document item to appear on the homepage.
-
-Name|Type|Notes|
+### Landing page options
+```
+---
+layout:
+sectionKey:
+title:
+description:
+details:
+---
+```
+|Name|Type|Notes|
 |---|---|---|
-|**documentItems[i].documentItemTitle**|string|Required to display the document item on the page|
-|**documentItems[i].documentItemDescription**|string|Required to display the document item on the page|
-|**documentItems[i].documentItemURL**|string|Required to display the document item on the page|
+|**layout**|string|Must be set to `landing-page`|
+|**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
+|**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
+|**details**|markdown|Required field in order to display further details about section of documentation|
 
 
 ### Frontend template index options
@@ -101,7 +111,7 @@ issueLink:
 |**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
 |**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
 |**figmaLink**|string|Use the embed link of the artboard to display the Figma embed on the page|
-|**howItWorks**|string or markdown|A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
+|**howItWorks**|markdown|A brief description how the frontend template works and what it does<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
 |**examples**|object|See [examples options](#examples-options)|
 |**contentDataLink**|string|Required to display the a link to content data on the page|
 |**insights**|object|See [insights options](#insight-options)|
@@ -160,7 +170,7 @@ issueLink:
 |**title**|string||Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
 |**description**|string||Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
 |**figmaLink**|string||Use the embed link of the artboard to display the Figma embed on the page|
-|**howItWorks**|string or markdown||A brief description how the frontend template works and what it does<br><br>If it's written in markdown, the entire content must be wrapped in double quotations (ie. `"`) |
+|**howItWorks**|markdown||A brief description how the frontend template works and what it does<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
 |**examples**|object||See [examples options](#examples-options)|
 |**contentDataLink**|string||Required to display the a link to content data on the page|
 |**contentSchema**|object||See [contentSchema options](#contentschema-options)|
@@ -214,10 +224,10 @@ issueLink:
 |**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
 |**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
 |**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
-|**whenToUse**|string or markdown|Requried field to display when to use the component|
-|**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
-|**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
-|**howItWorks**|string or markdown|Required field if you want to display a description how the component works|
+|**whenToUse**|markdown|Requried field to display when to use the component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**whenNotToUse**|markdown|Requried field to display when not to use the component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**accessibility**|markdown|Requried field to display the accessibility criteria for said component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**howItWorks**|markdown|Required field if you want to display a description how the component works<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
 |**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
 |**insights**|object|See [insights options](#insight-options)|
 |**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options](#designlibraries-options)|
@@ -262,15 +272,15 @@ issueLink:
 
 |Name|Type|Notes|
 |---|---|---|
-|**layout**|string|Must be set to `component-documentation`|
-|**sectionKey**|string|Must be set to `Components`|
+|**layout**|string|Must be set to `pattern-documentation`|
+|**sectionKey**|string|Must be set to `Patterns`|
 |**eleventyNavigation**|object|See [eleventyNavigation options](#eleventynavigation-options)|
 |**title**|string|Required to display the title on the page. Plus, this sets the `<title>`, and the `<meta name="title">` within the `<head>`|
 |**description**|string|Required to display the description on the page. Plus, this sets the `<meta name="description">` within the `<head>`|
-|**whenToUse**|string or markdown|Requried field to display when to use the component|
-|**whenNotToUse**|string or markdown|Requried field to display when not to use the component|
-|**accessibility**|string or markdown|Requried field to display the accessibility criteria for said component|
-|**howItWorks**|string or markdown|Required field if you want to display a description how the component works|
+|**whenToUse**|markdown|Requried field to display when to use the component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**whenNotToUse**|markdown|Requried field to display when not to use the component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**accessibility**|markdown|Requried field to display the accessibility criteria for said component<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
+|**howItWorks**|markdown|Required field if you want to display a description how the component works<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
 |**variations**|object|This will list out all the variations that exist for the component. See [variations options](#variations-options)|
 |**components**|object|List all the components that makes up a pattern. See [components options for patterns](#components-options-for-patterns)|
 |**insights**|object|See [insights options](#insight-options)|
@@ -283,7 +293,7 @@ issueLink:
 #### eleventyNavigation options
 |Name|Type|Notes|
 |---|---|---|
-|**eleventyNavigation.parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value msut be set to `Components`|
+|**eleventyNavigation.parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value must be set to `Components`<br><br>When documenting a pattern, the value must be set to `Patterns`|
 
 
 #### examples options
@@ -311,7 +321,7 @@ issueLink:
 |Name|Type|Notes|
 |---|---|---|
 |**variations[i].title**|string|Required field to display the name of the variation|
-|**variations[i].description**|string or markdown|Required field to display a brief description of what the variation of the component is. Also, this is where the link to the component guide itself lives to view what the variation is|
+|**variations[i].description**|markdown|Required field to display a brief description of what the variation of the component is. Also, this is where the link to the component guide itself would be entered here.<br><br>The entire content must be wrapped in double quotations (ie. `"`)|
 
 
 #### designLibraries options
@@ -324,8 +334,8 @@ issueLink:
 #### components options for frontend templates
 |Name|Type|Options|Notes|
 |---|---|---|---|
-|**components[i].componentName**|string or markdown||Required field that will display the name of the component.<br><br>Can provide additional context on how component is rendered on the frontend template. In that case, markdown could be applied, linking to appropriate documention for said component|
-|**components[i].componentURL**|string||If **components[i].componentName** is entered as a string, this field is required in order to link to the appropriate document for said component|
+|**components[i].componentName**|string or markdown||Required field that will display the name of the component.<br><br>Can provide additional context on how component is rendered on the frontend template. In that case, markdown could be applied, linking to appropriate documention for said component. Plus, the entire content must be wrapped in double quotations (ie. `"`)|
+|**components[i].componentURL**|string||If **components[i].componentName** is entered as a string, this field must have a link to the appropriate document for said component|
 |**components[i].generated**|string|`auto`, `publisher`, and `hardcode`|By entering the any of the listed options it will automatically display how said component is generated onto the frontend template|
 |**components[i].input**|string||If the component is generated by a publisher, provide the name of the input field withing the corresponding publishing app. Also, indicate whether or not if it's a required input field|
 
@@ -350,3 +360,13 @@ issueLink:
 |---|---|---|
 |**issues[i].title**|string|Display the title of the issue, which matches what was recorded on Github|
 |**issues[i].link**|string|The link to the Github issue|
+
+
+#### documentItems options
+All options must have a value in order a document item to appear on the homepage.
+
+Name|Type|Notes|
+|---|---|---|
+|**documentItems[i].documentItemTitle**|string|Required to display the document item on the page|
+|**documentItems[i].documentItemDescription**|string|Required to display the document item on the page|
+|**documentItems[i].documentItemURL**|string|Required to display the document item on the page|
