@@ -354,7 +354,7 @@ issueLink:
 |---|---|---|
 |**insights[i].title**|string|Display the title of the document|
 |**insights[i].link**|string|The URL of the document|
-|**insights[i].description**|string|A brief description of the what the insight documentation is about|
+|**insights[i].description**|markdown|A brief description of the what the insight documentation is about|
 |**insights[i].date**|string|The date when the document was published|
 
 #### issues options

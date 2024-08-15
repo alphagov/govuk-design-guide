@@ -120,6 +120,7 @@ insights:
   0:
     title: Research interview about Topical Events & Campaign sites 
     link: https://app.mural.co/t/govukdelivery7534/m/govukdelivery7534/1674139116917/714724969d90020cd15e1ce41153c4c43fca5101?sender=u5494c2264a5f0c5c71eb1671
-    description: Mural board with a collection of findings regarding Topical Events and Campaign sites
+    description:
+      "Mural board with a collection of findings regarding Topical Events and Campaign sites"
     date: January 2023
 ---

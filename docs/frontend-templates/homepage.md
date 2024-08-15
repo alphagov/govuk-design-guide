@@ -56,16 +56,19 @@ insights:
   0:
     title: GOV.UK homepage 
     link: https://gov-uk.atlassian.net/wiki/spaces/GOVUK/pages/29720672/GOV.UK+homepage
-    description: Information regarding the design update, taken place in November 2023
+    description:
+      "Information regarding the design update, taken place in November 2023"
     date: July 10, 2024
   1:
     title: What does user behaviour on the GOV.UK homepage look like
     link: https://docs.google.com/presentation/d/1S5pKPaeoAAzvh1axETnjd7eYY7rA-6H4/edit?usp=sharing&ouid=106613529911689872123&rtpof=true&sd=true
-    description: Gameplan/lead-up to redesigning the homepage
+    description:
+      "Gameplan/lead-up to redesigning the homepage"
     date: July 17, 2023
   2:
     title: Homepage Redesign Challenge
     link: https://docs.google.com/presentation/d/13YlznozVei-m69S0hL8VAm3mMzHMSoa88EVctgDjFm0/edit?usp=sharing
-    description: Holistic redesign of the homepage
+    description:
+      "Holistic redesign of the homepage"
     date: April 28, 2023
 ---
