@@ -130,12 +130,14 @@ insights:
   0:
     title: Content Audit Discovery – Component recommendations 
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
-    description: This document sets out to group and record design elements that can be made consistent across GOV.UK.
+    description:
+      "This document sets out to group and record design elements that can be made consistent across GOV.UK."
     date: August 2022
   1:
     title: Navigational behaviours – Chapter scanning and hopping – GOV.UK Explore – Research Round 5 
     link: https://docs.google.com/presentation/d/1wsiH0OJPyS9DtxvUXri-tNkqFhU6N00xjdsWSAHK2Fw/edit#slide=id.g1006224b8f4_0_85
-    description: Project debrief that provides project context and opportunities for improvements
+    description:
+      "Project debrief that provides project context and opportunities for improvements"
     date: November 2022
 designLibraries:
   0:
