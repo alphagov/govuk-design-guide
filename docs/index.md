@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: homepage
-title: A design library for anyone working on the GOV.UK website – this is Jeremy's attempt at making a branch and testing the branching in github
+title: A design library for anyone working on the GOV.UK website
 description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
 whatsNewDate:
 whatsNew: 
