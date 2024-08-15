@@ -163,7 +163,12 @@ insights:
   0:
     title: Prototype testing specialist topics
     link: https://docs.google.com/presentation/d/1pqbXzYPbVs11fuOpa4P9sRv7TLT8wbRTniuO_ANC7sM/edit#slide=id.g10d42026b8_2_0
-    description: Collections pages were used as navigation pages for specialist topics (the equivalent of a mainstream browse topic or sub-topic page). We tested with 5 accountants, frequent users of GOV.UK, and using desktop. Users had no difficulties with the page design, and successfully used the page to navigate. Including a short description under each link within the collection helped users to choose between the options and aided navigation. 
-    Relevant people or team: Rob Sewell, Navigation and Presentation team
+    description:
+      "
+      Collections pages were used as navigation pages for specialist topics (the equivalent of a mainstream browse topic or sub-topic page). We tested with 5 accountants, frequent users of GOV.UK, and using desktop.
+      
+      
+      Users had no difficulties with the page design, and successfully used the page to navigate. Including a short description under each link within the collection helped users to choose between the options and aided navigation.
+      "
     date: September 2022
 ---
