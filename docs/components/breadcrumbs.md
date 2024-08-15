@@ -77,6 +77,6 @@ designLibraries:
     title: NHS Digital service manual
     link: https://service-manual.nhs.uk/design-system/components/breadcrumbs
   2:
-    title: Ministry of Defence Design System
+    title: Ministry of Defence Design System - Nikin
     link: https://design-system.service.mod.gov.uk/components/breadcrumbs/
 ---
