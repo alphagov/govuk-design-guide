@@ -16,7 +16,7 @@
           <th scope="row" class="govuk-table__header">
             <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
           </th>
-          <td class="govuk-table__cell">{{ insights[i].description }} </td>
+          <td class="govuk-table__cell">{{ insights[i].description | markdown }} </td>
           <td class="govuk-table__cell">{{ insights[i].date }}</td>
         </tr>
       {% endfor %}
