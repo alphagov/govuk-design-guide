@@ -1,7 +1,4 @@
 ---
-# This is a template file. Please duplicate and rename the file.
-# If none of the fields are filled, delete
-
 eleventyExcludeFromCollections: true
 layout: pattern-documentation
 sectionKey: Patterns
@@ -27,9 +24,9 @@ insights:
     link:
     description:
     date:
-# issues:
-#   0:
-#     title:
-#     link:
+issues:
+  0:
+    title:
+    link:
 issueLink: test
 ---
