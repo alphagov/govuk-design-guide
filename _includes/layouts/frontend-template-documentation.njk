@@ -15,11 +15,11 @@
       {% include 'partials/how-it-works-with-variations.njk' %}
       {% include 'partials/examples.njk' %}
 
-      {% if contentSchema or contentType or publishingApp %}
+      {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp %}
         <section class="doc-how-its-built">
           <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
           <div class="govuk-grid-row">
-            {% if contentSchema %}
+            {% if contentSchema.link and contentSchema.title %}
               <div class="govuk-grid-column-one-half">
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content schema</h3>
                 <p class="govuk-body">
@@ -31,11 +31,11 @@
                 }) }}
               </div>
             {% endif %}
-            {% if contentType %}
+            {% if contentType.link and contentType.title %}
               <div class="govuk-grid-column-one-half">
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content type</h3>
                 <p class="govuk-body">
-                  <a href="{{contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
+                  <a href="{{ contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
                 {{ govukDetails({
                   summaryText: "What is a content type?",
                   text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
