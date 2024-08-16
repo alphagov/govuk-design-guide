@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
