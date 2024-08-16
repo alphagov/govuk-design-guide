@@ -1,4 +1,4 @@
-{% if insights %}
+{% if insights[0].title and insights[0].link and insights[0].description %}
   <section class="doc-evidence and insights">
     <h2 class="govuk-heading-l">Evidence and insights</h2>
     <table class="govuk-table">
@@ -12,14 +12,14 @@
       </thead>
       <tbody class="govuk-table__body">
         {% for i in range(0, insights | length ) %}
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">
-            <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
-          </th>
-          <td class="govuk-table__cell">{{ insights[i].description | markdown }} </td>
-          <td class="govuk-table__cell">{{ insights[i].date }}</td>
-        </tr>
-      {% endfor %}
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__header">
+              <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
+            </th>
+            <td class="govuk-table__cell">{{ insights[i].description | markdown }} </td>
+            <td class="govuk-table__cell">{{ insights[i].date }}</td>
+          </tr>
+        {% endfor %}
       </tbody>
     </table>
   </section>
