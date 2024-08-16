@@ -1,8 +1,8 @@
 {% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
 {% from 'macros/report-issue.njk' import reportIssue %}
 
-<section class="doc-issues">
-  {% if issues %}
+{% if issues[0].link and issues[0].title %}
+  <section class="doc-issues">
     {% if (issues | length ) > 1 %}
       {% if sectionKey === "Frontend templates" %}
         <h2 class="doc-issues__title govuk-heading-l">Existing issues with this frontend template</h2>
@@ -32,10 +32,10 @@
         {% include "./instructions-report-issue.njk" %}
       {% endif %}
     {% endif %}
-  {% else %}
+{% else %}
     {% if issueLink %}
       {{ reportIssue("h2", "l") }}
       {% include "./instructions-report-issue.njk" %}
     {% endif %}
-  {% endif %}
-</section>
+  </section>
+{% endif %}
