@@ -16,10 +16,12 @@
       {% include 'partials/accessibility.njk' %}
       {% include 'partials/how-it-works-with-variations.njk' %}
 
-      <section class="doc-components">
-        <h2 class="govuk-heading-l">Components</h2>
-        {{ listItemsWithLink("doc-components__list", components) }}
-      </section>
+      {% if components[0].title and components[0].link %}
+        <section class="doc-components">
+          <h2 class="govuk-heading-l">Components</h2>
+          {{ listItemsWithLink("doc-components__list", components) }}
+        </section>
+      {% endif %}
       
       {% include 'partials/insights.njk' %}
       {% include 'partials/issues.njk' %}
