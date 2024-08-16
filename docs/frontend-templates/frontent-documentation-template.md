@@ -1,0 +1,39 @@
+---
+layout: frontend-template-documentation
+sectionKey: Frontend templates
+eleventyNavigation:
+  parent: 
+title:
+description:
+figmaLink:
+howItWorks:
+examples:
+  0:
+    title:
+    link:
+contentDataLink:
+contentSchema:
+  title:
+  link:
+contentType:
+  title:
+  link:
+publishingApp: 
+components:
+  0:
+    componentName:
+    componentURL:
+    generated:
+    input:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+issues:
+  0:
+    title:
+    link:
+issueLink:
+---
