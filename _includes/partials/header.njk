@@ -1,13 +1,15 @@
-<header class="doc-header">
-  {% if eleventyNavigation.parent %}
-    <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
-  {% endif %}
-  <h1 class="doc-header__title govuk-heading-xl">
-    {{ title | smart }}
-  </h1>
-  {% if description %}
-    <p class="doc-header__description govuk-body-l">
-      {{ description | markdown("inline") }}
-    </p>
-  {% endif %}
-</header>
+{% if title %}
+  <header class="doc-header">
+    {% if eleventyNavigation.parent %}
+      <span class="govuk-caption-xl">{{ eleventyNavigation.parent }}</span>
+    {% endif %}
+    <h1 class="doc-header__title govuk-heading-xl">
+      {{ title | smart }}
+    </h1>
+    {% if description %}
+      <p class="doc-header__description govuk-body-l">
+        {{ description | markdown("inline") }}
+      </p>
+    {% endif %}
+  </header>
+{% endif %}
