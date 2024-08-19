@@ -2,6 +2,6 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
+  parent: Finder
 title: Topical events
 ---

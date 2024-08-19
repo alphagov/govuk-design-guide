@@ -2,7 +2,7 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
+  parent: Finder
 title: Groups
 description: A directory of all the groups within the UK government
 howItWorks:
