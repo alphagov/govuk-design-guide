@@ -69,23 +69,28 @@ components:
     componentName: All the filters are within the [Expander](https://govuk-finder-frontend.herokuapp.com/component-guide/expander)
     componentURL: 
     generated: auto
-    input: 
+    input:
   10:
+    componentName: "[Previous and next navigation](https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation) appears if there is more than 20 returned search results"
+    componentURL: 
+    generated: auto
+    input:
+  11:
     componentName: Subscription link
     componentURL: https://components.publishing.service.gov.uk/component-guide/subscription_links
     generated: auto
     input:
-  11:
+  12:
     componentName: Document list
     componentURL: https://components.publishing.service.gov.uk/component-guide/document_list
     generated: auto
     input:
-  12:
+  13:
     componentName: Feedback
     componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
     generated: auto
     input:
-  13:
+  14:
     componentName: Layout footer
     componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
     generated: auto
