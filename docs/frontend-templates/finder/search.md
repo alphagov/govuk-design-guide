@@ -10,7 +10,7 @@ howItWorks: The returned results that appear on site search come from search-api
 examples:
   0:
     title: Search
-    link: hhttps://www.gov.uk/search/all
+    link: https://www.gov.uk/search/all
 contentDataLink:
 contentSchema:
   title: finder
