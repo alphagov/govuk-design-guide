@@ -17,6 +17,33 @@ examples:
   2:
     title: Countryside Stewardship grant finder
     link: https://www.gov.uk/countryside-stewardship-grants
+  3:
+    title: International development funding
+    link: https://www.gov.uk/international-development-funding
+  4:
+    title: Research for Development Outputs
+    link: https://www.gov.uk/dfid-research-outputs
+  5:
+    title: European Structural and Investment Funds (ESIF)
+    link: https://www.gov.uk/european-structural-investment-funds
+  6:
+    title: Marine Accident Investigation Branch reports
+    link: https://www.gov.uk/maib-reports
+  7:
+    title: "Alerts, recalls and safety information: drugs and medical devices"
+    link: https://www.gov.uk/drug-device-alerts
+  8:
+    title: Drug Safety Update
+    link: https://www.gov.uk/drug-safety-update
+  9:
+    title: Rail Accident Investigation Branch reports
+    link: https://www.gov.uk/raib-reports?report_type%5B%5D=investigation-report
+  10:
+    title: Service Standard Reports
+    link: https://www.gov.uk/service-standard-reports
+  11:
+    title: Finance and support for your business
+    link: https://www.gov.uk/business-finance-support-finder
 contentDataLink:
 contentSchema:
   title: finder
