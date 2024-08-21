@@ -4,8 +4,14 @@ layout: pattern-documentation
 sectionKey: Patterns
 eleventyNavigation:
   parent: Patterns
-title:
+
+title: 
+# This is required to display the title on the page.
+# It also sets the <title>, the <meta name="title"> in the <head>, and the title in the left-hand navigation menu.
+
 description:
+
+
 whenToUse:
 whenNotToUse:
 accessibility:
