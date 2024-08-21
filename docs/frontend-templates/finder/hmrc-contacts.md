@@ -2,7 +2,7 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
+  parent: Finder
 title: HMRC contacts
 description: A directory of all the ways to contact HMRC
 howItWorks:

@@ -2,7 +2,7 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
+  parent: Finder
 title: People
 description: A directory of all ministers and senior officials on GOV.UK
 howItWorks:

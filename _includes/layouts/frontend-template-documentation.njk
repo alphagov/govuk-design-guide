@@ -34,7 +34,7 @@
                   <a href="{{ contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
                 {{ govukDetails({
                   summaryText: "What is a content type?",
-                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
+                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in all finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
                 }) }}
               </div>
             {% endif %}
@@ -80,6 +80,10 @@
                 {% elif publishingApp === "short url manager" %}
                   <p class="govuk-body">
                     <a href="https://docs.publishing.service.gov.uk/repos/short-url-manager.html" class="govuk-link">short-url-manager</a>
+                  </p>
+                {% elif publishingApp === "special route publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/special-route-publisher.html" class="govuk-link">special-route-publisher</a>
                   </p>
                 {% elif publishingApp === "specialist publisher" %}
                   <p class="govuk-body">

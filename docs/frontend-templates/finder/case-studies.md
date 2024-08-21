@@ -2,7 +2,7 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
+  parent: Finder
 title: Case studies
 description: A directory of all the case studies that can be found on GOV.UK
 howItWorks:
