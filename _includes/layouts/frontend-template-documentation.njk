@@ -23,7 +23,7 @@
                 </p>
                 {{ govukDetails({
                   summaryText: "What is a content schema?",
-                  text: "A GOV.UK content schema is a JSON schema that defines the data structure of a piece of content. It determines what content and metadata attributes the page has. It’s different from the GOV.UK document type. For example ‘publication’ is the schema for transparency data."
+                  text: "A GOV.UK content schema is a JSON schema that defines the data structure of a piece of content. It determines what content and metadata attributes the page has."
                 }) }}
               </div>
             {% endif %}
@@ -34,7 +34,7 @@
                   <a href="{{ contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
                 {{ govukDetails({
                   summaryText: "What is a content type?",
-                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in all finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
+                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in all finders and changes the content type label users see on GOV.UK pages."
                 }) }}
               </div>
             {% endif %}
@@ -100,7 +100,7 @@
                 {% endif %}
                 {{ govukDetails({
                   summaryText: "What is a publishing app?",
-                  text: "A publishing app is a software application that is used to publishing and manage the content that appears on GOV.UK"
+                  text: "Publishing apps are used by publishers across government departments to publish content to GOV.UK."
                 }) }}
               </div>
             {% endif %}
