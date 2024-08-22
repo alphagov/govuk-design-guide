@@ -14,32 +14,45 @@ description:
 # It also sets the meta description in the <head>.
 
 whenToUse:
-# This must be wrapped in double quotation marks (for example "use it now")
+# QUESTION: What does this mean?
+# Wrap in double quotation marks (for example "It works like this")
 
 whenNotToUse:
-# This must be wrapped in double quotation marks (for example "use it now")
+# QUESTION: What does this mean?
+# Wrap in double quotation marks (for example "It works like this")
 
 accessibility:
-# This must be wrapped in double quotation marks (for example "use it now")
+# QUESTION: What does this mean?
+# Wrap in double quotation marks (for example "It works like this")
 
 howItWorks:
+# A brief description of how the pattern works and what it does.
+# Wrap in double quotation marks (for example "It works like this")
+
 variations:
   0:
-    title:
-    description:
+    title: # The name of the variation
+    description: # Description of the component variation (Wrap in "Double quotations")
+# QUESTION: What's a variation?
+
 components:
   0:
-    title:
-    link:
+    title: # Title of the component
+    link: # Link to any appropriate documentation for this component
+# These fields are about the components.
+
 insights:
   0:
-    title:
-    link:
-    description:
-    date:
+    title: # The title of the document
+    link: # The URL of the document
+    description: # A brief description of the what the insight documentation is about
+    date: # The date when the document was published
+# QUESTION: What are insights?
+
 issues:
   0:
-    title:
-    link:
+    title: # Display the title of the issue, which matches what was recorded on Github
+    link: # The link to the Github issue
 issueLink: test
+# QUESTION: What do we mean by an issue?
 ---
