@@ -25,6 +25,7 @@ contentType:
   title: transaction
   link: https://docs.publishing.service.gov.uk/document-types/transaction.html
 publishingApp: mainstream publisher
+renderingApp: frontend
 components:
   0:
     componentName: Layout super navigation header

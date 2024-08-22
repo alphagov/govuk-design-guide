@@ -25,6 +25,7 @@ contentType:
   title: answer
   link: https://docs.publishing.service.gov.uk/document-types/answer.html
 publishingApp: mainstream publisher
+renderingApp: government frontend
 components:
   0:
     componentName: Layout super navigation header

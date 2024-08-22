@@ -30,6 +30,7 @@ contentType:
   title: homepage
   link: https://docs.publishing.service.gov.uk/document-types/homepage.html
 publishingApp: special route publisher
+renderingApp: frontend
 components:
   0:
     componentName: Layout super navigation header

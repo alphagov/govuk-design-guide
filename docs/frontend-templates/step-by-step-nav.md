@@ -57,6 +57,7 @@ contentType:
   title: step_by_step_nav
   link: https://docs.publishing.service.gov.uk/document-types/step_by_step_nav.html
 publishingApp: collections publisher
+renderingApp: collections
 components:
   0:
     componentName: Layout super navigation header

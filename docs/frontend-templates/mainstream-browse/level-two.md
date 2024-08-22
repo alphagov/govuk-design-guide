@@ -22,6 +22,7 @@ contentType:
   title: mainstream_browse_page
   link: https://docs.publishing.service.gov.uk/document-types/mainstream_browse_page.html
 publishingApp: collections publisher
+renderingApp: collections
 components:
   0:
     componentName: Layout super navigation header
