@@ -4,7 +4,20 @@ sectionKey: Frontend templates
 eleventyNavigation:
   parent: Frontend templates
 title: Homepage
-description: The homepage is a portal for end-users to access essential UK government information and services.
+description: The homepage sets out the proposition of GOV.UK. It introduces the different kinds of content and information users can find, as well as the different tasks they can do.
+howItWorks:
+  "The homepage is not exhaustive; it does not provide a link to every single part of the site. It prioritises the most relevant and important tasks and content for the highest number, or the most impacted users. It also exposes how the site is organised. 
+
+  
+  This provides multiple ways for the user to find what they need: 
+
+  - By showing what kind of content is on the site
+
+  - By showing how the content is organised
+
+  - By providing keywords (for example, topic names)
+
+  - By allowing users to compare important content side-by-side"
 examples:
   0:
     title: Welcome to GOV.UK
@@ -16,6 +29,7 @@ contentSchema:
 contentType:
   title: homepage
   link: https://docs.publishing.service.gov.uk/document-types/homepage.html
+publishingApp: special route publisher
 components:
   0:
     componentName: Layout super navigation header
