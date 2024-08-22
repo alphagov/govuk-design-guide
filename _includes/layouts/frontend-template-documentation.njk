@@ -104,6 +104,17 @@
                 }) }}
               </div>
             {% endif %}
+            {% if renderingApp.link and renderingApp.title %}
+              <div class="govuk-grid-column-one-half">
+                <h3 class="doc-how-its-built__subtitle govuk-heading-m">Rendering app</h3>
+                <p class="govuk-body">
+                  <a href="{{ renderingApp.link }}" class="govuk-link">{{ renderingApp.title }}</a>
+                {{ govukDetails({
+                  summaryText: "What is a rendering app?",
+                  text: "Rendering apps render content to GOV.UK end-users."
+                }) }}
+              </div>
+            {% endif %}
           </div>
         </section>
       {% endif %}
