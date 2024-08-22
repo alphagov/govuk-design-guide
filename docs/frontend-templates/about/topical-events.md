@@ -29,6 +29,7 @@ contentType:
   title: topical_event_about_page
   link: https://docs.publishing.service.gov.uk/document-types/topical_event_about_page.html
 publishingApp: whitehall
+renderingApp: government frontend
 components:
   0:
     componentName: Layout super navigation header

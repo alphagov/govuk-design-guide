@@ -17,6 +17,7 @@ contentSchema:
 contentType:
   title: finder
   link: https://docs.publishing.service.gov.uk/document-types/finder.html
+renderingApp: finder frontend
 components:
   0:
     componentName: Layout super navigation header

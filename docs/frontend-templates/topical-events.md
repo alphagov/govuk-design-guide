@@ -40,6 +40,7 @@ contentType:
   title: topical_event
   link: https://docs.publishing.service.gov.uk/document-types/topical_event.html
 publishingApp: whitehall
+renderingApp: collections
 components:
   0:
     componentName: Layout super navigation header

@@ -104,11 +104,42 @@
                 }) }}
               </div>
             {% endif %}
-            {% if renderingApp.link and renderingApp.title %}
+            {% if renderingApp %}
               <div class="govuk-grid-column-one-half">
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Rendering app</h3>
-                <p class="govuk-body">
-                  <a href="{{ renderingApp.link }}" class="govuk-link">{{ renderingApp.title }}</a>
+                {% if renderingApp === "collections" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/collections.html" class="govuk-link">collections</a>
+                  </p>
+                {% elif renderingApp === "email alert frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/email-alert-frontend.html" class="govuk-link">email-alert-frontend</a>
+                  </p>
+                {% elif renderingApp === "feedback" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/feedback.html" class="govuk-link">feedback</a>
+                  </p>
+                {% elif renderingApp === "finder frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/finder-frontend.html" class="govuk-link">finder-frontend</a>
+                  </p>
+                {% elif renderingApp === "frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/frontend.html" class="govuk-link">frontend</a>
+                  </p>
+                {% elif renderingApp === "government frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/government-frontend.html" class="govuk-link">government-frontend</a>
+                  </p>
+                {% elif renderingApp === "smart answers" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/smart-answers.html" class="govuk-link">smart-answers</a>
+                  </p>
+                {% elif renderingApp === "static" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/static.html" class="govuk-link">static</a>
+                  </p>
+                {% endif %}
                 {{ govukDetails({
                   summaryText: "What is a rendering app?",
                   text: "Rendering apps render content to GOV.UK end-users."

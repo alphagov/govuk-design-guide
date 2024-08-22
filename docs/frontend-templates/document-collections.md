@@ -25,6 +25,7 @@ howItWorks:
 
   If more than one collection page is listed, the collections appear in the order of their relative positions within the document collections they belong to. 
   
+
   Example: [National curriculum in England: framework for key stages 1 to 4](https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4) - The content item belongs to 3 document collections. It's the first item in ‘National curriculum’, so that document collection appears first in the list. It's the 17th item in the ‘Schools: statutory guidance’ document collection - so is the second link in the sidebar. It is the 54th item in the ‘Local-authority-maintained schools: governance’ collection - so that is the third link.
 
   ### Email sign up links on document collections
@@ -58,6 +59,7 @@ contentType:
   title: document_collection
   link: https://docs.publishing.service.gov.uk/document-types/document_collection.html
 publishingApp: whitehall
+renderingApp: government frontend
 components:
   0:
     componentName: Layout super navigation header

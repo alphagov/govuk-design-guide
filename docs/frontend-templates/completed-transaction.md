@@ -43,6 +43,7 @@ contentType:
   title: completed_transaction
   link: https://docs.publishing.service.gov.uk/document-types/completed_transaction.html
 publishingApp: mainstream publisher
+renderingApp: feedback
 components:
   0:
     componentName: Layout super navigation header
