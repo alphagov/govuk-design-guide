@@ -32,7 +32,6 @@ howItWorks:
   You should not use step by step inside a service. Use the task list pattern instead. If a department wants to use the step by step pattern inside a service in order to track a user’s progress through a service, they cannot use step by step. 
 
   
-
   ### Examples of when not to use step by step
 
   We wouldn’t create a step by step to help users decide what kind of visa to apply for because it’s not a linear journey, it’s just a collection of options. But we could create one about what to do to come to the UK to study, and one of the tasks might be about finding the right visa to apply for. 
