@@ -27,9 +27,39 @@ contentType:
 publishingApp: collections publisher
 components:
   0:
-    componentName:
-    componentURL:
+    componentName: Layout super navigation header
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_super_navigation_header
+    generated: auto
+    input:
+  1:
+    componentName: Breadcrumbs
+    componentURL: https://components.publishing.service.gov.uk/component-guide/breadcrumbs
     generated:
+    input:
+  2:
+    componentName: Page title
+    componentURL: https://components.publishing.service.gov.uk/component-guide/title
+    generated:
+    input:
+  3:
+    componentName: Govspeak content
+    componentURL: https://components.publishing.service.gov.uk/component-guide/govspeak
+    generated:
+    input:
+  4:
+    componentName: Step by step navigation
+    componentURL: https://components.publishing.service.gov.uk/component-guide/step_by_step_nav
+    generated:
+    input:
+  5:
+    componentName: Feedback
+    componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
+    generated: auto
+    input:
+  6:
+    componentName: Layout footer
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
+    generated: auto
     input:
 insights:
   0:
