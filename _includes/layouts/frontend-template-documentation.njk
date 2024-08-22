@@ -11,7 +11,7 @@
       {% include 'partials/how-it-works-with-variations.njk' %}
       {% include 'partials/examples.njk' %}
 
-      {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp %}
+      {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp or renderingApp %}
         <section class="doc-how-its-built">
           <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
           <div class="govuk-grid-row">
