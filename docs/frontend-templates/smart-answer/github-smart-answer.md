@@ -38,9 +38,84 @@ publishingApp:
 renderingApp: smart answers
 components:
   0:
-    componentName: 
+    componentName: Layout super navigation header
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_super_navigation_header
+    generated: auto
+    input:
+  1:
+    componentName: Contextual breadcrumbs
+    componentURL: https://components.publishing.service.gov.uk/component-guide/contextual_breadcrumbs
+    generated: auto
+    input:
+  2:
+    componentName: Page title
+    componentURL: https://components.publishing.service.gov.uk/component-guide/title
+    generated: hardcode
+    input:
+  3:
+    componentName: Govspeak content
+    componentURL: https://components.publishing.service.gov.uk/component-guide/govspeak
+    generated: hardcode
+    input:
+  4:
+    componentName: Button
+    componentURL: https://components.publishing.service.gov.uk/component-guide/button
+    generated: hardcode
+    input:
+  5:
+    componentName: Heading
+    componentURL: https://components.publishing.service.gov.uk/component-guide/heading
+    generated: hardcode
+    input:
+  6:
+    componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)"
     componentURL: 
-    generated: 
+    generated: hardcode
+    input:
+  7:
+    componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+    componentURL: 
+    generated: hardcode
+    input:
+  8:
+    componentName: Feedback
+    componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
+    generated: auto
+    input:
+  9:
+    componentName: Layout footer
+    componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
+    generated: auto
+    input:
+  10:
+    componentName: "[Select](https://components.publishing.service.gov.uk/component-guide/select) can be used in order for end-user to provide their respone"
+    componentURL: 
+    generated: hardcode
+    input:
+  11:
+    componentName: "[Form radio button](https://components.publishing.service.gov.uk/component-guide/radio) can be used in order for end-user to provide their respone"
+    componentURL: 
+    generated: hardcode
+    input:
+  12:
+    componentName: "[Summary list](https://components.publishing.service.gov.uk/component-guide/summary_list) can be used in order for end-user to provide their respone"
+    componentURL: 
+    generated: auto
+    input:
+  13:
+    componentName: "[Error summary](https://components.publishing.service.gov.uk/component-guide/error_summary) appears whenever a required field is not entered or the incorrect information is entered by the end-user"
+    componentURL: 
+    generated: auto
+    input:
+  14:
+    componentName: "[Step by step navigation](https://components.publishing.service.gov.uk/component-guide/step_by_step_nav) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+    componentURL: 
+    generated: publisher
+    input: "[collections-publisher](https://docs.publishing.service.gov.uk/repos/collections-publisher.html) > Where to show this step by step > Sidebar settings > Sidebar content of page"
+  15:
+    componentName: "[Form date input](https://components.publishing.service.gov.uk/component-guide/date_input) can be used in order for end-user to provide their respone"
+    componentURL: 
+    generated: hardcode
     input:
 insights:
   0:
