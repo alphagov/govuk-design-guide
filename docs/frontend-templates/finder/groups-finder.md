@@ -3,7 +3,7 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: Groups
+title: Groups finder
 description: A directory of all the groups within the UK government
 howItWorks:
   This finder lists all the groups within the UK government. End-users can use the search component to filter the returned results on the page.

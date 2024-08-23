@@ -3,32 +3,47 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: Supergroup
-description: A finder for documents that are part of the content purpose supertypes
+title: Specialist document finder
+description: Specialist Document finders are used to search for Specialist documents
 figmaLink:
-howItWorks: "Supergroup finders find most GOV.UK content that belongs in one of the [content purpose supertypes](https://github.com/alphagov/govuk_document_types/blob/master/data/content_purpose_supergroups.md).
-
-
-Results come from search-api."
+howItWorks: The returned results in this finder are exclusively specialist documents. Thus, every document on the page will have the `specialist_document` content schema .
 examples:
   0:
-    title: Guidance and regulation
-    link: https://www.gov.uk/search/guidance-and-regulation
+    title: "AAIB: Air Accidents Investigation Branch reports"
+    link: https://www.gov.uk/aaib-reports
   1:
-    title: News and communications
-    link: https://www.gov.uk/search/news-and-communications
+    title: Competition and Markets Authority cases and projects
+    link: https://www.gov.uk/cma-cases
   2:
-    title: Policy papers and consultations
-    link: https://www.gov.uk/search/policy-papers-and-consultations
+    title: Countryside Stewardship grant finder
+    link: https://www.gov.uk/countryside-stewardship-grants
   3:
-    title: Research and statistic
-    link: https://www.gov.uk/search/research-and-statistics
+    title: International development funding
+    link: https://www.gov.uk/international-development-funding
   4:
-    title: Services
-    link: https://www.gov.uk/search/services
+    title: Research for Development Outputs
+    link: https://www.gov.uk/dfid-research-outputs
   5:
-    title: Transparency and freedom of information releases
-    link: https://www.gov.uk/search/transparency-and-freedom-of-information-releases
+    title: European Structural and Investment Funds (ESIF)
+    link: https://www.gov.uk/european-structural-investment-funds
+  6:
+    title: Marine Accident Investigation Branch reports
+    link: https://www.gov.uk/maib-reports
+  7:
+    title: "Alerts, recalls and safety information: drugs and medical devices"
+    link: https://www.gov.uk/drug-device-alerts
+  8:
+    title: Drug Safety Update
+    link: https://www.gov.uk/drug-safety-update
+  9:
+    title: Rail Accident Investigation Branch reports
+    link: https://www.gov.uk/raib-reports?report_type%5B%5D=investigation-report
+  10:
+    title: Service Standard Reports
+    link: https://www.gov.uk/service-standard-reports
+  11:
+    title: Finance and support for your business
+    link: https://www.gov.uk/business-finance-support-finder
 contentDataLink:
 contentSchema:
   title: finder
@@ -116,6 +131,21 @@ components:
   15:
     componentName: Page title
     componentURL: https://components.publishing.service.gov.uk/component-guide/title
+    generated: auto
+    input:
+  16:
+    componentName: The [Govspeak content](https://components.publishing.service.gov.uk/component-guide/govspeak) is situated above the filter and returned results
+    componentURL:
+    generated: auto
+    input:
+  17:
+    componentName: Phase banner
+    componentURL: https://components.publishing.service.gov.uk/component-guide/phase_banner
+    generated: auto
+    input:
+  18:
+    componentName: Metadata block
+    componentURL: https://components.publishing.service.gov.uk/component-guide/metadata
     generated: auto
     input:
 insights:

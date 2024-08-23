@@ -3,7 +3,7 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: World organisation
+title: World organisation finder
 description: A finder solely for searching worldwide organisations on GOV.UK
 figmaLink:
 howItWorks:

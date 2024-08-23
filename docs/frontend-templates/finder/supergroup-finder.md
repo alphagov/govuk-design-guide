@@ -3,17 +3,32 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: Statistical data sets
-description: Specialist Document finders are used to search for statistical data documents
+title: Supergroup finder
+description: A finder for documents that are part of the content purpose supertypes
 figmaLink:
-howItWorks: "Statistical Data Sets finder is used to search for documents with the content type set to `statistical_data_set`.
+howItWorks: "Supergroup finders find most GOV.UK content that belongs in one of the [content purpose supertypes](https://github.com/alphagov/govuk_document_types/blob/master/data/content_purpose_supergroups.md).
 
 
-Documents with that content type are published via Whitehall publisher."
+Results come from search-api."
 examples:
   0:
-    title: Statistical data sets
-    link: https://www.gov.uk/government/statistical-data-sets
+    title: Guidance and regulation
+    link: https://www.gov.uk/search/guidance-and-regulation
+  1:
+    title: News and communications
+    link: https://www.gov.uk/search/news-and-communications
+  2:
+    title: Policy papers and consultations
+    link: https://www.gov.uk/search/policy-papers-and-consultations
+  3:
+    title: Research and statistic
+    link: https://www.gov.uk/search/research-and-statistics
+  4:
+    title: Services
+    link: https://www.gov.uk/search/services
+  5:
+    title: Transparency and freedom of information releases
+    link: https://www.gov.uk/search/transparency-and-freedom-of-information-releases
 contentDataLink:
 contentSchema:
   title: finder
@@ -49,46 +64,56 @@ components:
     generated: auto
     input:
   5:
-    componentName: "[Form hint text](https://components.publishing.service.gov.uk/component-guide/hint) appears within the search filter"
+    componentName: "[Select](https://components.publishing.service.gov.uk/component-guide/select) appears within the search filter"
     componentURL:
     generated: auto
     input:
   6:
-    componentName: "[Date filter](https://govuk-finder-frontend.herokuapp.com/component-guide/date_filter) appears within the search filter"
+    componentName: "[Form checkboxes](https://components.publishing.service.gov.uk/component-guide/checkboxes) appears within the search filter"
     componentURL:
     generated: auto
     input:
   7:
+    componentName: "[Form hint text](https://components.publishing.service.gov.uk/component-guide/hint) appears within the search filter"
+    componentURL:
+    generated: auto
+    input:
+  8:
+    componentName: "[Date filter](https://govuk-finder-frontend.herokuapp.com/component-guide/date_filter) appears within the search filter"
+    componentURL:
+    generated: auto
+    input:
+  9:
     componentName: All the filters are within the [Expander](https://govuk-finder-frontend.herokuapp.com/component-guide/expander)
     componentURL: 
     generated: auto
     input:
-  8:
+  10:
     componentName: "[Previous and next navigation](https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation) appears if there is more than 20 returned search results"
     componentURL: 
     generated: auto
     input:
-  9:
+  11:
     componentName: Subscription link
     componentURL: https://components.publishing.service.gov.uk/component-guide/subscription_links
     generated: auto
     input:
-  10:
+  12:
     componentName: Document list
     componentURL: https://components.publishing.service.gov.uk/component-guide/document_list
     generated: auto
     input:
-  11:
+  13:
     componentName: Feedback
     componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
     generated: auto
     input:
-  12:
+  14:
     componentName: Layout footer
     componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
     generated: auto
     input:
-  13:
+  15:
     componentName: Page title
     componentURL: https://components.publishing.service.gov.uk/component-guide/title
     generated: auto

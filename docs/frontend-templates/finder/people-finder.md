@@ -3,7 +3,7 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: People
+title: People finder
 description: A directory of all ministers and senior officials on GOV.UK
 howItWorks:
   This finder lists all the contacts within the UK government. End-users can use the search component to filter the returned results on the page based on a topic and via search.

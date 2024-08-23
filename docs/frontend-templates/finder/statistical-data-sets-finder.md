@@ -3,15 +3,17 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: Topical events
-description: A finder solely for searching topical events on GOV.UK
+title: Statistical data sets finder
+description: Specialist Document finders are used to search for statistical data documents
 figmaLink:
-howItWorks:
-  Topical Events finder is used to search for [topical event](../../topical-events) throughout all of GOV.UK
+howItWorks: "Statistical Data Sets finder is used to search for documents with the content type set to `statistical_data_set`.
+
+
+Documents with that content type are published via Whitehall publisher."
 examples:
   0:
-    title: Topical Events
-    link: https://www.gov.uk/government/topical-events
+    title: Statistical data sets
+    link: https://www.gov.uk/government/statistical-data-sets
 contentDataLink:
 contentSchema:
   title: finder
@@ -47,12 +49,12 @@ components:
     generated: auto
     input:
   5:
-    componentName: "[Form checkboxes](https://components.publishing.service.gov.uk/component-guide/checkboxes) appears within the search filter"
+    componentName: "[Form hint text](https://components.publishing.service.gov.uk/component-guide/hint) appears within the search filter"
     componentURL:
     generated: auto
     input:
   6:
-    componentName: "[Form hint text](https://components.publishing.service.gov.uk/component-guide/hint) appears within the search filter"
+    componentName: "[Date filter](https://govuk-finder-frontend.herokuapp.com/component-guide/date_filter) appears within the search filter"
     componentURL:
     generated: auto
     input:
@@ -93,9 +95,9 @@ components:
     input:
 insights:
   0:
-    title: 
-    link: 
-    description: 
+    title:
+    link:
+    description:
     date:
 issues:
   0:

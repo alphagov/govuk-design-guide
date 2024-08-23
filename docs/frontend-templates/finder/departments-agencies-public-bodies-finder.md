@@ -3,7 +3,7 @@ layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Finder
-title: Departments, agencies and public bodies
+title: Departments, agencies and public bodies finder
 description: A directory of all the departments, agencies and public bodies within the UK government
 howItWorks:
   This finder lists all the departments, agencies and public bodies within the UK government. End-users can use the search component to filter the returned results on the page.
