@@ -16,8 +16,7 @@ howItWorks:
 
   - data in YAML (`.yml`) files
   
-  - content in Ruby (`.erb`) templates
-  "
+  - content in Ruby (`.erb`) templates"
 examples:
   0:
     title: Check if you need a UK visa
