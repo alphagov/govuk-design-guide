@@ -109,14 +109,19 @@ components:
   12:
     componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)"
     componentURL:
-    generated: publisher
+    generated: 
     input:
   13:
+    componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+    componentURL:
+    generated:
+    input:
+  14:
     componentName: Feedback
     componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
     generated: auto
     input:
-  14:
+  15:
     componentName: Layout footer
     componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
     generated: auto
