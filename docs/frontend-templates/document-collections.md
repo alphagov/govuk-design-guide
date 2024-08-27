@@ -127,36 +127,31 @@ components:
     generated: publisher
     input: Body
   13:
-    componentName: Related navigation
-    componentURL: https://components.publishing.service.gov.uk/component-guide/related_navigation
-    generated: publisher
-    input: Taxonomy
-  14:
     componentName: Published dates
     componentURL: https://govuk-government-frontend.herokuapp.com/component-guide/published_dates
     generated: publisher
     input: First published date & Change note (required)
-  15:
+  14:
     componentName: "[Heading](https://components.publishing.service.gov.uk/component-guide/heading) - title for individual collection"
     componentURL:
     generated: publisher
     input:
-  16:
+  15:
     componentName: "[Govspeak content](https://components.publishing.service.gov.uk/component-guide/govspeak) - description for the individual collection"
     componentURL:
     generated: publisher
     input:
-  17:
+  16:
     componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)"
     componentURL:
     generated: publisher
     input: Taxonomy
-  18:
+  17:
     componentName: "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
     componentURL:
     generated:
     input:
-  19:
+  18:
     componentName: Signup link
     componentURL: https://components.publishing.service.gov.uk/component-guide/signup_link
     generated:
