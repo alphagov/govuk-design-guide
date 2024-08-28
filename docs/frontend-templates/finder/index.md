@@ -63,13 +63,26 @@ examples:
 contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=finder&organisation_id=all
 insights:
   0:
-    title:
-    link:
-    description:
-    date:
+    title: "GOV.UK site search: desk research, analytics findings and product solutions"
+    link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?usp=sharing
+    description: Findings after the search team has improved the relevancy of site search results, and what to do next
+    date: 7 August 2024
+  1:
+    title: Proposal to improve Specialist Finder development and efficiency
+    link: https://docs.google.com/document/d/1hZD3eJjX3qWL6ntWV_aUq0U43m5LIEblwAeIRoUY7x0/edit?usp=sharing
+    description: This document outlines the reasons and benefits to improve specialist finder
+    date: 1 July 2024
+  2:
+    title: Should we move finders to Google Vertex AI Search?
+    link: https://docs.google.com/document/d/1x84j4IvpQcXy8WpG2Mx9YrO5GFZeOYOToiSzK9ax6Uk/edit?usp=sharing
+    description: Migrating finders to Vertex in order to improve keyword search relevance
+    date: 10 May 2024
 issues:
   0:
-    title:
+    title: Different component is being used as the page title on Site search finder
+    link:
+  1:
+    title: Inconsistent top-margin and bottom-margin for page title
     link:
 issueLink:
 ---
