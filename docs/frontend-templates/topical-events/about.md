@@ -2,11 +2,11 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: About
-title: Topical events
-description: The topical event's about page provides  detailed information on what the government is doing about said topical event.
+  parent: Topical events
+title: About page
+description: The topical event about page provides  detailed information on what the government is doing about said topical event.
 howItWorks:
-  "The Topical event About page is a child to the [Topical event frontend template](../../topical-events). For example:
+  "The topical event about page is a child to the [Topical event frontend template](../../topical-events). For example:
   
   - [The UK government's response to the Russian invasion of Ukraine](https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response/about) (child)
   
