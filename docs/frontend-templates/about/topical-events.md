@@ -8,9 +8,9 @@ description: The topical event's about page provides  detailed information on wh
 howItWorks:
   "The Topical event About page is a child to the [Topical event frontend template](../../topical-events). For example:
   
-  - [The UK government's response to the Russian invasion of Ukraine](https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response/about) **(child)**
+  - [The UK government's response to the Russian invasion of Ukraine](https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response/about) (child)
   
-  - [Russian invasion of Ukraine: UK government response](https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response) **(parent)**"
+  - [Russian invasion of Ukraine: UK government response](https://www.gov.uk/government/topical-events/russian-invasion-of-ukraine-uk-government-response) (parent)"
 examples:
   0:
     title: European Political Community meeting 2024
