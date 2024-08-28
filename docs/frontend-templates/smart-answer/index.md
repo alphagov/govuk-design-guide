@@ -12,7 +12,26 @@ howItWorks:
 
     There are 2 different types of smart answers:  
 
-    - [Github smart answer](./github-smart-answer)
+    - [GitHub smart answer](./github-smart-answer)
 
     - [Simple smart answer](./simple-smart-answer)"
+examples:
+  0:
+    title: Check if you need a UK visa (GitHub smart answer)
+    link: https://www.gov.uk/check-uk-visa
+  1:
+    title: Tell DVLA you've sold, transferred or bought a vehicle (Simple smart answer)
+    link: https://www.gov.uk/sold-bought-vehicle
+contentDataLink:
+insights:
+  0:
+    title:
+    link:
+    description:
+    date:
+issues:
+  0:
+    title:
+    link:
+issueLink:
 ---
