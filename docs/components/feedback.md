@@ -4,7 +4,7 @@ sectionKey: Components
 eleventyNavigation:
   parent: Components
 title: Feedback
-description:
+description: This component enables end-users to submit their feedback on whether the content on said page is relevant/helpful
 whenToUse:
 whenNotToUse: 
 accessibilty:
