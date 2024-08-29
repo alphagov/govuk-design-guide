@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
+    showBreadcrumbs: false,
     header: {
       productName: 'Design Library'
     },
