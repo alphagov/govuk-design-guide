@@ -16,8 +16,11 @@
             <tr class="govuk-table__row">
               <th scope="row" class="govuk-table__header">
                 <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
+                {% if insights[i].documentFormat %}
+                  <span class="govuk-body-s">({{ insights[i].documentFormat }})</span>
+                {% endif %}
               </th>
-              <td class="govuk-table__cell">{{ insights[i].description | markdown }} </td>
+              <td class="govuk-table__cell">{{ insights[i].description | markdown }}</td>
               <td class="govuk-table__cell">{{ insights[i].date }}</td>
             </tr>
           {% endif %}
