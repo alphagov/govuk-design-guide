@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
     homeKey: "",
     showBreadcrumbs: false,
     header: {
-      productName: 'Design Library'
+      productName: 'Pattern Library'
     },
     navigation: {
       items: [
