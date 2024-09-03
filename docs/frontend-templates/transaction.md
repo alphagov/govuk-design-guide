@@ -25,6 +25,7 @@ contentType:
   title: transaction
   link: https://docs.publishing.service.gov.uk/document-types/transaction.html
 publishingApp: mainstream publisher
+renderingApp: frontend
 components:
   0:
     componentName: Layout super navigation header
@@ -92,21 +93,16 @@ components:
     generated: publisher
     input: Related content items
   13:
-    componentName: Step by step navigation
-    componentURL: https://components.publishing.service.gov.uk/component-guide/step_by_step_nav
-    generated:
-    input:
+    componentName: "[Step by step navigation](https://components.publishing.service.gov.uk/component-guide/step_by_step_nav) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+    componentURL: 
+    generated: publisher
+    input: "[collections-publisher](https://docs.publishing.service.gov.uk/repos/collections-publisher.html) > Where to show this step by step > Sidebar settings > Sidebar content of page"
   14:
-    componentName: Step by step navigation header
-    componentURL: https://components.publishing.service.gov.uk/component-guide/step_by_step_nav_header
-    generated:
-    input:
-  15:
     componentName: Feedback
     componentURL: https://components.publishing.service.gov.uk/component-guide/feedback
     generated: auto
     input:
-  16:
+  15:
     componentName: Layout footer
     componentURL: https://components.publishing.service.gov.uk/component-guide/layout_footer
     generated: auto

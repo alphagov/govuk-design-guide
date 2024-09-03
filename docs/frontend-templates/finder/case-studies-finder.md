@@ -2,8 +2,8 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
-title: Case studies
+  parent: Finder
+title: Case studies finder
 description: A directory of all the case studies that can be found on GOV.UK
 howItWorks:
   Case Studies finder lists all case studies that is published on GOV.UK. End-users can use the search component to filter the returned results on the page.
@@ -17,6 +17,7 @@ contentSchema:
 contentType:
   title: finder
   link: https://docs.publishing.service.gov.uk/document-types/finder.html
+renderingApp: finder frontend
 components:
   0:
     componentName: Layout super navigation header

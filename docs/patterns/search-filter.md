@@ -5,7 +5,7 @@ eleventyNavigation:
   parent: Patterns
 title: Search filter
 description: Search filters are used to help refine search results
-whenToUse: Used exclusively for [finders](/frontend-templates/finders).
+whenToUse: Used exclusively for [finder](/frontend-templates/finder).
 accessibilty: There was an accessibility driven design change made to the mobile filters around 2021.
 howItWorks:
   Search filters are used to help refine search results which appear on the right side of the page.
@@ -17,7 +17,7 @@ howItWorks:
   There are four types of filters currently. One with a dropdown of options. One with checkboxes. One with a search bar and checkboxes. And one with open text fields.
 
 
-  On specialist finders, you can also find a small search bar.
+  On specialist finder, you can also find a small search bar.
 
 
   As a user interacts with the filters, the search results on the right auto-refresh automatically.

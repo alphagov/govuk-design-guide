@@ -75,7 +75,7 @@ details:
 
 
 ### Frontend template index options
-This layout is used to group related frontend templates. For example, *finders* and *mainstream browse*.
+This layout is used to group related frontend templates. For example, *finder* and *mainstream browse*.
 ```
 ---
 layout:
@@ -295,7 +295,7 @@ issueLink:
 #### eleventyNavigation options
 |Name|Type|Notes|
 |---|---|---|
-|**eleventyNavigation.parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finders* or *mainstream browse*)<br><br>When documenting a component, the value must be set to `Components`<br><br>When documenting a pattern, the value must be set to `Patterns`|
+|**eleventyNavigation.parent**|string|When documenting a frontend template, the value must be set to `Frontend templates` or in the case of some frontend templates it should correspond to the parent frontend template (ie. *finder* or *mainstream browse*)<br><br>When documenting a component, the value must be set to `Components`<br><br>When documenting a pattern, the value must be set to `Patterns`|
 
 
 #### examples options

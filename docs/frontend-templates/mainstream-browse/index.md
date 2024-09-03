@@ -9,9 +9,9 @@ figmaLink:
 howItWorks:
   "Mainstream browse is a topic system that groups together content by popular topics on GOV.UK. It has two levels:
   
-  - [Level one](./level-one) - topic (‘parent’)
+  - [Level one](./level-one) - topic (parent)
   
-  - [Level two](./level-two) - subtopic (‘child’) 
+  - [Level two](./level-two) - subtopic (child) 
 
 
   Mainstream browse topics are listed in the main menu and on the GOV.UK homepage under ‘Services and information’ heading."

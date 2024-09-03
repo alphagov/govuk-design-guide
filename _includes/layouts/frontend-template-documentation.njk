@@ -1,9 +1,5 @@
-{% extends "layouts/base.njk" %}
+{% extends "layouts/sub-navigation.njk" %}
 {% from "govuk/components/details/macro.njk" import govukDetails %}
-
-{% block beforeContent %}
-  {% include 'partials/phase-banner.njk' %}
-{% endblock %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -15,7 +11,7 @@
       {% include 'partials/how-it-works-with-variations.njk' %}
       {% include 'partials/examples.njk' %}
 
-      {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp %}
+      {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp or renderingApp %}
         <section class="doc-how-its-built">
           <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
           <div class="govuk-grid-row">
@@ -27,7 +23,7 @@
                 </p>
                 {{ govukDetails({
                   summaryText: "What is a content schema?",
-                  text: "A GOV.UK content schema is a JSON schema that defines the data structure of a piece of content. It determines what content and metadata attributes the page has. It’s different from the GOV.UK document type. For example ‘publication’ is the schema for transparency data."
+                  text: "A GOV.UK content schema is a JSON schema that defines the data structure of a piece of content. It determines what content and metadata attributes the page has."
                 }) }}
               </div>
             {% endif %}
@@ -38,7 +34,7 @@
                   <a href="{{ contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
                 {{ govukDetails({
                   summaryText: "What is a content type?",
-                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as document_type. It powers search filters in finders and changes the content type label users see on GOV.UK pages. For example ‘transparency’ is the document type for transparency data."
+                  text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as <code class='x-govuk-code x-govuk-code--inline'>document_type</code>. It powers search filters in all finders and changes the content type label users see on GOV.UK pages."
                 }) }}
               </div>
             {% endif %}
@@ -85,6 +81,10 @@
                   <p class="govuk-body">
                     <a href="https://docs.publishing.service.gov.uk/repos/short-url-manager.html" class="govuk-link">short-url-manager</a>
                   </p>
+                {% elif publishingApp === "special route publisher" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/special-route-publisher.html" class="govuk-link">special-route-publisher</a>
+                  </p>
                 {% elif publishingApp === "specialist publisher" %}
                   <p class="govuk-body">
                     <a href="https://docs.publishing.service.gov.uk/repos/specialist-publisher.html" class="govuk-link">specialist-publisher</a>
@@ -100,7 +100,49 @@
                 {% endif %}
                 {{ govukDetails({
                   summaryText: "What is a publishing app?",
-                  text: "A publishing app is a software application that is used to publishing and manage the content that appears on GOV.UK"
+                  text: "Publishing apps are used by publishers across government departments to publish content to GOV.UK."
+                }) }}
+              </div>
+            {% endif %}
+            {% if renderingApp %}
+              <div class="govuk-grid-column-one-half">
+                <h3 class="doc-how-its-built__subtitle govuk-heading-m">Rendering app</h3>
+                {% if renderingApp === "collections" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/collections.html" class="govuk-link">collections</a>
+                  </p>
+                {% elif renderingApp === "email alert frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/email-alert-frontend.html" class="govuk-link">email-alert-frontend</a>
+                  </p>
+                {% elif renderingApp === "feedback" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/feedback.html" class="govuk-link">feedback</a>
+                  </p>
+                {% elif renderingApp === "finder frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/finder-frontend.html" class="govuk-link">finder-frontend</a>
+                  </p>
+                {% elif renderingApp === "frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/frontend.html" class="govuk-link">frontend</a>
+                  </p>
+                {% elif renderingApp === "government frontend" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/government-frontend.html" class="govuk-link">government-frontend</a>
+                  </p>
+                {% elif renderingApp === "smart answers" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/smart-answers.html" class="govuk-link">smart-answers</a>
+                  </p>
+                {% elif renderingApp === "static" %}
+                  <p class="govuk-body">
+                    <a href="https://docs.publishing.service.gov.uk/repos/static.html" class="govuk-link">static</a>
+                  </p>
+                {% endif %}
+                {{ govukDetails({
+                  summaryText: "What is a rendering app?",
+                  text: "Rendering apps render content to GOV.UK end-users."
                 }) }}
               </div>
             {% endif %}
@@ -112,6 +154,7 @@
         <section class="doc-components">
           <h2 class="govuk-heading-l">Components</h2>
           <table class="govuk-table">
+            <caption class="govuk-table__caption govuk-table__caption--m">The components used within the {{ title | lower }} frontend template</caption>
             <thead class="govuk-table__head">
               <tr class="govuk-table__row">
                 <th scope="col" class="govuk-table__header">Component</th>
@@ -138,7 +181,7 @@
                       Hardcoded by developer
                     {% endif %}
                   </td>
-                  <td class="govuk-table__cell">{{ components[i].input }}</td>
+                  <td class="govuk-table__cell">{{ components[i].input | markdown }}</td>
                 </tr>
               {% endfor %}
             </tbody>

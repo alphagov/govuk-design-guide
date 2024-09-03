@@ -2,8 +2,8 @@
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
-  parent: Finders
-title: HMRC contacts
+  parent: Finder
+title: HMRC contacts finder
 description: A directory of all the ways to contact HMRC
 howItWorks:
   This finder lists all the contacts within HMRC. End-users can use the search component to filter the returned results on the page based on a topic and via search.
@@ -17,6 +17,7 @@ contentSchema:
 contentType:
   title: finder
   link: https://docs.publishing.service.gov.uk/document-types/finder.html
+renderingApp: finder frontend
 components:
   0:
     componentName: Layout super navigation header
