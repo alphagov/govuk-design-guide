@@ -11,7 +11,13 @@
     {% else %}
       <h2 class="doc-examples__title govuk-heading-l">Live example</h2>
       <p class="govuk-body">
-        <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+        {% if examples[0].welsh == true %}
+          <span lang="cy">
+            <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+          </span>
+        {% else %}
+          <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+        {% endif %}
       </p>
       {% if contentDataLink %}
         <p class="govuk-body">Page data available on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state">Content Data</a>.</p>
