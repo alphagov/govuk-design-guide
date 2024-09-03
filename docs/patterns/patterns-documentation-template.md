@@ -1,12 +1,14 @@
 ---
 eleventyExcludeFromCollections: true
+# Delete the line above after duplicating this template.
+
 layout: pattern-documentation
 sectionKey: Patterns
 eleventyNavigation:
   parent: Patterns
 
 title:
-# example: Patterns
+# example: Search filter
 # This is required to display the title on the page, in the meta data, and in the left-hand navigation menu.
 
 description:
