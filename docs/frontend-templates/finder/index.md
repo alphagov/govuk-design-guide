@@ -84,5 +84,5 @@ issues:
   1:
     title: Inconsistent top-margin and bottom-margin for page title
     link:
-issueLink:
+githubIssueLink:
 ---

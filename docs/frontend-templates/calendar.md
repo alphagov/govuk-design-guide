@@ -102,5 +102,5 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---

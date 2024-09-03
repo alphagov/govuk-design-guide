@@ -101,7 +101,7 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---
 ```
 
@@ -118,7 +118,7 @@ issueLink:
 |**contentDataLink**|string|Required to display the a link to content data on the page|
 |**insights**|object|See [insights options](#insight-options)|
 |**issues**|object|See [issues options](#issues-options)|
-|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+|**githubIssueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Frontend template documentation options
@@ -160,7 +160,7 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---
 ```
 
@@ -181,7 +181,7 @@ issueLink:
 |**components**|object||Required in order to show list of all the components that are associated with said frontend template. See [components options for frontend templates](#components-options-for-frontend-templates)|
 |**insights**|object||See [insights options](#insight-options)|
 |**issues**|object||See [issues options](#issues-options)|
-|**issueLink**|string||The URL to the corresponding Github repo where you can create a new issue|
+|**githubIssueLink**|string||The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Component documentation options
@@ -215,7 +215,7 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---
 ```
 
@@ -234,7 +234,7 @@ issueLink:
 |**insights**|object|See [insights options](#insight-options)|
 |**designLibraries**|object|Required field to display all the design libraries that may have documented the same component. See [designLibraries options](#designlibraries-options)|
 |**issues**|object|See [issues options](#issues-options)|
-|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+|**githubIssueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Pattern documentation options
@@ -268,7 +268,7 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---
 ```
 
@@ -287,7 +287,7 @@ issueLink:
 |**components**|object|List all the components that makes up a pattern. See [components options for patterns](#components-options-for-patterns)|
 |**insights**|object|See [insights options](#insight-options)|
 |**issues**|object|See [issues options](#issues-options)|
-|**issueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
+|**githubIssueLink**|string|The URL to the corresponding Github repo where you can create a new issue|
 
 
 ### Additional documentation options

@@ -58,5 +58,5 @@ issues:
   0:
     title: # Display the title of the issue, which should match what is recorded in Github
     link: # The link to the Github issue
-issueLink: test
+githubIssueLink: test
 ---
