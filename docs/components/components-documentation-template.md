@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the page.
 
 # Name of the component
-# This is the name of the component (ex. Attachment). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu.
+# This is the name of the component (ex. Attachment). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the components page.
 title: #Delete this comment before entering the name of the component.
 
 # Description of the component
