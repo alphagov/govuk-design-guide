@@ -56,7 +56,7 @@ variations:
       #Delete this comment before entering a description of variation.
 
 # Components that make-up this pattern
-# List out all the components that make-up this single pattern, by (1) providing the name of the component and (2) a link to the documentation for said pattern.
+# List out all the components that make-up this single pattern, by (1) providing the name of the component and (2) a link to the documentation for said component.
 components:
   # To list out additional components duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
