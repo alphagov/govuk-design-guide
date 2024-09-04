@@ -1,5 +1,5 @@
 ---
-# This file is a template to document a new frontend template index within the GOV.UK Design Library website.
+# This file is a template to document a new general frontend template within the GOV.UK Design Library website.
 layout: general-frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
@@ -13,12 +13,12 @@ eleventyExcludeFromCollections: true
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
 
-# Name of the frontend tempalte
-# This is the name of the frontend template (ex. Homepage). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the frontend templates page.
+# Name of the general frontend tempalte
+# This is the name of the general frontend template (ex. Finder). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the frontend templates page.
 title: #Delete this comment before entering the name of the frontend template.
 
-# Description of the frontend template
-# This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
+# Description of the general frontend template
+# This briefly describes what the general frontend template is. It is required to display the description on the page, and in the <head> meta description.
 description: #Delete this comment before entering the description of the frontend template.
 
 # Embedding the figma file of the frontend template
