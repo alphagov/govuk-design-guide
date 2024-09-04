@@ -86,6 +86,7 @@ githubIssueLink: #Delete this comment before entering the URL of the page to cre
 # Existing issues with this pattern
 # List of all the issues that are associated with this pattern, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
+  # To list out additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.
