@@ -8,7 +8,7 @@ eleventyNavigation:
 # Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Library website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Add a hash (ie. #) in front of the line "eleventyExcludeFromCollections: true". This will ensure that the page will appear in the design library.
+# Step 2: Add a hash (ie. #) in front of the line "eleventyExcludeFromCollections: true". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
 eleventyExcludeFromCollections: true
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the page.
