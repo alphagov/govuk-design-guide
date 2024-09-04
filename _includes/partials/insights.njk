@@ -1,4 +1,4 @@
-{% if insights[0].title and insights[0].link and insights[0].description %}
+{% if insights[0].title and insights[0].link %}
   <section class="doc-evidence and insights">
     <h2 class="govuk-heading-l">Evidence and insights</h2>
     <table class="govuk-table">
@@ -6,6 +6,7 @@
       <thead class="govuk-table__head">
         <tr class="govuk-table__row">
           <th scope="col" class="govuk-table__header">Document</th>
+          <th scope="col" class="govuk-table__header">Format</th>
           <th scope="col" class="govuk-table__header">Description</th>
           <th scope="col" class="govuk-table__header">Date</th>
         </tr>
@@ -16,10 +17,8 @@
             <tr class="govuk-table__row">
               <th scope="row" class="govuk-table__header">
                 <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
-                {% if insights[i].documentFormat %}
-                  <span class="govuk-body-s">({{ insights[i].documentFormat }})</span>
-                {% endif %}
               </th>
+              <td class="govuk-table__cell">{{ insights[i].documentFormat }}</td>
               <td class="govuk-table__cell">{{ insights[i].description | markdown }}</td>
               <td class="govuk-table__cell">{{ insights[i].date }}</td>
             </tr>
