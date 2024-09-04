@@ -9,10 +9,6 @@ module.exports = function(eleventyConfig) {
     },
     navigation: {
       items: [
-        { 
-          text: "Frontend templates",
-          href: "/frontend-templates"
-        },
         {
           text: "Components",
           href: "/components"
@@ -20,6 +16,10 @@ module.exports = function(eleventyConfig) {
         {
           text: "Patterns",
           href: "/patterns"
+        },
+        { 
+          text: "Frontend templates",
+          href: "/frontend-templates"
         },
         {
           text: "About",
