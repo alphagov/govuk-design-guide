@@ -23,25 +23,25 @@ description: #Delete this comment before entering the description of the pattern
 
 # When to use this pattern
 # Briefly describe the situation(s) when to use this pattern.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
+# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
   #Delete this comment before entering when to use this pattern.
 
 # When not to use this pattern
 # Briefly describe the situation(s) when not to use this pattern.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
+# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenNotToUse:
   #Delete this comment before entering when not to use this pattern.
 
 # Accessibilty criteria for this pattern
 # List out the accessibility for this pattern.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
-accessibility:
+# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+accessibilty:
   #Delete this comment before entering the accessibility criteria for this pattern.
 
 # How the pattern works
 # Briefly descibe how this pattern works. For instance, listing out what happens when an end-user interacts with this pattern.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
+# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
   #Delete this comment before entering how this pattern works.
 
@@ -52,7 +52,7 @@ variations:
   0:
     title: #Delete this comment before entering the name of the variation that exists for this pattern.
     description:
-      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
+      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a description of variation.
 
 # Components that make-up this pattern
@@ -74,7 +74,7 @@ insights:
     link: #Delete this comment before entering the URL of the insight document.
     documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
     description:
-      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information.
+      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
     date: #Delete this comment before entering the date when the document was published.
 
