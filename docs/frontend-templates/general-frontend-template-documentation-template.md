@@ -1,6 +1,6 @@
 ---
 # This file is a template to document a new frontend template index within the GOV.UK Design Library website.
-layout: frontend-template-index-documentation
+layout: general-frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Frontend templates

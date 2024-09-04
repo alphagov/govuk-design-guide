@@ -1,5 +1,5 @@
 ---
-layout: frontend-template-index-documentation
+layout: general-frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Frontend templates
