@@ -48,7 +48,7 @@ howItWorks:
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
 variations:
-  # To list out additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     title: #Delete this comment before entering the name of the variation that exists for this component.
     description:
@@ -58,7 +58,7 @@ variations:
 # Evidence and insights for this component
 # List out all past documentation/supporting material with regards to or realted to this component. It can include (1) past design documentation, (2) research findings, and (3) presentations.
 insights:
-  # To list out additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
     title: #Delete this comment before entering the name of the insight document.
@@ -72,7 +72,7 @@ insights:
 # Other design libraries
 # List out all the other design libraries that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
 designLibraries:
-  # To list out additional design libraries duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional design libraries duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the name of the design library.
@@ -86,7 +86,7 @@ githubIssueLink: #Delete this comment before entering the URL of the page to cre
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
-  # To list out additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.

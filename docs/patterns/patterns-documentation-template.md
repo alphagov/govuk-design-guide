@@ -48,7 +48,7 @@ howItWorks:
 # Variations for this pattern
 # List out any variations that exist for this pattern by providing (1) the name of said variation and (2) a brief description of that variation.
 variations:
-  # To list out additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     title: #Delete this comment before entering the name of the variation that exists for this pattern.
     description:
@@ -58,7 +58,7 @@ variations:
 # Components that make-up this pattern
 # List out all the components that make-up this single pattern, by (1) providing the name of the component and (2) a link to the documentation for said component.
 components:
-  # To list additional components duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional components duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: #Delete this comment before entering the name of the component used within this pattern.
@@ -67,7 +67,7 @@ components:
 # Evidence and insights for this pattern
 # List out all past documentation/supporting material with regards to or realted to this pattern. It can include (1) past design documentation, (2) research findings, and (3) presentations.
 insights:
-  # To list out additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
     title: #Delete this comment before entering the name of the insight document.
@@ -86,7 +86,7 @@ githubIssueLink: #Delete this comment before entering the URL of the page to cre
 # Existing issues with this pattern
 # List of all the issues that are associated with this pattern, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
-  # To list out additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.
