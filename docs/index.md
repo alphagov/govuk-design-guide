@@ -7,15 +7,15 @@ whatsNewDate:
 whatsNew: 
 documentItems:
   0:
-    documentItemTitle: Frontend templates
-    documentItemDescription: Frontend templates creates consistent user experiences across GOV.UK.
-    documentItemURL: /frontend-templates
-  1:
     documentItemTitle: Components
     documentItemDescription: Save time with reusable, accessible components for forms, navigation, panels, tables and more.
     documentItemURL: /components
-  2:
+  1:
     documentItemTitle: Patterns
     documentItemDescription: Patterns are best practice design solutions for specific user-focused tasks.
     documentItemURL: /patterns
+  2:
+    documentItemTitle: Frontend templates
+    documentItemDescription: Frontend templates are page-level objects that place components into a layout and articulate the design’s underlying content structure.
+    documentItemURL: /frontend-templates
 ---
