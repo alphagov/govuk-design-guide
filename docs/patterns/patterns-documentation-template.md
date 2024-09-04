@@ -58,7 +58,7 @@ variations:
 # Components that make-up this pattern
 # List out all the components that make-up this single pattern, by (1) providing the name of the component and (2) a link to the documentation for said component.
 components:
-  # To list out additional components duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  # To list additional components duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: #Delete this comment before entering the name of the component used within this pattern.
