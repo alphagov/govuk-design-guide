@@ -11,7 +11,7 @@ eleventyNavigation:
 # Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
 eleventyExcludeFromCollections: true
 
-# Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the page.
+# Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
 
 # Name of the component
 # This is the name of the component (ex. Attachment). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the components page.
