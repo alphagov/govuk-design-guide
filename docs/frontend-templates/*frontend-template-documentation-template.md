@@ -10,10 +10,9 @@ sectionKey: Frontend templates
 eleventyExcludeFromCollections: true
 
 # Step 3: Establish the relationship of this frontend template.
-# Is this frontend template assocaitated with an overarching frontend template?
-  # For instance, GitHub smart answers is a child template to the Smart answer (parent) frontend template.
-  # If this frontend template is not associated with another frontend template, set it parent to "Frontend templates"
+# The relationship between frontend templates will be demonstrated visually via levels on the left-hand navigation menu. For instance, "GitHub smart answers" is only revealed when the end-user selects "Smart answer" since "GitHub smart answers" a child template to the "Smart answer" frontend template.
 eleventyNavigation:
+  # If this frontend template is not associated with or a child to another frontend template, set the field below ("parent") to "Frontend templates"
   parent: #Delete this comment before entering the name of the parent frontend template.
 
 # Step 4: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
