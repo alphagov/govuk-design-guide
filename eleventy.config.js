@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
     showBreadcrumbs: false,
-    googleTagManagerIdentifier: "XXXX",
+    googleTagManagerIdentifier: "N5RVWTLT",
     header: {
       productName: 'Design Library'
     },
