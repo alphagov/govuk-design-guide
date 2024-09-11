@@ -28,6 +28,16 @@ module.exports = function(eleventyConfig) {
           href: "/about"
         }
       ]
+    },
+    footer: {
+      meta: {
+        items: [
+          {
+            href: "/cookies",
+            text: "Cookies"
+          }
+        ]
+      }
     }
   })
 
