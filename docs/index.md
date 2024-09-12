@@ -3,6 +3,9 @@ homepage: true
 layout: homepage
 title: A design library for anyone working on the GOV.UK website
 description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
+image:
+  src: /assets/images/pagespattern.png
+  alt: this a test
 whatsNewDate:
 whatsNew: 
 documentItems:
