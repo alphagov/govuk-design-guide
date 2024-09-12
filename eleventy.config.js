@@ -1,6 +1,8 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function(eleventyConfig) {
+  // Copy `assets/images` to `_site/assets/images`
+  eleventyConfig.addPassthroughCopy("assets/images");
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
@@ -28,7 +30,7 @@ module.exports = function(eleventyConfig) {
         }
       ]
     }
-  })
+  });
 
   return {
     dataTemplateEngine: 'njk',
