@@ -16,14 +16,14 @@
       {% if options.googleTagManagerIdentifier %}
         <section class="doc-cookies-page-controls">
           <h2 class="govuk-heading-l">Change your cookie settings</h2>
-          <div class="refresh-page-message">
+          <div id="refresh-page-message">
             <p class="govuk-body">We cannot change your cookie settings at the moment because JavaScript is not running in your browser. To fix this, try:</p>
             <ul class="govuk-list govuk-list--bullet">
               <li>turning on JavaScript in your browser settings</li>
               <li>reloading this page</li>
             </ul>
           </div>
-          <form class="cookie-controls" action="/form-handler" method="post" novalidate>
+          <form class="govuk-visually-hidden" action="/form-handler" method="post" novalidate>
             {{ govukRadios({
               classes: "govuk-radios--inline",
               name: "cookies[functional]",
@@ -82,8 +82,20 @@
   </div>
 {% endblock %}
 
-{% block bodyEnd %}
-  {% block scripts %}
-    
+{% if options.googleTagManagerIdentifier %}
+  {% block bodyEnd %}
+    {% block scripts %}
+      <script>
+        const body = document.querySelector("body");
+        const jsEnabled = body.classList.contains("js-enabled");
+
+        if (jsEnabled) {
+          const form = document.querySelector("form");
+          const refreshMessage = document.getElementById("refresh-page-message");
+          form.classList.remove("govuk-visually-hidden");
+          refreshMessage.remove();
+        }
+      </script>
+    {% endblock %}
   {% endblock %}
-{% endblock %}
+{% endif %}
