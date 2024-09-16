@@ -10,13 +10,13 @@
     - [Visual Studio Code](https://code.visualstudio.com/)
     - GitHub set up on your computer
 2. Once you have those installed, clone this repo.
-3. Once it's cloned run the command `npm install` in your terminal to install all the node packages.
+3. Once it's cloned, in the terminal run:
 ```
 npm install
 ```
-4. Once all the packages been installed you should be able to run a local version of the Design Library by entering `npx eleventy --serve` in your terminal. Running this command starts a server.
+4. Once all the packages been installed you should be able to run a local version of the Design Library by running:
 ```
-npx eleventy --serve
+npm start
 ```
 5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the design library will run on your computer.
 ```
