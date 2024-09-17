@@ -12,20 +12,20 @@ There are a few different ways in which you can support the growth of the GOV.UK
 To get involved in current conversations about the library join our slack channel <a href="https://join.slack.com/share/enQtNzc0ODgwMDM4ODcyMC04YjhkN2U2OTdkMmVlMjdkNTI5ZmYxOGE4Y2QwNGI4ZmFjZWU4ZGQzNTEzNzk4MGQ2YjY2YzU5NDcxMDc3YmM5" target="_blank">#govuk-design-library (opens in a new tab)</a>. Here you can find out about what the community is up to and offer or ask for support.
 
 ### 2. Discuss, review, and give feedback
-Each entry is peer reviewed before it is published. Additionally, input from different disciplines enhances its quality and accuracy. Join us on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a> to help by reviewing and giving feedback on in-progress documentation.
+Each entry is peer reviewed before it is published. Additionally, input from different disciplines enhances its quality and accuracy. Join us on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a> to help by reviewing and giving feedback on in-progress documentation. (You will need a github account to do this.)
 
 ### 3. Propose or make a change 
-If you notice anything that is out of date, inaccurate or incomplete, join us on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a> to propose changes in the form of a pull request.
+If you notice anything that is out of date, inaccurate or incomplete, join us on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a> to propose changes in the form of a pull request. (You will need a github account to do this.)
 
 ### 4. Share information, examples and research
-Each documentation aims to include information and insights from many disciplines. Add what you know or help us dig out documents and data on older designs and add them to the documentation on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a>.
+Each documentation aims to include information and insights from many disciplines. Add what you know or help us dig out documents and data on older designs and add them to the documentation on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a>. (You will need a github account to do this.)
 
 ### 5. Join a workshop
 We regularly run cross-community workshops to document together.
 We also run sessions to get people setup and trained in github. If you would like to attend one email Nikin (nikin.nagewadia@digital.cabinet-office.gov.uk).
 
 ### 6. Contribute new documentation 
-Take a bigger role as a contributor by adding a new component, pattern, or frontend template to the library.
+Take a bigger role as a contributor by adding a new component, pattern, or frontend template to the library. (You will need a github account to do this.)
 You might have something you have worked on that you are well placed to document. Alternatively, pick something from our <a href="(https://trello.com/invite/b/66c32aba108fc7e90e7b4d27/ATTIf9cb80c70723c20e7297e873bd09db260C186DF6/govuk-design-library-governance)" target="_blank">backlog (opens in a new tab)</a> of designs we have prioritised to be documented.
 Details on how to document you can also find on the <a href="(https://trello.com/invite/b/66c32aba108fc7e90e7b4d27/ATTIf9cb80c70723c20e7297e873bd09db260C186DF6/govuk-design-library-governance)" target="_blank">backlog (opens in a new tab)</a> or on <a href="https://github.com/nnagewad/DesignLibrary" target="_blank">github (opens in a new tab)</a>.
 
