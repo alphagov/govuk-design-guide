@@ -12,7 +12,7 @@ Anyone, from any team or disciplines is welcome to contribute in any way.
 ## When should I work on documentation?
 - If you or your team have created anything new, completed research or made any changes, updates or even retired something to streamline gov.uk, it should be reflected here. So create or update documentation at the end of your project (making documentation part of your definition of done).
 
-- If you have some time to help us audit what already exists on gov.uk you can do this at any point. (Think about making this one of your objectives.)
+- If you have some time to help us audit what already exists on gov.uk you can do this at any point.
 
 ## What should I document and contribute to the Design Library?
 For now we are limiting this library to [components](/components), [patterns](/patterns), and [frontend templates](/frontend-templates) used on gov.uk. When deciding what to document:
