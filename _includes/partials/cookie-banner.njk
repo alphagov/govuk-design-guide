@@ -1,8 +1,7 @@
 {% from "govuk/components/cookie-banner/macro.njk" import govukCookieBanner %}
 
 {% set html %}
-  <p class="govuk-body">We use some essential cookies to make this service work.</p>
-  <p class="govuk-body">We’d also like to use analytics cookies so we can understand how you use the service and make improvements.</p>
+  <p class="govuk-body">We use analytics cookies so we can understand how you use the service and make improvements.</p>
 {% endset %}
 
 {% set acceptedHtml %}
@@ -15,20 +14,24 @@
 
 {{ govukCookieBanner({
   ariaLabel: "Cookies on GOV.UK Design Library",
+  hidden: false,
+  attributes: {
+    "data-module": "govuk-cookie-banner"
+  },
   messages: [
     {
       headingText: "Cookies on GOV.UK Design Library",
       html: html,
-      hidden: true,
+      classes: "js-cookie-banner-message",
       actions: [
         {
-          text: "Accept additional cookies",
+          text: "Accept analytics cookies",
           type: "button",
           value: "yes",
           classes: "js-cookie-banner-accept"
         },
         {
-          text: "Reject additional cookies",
+          text: "Reject analytics cookies",
           type: "button",
           value: "no",
           classes: "js-cookie-banner-reject"
@@ -43,6 +46,7 @@
       html: acceptedHtml,
       role: "alert",
       hidden: true,
+      classes: "js-cookie-banner-confirmation-accept",
       actions: [
         {
           text: "Hide cookie message",
@@ -54,7 +58,8 @@
     {
       html: rejectedHtml,
       role: "alert",
-      hidden: false,
+      hidden: true,
+      classes: "js-cookie-banner-confirmation-reject",
       actions: [
         {
           text: "Hide cookie message",
@@ -65,3 +70,43 @@
     }
   ]
 }) }}
+
+<script>
+  (function () {
+    // Skip early setup when cookie banner component is not supported
+    if (!('noModule' in HTMLScriptElement.prototype)) {
+      return
+    }
+
+    /**
+     * Check the cookie preferences object.
+     *
+     * If the consent object is not present, malformed, or incorrect version,
+     * returns false, otherwise returns true.
+     *
+     * This is also duplicated in cookie-functions.js - the two need to be kept in sync
+     */
+    function isValidConsentCookie (options) {
+      return (options && options.version >= window.GDS_CONSENT_COOKIE_VERSION)
+    }
+
+    function categoryIsNull (options) {
+      return (options && options.{{ params.category }} === null)
+    }
+
+    // Don't show the banner on the cookies page
+    if (window.location.pathname !== "/cookies/") {
+      // Show the banner if there is no consent cookie or if it is outdated
+      var currentConsentCookie = document.cookie.match(new RegExp('(^| )design_system_cookies_policy=([^;]+)'))
+
+      const cookieData = currentConsentCookie && JSON.parse(currentConsentCookie[2]);
+      const cookieNotSet = (!currentConsentCookie || !isValidConsentCookie(cookieData))
+      const categoryNotSet = isValidConsentCookie(cookieData) && categoryIsNull(cookieData)
+
+      if (cookieNotSet || categoryNotSet) {
+        var cookieBanner = document.querySelector("[data-cookie-category='{{ category }}']")
+        cookieBanner.removeAttribute('hidden')
+      }
+    }
+  })()
+</script>
