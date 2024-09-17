@@ -26,29 +26,6 @@
           <form class="govuk-visually-hidden" action="/form-handler" method="post" novalidate>
             {{ govukRadios({
               classes: "govuk-radios--inline",
-              name: "cookies[functional]",
-              idPrefix: "cookies-functional",
-              fieldset: {
-                legend: {
-                  text: "Do you want to accept functional cookies?",
-                  classes: "govuk-fieldset__legend--s"
-                }
-              },
-              items: [
-                {
-                  value: "yes",
-                  text: "Yes"
-                },
-                {
-                  value: "no",
-                  text: "No",
-                  checked: true
-                }
-              ]
-            }) }}
-
-            {{ govukRadios({
-              classes: "govuk-radios--inline",
               name: "cookies[analytics]",
               idPrefix: "cookies-analytics",
               fieldset: {
@@ -64,8 +41,7 @@
                 },
                 {
                   value: "no",
-                  text: "No",
-                  checked: true
+                  text: "No"
                 }
               ]
             }) }}
