@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: homepage
-title: A design library for anyone working on the GOV.UK website
+title: A design system for anyone working on GOV.UK's publishing platform
 description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
 whatsNewDate:
 whatsNew: 
