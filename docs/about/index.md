@@ -10,4 +10,4 @@ It will also help onboard new designers and familiarise them with GOV.UK’s des
 ## What is the GOV.UK Publishing Design System not?
 The GOV.UK Publishing Design System does not replace the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
-Components, patterns and frontend templates in the Publishing Design System should not duplicate those in the GOV.UK Design System. Things that have relevance outside of the GOV.UK website should be contributed back to the Design System.
+Components, patterns and frontend templates in the Publishing Design System should not duplicate those in the GOV.UK Design System. Things that have relevance outside of the GOV.UK website should be contributed back to the GOV.UK Design System.
