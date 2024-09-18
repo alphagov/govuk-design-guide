@@ -14,6 +14,7 @@
       {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp or renderingApp %}
         <section class="doc-how-its-built">
           <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
+          <p class="govuk-body">These are the underlying technologies that make-up the {{ title | lower }} front template.</p>
           <div class="govuk-grid-row">
             {% if contentSchema.link and contentSchema.title %}
               <div class="govuk-grid-column-one-half">
@@ -154,6 +155,7 @@
         <section class="doc-components">
           <h2 class="govuk-heading-l">Components</h2>
           <table class="govuk-table">
+            <caption class="govuk-table__caption govuk-table__caption--m">The components used within the {{ title | lower }} frontend template</caption>
             <thead class="govuk-table__head">
               <tr class="govuk-table__row">
                 <th scope="col" class="govuk-table__header">Component</th>

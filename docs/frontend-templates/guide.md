@@ -97,5 +97,5 @@ issues:
   0:
     title: Can make a guide with one part… Is that intended?
     link:
-issueLink:
+githubIssueLink:
 ---

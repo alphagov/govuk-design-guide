@@ -115,5 +115,5 @@ issues:
   0:
     title: Why is it that a component is not being used to show a promotional feature?
     link:
-issueLink:
+githubIssueLink:
 ---

@@ -1,5 +1,5 @@
 ---
-layout: frontend-template-index-documentation
+layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Frontend templates
@@ -84,5 +84,5 @@ issues:
   1:
     title: Inconsistent top-margin and bottom-margin for page title
     link:
-issueLink:
+githubIssueLink:
 ---

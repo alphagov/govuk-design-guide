@@ -3,7 +3,13 @@
     {% for i in range(0, listItem | length ) %}
       {% if listItem[i].link and listItem[i].title %}
         <li>
-          <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+          {% if listItem[i].welsh == true %}
+            <span lang="cy">
+              <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+            </span>
+          {% else %}
+            <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+          {% endif %}
         </li>
       {% endif %}
     {% endfor %}

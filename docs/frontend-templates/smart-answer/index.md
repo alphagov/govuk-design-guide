@@ -1,5 +1,5 @@
 ---
-layout: frontend-template-index-documentation
+layout: frontend-template-documentation
 sectionKey: Frontend templates
 eleventyNavigation:
   parent: Frontend templates
@@ -33,5 +33,5 @@ issues:
   0:
     title:
     link:
-issueLink:
+githubIssueLink:
 ---
