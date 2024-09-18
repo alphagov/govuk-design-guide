@@ -1,9 +1,8 @@
 ---
 layout: about
 title: Accessibility statement
-description: 
----
 description: This accessibility statement applies to the GOV.UK Design Library. 
+---
 
 This website is run by the Government Digital Service.
 
