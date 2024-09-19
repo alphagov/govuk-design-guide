@@ -23,6 +23,10 @@ module.exports = function(eleventyConfig) {
           href: "/frontend-templates"
         },
         {
+          text: "How to contribute",
+          href: "/how-to-contribute"
+        },
+        {
           text: "About",
           href: "/about"
         }
