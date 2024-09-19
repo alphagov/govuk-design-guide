@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
     homeKey: "",
     showBreadcrumbs: false,
     header: {
-      productName: 'Design Library'
+      productName: "Publishing Design System"
     },
     navigation: {
       items: [
@@ -31,6 +31,16 @@ module.exports = function(eleventyConfig) {
           href: "/about"
         }
       ]
+    },
+    footer: {
+      meta: {
+        items: [
+          {
+            href: "/accessibility-statement",
+            text: "Accessibility statement"
+          }
+        ]
+      }
     }
   })
 
