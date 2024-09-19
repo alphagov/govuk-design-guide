@@ -1,5 +1,6 @@
 ---
-layout: about
+layout: landing-page
+sectionKey: About
 title: About
 description: The GOV.UK Publishing Design System is a place for sharing frontend templates, components and patterns on the GOV.UK website and publishing tools.
 ---
