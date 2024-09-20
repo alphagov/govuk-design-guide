@@ -1,7 +1,8 @@
 ---
-layout: about
+layout: landing-page
+sectionKey: About
 title: About
-description: The GOV.UK Publishing Design System is a place for sharing frontend templates, components and patterns on the GOV.UK website and publishing tools. 
+description: The GOV.UK Publishing Design System is a place for sharing frontend templates, components and patterns on the GOV.UK website and publishing tools.
 ---
 By encouraging collaboration across disciplines, we can create a more consistent, efficient and user-friendly GOV.UK website. The Publishing Design System ensures that teams who work on the publishing platform within the GOV.UK programme are not recreating existing design solutions, and focus on delivering immediate value to end-users.
 

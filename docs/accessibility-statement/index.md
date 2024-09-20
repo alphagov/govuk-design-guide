@@ -1,5 +1,6 @@
 ---
-layout: about
+layout: landing-page
+sectionKey: Accessibility statement
 title: Accessibility statement
 description: This accessibility statement applies to the GOV.UK Design Library. 
 ---

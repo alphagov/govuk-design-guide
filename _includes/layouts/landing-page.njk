@@ -6,9 +6,11 @@
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
       {% include 'partials/header.njk' %}
-      <section class="doc-details">
-        {{ details | markdown }}
-      </section>
+      {% if details %}
+        <section class="doc-details">
+          {{ details | markdown }}
+        </section>
+      {% endif %}
       {{ appProseScope(content) if content }}
     </div>
   </div>
