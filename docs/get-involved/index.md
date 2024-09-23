@@ -7,11 +7,11 @@ details: There are a few ways in which you can get involved and help us grow the
 ---
 <ol class="govuk-list govuk-list--number govuk-heading-m">
   <li class="govuk-!-margin-bottom-6">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Be part of the conversation</h2>
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Join the conversation on Slack</h2>
     <p class="govuk-body">To get involved in current conversations about the library <a class="govuk-link" href="https://join.slack.com/share/enQtNzc0ODgwMDM4ODcyMC04YjhkN2U2OTdkMmVlMjdkNTI5ZmYxOGE4Y2QwNGI4ZmFjZWU4ZGQzNTEzNzk4MGQ2YjY2YzU5NDcxMDc3YmM5" rel="noopener noreferrer" target="_blank">join our Slack channel (opens in a new tab)</a>. Here you can find out about what the community is up to and offer or ask for support.</p>
   </li>
   <li class="govuk-!-margin-bottom-6">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Discuss, review, and give feedback</h2>
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Give feedback on GitHub</h2>
     <p class="govuk-body">Each entry is peer reviewed before it is published. Additionally, input from different disciplines enhances its quality and accuracy. Join us on <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary" rel="noopener noreferrer" target="_blank">GitHub (opens in a new tab)</a> to help by reviewing and giving feedback on in-progress documentation.</p>
   </li>
   <li class="govuk-!-margin-bottom-6">
