@@ -1,8 +1,8 @@
 ---
 layout: landing-page
-sectionKey: Ways to get involved
+sectionKey: Get involved
 eleventyNavigation:
-  parent: Ways to get involved
+  parent: Get involved
 title: Frequently asked questions
 description: A page dedicated to some questions you may have on how to get involved.
 ---
