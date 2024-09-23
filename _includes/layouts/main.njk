@@ -1,0 +1,27 @@
+{# Extend GOV.UK Eleventy Plugin base layout #}
+{% extends "layouts/base.njk" %}
+
+{% from "macros/cookie-banner.njk" import cookieBanner %}
+
+{% block bodyStart %}
+  <a id="top"></a>
+  <script>
+    /**
+     * If cookie policy changes and/or the user preferences object format needs to
+     * change, bump this version up afterwards. The user should then be shown the
+     * banner again to consent to the new policy.
+     *
+     * Note that because isValidCookieConsent checks that the version in the user's
+     * cookie is equal to or greater than this number, you should be careful to
+     * check backwards compatibility when changing the object format.
+    */
+    window.GDS_CONSENT_COOKIE_VERSION = 2;
+  </script>
+
+  {{ cookieBanner() }}
+
+{% endblock %}
+
+{% block scripts %}
+  <script src="/assets/javascripts/application.bundle.js" type="module"></script>
+{% endblock %}
