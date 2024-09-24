@@ -27,5 +27,5 @@ http://localhost:8080/
 1. Before contributing be sure to pull the latest version of the main on your local machine.
 2. Create a brand new branch from main.
 3. Depending on your scenario:
-    - If a new documention is being aded there are template files with detailed instructions available.
-    - If a documentation being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.
+    - If a new documention is being added there are template files with detailed instructions available.
+    - If a documentation is being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.
