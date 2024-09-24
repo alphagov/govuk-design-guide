@@ -1,10 +1,13 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function(eleventyConfig) {
+  // Passthrough
+  eleventyConfig.addPassthroughCopy('./docs/assets')
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
     showBreadcrumbs: false,
+    stylesheets: ['/assets/application.css'],
     header: {
       productName: "Publishing Design System"
     },

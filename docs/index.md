@@ -3,6 +3,9 @@ homepage: true
 layout: homepage
 title: A design system for anyone working on GOV.UK's publishing platform
 description: As an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
+image:
+  src: /assets/homepage.svg
+  alt: Two individual building block pieces connected to one another to create one structure.
 whatsNewDate:
 whatsNew: 
 documentItems:
