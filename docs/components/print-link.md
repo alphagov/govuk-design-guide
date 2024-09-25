@@ -85,5 +85,5 @@ issues:
     title:
     link:
 
-issueLink:
+githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
 ---
