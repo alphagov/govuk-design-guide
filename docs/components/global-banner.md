@@ -35,7 +35,7 @@ insights:
     description: Performance of the global banner during COVID and Brexit
     date: May 1, 2020
 
-designLibraries:
+designSystems:
   0:
     title:
     link:

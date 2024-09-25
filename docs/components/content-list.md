@@ -141,7 +141,8 @@ insights:
     description:
       'Project debrief that provides project context and opportunities for improvements'
     date: November 2022
-designLibraries:
+
+designSystems:
   0:
     title:
     link:

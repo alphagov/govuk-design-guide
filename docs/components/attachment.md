@@ -133,7 +133,7 @@ howItWorks:
 #       description: 
 #         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/external_attachment).
 
-designLibraries:
+designSystems:
   0:
     title:
     link: 

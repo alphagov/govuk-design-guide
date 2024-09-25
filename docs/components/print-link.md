@@ -75,7 +75,7 @@ insights:
     description:
     date:
 
-designLibraries:
+designSystems:
   0:
     title:
     link:

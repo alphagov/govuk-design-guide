@@ -13,14 +13,14 @@
       {% include 'partials/insights.njk' %}
       {% include 'partials/accessibility.njk' %}
 
-      {% if designLibraries[0].link and designLibraries[0].title %}
-        <section class="doc-other-libraries">
+      {% if designSystems[0].link and designSystems[0].title %}
+        <section class="doc-other-design-systems">
           <h2 class="govuk-heading-l">How other design systems document this component</h2>
-          {% if (designLibraries | length ) > 1 %}
-            {{ listItemsWithLink("doc-design-library__list", designLibraries) }}
+          {% if (designSystems | length ) > 1 %}
+            {{ listItemsWithLink("doc-design-systems__list", designSystems) }}
           {% else %}
             <p class="govuk-body">
-              <a class="govuk-link" href="{{ designLibraries[0].link }}">{{ designLibraries[0].title }}</a>
+              <a class="govuk-link" href="{{ designSystems[0].link }}">{{ designSystems[0].title }}</a>
             </p>
           {% endif %}
         </section>
