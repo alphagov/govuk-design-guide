@@ -15,12 +15,10 @@
 
       {% if designLibraries[0].link and designLibraries[0].title %}
         <section class="doc-other-libraries">
+          <h2 class="govuk-heading-l">How other design systems document this component</h2>
           {% if (designLibraries | length ) > 1 %}
-            <h2 class="govuk-heading-l">How other design systems document this component</h2>
             {{ listItemsWithLink("doc-design-library__list", designLibraries) }}
           {% else %}
-            <h2 class="govuk-heading-l">Other design library</h2>
-            <p class="govuk-body">Another UK government design library that has documented this component.</p>
             <p class="govuk-body">
               <a class="govuk-link" href="{{ designLibraries[0].link }}">{{ designLibraries[0].title }}</a>
             </p>
