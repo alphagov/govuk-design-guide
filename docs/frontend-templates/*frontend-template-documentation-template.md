@@ -52,7 +52,7 @@ examples:
     
 # The Content Data (Production) URL this frontend template
 # Filter the document type in content data and copy the URL in your browser's address bar.
-contentDataLink:  #Delete this comment before entering Content Data URL assocaited with this frontend template.
+contentDataLink: #Delete this comment before entering Content Data URL assocaited with this frontend template.
 
 # How is this frontend template built
 # This will display all the underlying technologies that make-up this template.
@@ -124,13 +124,13 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: #Delete this comment before entering the name of the insight document.
-    link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    date: #Delete this comment before entering the date when the document was published.
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
-    date: #Delete this comment before entering the date when the document was published.
+    title: #Delete this comment before entering the name of the insight document.
+    link: #Delete this comment before entering the URL of the insight document.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
 
 # How to report an issue with this frontend template
 # This will display instrucions on how to report an issue via GitHub.

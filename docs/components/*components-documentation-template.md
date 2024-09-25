@@ -31,7 +31,7 @@ whenToUse:
 # Briefly describe the situation(s) when not to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenNotToUse:
-    #Delete this comment before entering when not to use this component.
+  #Delete this comment before entering when not to use this component.
 
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
@@ -55,19 +55,19 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: #Delete this comment before entering the name of the insight document.
-    link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    date: #Delete this comment before entering the date when the document was published.
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
-    date: #Delete this comment before entering the date when the document was published.
+    title: #Delete this comment before entering the name of the insight document.
+    link: #Delete this comment before entering the URL of the insight document.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 accessibilty:
-    #Delete this comment before entering the accessibility criteria for this component.
+  #Delete this comment before entering the accessibility criteria for this component.
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
