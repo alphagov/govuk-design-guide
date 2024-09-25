@@ -35,7 +35,7 @@ components:
     generated: auto
     input:
   3:
-    componentName: "[Form input](https://components.publishing.service.gov.uk/component-guide/input) is being used as search field"
+    componentName: '[Form input](https://components.publishing.service.gov.uk/component-guide/input) is being used as search field'
     componentURL:
     generated: auto
     input:
@@ -55,7 +55,7 @@ components:
     generated: auto
     input:
   7:
-    componentName: "[Details](https://components.publishing.service.gov.uk/component-guide/details) is displayed if an  organization is sponsored by another organization"
+    componentName: '[Details](https://components.publishing.service.gov.uk/component-guide/details) is displayed if an  organization is sponsored by another organization'
     componentURL:
     generated: publisher
     input: Sponsoring organisation

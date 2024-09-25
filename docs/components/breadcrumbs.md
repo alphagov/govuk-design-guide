@@ -13,7 +13,7 @@ whenNotToUse:
 
   If you’re using other navigational elements on the page, such as a sidebar, consider whether your users need the additional support of breadcrumbs.
 accessibilty:
-  "The breadcrumb links must have a text contrast ratio higher than 4.5:1 against the background colour to meet WCAG AA (this especially applies when using the inverse flag).
+  'The breadcrumb links must have a text contrast ratio higher than 4.5:1 against the background colour to meet WCAG AA (this especially applies when using the inverse flag).
 
 
   Links in the component must:
@@ -36,7 +36,7 @@ accessibilty:
 
   - have visible text
 
-  - have meaningful text"
+  - have meaningful text'
 howItWorks:
   Accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
 variations:

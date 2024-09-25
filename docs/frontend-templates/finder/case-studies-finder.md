@@ -9,7 +9,7 @@ howItWorks:
   Case Studies finder lists all case studies that is published on GOV.UK. End-users can use the search component to filter the returned results on the page.
 examples:
   0:
-    title: "Case studies: Real-life examples of government activity"
+    title: 'Case studies: Real-life examples of government activity'
     link: https://www.gov.uk/government/case-studies
 contentSchema:
   title: finder
@@ -30,7 +30,7 @@ components:
     generated: auto
     input:
   2:
-    componentName: "[Heading](https://components.publishing.service.gov.uk/component-guide/heading) used to display number of returned search results"
+    componentName: '[Heading](https://components.publishing.service.gov.uk/component-guide/heading) used to display number of returned search results'
     componentURL: 
     generated: auto
     input:
@@ -55,7 +55,7 @@ components:
     generated: auto
     input:
   7:
-    componentName: "[Subscription links](https://components.publishing.service.gov.uk/component-guide/subscription_links) - rendered top and bottom of the page, but displayed only at the bottom of the page"
+    componentName: '[Subscription links](https://components.publishing.service.gov.uk/component-guide/subscription_links) - rendered top and bottom of the page, but displayed only at the bottom of the page'
     componentURL: 
     generated: auto
     input:

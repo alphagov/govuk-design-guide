@@ -8,8 +8,7 @@ description: Invites user feedback on the current page they are on
 whenToUse:
 whenNotToUse: 
 accessibilty:
-  "
-  The form must:
+  'The form must:
 
   - be functional and accessible with JavaScript disabled
 
@@ -55,20 +54,20 @@ accessibilty:
   
   - have visible text
   
-  - have meaningful text"
+  - have meaningful text'
 howItWorks:
-  "This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
+  'This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
 
 
-  This component uses JavaScript for expanding and collapsing and also for submitting form responses"
+  This component uses JavaScript for expanding and collapsing and also for submitting form responses'
 variations:
   0:
     title: With GA4 tracking disabled
     description:
-      "Disables GA4 tracking on the feedback component. Tracking is enabled by default, which adds a data module and data-attributes with JSONs to the feedback buttons. See the [ga4-event-tracker documentation](https://github.com/alphagov/govuk_publishing_components/blob/main/docs/analytics-ga4/ga4-event-tracker.md) for more information.
+      'Disables GA4 tracking on the feedback component. Tracking is enabled by default, which adds a data module and data-attributes with JSONs to the feedback buttons. See the [ga4-event-tracker documentation](https://github.com/alphagov/govuk_publishing_components/blob/main/docs/analytics-ga4/ga4-event-tracker.md) for more information.
 
 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/feedback)."
+      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/feedback).'
 insights:
   0:
     title:

@@ -11,7 +11,7 @@ whenToUse:
   The contents list component is currently only used by specialist documents.
 
 accessibilty:
-  "The component must be a landmark with a navigation role.
+  'The component must be a landmark with a navigation role.
 
   The contents list must:
 
@@ -52,10 +52,10 @@ accessibilty:
   - have meaningful text
   
 
-  Considerations and criteria taken from the [component Guide](https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria)"
+  Considerations and criteria taken from the [component Guide](https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria)'
 
 howItWorks:
-  "This components helps users:
+  'This components helps users:
 
   - navigate complex documents that span multiple pages
 
@@ -67,7 +67,7 @@ howItWorks:
   The contents list has options for dashes or numbering abd supports nesting contents one level deep. When nesting the top level list items display in bold.
 
 
-  It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document."
+  It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document.'
 
 variations:
   0:
@@ -131,13 +131,13 @@ insights:
     title: Content Audit Discovery – Component recommendations 
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
     description:
-      "This document sets out to group and record design elements that can be made consistent across GOV.UK."
+      'This document sets out to group and record design elements that can be made consistent across GOV.UK.'
     date: August 2022
   1:
     title: Navigational behaviours – Chapter scanning and hopping – GOV.UK Explore – Research Round 5 
     link: https://docs.google.com/presentation/d/1wsiH0OJPyS9DtxvUXri-tNkqFhU6N00xjdsWSAHK2Fw/edit#slide=id.g1006224b8f4_0_85
     description:
-      "Project debrief that provides project context and opportunities for improvements"
+      'Project debrief that provides project context and opportunities for improvements'
     date: November 2022
 designLibraries:
   0:
