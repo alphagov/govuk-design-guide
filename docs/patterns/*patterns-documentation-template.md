@@ -33,12 +33,6 @@ whenToUse:
 whenNotToUse:
   #Delete this comment before entering when not to use this pattern.
 
-# Accessibilty criteria for this pattern
-# List out the accessibility for this pattern.
-# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-accessibilty:
-  #Delete this comment before entering the accessibility criteria for this pattern.
-
 # How the pattern works
 # Briefly descibe how this pattern works. For instance, listing out what happens when an end-user interacts with this pattern.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -77,6 +71,12 @@ insights:
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
     documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+
+# Accessibilty criteria for this pattern
+# List out the accessibility for this pattern.
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+accessibilty:
+  #Delete this comment before entering the accessibility criteria for this pattern.
 
 # How to report an issue with this pattern
 # This will display instrucions on how to report an issue via GitHub.
