@@ -6,17 +6,15 @@ eleventyNavigation:
 title: Global banner
 description: Used to communicate important information on throughout GOV.UK
 whenToUse:
-  "
-  The global banner is activated in the following event:
+  'The global banner is activated in the following event:
 
   - General election
 
-  - Special topic that Number 10 wants us to promote
-  "
+  - Special topic that Number 10 wants us to promote'
 whenNotToUse: 
 accessibilty:
 howItWorks:
-  "A site-wide (global) banner can be activated to convey important information on GOV.UK which is not deemed emergency-level information. Unlike the emergency banner, we show a user the global banner no more than 3 times, by storing the view count in a cookie."
+  'A site-wide (global) banner can be activated to convey important information on GOV.UK which is not deemed emergency-level information. Unlike the emergency banner, we show a user the global banner no more than 3 times, by storing the view count in a cookie.'
 variations:
   0:
     title:

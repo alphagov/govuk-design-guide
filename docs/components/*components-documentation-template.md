@@ -23,19 +23,19 @@ description: #Delete this comment before entering the description of the compone
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
   #Delete this comment before entering when to use this component.
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenNotToUse:
     #Delete this comment before entering when not to use this component.
 
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
   #Delete this comment before entering how this component works.
 
@@ -46,7 +46,7 @@ variations:
   0:
     title: #Delete this comment before entering the name of the variation that exists for this component.
     description:
-      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a description of variation.
 
 # Evidence and insights for this component
@@ -59,7 +59,7 @@ insights:
     link: #Delete this comment before entering the URL of the insight document.
     documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
     description:
-      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
     date: #Delete this comment before entering the date when the document was published.
 
