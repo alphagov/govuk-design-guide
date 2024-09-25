@@ -33,12 +33,6 @@ whenToUse:
 whenNotToUse:
     #Delete this comment before entering when not to use this component.
 
-# Accessibilty criteria for this component
-# List out the accessibility for this component.
-# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-accessibilty:
-    #Delete this comment before entering the accessibility criteria for this component.
-
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -68,6 +62,12 @@ insights:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
     date: #Delete this comment before entering the date when the document was published.
+
+# Accessibilty criteria for this component
+# List out the accessibility for this component.
+# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+accessibilty:
+    #Delete this comment before entering the accessibility criteria for this component.
 
 # Other design libraries
 # List out all the other design libraries that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
