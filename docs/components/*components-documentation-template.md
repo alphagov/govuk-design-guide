@@ -69,10 +69,10 @@ insights:
 accessibilty:
     #Delete this comment before entering the accessibility criteria for this component.
 
-# Other design libraries
-# List out all the other design libraries that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
-designLibraries:
-  # To add additional design libraries duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+# Other design systems
+# List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
+designSystems:
+  # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the name of the design library.

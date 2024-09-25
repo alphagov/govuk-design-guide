@@ -14,11 +14,15 @@ whenToUse:
 whenNotToUse: 
 accessibilty:
 howItWorks:
-  'A site-wide (global) banner can be activated to convey important information on GOV.UK which is not deemed emergency-level information. Unlike the emergency banner, we show a user the global banner no more than 3 times, by storing the view count in a cookie.'
+  'A site-wide (global) banner can be activated to convey important information on GOV.UK which is not deemed emergency-level information. Unlike the emergency banner, we show a user the global banner no more than 3 times, by storing the view count in a cookie.
+
+
+  Information and image of this component is available on the <a class="govuk-link" href="https://docs.publishing.service.gov.uk/manual/global-banner.html" rel="noopener noreferrer" target="_blank">Developer docs (open in a new tab)</a>.'
 variations:
   0:
     title:
     description:
+
 insights:
   0:
     title: Site-wide banner and featured homepage promo for the 2024 General Election
@@ -30,13 +34,16 @@ insights:
     link: https://docs.google.com/document/d/1ltH8ydXj_W_clYimAtf1MGwQksITxz-q5Yk9E9H5yBY/edit?usp=sharing
     description: Performance of the global banner during COVID and Brexit
     date: May 1, 2020
-designLibraries:
+
+designSystems:
   0:
     title:
     link:
+
 issues:
   0:
     title:
     link:
+
 issueLink:
 ---

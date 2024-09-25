@@ -52,7 +52,7 @@ accessibilty:
   - have meaningful text
   
 
-  Considerations and criteria taken from the [component Guide](https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria)'
+  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
 
 howItWorks:
   'This components helps users:
@@ -67,65 +67,67 @@ howItWorks:
   The contents list has options for dashes or numbering abd supports nesting contents one level deep. When nesting the top level list items display in bold.
 
 
-  It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document.'
+  It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document.
 
-variations:
-  0:
-    title: Underline links
-    description: 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/underline_links).
-  1:
-      title: Long text
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/long_text).
+
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+# variations:
+#   0:
+#     title: Underline links
+#     description: 
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/underline_links).
+#   1:
+#       title: Long text
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/long_text).
         
-  2:
-      title: Active content link
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/active_content_link).
+#   2:
+#       title: Active content link
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/active_content_link).
         
-  3:
-      title: Nested contents lists
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/nested_contents_lists).
+#   3:
+#       title: Nested contents lists
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/nested_contents_lists).
         
-  4:
-      title: Formats numbers
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/formats_numbers).
+#   4:
+#       title: Formats numbers
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/formats_numbers).
         
-  5:
-      title: Formats complex numbers
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/formats_complex_numbers).
+#   5:
+#       title: Formats complex numbers
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/formats_complex_numbers).
         
-  6:
-      title: Nested with formatted numbers
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/nested_with_formatted_numbers).
+#   6:
+#       title: Nested with formatted numbers
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/nested_with_formatted_numbers).
         
-  7:
-      title: Right to left
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left).
+#   7:
+#       title: Right to left
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left).
         
-  8:
-      title: Right to left with formatted numbers
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left_with_formatted_numbers).
+#   8:
+#       title: Right to left with formatted numbers
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left_with_formatted_numbers).
         
-  9:
-      title: Right to left with nested contents lists
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left_with_nested_contents_lists).
-  10:
-      title: With branding
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/with_branding).
-  11:
-      title: Without ga4 tracking
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/without_ga4_tracking).
+#   9:
+#       title: Right to left with nested contents lists
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/right_to_left_with_nested_contents_lists).
+#   10:
+#       title: With branding
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/with_branding).
+#   11:
+#       title: Without ga4 tracking
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/contents_list/without_ga4_tracking).
 insights:
   0:
     title: Content Audit Discovery – Component recommendations 
@@ -139,8 +141,9 @@ insights:
     description:
       'Project debrief that provides project context and opportunities for improvements'
     date: November 2022
-designLibraries:
+
+designSystems:
   0:
-    title: GOV.UK Component guide
-    link: https://components.publishing.service.gov.uk/component-guide/contents_list
+    title:
+    link:
 ---

@@ -59,15 +59,18 @@ howItWorks:
   'This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
 
 
-  This component uses JavaScript for expanding and collapsing and also for submitting form responses'
-variations:
-  0:
-    title: With GA4 tracking disabled
-    description:
-      'Disables GA4 tracking on the feedback component. Tracking is enabled by default, which adds a data module and data-attributes with JSONs to the feedback buttons. See the [ga4-event-tracker documentation](https://github.com/alphagov/govuk_publishing_components/blob/main/docs/analytics-ga4/ga4-event-tracker.md) for more information.
+  This component uses JavaScript for expanding and collapsing and also for submitting form responses.
 
 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/feedback).'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+# variations:
+#   0:
+#     title: With GA4 tracking disabled
+#     description:
+#       'Disables GA4 tracking on the feedback component. Tracking is enabled by default, which adds a data module and data-attributes with JSONs to the feedback buttons. See the [ga4-event-tracker documentation](https://github.com/alphagov/govuk_publishing_components/blob/main/docs/analytics-ga4/ga4-event-tracker.md) for more information.
+
+
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/feedback).'
 insights:
   0:
     title:
