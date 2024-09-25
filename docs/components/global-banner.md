@@ -19,7 +19,7 @@ title: Global banner
 
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
-description: Used to communicate important information on throughout GOV.UK
+description: Used to communicate important information on throughout GOV.UK.
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
