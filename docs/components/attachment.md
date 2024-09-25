@@ -36,106 +36,112 @@ accessibilty:
   - have meaningful text
   
 
+  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
 
-  Considerations and Criteria taken from the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria)'
 howItWorks:
   This component displays a link to a document that is attached to GOV.UK content along with a thumbnail and relevant file data (title of the document, format type, file size, link to view online, and request accessible format details). 
 
 
   It is intended to be rendered in Govspeak and as an attachment ‘preview’ in Content Publisher. It is not as rich in features as the attachment rendering provided by Whitehall, it lacks support for multiple languages, CSV previews and publication fields.
   
-variations:
-  0:
-    title: With number of page
-    description: 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_number_of_pages).
-  1:
-      title: Opendocument
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/opendocument).
+
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.
+
+# variations:
+#   0:
+#     title: With number of page
+#     description: 
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_number_of_pages).
+#   1:
+#       title: Opendocument
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/opendocument).
         
-  2:
-      title: Help text disabled
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/help_text_disabled).
+#   2:
+#       title: Help text disabled
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/help_text_disabled).
         
-  3:
-      title: Embedded in govspeak
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/embedded_in_govspeak).
+#   3:
+#       title: Embedded in govspeak
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/embedded_in_govspeak).
         
-  4:
-      title: With contact email
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_contact_email).
+#   4:
+#       title: With contact email
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_contact_email).
         
-  5:
-      title: With contact email and ga4 tracking
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_contact_email_and_ga4_tracking).
+#   5:
+#       title: With contact email and ga4 tracking
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_contact_email_and_ga4_tracking).
         
-  6:
-      title: With data attributes
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_data_attributes).
+#   6:
+#       title: With data attributes
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_data_attributes).
         
-  7:
-      title: With margin bottom
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_margin_bottom).
+#   7:
+#       title: With margin bottom
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_margin_bottom).
         
-  8:
-      title: Command paper numbered
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_numbered).
+#   8:
+#       title: Command paper numbered
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_numbered).
         
-  9:
-      title: Command paper unnumbered
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/command_paper_unnumbered).
-  10:
-      title: Act paper numbered
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_numbered).
-  11:
-      title: Act paper unnumbered
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_unnumbered).
-  12:
-      title: Hide order a copy
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/hide_order_a_copy).
-  13:
-      title: With custom heading level
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_custom_heading_level).
-  14:
-      title: With custom thumbnail
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_custom_thumbnail).
-  15:
-      title: Pdf attachment
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/pdf_attachment).
-  16:
-      title: With preview link
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_preview_link).
-  17:
-      title: Html attachment
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/html_attachment).
-  18:
-      title: External attachment
-      description: 
-        More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/external_attachment).
+#   9:
+#       title: Command paper unnumbered
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/command_paper_unnumbered).
+#   10:
+#       title: Act paper numbered
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_numbered).
+#   11:
+#       title: Act paper unnumbered
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/act_paper_unnumbered).
+#   12:
+#       title: Hide order a copy
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/hide_order_a_copy).
+#   13:
+#       title: With custom heading level
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_custom_heading_level).
+#   14:
+#       title: With custom thumbnail
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_custom_thumbnail).
+#   15:
+#       title: Pdf attachment
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/pdf_attachment).
+#   16:
+#       title: With preview link
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/with_preview_link).
+#   17:
+#       title: Html attachment
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/html_attachment).
+#   18:
+#       title: External attachment
+#       description: 
+#         More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/attachment/external_attachment).
+
 designLibraries:
   0:
-    title: GOV.UK Component guide
-    link: https://components.publishing.service.gov.uk/component-guide/attachment
+    title:
+    link: 
+
 issues:
   0:
     title: Audit of all attachment component variations
     link: https://github.com/alphagov/govuk_publishing_components/issues/4146
+
 githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
 ---

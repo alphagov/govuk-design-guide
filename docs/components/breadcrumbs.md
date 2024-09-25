@@ -37,38 +37,42 @@ accessibilty:
   - have visible text
 
   - have meaningful text'
+
 howItWorks:
   Accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
-variations:
-  0:
-    title: Inverse
-    description:
-      On a dark background, such as the header of topic pages.
+
+
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/breadcrumbs" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.
+# variations:
+#   0:
+#     title: Inverse
+#     description:
+#       On a dark background, such as the header of topic pages.
       
 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/inverse).
-  1:
-    title: No breadcrumbs
-    description:
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/no_breadcrumbs).
-  2:
-    title: No home
-    description:
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/no_home).
-  3:
-    title: Stop collapsing on mobile
-    description:
-      We recommend that if using the breadcrumbs for navigation purposes, you set collapse_on_mobile to true to make things more readable for mobile users. However, you can specify collapse_on_mobile:false or remove the flag completely to stop this behaviour.
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/inverse).
+#   1:
+#     title: No breadcrumbs
+#     description:
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/no_breadcrumbs).
+#   2:
+#     title: No home
+#     description:
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/no_home).
+#   3:
+#     title: Stop collapsing on mobile
+#     description:
+#       We recommend that if using the breadcrumbs for navigation purposes, you set collapse_on_mobile to true to make things more readable for mobile users. However, you can specify collapse_on_mobile:false or remove the flag completely to stop this behaviour.
       
       
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/stop_collapsing_on_mobile).
-  4:
-    title: With border
-    description:
-      Set a border below the breadcrumb. Off by default.
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/stop_collapsing_on_mobile).
+#   4:
+#     title: With border
+#     description:
+#       Set a border below the breadcrumb. Off by default.
       
 
-      More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/with_border).
+#       More info can be found in the [component guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs/with_border).
 designLibraries:
   0:
     title: GOV.UK Design System
