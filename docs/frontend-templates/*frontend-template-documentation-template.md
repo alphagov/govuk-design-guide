@@ -1,12 +1,12 @@
 ---
-# This file is a template to document a new frontend template within the GOV.UK Design Library website.
+# This file is a template to document a new frontend template within the GOV.UK Design Guide website.
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 
-# Step 1: Duplicate and rename this file to the proposed frontend template you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed frontend template you want to include in the Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and a page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and a page will be display withinin the Design Guide.
 eleventyExcludeFromCollections: true
 
 # Step 3: Establish the relationship of this frontend template.
