@@ -30,7 +30,7 @@ additionalInfo:
         <a class="govuk-link" href="https://govuk-app-design-history-a45c1af4a3dc.herokuapp.com/" rel="noopener noreferrer" target="_blank">App design history</a>
       </li>
       <li>
-        <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide" rel="noopener noreferrer" target="_blank">Component guide</a>
+        <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide" rel="noopener noreferrer" target="_blank">Component Guide</a>
       </li>
       <li>
         <a class="govuk-link" href="https://www.gov.uk/guidance/content-design" rel="noopener noreferrer" target="_blank">Content design guidance</a>
