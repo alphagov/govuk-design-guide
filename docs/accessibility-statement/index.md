@@ -2,7 +2,7 @@
 layout: landing-page
 sectionKey: Accessibility statement
 title: Accessibility statement
-description: This accessibility statement applies to the GOV.UK Publishing Design System. 
+description: This accessibility statement applies to the GOV.UK Design Guide. 
 ---
 
 This website is run by the Government Digital Service.
