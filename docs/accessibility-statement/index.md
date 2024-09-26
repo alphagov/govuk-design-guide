@@ -2,7 +2,7 @@
 layout: landing-page
 sectionKey: Accessibility statement
 title: Accessibility statement
-description: This accessibility statement applies to the GOV.UK Design Library. 
+description: This accessibility statement applies to the GOV.UK Publishing Design System. 
 ---
 
 This website is run by the Government Digital Service.
@@ -33,7 +33,7 @@ We do not currently make any claims of disproportionate burden for any parts of 
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on *date TBC*. It was last reviewed and updated on *date TBC*.
+This statement was prepared on 26 September 2024. It was last reviewed and updated on 26 September 2024.
 
 <!-- The GOV.UK Design Library website was last audited for accessibility issues by .  -->
 
