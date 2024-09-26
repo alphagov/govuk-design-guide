@@ -130,6 +130,10 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: Not all pages display the print link.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4266
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Where print link is repeated at the top and bottom of a page the lock-up is currently inconsistent. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4267
 ---
