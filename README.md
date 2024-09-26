@@ -1,10 +1,10 @@
-# GOV.UK Design Library
+# GOV.UK Design Guide
 ## About
 - There is no single source of truth when it comes to design-centric documentation within GOV.UK
 - GOV.UK Design System is intended for transactional services used across government departments
-- Design library can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
+- The GOV.UK Design Guide can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
 
-## How to run the design library on your machine
+## How to run the GOV.UK Design Guide on your machine
 1. Before running a local version of the Design Library on your computer ensure that you have the following installed:
     - [Node LTS](https://nodejs.org/en)
     - [Visual Studio Code](https://code.visualstudio.com/)
@@ -23,7 +23,7 @@ npm start
 http://localhost:8080/
 ```
 
-## How to contribute
+## How to contribute to the GOV.UK Design Guide
 1. Before contributing be sure to pull the latest version of the main on your local machine.
 2. Create a brand new branch from main.
 3. Depending on your scenario:
