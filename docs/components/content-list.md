@@ -217,6 +217,23 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: There is no visual differentiation between navigating within a page and across pages.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4261
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The components gives very low visibility of which page in a list is active.  
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4262
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The contents list is too low in the type hierarchy.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4263
+  3:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The m-dash is unusual as a visual marker on gov.uk.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4264
+  4:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Inconsistent position in source order
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4265
+
 ---

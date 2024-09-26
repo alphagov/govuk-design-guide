@@ -167,8 +167,20 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: Breadcrumbs don't show the page you are on. Is that a problem?
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4257
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: We can’t give specialist document finders a parent taxonomy topic, because there’s no route back. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4258
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Parts or all of breadcrumbs missing on some pages
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4259
+  3:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: When content is tagged to multiple topics the breadcrumb component selects one in alphabetical order. Are there alternatives that would work better for users?
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4260
 
 
 # Kati's additional suggestions
