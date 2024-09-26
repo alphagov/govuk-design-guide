@@ -5,7 +5,7 @@
 - The GOV.UK Design Guide can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
 
 ## How to run the GOV.UK Design Guide on your machine
-1. Before running a local version of the Design Library on your computer ensure that you have the following installed:
+1. Before running a local version of the Design Guide on your computer ensure that you have the following installed:
     - [Node LTS](https://nodejs.org/en)
     - [Visual Studio Code](https://code.visualstudio.com/)
     - GitHub set up on your computer
@@ -14,11 +14,11 @@
 ```
 npm install
 ```
-4. Once all the packages been installed you should be able to run a local version of the Design Library by running:
+4. Once all the packages been installed you should be able to run a local version of the Design Guide by running:
 ```
 npm start
 ```
-5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the design library will run on your computer.
+5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the Design Guide will run on your computer.
 ```
 http://localhost:8080/
 ```
