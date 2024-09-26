@@ -136,4 +136,8 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Where print link is repeated at the top and bottom of a page the lock-up is currently inconsistent. 
     link: https://github.com/alphagov/govuk_publishing_components/issues/4267
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: In dark mode the icon is not visible. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4268
 ---
