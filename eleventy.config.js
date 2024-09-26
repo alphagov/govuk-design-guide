@@ -26,8 +26,8 @@ module.exports = function(eleventyConfig) {
           href: "/frontend-templates"
         },
         {
-          text: "Get involved",
-          href: "/get-involved"
+          text: "Community",
+          href: "/community"
         },
         {
           text: "About",
