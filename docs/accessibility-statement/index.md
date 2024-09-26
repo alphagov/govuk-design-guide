@@ -21,7 +21,7 @@ AbilityNet has [advice on making your device easier to use](https://mcmw.ability
 
 ## Compliance status
 
-The Design Library website at *website URL TBC* is fully compliant with the Web Content Accessibility Guidelines (WCAG) version 2.2 AA standard.
+The Design Library website at [design-guide.publishing.service.gov.uk](https://design-guide.publishing.service.gov.uk/) is fully compliant with the Web Content Accessibility Guidelines (WCAG) version 2.2 AA standard.
 
 <!-- ## Non-accessible content
 
