@@ -1,9 +1,9 @@
 ---
 layout: landing-page
-sectionKey: Get involved
+sectionKey: Community
 eleventyNavigation:
-  parent: Get involved
-title: Ways you can get involved
+  parent: Community
+title: Get involved
 description: Here are a few ways in which you can get involved and help us grow the GOV.UK Design Guide.
 ---
 <ol class="govuk-list govuk-list--number govuk-heading-m">

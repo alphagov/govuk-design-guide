@@ -1,9 +1,9 @@
 ---
 layout: landing-page
-sectionKey: Get involved
+sectionKey: Community
 eleventyNavigation:
-  parent: Get involved
-title: Frequently asked questions
+  parent: Community
+title: Questions and answers
 description: A page dedicated to some questions you may have on how to get involved.
 ---
 ## Who can contribute to the Design Guide?
