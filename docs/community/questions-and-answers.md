@@ -34,7 +34,7 @@ details:
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Can I propose a change?</h2>
       <p class="govuk-body">Anyone can suggest an improvement, report a bug or correct an error on our pages. Look for the ‘Help improve this page’ section at the bottom of each page.</p>
-      <p class="govuk-body">Instructions on how to contribute can be found on the design library's <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
+      <p class="govuk-body">Instructions on how to contribute can be found on the design guide's <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">What if I don't feel comfortable using GitHub?</h2>
