@@ -6,7 +6,7 @@ eleventyNavigation:
 title: Frequently asked questions
 description: A page dedicated to some questions you may have on how to get involved.
 ---
-## Who can contribute to the Publishing Design System?
+## Who can contribute to the Design Guide?
 Anyone, from any team or disciplines is welcome to contribute in any way.
 
 ## When should I work on documentation?
@@ -34,7 +34,7 @@ Anyone can suggest an improvement, report a bug or correct an error on our pages
 Instructions on how to contribute can be found on the design library's <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.
 
 ## What if I don't feel comfortable using GitHub?
-For the time being you can create an <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/issues" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Publishing Design System's GitHub repository.
+For the time being you can create an <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/issues" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Design Guide's GitHub repository.
 
 ## Are contributions checked before they are live?
 Any contribution is made in the form of a `pull request` (`PR`) on GitHub. Every `PR` is checked and approved by two members within the GOV.UK design community before it goes live. 
