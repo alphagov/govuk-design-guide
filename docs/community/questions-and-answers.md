@@ -21,24 +21,24 @@ details:
       <p class="govuk-body">Below are code previews of documentation template:</p>
       <ul class="govuk-list">
         <li>
-          <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/blob/main/docs/components/*components-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Components documentation template (opens in a new tab)</a>
+          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*components-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Components documentation template (opens in a new tab)</a>
         </li>
         <li>
-          <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/blob/main/docs/patterns/*patterns-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Patterns documentation template (opens in a new tab)</a>
+          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*patterns-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Patterns documentation template (opens in a new tab)</a>
         </li>
         <li>
-          <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Frontend template documentation template (opens in a new tab)</a>
+          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Frontend template documentation template (opens in a new tab)</a>
         </li>
       </ul>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Can I propose a change?</h2>
       <p class="govuk-body">Anyone can suggest an improvement, report a bug or correct an error on our pages. Look for the ‘Help improve this page’ section at the bottom of each page.</p>
-      <p class="govuk-body">Instructions on how to contribute can be found on the design library's <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
+      <p class="govuk-body">Instructions on how to contribute can be found on the design library's <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">What if I don't feel comfortable using GitHub?</h2>
-      <p class="govuk-body">For the time being you can create an <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary/issues" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Design Guide's GitHub repository.</p>
+      <p class="govuk-body">For the time being you can create an <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/issues" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Design Guide's GitHub repository.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Are contributions checked before they are live?</h2>

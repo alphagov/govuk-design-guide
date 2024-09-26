@@ -13,7 +13,7 @@ details:
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Give feedback on GitHub</h2>
-      <p class="govuk-body">Each entry is peer reviewed before it is published. Additionally, input from different disciplines enhances its quality and accuracy. Join us on <a class="govuk-link" href="https://github.com/nnagewad/DesignLibrary" rel="noopener noreferrer" target="_blank">GitHub (opens in a new tab)</a> to help by reviewing and giving feedback on in-progress documentation.</p>
+      <p class="govuk-body">Each entry is peer reviewed before it is published. Additionally, input from different disciplines enhances its quality and accuracy. Join us on <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide" rel="noopener noreferrer" target="_blank">GitHub (opens in a new tab)</a> to help by reviewing and giving feedback on in-progress documentation.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Propose or make a change</h2>
