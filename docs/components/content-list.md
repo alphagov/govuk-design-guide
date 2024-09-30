@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new component within the GOV.UK Design Guide website.
+# This file is a template to document a new component within the GOV.UK Publishing Design System website.
 layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
 
-# Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Guide website.
+# Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design System website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Design Guide.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design System.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -203,8 +203,8 @@ designSystems:
   # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the name of the Design Guide.
-    link: #Delete this comment before entering the URL of the corresponding Design Guide.
+    title: #Delete this comment before entering the name of the Publishing Design System.
+    link: #Delete this comment before entering the URL of the corresponding Publishing Design System.
 
 # How to report an issue with this component
 # This will display instrucions on how to report an issue via GitHub.

@@ -4,7 +4,7 @@ sectionKey: Community
 eleventyNavigation:
   parent: Community
 title: Get involved
-description: Here are a few ways in which you can get involved and help us grow the GOV.UK Design Guide.
+description: Here are a few ways in which you can get involved and help us grow the GOV.UK Publishing Design System.
 details:
   <ol class="govuk-list govuk-list--number govuk-heading-m">
     <li class="govuk-!-margin-bottom-6">
@@ -30,7 +30,7 @@ details:
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Contribute new documentation </h2>
-      <p class="govuk-body">Take a bigger role as a contributor by adding a new component, pattern, or frontend template to the Design Guide.</p>
+      <p class="govuk-body">Take a bigger role as a contributor by adding a new component, pattern, or frontend template to the Publishing Design System.</p>
       <p class="govuk-body">You might have something you have worked on that you are well placed to document. Alternatively, pick something from our <a class="govuk-link" href="https://trello.com/invite/b/66c32aba108fc7e90e7b4d27/ATTIf9cb80c70723c20e7297e873bd09db260C186DF6/govuk-design-library-governance" rel="noopener noreferrer" target="_blank">backlog (opens in a new tab)</a> of designs we have prioritised to be documented.</p>
     </li>
   </ol>
