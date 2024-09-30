@@ -1,11 +1,11 @@
-# GOV.UK Publishing Design System
+# GOV.UK Publishing Design Guide
 ## About
 - There is no single source of truth when it comes to design-centric documentation within GOV.UK
 - GOV.UK Design System is intended for transactional services used across government departments
-- The GOV.UK Publishing Design System can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
+- The GOV.UK Publishing Design Guide can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
 
-## How to run the GOV.UK Publishing Design System on your machine
-1. Before running a local version of the Publishing Design System on your computer ensure that you have the following installed:
+## How to run the GOV.UK Publishing Design Guide on your machine
+1. Before running a local version of the Publishing Design Guide on your computer ensure that you have the following installed:
     - [Node LTS](https://nodejs.org/en)
     - [Visual Studio Code](https://code.visualstudio.com/)
     - GitHub set up on your computer
@@ -14,16 +14,16 @@
 ```
 npm install
 ```
-4. Once all the packages been installed you should be able to run a local version of the Publishing Design System by running:
+4. Once all the packages been installed you should be able to run a local version of the Publishing Design Guide by running:
 ```
 npm start
 ```
-5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the Publishing Design System will run on your computer.
+5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the Publishing Design Guide will run on your computer.
 ```
 http://localhost:8080/
 ```
 
-## How to contribute to the GOV.UK Publishing Design System
+## How to contribute to the GOV.UK Publishing Design Guide
 1. Before contributing be sure to pull the latest version of the main on your local machine.
 2. Create a brand new branch from main.
 3. Depending on your scenario:
