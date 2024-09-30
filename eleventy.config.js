@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
     showBreadcrumbs: false,
     stylesheets: ['/assets/application.css'],
     header: {
-      productName: "Design Guide"
+      productName: "Publishing Design System"
     },
     navigation: {
       items: [

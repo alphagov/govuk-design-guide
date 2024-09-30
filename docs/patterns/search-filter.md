@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new pattern within the GOV.UK Design Guide website.
+# This file is a template to document a new pattern within the GOV.UK Publishing Design System website.
 layout: pattern-documentation
 sectionKey: Patterns
 eleventyNavigation:
   parent: Patterns
 
-# Step 1: Duplicate and rename this file to the proposed pattern you want to include in the Design Guide website.
+# Step 1: Duplicate and rename this file to the proposed pattern you want to include in the Publishing Design System website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Design Guide.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design System.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
