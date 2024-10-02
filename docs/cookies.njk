@@ -1,0 +1,57 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <div class="govuk-grid-row">    
+    <div class="govuk-grid-column-three-quarters-from-desktop">
+      {% include 'partials/header.njk' %}
+
+      <section class="doc-what-are-cookies">
+        <h2 class="govuk-heading-l">What are cookies</h2>
+        <p class="govuk-body">Cookies are small files saved on your phone, tablet or computer when you visit a website.</p>
+        <p class="govuk-body">We use cookies to make this site work and collect information about how us use our service.</p>
+      </section>
+
+      {% if options.googleTagManagerIdentifier %}
+        <section class="doc-cookies-page-controls">
+          <h2 class="govuk-heading-l">Change your cookie settings</h2>
+          <div id="refresh-page-message">
+            <p class="govuk-body">We cannot change your cookie settings at the moment because JavaScript is not running in your browser. To fix this, try:</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>turning on JavaScript in your browser settings</li>
+              <li>reloading this page</li>
+            </ul>
+          </div>
+          <form class="govuk-visually-hidden" action="/form-handler" method="post" novalidate>
+            {{ govukRadios({
+              classes: "govuk-radios--inline",
+              name: "cookies[analytics]",
+              idPrefix: "cookies-analytics",
+              fieldset: {
+                legend: {
+                  text: "Do you want to accept analytics cookies?",
+                  classes: "govuk-fieldset__legend--s"
+                }
+              },
+              items: [
+                {
+                  value: "yes",
+                  text: "Yes"
+                },
+                {
+                  value: "no",
+                  text: "No"
+                }
+              ]
+            }) }}
+
+            {{ govukButton({
+              text: "Save cookie settings"
+            }) }}
+          </form>
+        </section>
+      {% else %}
+        <p class="govuk-body">Currently there are no cookies used on this service.</p>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

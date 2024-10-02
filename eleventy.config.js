@@ -41,6 +41,10 @@ module.exports = function(eleventyConfig) {
           {
             href: "/accessibility-statement",
             text: "Accessibility statement"
+          },
+          {
+            href: "/cookies",
+            text: "Cookies"
           }
         ]
       }
