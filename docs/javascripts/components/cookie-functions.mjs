@@ -37,7 +37,7 @@ const COOKIE_CATEGORIES = {
    * only allow adding cookies that are documented in this object, so they need
    * to be added here.
    */
-  essential: ['design_system_cookies_policy']
+  essential: ['govuk_publishing_design_guide_cookies_policy']
 }
 
 /*
