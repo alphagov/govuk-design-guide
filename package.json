@@ -1,9 +1,7 @@
 {
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npm run build:11ty && npm run build:rollup",
-    "build:11ty": "npx @11ty/eleventy",
-    "build:rollup": "npx rollup -c"
+    "build": "npx @11ty/eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

@@ -1,8 +1,20 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
+const { rollup } = require('rollup')
+const rollupConfig = require('./rollup.config.js')
 
 module.exports = function(eleventyConfig) {
+
   // Passthrough
   eleventyConfig.addPassthroughCopy('./docs/assets')
+
+  // Build and watch JavaScript
+  eleventyConfig.addWatchTarget('./src/js/')
+  
+  eleventyConfig.on('beforeBuild', async () => {
+    const bundle = await rollup(rollupConfig)
+    await bundle.write(rollupConfig.output)
+  })
+
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
