@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./docs/assets')
 
   // Build and watch JavaScript
-  eleventyConfig.addWatchTarget('./src/js/')
+  eleventyConfig.addWatchTarget('./docs/javascripts/')
   
   eleventyConfig.on('beforeBuild', async () => {
     const bundle = await rollup(rollupConfig)
