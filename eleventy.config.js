@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
     homeKey: "",
     showBreadcrumbs: false,
     stylesheets: ['/assets/application.css'],
+    titleSuffix: 'GOV.UK Publishing Design Guide',
     header: {
       productName: "Publishing Design Guide"
     },
