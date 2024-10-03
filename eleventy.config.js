@@ -3,6 +3,7 @@ const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 module.exports = function(eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('./docs/assets')
+  eleventyConfig.addPassthroughCopy('./docs/humans.txt')
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
