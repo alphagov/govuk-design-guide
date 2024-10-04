@@ -39,11 +39,7 @@ This statement was prepared on 26 September 2024. It was last reviewed and updat
 
 ## Feedback and contact information
 
-The team is always looking to improve the accessibility of this website.
-
-If you find any problems not listed on this page or think this website is not meeting accessibility requirements, email the team at *Email address TBC*
-
-The team will review your request and get back to you in 2 working days.
+If you find any problems that are not listed on this page or you think we’re not meeting the accessibility requirements, [contact us](https://www.gov.uk/contact/govuk).
 
 ## Enforcement procedure
 The Equality and Human Rights Commission (EHRC) is responsible for enforcing the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents) (the ‘accessibility regulations’).
