@@ -8,8 +8,10 @@ module.exports = function(eleventyConfig) {
     homeKey: "",
     showBreadcrumbs: false,
     stylesheets: ['/assets/application.css'],
+    titleSuffix: 'GOV.UK Publishing Design Guide',
+    opengraphImageUrl: '/assets/opengraph.png',
     header: {
-      productName: "Design Guide"
+      productName: "Publishing Design Guide"
     },
     navigation: {
       items: [
@@ -26,8 +28,8 @@ module.exports = function(eleventyConfig) {
           href: "/frontend-templates"
         },
         {
-          text: "Get involved",
-          href: "/get-involved"
+          text: "Community",
+          href: "/community"
         },
         {
           text: "About",

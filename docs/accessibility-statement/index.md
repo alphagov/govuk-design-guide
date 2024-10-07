@@ -2,7 +2,7 @@
 layout: landing-page
 sectionKey: Accessibility statement
 title: Accessibility statement
-description: This accessibility statement applies to the GOV.UK Publishing Design System. 
+description: This accessibility statement applies to the GOV.UK Publishing Design Guide. 
 ---
 
 This website is run by the Government Digital Service.
@@ -21,7 +21,7 @@ AbilityNet has [advice on making your device easier to use](https://mcmw.ability
 
 ## Compliance status
 
-The Design Library website at *website URL TBC* is fully compliant with the Web Content Accessibility Guidelines (WCAG) version 2.2 AA standard.
+The Publishing Design Guide website at [design-guide.publishing.service.gov.uk](https://design-guide.publishing.service.gov.uk/) is fully compliant with the Web Content Accessibility Guidelines (WCAG) version 2.2 AA standard.
 
 <!-- ## Non-accessible content
 
@@ -35,15 +35,11 @@ We do not currently make any claims of disproportionate burden for any parts of 
 
 This statement was prepared on 26 September 2024. It was last reviewed and updated on 26 September 2024.
 
-<!-- The GOV.UK Design Library website was last audited for accessibility issues by .  -->
+<!-- The GOV.UK Publishing Design Guide website was last audited for accessibility issues by .  -->
 
 ## Feedback and contact information
 
-The team is always looking to improve the accessibility of this website.
-
-If you find any problems not listed on this page or think this website is not meeting accessibility requirements, email the team at *Email address TBC*
-
-The team will review your request and get back to you in 2 working days.
+If you find any problems that are not listed on this page or you think we’re not meeting the accessibility requirements, [contact us](https://www.gov.uk/contact/govuk).
 
 ## Enforcement procedure
 The Equality and Human Rights Commission (EHRC) is responsible for enforcing the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents) (the ‘accessibility regulations’).
