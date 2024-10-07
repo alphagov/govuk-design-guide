@@ -51,7 +51,7 @@ examples:
       false
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: Benefits calculators
+    title: 'Benefits calculators'
     link: https://www.gov.uk/benefits-calculators
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
@@ -60,7 +60,7 @@ examples:
       false
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: File your Self Assessment tax return online
+    title: 'File your Self Assessment tax return online'
     link: https://www.gov.uk/log-in-file-self-assessment-tax-return
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
