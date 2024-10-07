@@ -7,7 +7,7 @@ sectionKey: Frontend templates
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
 # Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and a page will be display withinin the design library.
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
 # Step 3: Establish the relationship of this frontend template.
 # The relationship between frontend templates will be demonstrated visually via levels on the left-hand navigation menu. For instance, "GitHub smart answers" is only revealed when the end-user selects "Smart answer" since "GitHub smart answers" a child template to the "Smart answer" frontend template.
