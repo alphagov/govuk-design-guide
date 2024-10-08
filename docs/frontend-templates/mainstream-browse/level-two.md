@@ -34,7 +34,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly descibe how this frontend template works. For instance, listing out what end-user can do on a page that uses this frontend template, as well as it's relation to other pages and its associated frontend templates on GOV.UK.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'Level 2 pages link to mostly mainstream content or they can also include Whitehall content, where there is a user need. Level 2 pages can be curated or alphabetical.'
+  'Level two pages link to mostly mainstream content or they can also include Whitehall content, where there is a user need. Level two pages can be curated or alphabetical.'
 
 # Live examples of webpages that use this frontend template
 # List out all the pages on GOV.UK that use this frontend template, by providing: (1) the title of the page, (2) the URL of the page, and (3) indicate whether the page is in Welsh in order for assistive technology to read out the page title correctly.
