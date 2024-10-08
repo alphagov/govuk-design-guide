@@ -21,12 +21,12 @@ details:
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Share information, examples and research</h2>
-      <p class="govuk-body">Each documentation aims to include information and insights from many disciplines. Add what you know or help us dig out documents and data on older designs and add them to the documentation on GitHub.</p>
+      <p class="govuk-body">Each piece of documentation aims to include information and insights from many disciplines. Add what you know or help us dig out documents and data on older designs and add them to the documentation on GitHub.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Join a workshop</h2>
       <p class="govuk-body">We regularly run cross-community workshops to document together.</p>
-      <p class="govuk-body">We also run sessions to get people setup and trained in GitHub. If you would like to attend contact us via Slack.</p>
+      <p class="govuk-body">We also run sessions to get people set up and trained in GitHub. If you would like to attend, contact us via Slack.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Contribute new documentation </h2>

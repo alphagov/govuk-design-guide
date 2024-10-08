@@ -2,7 +2,7 @@
 homepage: true
 layout: homepage
 title: Design pages that help users find information and services on GOV.UK
-description: The GOV.UK Publishing Design Guide is an extension of GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
+description: The GOV.UK Publishing Design Guide is an extension of the GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
 image:
   src: /assets/homepage.svg
   alt: Two individual building block pieces connected to one another to create one structure.
