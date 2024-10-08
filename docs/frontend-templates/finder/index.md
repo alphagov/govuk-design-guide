@@ -36,13 +36,13 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 howItWorks:
   '### What is a finder
 
-  Depending on context, \"finder\" can mean:
+  Depending on context, “finder” can mean:
 
-  - The \"finder pattern\"
+  - The “finder pattern”
   
-  - The \"finder technology\", ie. a product used to generate finders using content-store and finder-frontend)
+  - The “finder technology”, ie. a product used to generate finders using content-store and finder-frontend)
   
-  - A specific finder including the content it exposes is sometimes called a \"finder\" by editors
+  - A specific finder including the content it exposes is sometimes called a “finder” by editors
 
   ### What does a finder do?
 
@@ -79,7 +79,7 @@ examples:
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
     title: 'Groups'
-    link: ttps://www.gov.uk/government/groups
+    link: https://www.gov.uk/government/groups
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
         # true = The webpage is in Welsh
