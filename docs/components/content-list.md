@@ -148,7 +148,7 @@ insights:
       'The content audit discovery summarised a list of inconsistencies and issues with this component and offers proposed solutions to achieve more consistency across GOV.UK.'
     title: Content Audit Discovery – Component recommendations
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
-    documentFormat: Google Doc
+    documentFormat: Google Docs
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
