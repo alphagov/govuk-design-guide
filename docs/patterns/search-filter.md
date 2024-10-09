@@ -101,7 +101,7 @@ insights:
       #Delete this comment before entering a brief summary about the document being referred.
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
 
 # Accessibilty criteria for this pattern
 # List out the accessibility for this pattern.

@@ -13,7 +13,7 @@
 
       {% if (contentSchema.link and contentSchema.title) or (contentType.link and contentType.title) or publishingApp or renderingApp %}
         <section class="doc-how-its-built">
-          <h2 class="doc-how-its-built__title govuk-heading-l">How it's built</h2>
+          <h2 class="doc-how-its-built__title govuk-heading-l">How it’s built</h2>
           <p class="govuk-body">These are the underlying technologies that make-up the {{ title | lower }} front template.</p>
           <div class="govuk-grid-row">
             {% if contentSchema.link and contentSchema.title %}

@@ -105,7 +105,7 @@ insights:
       'The Homepage and Navigation Team did a complete audit of the logic and all iterations of this component.'
     title: Breadcrumbs logic
     link: https://docs.google.com/document/d/10k_LzO_JGqARIccAkL7aEgS0Ft9PSe7D0UC87akaUNo/edit#heading=h.yb5qbwi6tisj
-    documentFormat: Google Doc
+    documentFormat: Google Docs
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
