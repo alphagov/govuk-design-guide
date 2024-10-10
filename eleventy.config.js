@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('./docs/assets')
+  eleventyConfig.addPassthroughCopy('./docs/humans.txt')
 
   // Build and watch JavaScript
   eleventyConfig.addWatchTarget('./docs/javascripts/')
@@ -14,7 +15,7 @@ module.exports = function(eleventyConfig) {
     const bundle = await rollup(rollupConfig)
     await bundle.write(rollupConfig.output)
   })
-
+  
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",

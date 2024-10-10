@@ -79,7 +79,7 @@ insights:
       #Delete this comment before entering a brief summary about the document being referred.
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -130,6 +130,14 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: Not all pages display the print link.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4266
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Where print link is repeated at the top and bottom of a page the lock-up is currently inconsistent. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4267
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: In dark mode the icon is not visible. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4268
 ---
