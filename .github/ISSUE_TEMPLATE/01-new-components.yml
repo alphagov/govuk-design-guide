@@ -1,0 +1,12 @@
+name: New component
+description: Document a new component that needs to be added to the GOV.UK Publishing Design Guide
+title: "Document [Enter the name of the component]"
+labels: ["components", "new documentation"]
+projects: ["alphagov/99"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to start documenting a new component
+        - Assign yourself to this issue
+        - Under the "Development" select the "Create a new branch" to start documenting the new component
