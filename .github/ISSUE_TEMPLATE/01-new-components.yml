@@ -6,8 +6,10 @@ projects: ["alphagov/99"]
 body:
   - type: markdown
     attributes:
+      value: "# Steps to start documenting a new component"
+  - type: markdown
+    attributes:
       value: |
-        # Steps to start documenting a new component
         - Assign yourself to this issue
         - Under the "Development" select the "Create a new branch" to start documenting the new component
             - Be sure to check the following criterias:
