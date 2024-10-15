@@ -10,6 +10,9 @@ body:
         # Steps to start documenting a new component
         - Assign yourself to this issue
         - Under the "Development" select the "Create a new branch" to start documenting the new component
+            - Be sure to check the following criterias:
+                - **Repository destination** is set to `alphagov/govuk-design-guide`
+                - **Branch source** is set to `main`
             - Select "Checkout locally", which will automatically create a new branch related to this issue
             - Once selected, copy the command and run it in your VS Code terminal
             - Confirm that you are working on the new branch by selecting the branch icon in the bottom left corner of VS Code
