@@ -62,19 +62,18 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: #Delete this comment before entering the date when the document was published.
+    date: Feb 2024
     description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      #Delete this comment before entering a brief summary about the document being referred.
-    title: #Delete this comment before entering the name of the insight document.
-    link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+      'A write up of the Email notification sign-up journey.'
+    title: Email notification sign-up journeys
+    link: https://docs.google.com/document/d/1aJneeN0aPZxVwPVt1bPZItVjiJwsGQX_GZoq4WB0OMA/edit?tab=t.0
+    documentFormat: Google Doc
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 accessibilty:
-  #Delete this comment before entering the accessibility criteria for this component.
+  'The bell icon must be presentational and ignored by screen readers.'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
