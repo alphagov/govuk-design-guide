@@ -20,7 +20,7 @@ body:
             - Confirm that you are working on the new branch by selecting the branch icon in the bottom left corner of VS Code
         - Start documenting the new pattern be sure to duplicate the template file `*pattern-documentation-template` and rename it to the component
             - **Note:** spaces are replaced with hyphens (ie. `-`)
-        - There may be existing documentation for a pattern. Please refer to:
+        - There may be existing documentation for this pattern. Please refer to:
             - [Version 2.0 of documentation](https://docs.google.com/document/d/1AxlM2W9tu3su7K3nlqPhqNK1HoZwQIZaHf4Cv3TRHNg/edit?usp=sharing)
             - [Version 3.0 of documentation](https://docs.google.com/document/d/1hFs6afjEPgQe5Wh2xq1H7RhzT-0OhMyHKi-NsODLDRY/edit?usp=sharing)
             - [Version 4.0 of documentation](https://docs.google.com/document/d/1Fb6Vv-QS5tuYqhCYBcpGIaTNt4zDBeBMznz-7Nch-lE/edit?usp=sharing)
