@@ -12,15 +12,15 @@ body:
       value: |
         - Assign yourself to this issue
         - Under the "Development" select the "Create a new branch" to start documenting the new pattern
-            - Be sure to check the following criterias:
-                - **Repository destination** is set to `alphagov/govuk-design-guide`
-                - **Branch source** is set to `main`
-            - Select "Checkout locally", which will automatically create a new branch related to this issue
-            - Once selected, copy the command and run it in your VS Code terminal
-            - Confirm that you are working on the new branch by selecting the branch icon in the bottom left corner of VS Code
+          - Be sure to check the following criterias:
+            - **Repository destination** is set to `alphagov/govuk-design-guide`
+            - **Branch source** is set to `main`
+          - Select "Checkout locally", which will automatically create a new branch related to this issue
+          - Once selected, copy the command and run it in your VS Code terminal
+          - Confirm that you are working on the new branch by selecting the branch icon in the bottom left corner of VS Code
         - Start documenting the new pattern be sure to duplicate the template file `*pattern-documentation-template` and rename it to the component
-            - **Note:** spaces are replaced with hyphens (ie. `-`)
+          - **Note:** spaces are replaced with hyphens (ie. `-`)
         - There may be existing documentation for this pattern. Please refer to:
-            - [Version 2.0 of documentation](https://docs.google.com/document/d/1AxlM2W9tu3su7K3nlqPhqNK1HoZwQIZaHf4Cv3TRHNg/edit?usp=sharing)
-            - [Version 3.0 of documentation](https://docs.google.com/document/d/1hFs6afjEPgQe5Wh2xq1H7RhzT-0OhMyHKi-NsODLDRY/edit?usp=sharing)
-            - [Version 4.0 of documentation](https://docs.google.com/document/d/1Fb6Vv-QS5tuYqhCYBcpGIaTNt4zDBeBMznz-7Nch-lE/edit?usp=sharing)
+          - [Version 2.0 of documentation](https://docs.google.com/document/d/1AxlM2W9tu3su7K3nlqPhqNK1HoZwQIZaHf4Cv3TRHNg/edit?usp=sharing)
+          - [Version 3.0 of documentation](https://docs.google.com/document/d/1hFs6afjEPgQe5Wh2xq1H7RhzT-0OhMyHKi-NsODLDRY/edit?usp=sharing)
+          - [Version 4.0 of documentation](https://docs.google.com/document/d/1Fb6Vv-QS5tuYqhCYBcpGIaTNt4zDBeBMznz-7Nch-lE/edit?usp=sharing)
