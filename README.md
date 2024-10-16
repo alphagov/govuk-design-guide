@@ -28,7 +28,7 @@ http://localhost:8080/
 2. Create a brand new branch from main.
 3. Depending on your scenario:
     - If a new documention is being added there are template files with detailed instructions available.
-        - [Components documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*components-documentation-template.md?plain=1)
-        - [Patterns documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*patterns-documentation-template.md?plain=1)
+        - [Component documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*component-documentation-template.md?plain=1)
+        - [Pattern documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*pattern-documentation-template.md?plain=1)
         - [Frontend template documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1)
     - If a documentation is being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.
