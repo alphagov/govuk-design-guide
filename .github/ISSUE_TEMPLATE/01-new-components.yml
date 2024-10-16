@@ -1,7 +1,7 @@
 name: New component
 description: Document a component that needs to be added to the GOV.UK Publishing Design Guide
 title: "Document [Enter the name of the component]"
-labels: ["components", "new documentation"]
+labels: ["component", "new documentation"]
 projects: ["alphagov/99"]
 body:
   - type: markdown
@@ -18,5 +18,5 @@ body:
             - Select "Checkout locally", which will automatically create a new branch related to this issue
             - Once selected, copy the command and run it in your VS Code terminal
             - Confirm that you are working on the new branch by selecting the branch icon in the bottom left corner of VS Code
-        - Start documenting the new component be sure to duplicate the template file `*components-documentation-template` and rename it to the component
+        - Start documenting the new component be sure to duplicate the template file `*component-documentation-template` and rename it to the component
             - **Note:** spaces are replaced with hyphens (ie. `-`)
