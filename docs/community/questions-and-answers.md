@@ -21,10 +21,10 @@ details:
       <p class="govuk-body">Below are code previews of documentation template:</p>
       <ul class="govuk-list">
         <li>
-          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*components-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Components documentation template (opens in a new tab)</a>
+          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*component-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Component documentation template (opens in a new tab)</a>
         </li>
         <li>
-          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*patterns-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Patterns documentation template (opens in a new tab)</a>
+          <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*pattern-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Pattern documentation template (opens in a new tab)</a>
         </li>
         <li>
           <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1" rel="noopener noreferrer" target="_blank">Frontend template documentation template (opens in a new tab)</a>
