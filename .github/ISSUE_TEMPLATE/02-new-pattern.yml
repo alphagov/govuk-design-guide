@@ -25,5 +25,5 @@ body:
           - [Version 3.0 of documentation](https://docs.google.com/document/d/1hFs6afjEPgQe5Wh2xq1H7RhzT-0OhMyHKi-NsODLDRY/edit?usp=sharing)
           - [Version 4.0 of documentation](https://docs.google.com/document/d/1Fb6Vv-QS5tuYqhCYBcpGIaTNt4zDBeBMznz-7Nch-lE/edit?usp=sharing)
   - type: textarea
-      attributes:
-        label: "Additional comments"
+    attributes:
+      label: "Additional comments"
