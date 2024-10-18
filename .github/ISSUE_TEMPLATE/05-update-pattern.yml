@@ -13,7 +13,7 @@ body:
   - type: textarea
     attributes:
       label: "Documentation sections with missing data"
-      description: "List out all the sections as a task list items"
+      description: "List out all the sections as task list items"
       value: |
         - [ ] Add section that needs to be documented for this pattern
         - [ ] Add section that needs to be documented for this pattern
