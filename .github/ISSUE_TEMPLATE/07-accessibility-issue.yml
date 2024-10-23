@@ -10,10 +10,11 @@ body:
         # Steps to report an accessibilty issue or suggestion
         - Update the title with a brief description of the issue or suggestion
         - Enter the details below to the best of your ability 
+        - Link to [How to meet WCAG](https://www.w3.org/WAI/WCAG22/quickref/)
   - type: textarea
     attributes:
       label: "Accessibility issue or suggested improvement"
-      description: "Describe what the accessibility issue or suggested improvement is"
+      description: "Describe what the accessibility issue or suggested improvement is. Include a link to the WCAG success criteria via the [WCAG quick ref](https://www.w3.org/WAI/WCAG22/quickref/)"
     validations:
       required: true
   - type: dropdown
