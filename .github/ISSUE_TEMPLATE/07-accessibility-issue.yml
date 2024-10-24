@@ -28,17 +28,6 @@ body:
         - Both
     validations:
       required: false
-  - type: dropdown
-    attributes:
-      label: Affected platforms
-      description: Which platform does the issue or suggestion affect?
-      multiple: false
-      options: 
-        - Web
-        - Mobile
-        - Both
-    validations:
-      required: false
   - type: checkboxes
     attributes:
       label: Impact on assitive technology / accessibility aids
