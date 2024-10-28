@@ -9,7 +9,7 @@ body:
       value: |
         # Steps to creating an issue for a GOV.UK component
         - Update the title according to the proposed format
-        - In the textarea below, provide a detailed description of the issue
+        - In the text area below, provide a detailed description of the issue
   - type: textarea
     attributes:
       label: "Description"
