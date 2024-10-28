@@ -28,15 +28,9 @@ body:
         - Both
     validations:
       required: false
-  - type: checkboxes
+  - type: textarea
     attributes:
       label: Impact on assitive technology / accessibility aids
-      description:
-      options: 
-        - VoiceOver
-        - Speech-to-text software
-        - Screen magnifier
-        - Custom styles override
-        - Dark mode
+      description: List all the assistive technologies/aids as well as browser that are affected by this issue
     validations:
       required: false
