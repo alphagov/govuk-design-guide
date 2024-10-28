@@ -19,7 +19,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Affected platforms
+      label: "Affected platform(s)"
       description:
       multiple: false
       options: 
@@ -30,7 +30,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Impact on assitive technology / accessibility aids
-      description: List all the assistive technologies/aids as well as browser that are affected by this issue
+      label: "Impact on assitive technology / accessibility aids"
+      description: "List all the assistive technologies/aids as well as browser that are affected by this issue"
     validations:
       required: false
