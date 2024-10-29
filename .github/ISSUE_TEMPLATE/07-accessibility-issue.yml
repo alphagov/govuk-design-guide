@@ -1,0 +1,36 @@
+name: Report an accessibility issue or suggest an improvement to the Publishing Design Guide
+description: Use this template to report an accessibility issue or suggest an improvement that can be made to the Publishing Design Guide
+title: "[Enter a brief title of the accessibility issue or suggested improvement]"
+labels: ["accessibility"]
+projects: ["alphagov/97"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to report an accessibilty issue or suggestion
+        - Update the title with a brief description of the issue or suggestion
+        - Enter the details below to the best of your ability 
+        - Link to [How to meet WCAG](https://www.w3.org/WAI/WCAG22/quickref/)
+  - type: textarea
+    attributes:
+      label: "Accessibility issue or suggested improvement"
+      description: "Describe what the accessibility issue or suggested improvement is. Include a link to the WCAG success criteria via the [WCAG quick ref](https://www.w3.org/WAI/WCAG22/quickref/)"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "Affected platform(s)"
+      description:
+      multiple: false
+      options: 
+        - Web
+        - Mobile
+        - Both
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Impact on assitive technology / accessibility aids"
+      description: "List all the assistive technologies/aids as well as web browser that are affected by this issue"
+    validations:
+      required: false
