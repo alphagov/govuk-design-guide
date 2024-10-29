@@ -31,6 +31,6 @@ body:
   - type: textarea
     attributes:
       label: "Impact on assitive technology / accessibility aids"
-      description: "List all the assistive technologies/aids as well as browser that are affected by this issue"
+      description: "List all the assistive technologies/aids as well as web browser that are affected by this issue"
     validations:
       required: false
