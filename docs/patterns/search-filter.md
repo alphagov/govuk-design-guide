@@ -109,11 +109,6 @@ insights:
 accessibilty:
   There was an accessibility driven design change made to the mobile filters around 2021.
 
-# How to report an issue with this pattern
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the pattern's codebase exists.
-githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
-
 # Existing issues with this pattern
 # List of all the issues that are associated with this pattern, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:

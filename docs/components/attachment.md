@@ -200,11 +200,6 @@ designSystems:
     title: #Delete this comment before entering the name of the Publishing Design Guide.
     link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
 
-# How to report an issue with this component
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the component's codebase exists.
-githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
-
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
