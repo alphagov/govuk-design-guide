@@ -282,11 +282,6 @@ insights:
     link: https://docs.google.com/spreadsheets/d/1f4fSsIxkCfWiKNV9qgE_sep61f5EbKxU58wTWCsGw60/edit?gid=2140166644#gid=2140166644
     documentFormat: Google Sheets
 
-# How to report an issue with this frontend template
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the frontend template's codebase exists.
-githubIssueLink: #Delete this comment before entering the URL of the page to create a new GitHub issue.
-
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:

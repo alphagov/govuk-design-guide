@@ -12,10 +12,8 @@
         <h2 class="doc-issues__title govuk-heading-l">Existing issues with this pattern</h2>
       {% endif %}
       {{ listItemsWithLink("doc-issues__list", issues) }}
-      {% if githubIssueLink %}
-        {{ reportIssue("h3", "m") }}
-        {% include "./instructions-report-issue.njk" %}
-      {% endif %}
+      {{ reportIssue("h3", "m") }}
+      {% include "./instructions-report-issue.njk" %}
     {% else %}
       {% if sectionKey === "Frontend templates" %}
         <h2 class="doc-issues__title govuk-heading-l">An existing issue with this frontend template</h2>
@@ -27,15 +25,11 @@
       <p class="govuk-body">
         <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
       </p>
-      {% if githubIssueLink %}
-        {{ reportIssue("h3", "m") }}
-        {% include "./instructions-report-issue.njk" %}
-      {% endif %}
-    {% endif %}
-{% else %}
-    {% if githubIssueLink %}
-      {{ reportIssue("h2", "l") }}
+      {{ reportIssue("h3", "m") }}
       {% include "./instructions-report-issue.njk" %}
     {% endif %}
+{% else %}
+    {{ reportIssue("h2", "l") }}
+    {% include "./instructions-report-issue.njk" %}
   </section>
 {% endif %}

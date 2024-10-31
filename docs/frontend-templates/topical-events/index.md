@@ -375,11 +375,6 @@ insights:
     link: https://app.mural.co/t/govukdelivery7534/m/govukdelivery7534/1674139116917/714724969d90020cd15e1ce41153c4c43fca5101?sender=u5494c2264a5f0c5c71eb1671
     documentFormat: Mural board
 
-# How to report an issue with this frontend template
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the frontend template's codebase exists.
-githubIssueLink: #Delete this comment before entering the URL of the page to create a new GitHub issue.
-
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
