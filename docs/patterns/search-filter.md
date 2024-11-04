@@ -21,6 +21,11 @@ title: Search filter
 # This briefly describes what the pattern is. It is required to display the description on the page, and in the <head> meta description.
 description: Search filters are used to help refine search results.
 
+# Embedding the figma file of the pattern
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this pattern.
+
 # When to use this pattern
 # Briefly describe the situation(s) when to use this pattern.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
