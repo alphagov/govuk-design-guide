@@ -1,4 +1,4 @@
-{% extends "layouts/sub-navigation.njk" %}
+{% extends "layouts/main.njk" %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -6,9 +6,16 @@
     
     <div class="govuk-grid-column-three-quarters-from-desktop">
       {% include 'partials/header.njk' %}
-      <section class="doc-details">
-        {{ details | markdown }}
-      </section>
+      {% if details %}
+        <section class="doc-details">
+          {{ details | markdown }}
+        </section>
+      {% endif %}
+      {% if image.src %}
+        <section class="doc-icon govuk-!-margin-top-7">
+          <img class="govuk-!-width-full" src="{{ image.src }}" alt="{{ image.alt }}">
+        </section>
+      {% endif %}
       {{ appProseScope(content) if content }}
     </div>
   </div>

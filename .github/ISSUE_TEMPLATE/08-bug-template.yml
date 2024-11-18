@@ -1,0 +1,50 @@
+name: Report any bug(s) on the website
+description: Report any bug(s) that you have encountered on the GOV.UK Publishing Design Guide website
+title: "[Enter a brief title of the bug(s) you have encountered]"
+labels: ["bug"]
+projects: ["alphagov/97"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to report bug
+        - Update the title with the bug(s) you have encountered
+        - Enter the details below to the best of your ability
+  - type: dropdown
+    attributes:
+      label: "Affected platform(s)"
+      description:
+      multiple: false
+      options: 
+        - Web
+        - Mobile
+        - Both
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Brief description of bug(s)"
+      description: "Note what the bug is, and how it affects the user experience"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "Affected platform(s)"
+      description:
+      multiple: false
+      options: 
+        - Web
+        - Mobile
+        - Both
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Steps to recreate bug(s)"
+      description: "Note all the steps on how you've encountered said bug(s)"
+      value: |
+        1. Enter the first step to recreate the bug
+        2. Enter the second step to recreate the bug
+        3. Enter the third step to recreate the bug
+    validations:
+      required: true
