@@ -1,31 +1,34 @@
-# GOV.UK Design Library
+# GOV.UK Publishing Design Guide
 ## About
 - There is no single source of truth when it comes to design-centric documentation within GOV.UK
 - GOV.UK Design System is intended for transactional services used across government departments
-- Design library can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
+- The GOV.UK Publishing Design Guide can help mitigate duplicating existing designs, provide insights on past design decisions, and demonstrate the interconnected relationship between our publishing tools and what the end-user interacts with on a GOV.UK page
 
-## How to run the design library on your machine
-1. Before running a local version of the Design Library on your computer ensure that you have the following installed:
+## How to run the GOV.UK Publishing Design Guide on your machine
+1. Before running a local version of the Publishing Design Guide on your computer ensure that you have the following installed:
     - [Node LTS](https://nodejs.org/en)
     - [Visual Studio Code](https://code.visualstudio.com/)
     - GitHub set up on your computer
 2. Once you have those installed, clone this repo.
-3. Once it's cloned run the command `npm install` in your terminal to install all the node packages.
+3. Once it's cloned, in the terminal run:
 ```
 npm install
 ```
-4. Once all the packages been installed you should be able to run a local version of the Design Library by entering `npx eleventy --serve` in your terminal. Running this command starts a server.
+4. Once all the packages been installed you should be able to run a local version of the Publishing Design Guide by running:
 ```
-npx eleventy --serve
+npm start
 ```
-5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the design library will run on your computer.
+5. When the server is active enter `http://localhost:8080/` in your browser's address bar. In doing so, a local version of the Publishing Design Guide will run on your computer.
 ```
 http://localhost:8080/
 ```
 
-## How to contribute
+## How to contribute to the GOV.UK Publishing Design Guide
 1. Before contributing be sure to pull the latest version of the main on your local machine.
 2. Create a brand new branch from main.
 3. Depending on your scenario:
-    - If a new documention is being aded there are template files with detailed instructions available.
-    - If a documentation being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.
+    - If a new documention is being added there are template files with detailed instructions available.
+        - [Component documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*component-documentation-template.md?plain=1)
+        - [Pattern documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*pattern-documentation-template.md?plain=1)
+        - [Frontend template documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1)
+    - If a documentation is being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.

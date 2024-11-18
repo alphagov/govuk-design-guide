@@ -1,4 +1,4 @@
-{% extends "layouts/product.njk" %}
+{% extends "layouts/main.njk" %}
 
 {% block main %}
   <main id="main-content" role="main" {%- if mainLang %} lang="{{ mainLang }}"{% endif %}>
@@ -28,7 +28,7 @@
         
           {% if whatsNew and whatsNewDate %}
             <section class="doc-whatsNew">
-              <h2 class="govuk-heading-l">What's new</h2>
+              <h2 class="govuk-heading-m">What's new</h2>
               <p class="govuk-body">{{ whatsNewDate }}</p>
               <p class="govuk-body">{{ whatsNew | markdown }}</p>
             </section>
@@ -53,6 +53,18 @@
                     {% endif %}
                   </div>
                 {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+
+          {% if additionalInfo.title and additionalInfo.content %}
+            <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+            <section class="doc-additional-info">
+              <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+                  <h2 class="govuk-heading-m">{{ additionalInfo.title }}</h2>
+                  {{ additionalInfo.content }}
+                </div>
               </div>
             </section>
           {% endif %}
