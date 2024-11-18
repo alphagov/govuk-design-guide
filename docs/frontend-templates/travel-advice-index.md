@@ -211,7 +211,7 @@ components:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "The large number on the page is not using the [Big number](https://components.publishing.service.gov.uk/component-guide/big_number) component"
+      'The large number on the page is not using the [Big number](https://components.publishing.service.gov.uk/component-guide/big_number) component'
     componentURL:
     generated:
       # Options how said component is generated page:
