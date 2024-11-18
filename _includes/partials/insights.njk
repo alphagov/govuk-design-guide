@@ -1,26 +1,25 @@
 {% if insights[0].title and insights[0].link %}
-  <section class="doc-evidence and insights">
-    <h2 class="govuk-heading-l">Evidence and insights</h2>
+  <section class="doc-evidence-and-insights">
     <table class="govuk-table">
-      <caption class="govuk-table__caption govuk-table__caption--m">Relevant documents</caption>
+      <caption class="govuk-table__caption govuk-table__caption--l">History and insights</caption>
       <thead class="govuk-table__head">
         <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Date</th>
+          <th scope="col" class="govuk-table__header">Description</th>
           <th scope="col" class="govuk-table__header">Document</th>
           <th scope="col" class="govuk-table__header">Format</th>
-          <th scope="col" class="govuk-table__header">Description</th>
-          <th scope="col" class="govuk-table__header">Date</th>
         </tr>
       </thead>
       <tbody class="govuk-table__body">
         {% for i in range(0, insights | length ) %}
           {% if insights[i].link and insights[i].title %}
             <tr class="govuk-table__row">
-              <th scope="row" class="govuk-table__header">
-                <a href="{{ insights[i].link }}" class="govuk-link">{{ insights[i].title }}</a>
-              </th>
-              <td class="govuk-table__cell">{{ insights[i].documentFormat }}</td>
+              <th scope="row" class="govuk-table__header">{{ insights[i].date }}</th>
               <td class="govuk-table__cell">{{ insights[i].description | markdown }}</td>
-              <td class="govuk-table__cell">{{ insights[i].date }}</td>
+              <td class="govuk-table__cell">
+                <a href="{{ insights[i].link }}" class="govuk-link" rel="noopener noreferrer" target="_blank">{{ insights[i].title }} (opens in a new tab)</a>
+              </td>
+              <td class="govuk-table__cell">{{ insights[i].documentFormat }}</td>
             </tr>
           {% endif %}
         {% endfor %}
