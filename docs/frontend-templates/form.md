@@ -1,12 +1,12 @@
 ---
-# This file is a template to document a new frontend template within the GOV.UK Design Library website.
+# This file is a template to document a new frontend template within the GOV.UK Publishing Design Guide website.
 layout: frontend-template-documentation
 sectionKey: Frontend templates
 
-# Step 1: Duplicate and rename this file to the proposed frontend template you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed frontend template you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and a page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and a page will be display withinin the Publishing Design Guide.
 # eleventyExcludeFromCollections: true
 
 # Step 3: Establish the relationship of this frontend template.
@@ -32,7 +32,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 
 # How the frontend template works
 # Briefly descibe how this frontend template works. For instance, listing out what end-user can do on a page that uses this frontend template, as well as it's relation to other pages and its associated frontend templates on GOV.UK.
-# You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+# You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
   #Delete this comment before entering how this frontend template works.
 
@@ -382,18 +382,13 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
+    date: #Delete this comment before entering the date when the document was published.
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      #Delete this comment before entering a brief summary about the document being referred.
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
-    description:
-      # You MUST wrap this in double quotation marks (ie. " "), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      #Delete this comment before entering a brief summary about the document being referred.
-    date: #Delete this comment before entering the date when the document was published.
-
-# How to report an issue with this frontend template
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the frontend template's codebase exists.
-githubIssueLink: #Delete this comment before entering the URL of the page to create a new GitHub issue.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
