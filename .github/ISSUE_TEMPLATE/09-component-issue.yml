@@ -1,0 +1,18 @@
+name: Report an issue on a component
+description: Report any issues regarding a component on GOV.UK
+title: "[Enter the name of the component]: [Enter the issue with component]"
+labels: ["component"]
+projects: ["alphagov/100"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to creating an issue for a GOV.UK component
+        - Update the title according to the proposed format
+        - In the text area below, provide a detailed description of the issue
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "Describe the issue with the component"
+    validations:
+      required: true
