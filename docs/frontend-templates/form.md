@@ -229,7 +229,7 @@ components:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "The [Devolved Nations (experimental)](https://components.publishing.service.gov.uk/component-guide/devolved_nations) will only appear if the document **does not** apply to all UK nations"
+      'The [Devolved Nations (experimental)](https://components.publishing.service.gov.uk/component-guide/devolved_nations) will only appear if the document **does not** apply to all UK nations'
     componentURL: 
     generated:
       # Options how said component is generated page:
@@ -244,7 +244,7 @@ components:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "[Heading](https://components.publishing.service.gov.uk/component-guide/heading) component is used to list out all the attached documents"
+      '[Heading](https://components.publishing.service.gov.uk/component-guide/heading) component is used to list out all the attached documents'
     componentURL: 
     generated:
       # Options how said component is generated page:
@@ -319,7 +319,7 @@ components:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)"
+      '[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)'
     componentURL: #If a URL is not entered in the  field above (componentName) then delete this comment before entering the URL of the documentation for said component.
     generated:
       # Options how said component is generated page:
@@ -334,7 +334,7 @@ components:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)"
+      '[Related navigation](https://components.publishing.service.gov.uk/component-guide/related_navigation) when displayed within [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)'
     componentURL: #If a URL is not entered in the  field above (componentName) then delete this comment before entering the URL of the documentation for said component.
     generated:
       # Options how said component is generated page:
@@ -344,7 +344,7 @@ components:
       publisher
     input:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information.
-      "It can include: Taxonomy and any items under the Associations heading"
+      'It can include: Taxonomy and any items under the Associations heading'
   15:
     # The componentName is REQUIRED in order for this information to be displayed on the page.
     componentName:
