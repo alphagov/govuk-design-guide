@@ -1,0 +1,18 @@
+name: Report an issue on a frontend template
+description: Report any issues regarding a frontend template on GOV.UK
+title: "[Enter the name of the frontend template]: [Enter the issue with frontend template]"
+labels: ["frontend template"]
+projects: ["alphagov/100"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to creating an issue for a GOV.UK frontend template
+        - Update the title according to the proposed format
+        - In the text area below, provide a detailed description of the issue
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "Describe the issue with the frontend template"
+    validations:
+      required: true

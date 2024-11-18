@@ -1,0 +1,29 @@
+name: Update component documentaiton
+description: Update the documentation of a component within the GOV.UK Publishing Design Guide
+title: "Update [Enter the name of the component]"
+labels: ["component", "update documentation"]
+projects: ["alphagov/99"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to creating a component documentation update
+        - Update the title to the component documentation that needs updating
+        - In the textarea below, list out all the sections within the documentation that has yet to be entered
+  - type: textarea
+    attributes:
+      label: "Documentation sections with missing data"
+      description: "List out all the sections as task list items"
+      value: |
+        - [ ] Add section that needs to be documented for this component
+        - [ ] Add section that needs to be documented for this component
+        - [ ] Add section that needs to be documented for this component
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Additional comments"
+  - type: markdown
+    attributes:
+      value: "Once you've completed the above steps, team members are then able to convert an item on the task list as and individual issue to work on."
+        
