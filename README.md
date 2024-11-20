@@ -22,13 +22,3 @@ npm start
 ```
 http://localhost:8080/
 ```
-
-## How to contribute to the GOV.UK Publishing Design Guide
-1. Before contributing be sure to pull the latest version of the main on your local machine.
-2. Create a brand new branch from main.
-3. Depending on your scenario:
-    - If a new documention is being added there are template files with detailed instructions available.
-        - [Component documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/components/*component-documentation-template.md?plain=1)
-        - [Pattern documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/patterns/*pattern-documentation-template.md?plain=1)
-        - [Frontend template documentation template](https://github.com/alphagov/govuk-design-guide/blob/main/docs/frontend-templates/*frontend-template-documentation-template.md?plain=1)
-    - If a documentation is being amended, locate the appropriate document within the `/docs` folder and begin making any necessary changes.
