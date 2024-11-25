@@ -34,11 +34,11 @@ details:
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Can I propose a change?</h2>
       <p class="govuk-body">Anyone can suggest an improvement, report a bug or correct an error on our pages. Look for the ‘Help improve this page’ section at the bottom of each page.</p>
-      <p class="govuk-body">Instructions on how to contribute can be found on the Publishing Design Guide's <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide?tab=readme-ov-file#how-to-contribute" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
+      <p class="govuk-body">Instructions on how to contribute can be found on the Publishing Design Guide's <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide?tab=readme-ov-file#how-to-contribute-to-the-govuk-publishing-design-guide" rel="noopener noreferrer" target="_blank">GitHub repository (opens in a new tab)</a>.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">What if I don't feel comfortable using GitHub?</h2>
-      <p class="govuk-body">For the time being you can create an <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/issues" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Publishing Design Guide's GitHub repository.</p>
+      <p class="govuk-body">For the time being you can create an <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/issues/new/choose" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Publishing Design Guide's GitHub repository.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Are contributions checked before they are live?</h2>
