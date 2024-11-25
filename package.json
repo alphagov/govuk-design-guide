@@ -9,7 +9,7 @@
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "@x-govuk/govuk-eleventy-plugin": "^6.6.2",
+    "@x-govuk/govuk-eleventy-plugin": "^6.7.0",
     "rollup": "^4.27.4"
   }
 }
