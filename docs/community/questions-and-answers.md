@@ -38,7 +38,7 @@ details:
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">What if I don't feel comfortable using GitHub?</h2>
-      <p class="govuk-body">For the time being you can create an <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/issues/new/choose" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Publishing Design Guide's GitHub repository.</p>
+      <p class="govuk-body">For the time being you can create a <a class="govuk-link" href="https://github.com/alphagov/govuk-design-guide/issues/new/choose" rel="noopener noreferrer" target="_blank">new issue (opens in a new tab)</a> within the Publishing Design Guide's GitHub repository.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Are contributions checked before they are live?</h2>
