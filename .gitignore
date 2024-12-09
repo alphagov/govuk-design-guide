@@ -12,4 +12,6 @@ Thumbs.db
 
 # Node modules and output
 node_modules
-_site
+!_site
+_site/*
+!_site/_headers
