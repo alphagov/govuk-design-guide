@@ -7,6 +7,12 @@
             <span lang="cy">
               <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
             </span>
+          {% elif listItem[i].welsh == true and listItem[i].external == true %}
+            <span lang="cy">
+              <a class="govuk-link" href="{{ listItem[i].link }}" rel="noopener noreferrer" target="_blank">{{ listItem[i].title }} (opens in a new tab)</a>
+            </span>
+          {% elif listItem[i].external == true %}
+            <a class="govuk-link" href="{{ listItem[i].link }}" rel="noopener noreferrer" target="_blank">{{ listItem[i].title }} (opens in a new tab)</a>
           {% else %}
             <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
           {% endif %}
