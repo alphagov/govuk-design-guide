@@ -247,7 +247,7 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: September 17, 2024
+    date: September 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'List of all the answer pages and its associated data'
@@ -256,7 +256,7 @@ insights:
     documentFormat: Google Sheets
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 28, 2024
+    date: August 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Pages visited after an Answer page - figures are no. of sessions'
@@ -265,7 +265,7 @@ insights:
     documentFormat: Google Sheets
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 10, 2024
+    date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Time on page against word count for DWP answer pages'
@@ -274,7 +274,7 @@ insights:
     documentFormat: Google Sheets
   3:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 6, 2024
+    date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Data on exiting from DWP answer pages'

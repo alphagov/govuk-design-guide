@@ -232,7 +232,7 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 7 August 2024
+    date: August 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Findings after the search team has improved the relevancy of site search results, and what to do next'
@@ -241,7 +241,7 @@ insights:
     documentFormat: Google Slides
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 1 July 2024
+    date: July 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'This document outlines the reasons and benefits to improve specialist finder'
@@ -250,7 +250,7 @@ insights:
     documentFormat: Google Docs
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 10 May 2024
+    date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Migrating finders to Vertex in order to improve keyword search relevance'
