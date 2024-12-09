@@ -6,6 +6,9 @@
       title: {
         html: title | smart
       } if title,
+      title: {
+        html: customPageTitle | smart
+      } if customPageTitle,
       description: {
         html: description | markdown("inline") | noOrphans
       } if description,
