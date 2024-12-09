@@ -48,7 +48,9 @@ howItWorks:
   It is intended to be rendered in Govspeak and as an attachment ‘preview’ in Content Publisher. It is not as rich in features as the attachment rendering provided by Whitehall, it lacks support for multiple languages, CSV previews and publication fields.
   
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.
+
+  <iframe src="https://components.publishing.service.gov.uk/component-guide/back_link"></iframe>'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
