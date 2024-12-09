@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new component within the GOV.UK Design Library website.
+# This file is a template to document a new component within the GOV.UK Publishing Design Guide website.
 layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
 
-# Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design Guide.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -20,6 +20,11 @@ title: Contents list
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
 description: The contents list provides a list of links when content is long and needs to be broken up to help users navigate it.
+
+# Embedding the figma file of the component
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this component.
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
@@ -148,7 +153,7 @@ insights:
       'The content audit discovery summarised a list of inconsistencies and issues with this component and offers proposed solutions to achieve more consistency across GOV.UK.'
     title: Content Audit Discovery – Component recommendations
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
-    documentFormat: Google Doc
+    documentFormat: Google Docs
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -203,13 +208,8 @@ designSystems:
   # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the name of the design library.
-    link: #Delete this comment before entering the URL of the corresponding design library.
-
-# How to report an issue with this component
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the component's codebase exists.
-githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
+    title: #Delete this comment before entering the name of the Publishing Design Guide.
+    link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
@@ -217,6 +217,23 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: There is no visual differentiation between navigating within a page and across pages.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4261
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The components gives very low visibility of which page in a list is active.  
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4262
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The contents list is too low in the type hierarchy.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4263
+  3:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The m-dash is unusual as a visual marker on gov.uk.
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4264
+  4:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Inconsistent position in source order
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4265
+
 ---

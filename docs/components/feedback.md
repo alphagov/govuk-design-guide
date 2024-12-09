@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new component within the GOV.UK Design Library website.
+# This file is a template to document a new component within the GOV.UK Publishing Design Guide website.
 layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
 
-# Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design Guide.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -20,6 +20,11 @@ title: Feedback
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
 description: The feedback component invites user feedback on the current page they are on.
+
+# Embedding the figma file of the component
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this component.
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
@@ -76,7 +81,7 @@ insights:
       #Delete this comment before entering a brief summary about the document being referred.
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -136,13 +141,8 @@ designSystems:
   # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the name of the design library.
-    link: #Delete this comment before entering the URL of the corresponding design library.
-
-# How to report an issue with this component
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the component's codebase exists.
-githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
+    title: #Delete this comment before entering the name of the Publishing Design Guide.
+    link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.

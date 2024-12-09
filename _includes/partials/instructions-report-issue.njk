@@ -1,6 +1,16 @@
 <p class="govuk-body">If you happen to come across an issue:</p>
 <ol class="govuk-list govuk-list--number">
-  <li>Report it on <a href="{{ githubIssueLink }}" class="govuk-link" rel="noopener noreferrer" target="_blank">Github (opens in a new tab)</a>.</li>
+  <li>Report it on 
+    <a class="govuk-link" rel="noopener noreferrer" target="_blank" href=
+      "{% if sectionKey === "Frontend templates" %}
+        https://github.com/alphagov/govuk-design-guide/issues/new?assignees=&labels=frontend+template&projects=alphagov%2F100&template=11-frontend-template-issue.yml&title=%5BEnter+the+name+of+the+frontend+template%5D%3A+%5BEnter+the+issue+with+frontend+template%5D
+      {% elif sectionKey === "Components" %}
+        https://github.com/alphagov/govuk-design-guide/issues/new?assignees=&labels=component&projects=alphagov%2F100&template=09-component-issue.yml&title=%5BEnter+the+name+of+the+component%5D%3A+%5BEnter+the+issue+with+component%5D
+      {% elif sectionKey === "Patterns" %}
+        https://github.com/alphagov/govuk-design-guide/issues/new?assignees=&labels=pattern&projects=alphagov%2F100&template=10-pattern-issue.yml&title=%5BEnter+the+name+of+the+pattern%5D%3A+%5BEnter+the+issue+with+pattern%5D
+      {% endif %}" 
+    >Github (opens in a new tab)</a>.
+  </li>
   <li>Once the issue has been added, update this document by adding the title and Github Issue's link.</li>
   <li>Give yourself a high-five.</li>
 </ol>

@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new component within the GOV.UK Design Library website.
+# This file is a template to document a new component within the GOV.UK Publishing Design Guide website.
 layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
 
-# Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design Guide.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -20,6 +20,11 @@ title: Global banner
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
 description: Used to communicate important information on throughout GOV.UK.
+
+# Embedding the figma file of the component
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this component.
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
@@ -62,22 +67,22 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: May 31, 2024
+    date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Information regarding the site-wide banner during the 2024 General Election'
     title: Site-wide banner and featured homepage promo for the 2024 General Election
     link: https://docs.google.com/document/d/16B-lygYgDHT-gwbjTHQaNsdx9_y2Ikdg2wiU5ekio4w/edit?usp=sharing
-    documentFormat: Google Doc
+    documentFormat: Google Docs
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: May 1, 2020
+    date: May 2020
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Performance of the global banner during COVID and Brexit'
     title: Global banner performance
     link: https://docs.google.com/document/d/1ltH8ydXj_W_clYimAtf1MGwQksITxz-q5Yk9E9H5yBY/edit?usp=sharing
-    documentFormat: Google Doc
+    documentFormat: Google Docs
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -91,13 +96,8 @@ designSystems:
   # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the name of the design library.
-    link: #Delete this comment before entering the URL of the corresponding design library.
-
-# How to report an issue with this component
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the component's codebase exists.
-githubIssueLink: #Delete this comment before entering the URL of the page to create a new GitHub issue.
+    title: #Delete this comment before entering the name of the Publishing Design Guide.
+    link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.

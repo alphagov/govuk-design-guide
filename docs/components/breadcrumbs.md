@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new component within the GOV.UK Design Library website.
+# This file is a template to document a new component within the GOV.UK Publishing Design Guide website.
 layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
 
-# Step 1: Duplicate and rename this file to the proposed component you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design Guide.
 eleventyExcludeFromCollections: false
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -20,6 +20,11 @@ title: Breadcrumbs
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
 description: The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels by making visible the page hierarchy.
+
+# Embedding the figma file of the component
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this component.
 
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
@@ -105,7 +110,7 @@ insights:
       'The Homepage and Navigation Team did a complete audit of the logic and all iterations of this component.'
     title: Breadcrumbs logic
     link: https://docs.google.com/document/d/10k_LzO_JGqARIccAkL7aEgS0Ft9PSe7D0UC87akaUNo/edit#heading=h.yb5qbwi6tisj
-    documentFormat: Google Doc
+    documentFormat: Google Docs
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -156,19 +161,26 @@ designSystems:
     title: Ministry of Defence Design System
     link: https://design-system.service.mod.gov.uk/components/breadcrumbs/
 
-# How to report an issue with this component
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the component's codebase exists.
-githubIssueLink: https://github.com/alphagov/govuk_publishing_components/issues/new
-
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
 issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: Breadcrumbs don't show the page you are on. Is that a problem?
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4257
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: We can’t give specialist document finders a parent taxonomy topic, because there’s no route back. 
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4258
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Parts or all of breadcrumbs missing on some pages
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4259
+  3:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: When content is tagged to multiple topics the breadcrumb component selects one in alphabetical order. Are there alternatives that would work better for users?
+    link: https://github.com/alphagov/govuk_publishing_components/issues/4260
 
 
 # Kati's additional suggestions

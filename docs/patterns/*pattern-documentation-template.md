@@ -1,14 +1,14 @@
 ---
-# This file is a template to document a new pattern within the GOV.UK Design Library website.
+# This file is a template to document a new pattern within the GOV.UK Publishing Design Guide website.
 layout: pattern-documentation
 sectionKey: Patterns
 eleventyNavigation:
   parent: Patterns
 
-# Step 1: Duplicate and rename this file to the proposed pattern you want to include in the Design Library website.
+# Step 1: Duplicate and rename this file to the proposed pattern you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
 
-# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the design library.
+# Step 2: Set "eleventyExcludeFromCollections" to "false". This will ensure that the code snippet is commented out and this page will be display withinin the Publishing Design Guide.
 eleventyExcludeFromCollections: true
 
 # Step 3: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
@@ -20,6 +20,11 @@ title: #Delete this comment before entering the name of the pattern.
 # Description of the pattern
 # This briefly describes what the pattern is. It is required to display the description on the page, and in the <head> meta description.
 description: #Delete this comment before entering the description of the pattern.
+
+# Embedding the figma file of the pattern
+# This will display a Figma embed on the page.
+# To add a Figma embed, copy only the URL within the embed snippet.
+figmaLink: #Delete this comment before entering the Figma embed URL of the Figma representaiton of this pattern.
 
 # When to use this pattern
 # Briefly describe the situation(s) when to use this pattern.
@@ -70,18 +75,13 @@ insights:
       #Delete this comment before entering a brief summary about the document being referred.
     title: #Delete this comment before entering the name of the insight document.
     link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Doc, (2) Google Sheets, and (3) Google Slides.
+    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
 
 # Accessibilty criteria for this pattern
 # List out the accessibility for this pattern.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 accessibilty:
   #Delete this comment before entering the accessibility criteria for this pattern.
-
-# How to report an issue with this pattern
-# This will display instrucions on how to report an issue via GitHub.
-# Consult with a developer to confirm the GitHub where the pattern's codebase exists.
-githubIssueLink: #Delete this comment before entering the URL of the page to create a new GitHub issue.
 
 # Existing issues with this pattern
 # List of all the issues that are associated with this pattern, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
