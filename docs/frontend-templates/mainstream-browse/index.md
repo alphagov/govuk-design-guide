@@ -158,7 +158,7 @@ insights:
     documentFormat: Google Slides
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 15, 2022
+    date: August 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
      'Findings after A/B test with introduction of accordion component to Mainstream browse page'
@@ -167,7 +167,7 @@ insights:
     documentFormat: Google Slides
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 16, 2022
+    date: June 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'This document sets out how the new topic pages will look and work, why we are replacing the current Mainstream Browse topic page, and what we plan to do in the future'
@@ -176,7 +176,7 @@ insights:
     documentFormat: Google Slides
   3:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: January 26, 2022
+    date: January 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Early-thinking overhaul design of Mainstream browse page replacing miller columns and merging Specialist topics into updated topic pages'
@@ -185,7 +185,7 @@ insights:
     documentFormat: Google Docs
   4:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 20, 2018
+    date: August 2018
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Replacing Mainstream Browse taxonomy and replace with new site-wide taxonomy'
@@ -194,7 +194,7 @@ insights:
     documentFormat: Google Docs
   5:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 9, 2018
+    date: August 2018
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'How the design sprint will run for Mainstream Browse pages'

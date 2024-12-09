@@ -67,7 +67,7 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: Feb 2024
+    date: February 2024
     description:
       'A write up of the Email notification sign-up journey.'
     title: Email notification sign-up journeys

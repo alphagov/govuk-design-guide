@@ -225,7 +225,7 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: July 10, 2024
+    date: July 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Information regarding the design update, taken place in November 2023'
@@ -234,7 +234,7 @@ insights:
     documentFormat: Wiki entry
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: July 17, 2023
+    date: July 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Gameplan/lead-up to redesigning the homepage'
@@ -243,7 +243,7 @@ insights:
     documentFormat: Google Slides
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: April 28, 2023
+    date: April 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Holistic redesign of the homepage'
