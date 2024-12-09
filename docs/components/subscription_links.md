@@ -69,7 +69,7 @@ insights:
       Research showed that users do not make much use of 'subscribe to feed' leading to the proposal to remove it but to keep the underlying feeds for specialists and consisting users. It was suggested that the Find and View team own this roll out, as owners of the front-end applications.
     title: A case for removing ‘subscribe to feed’ links
     link: https://docs.google.com/document/d/1bYeieDqn_trm1cgTU6AxCyfhcc2nUCEi6fBuugKUWlI/edit#heading=h.y0vsas8r9tzf 
-    documentFormat: google doc
+    documentFormat: Google Doc
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
