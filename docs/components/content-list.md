@@ -210,6 +210,7 @@ designSystems:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the name of the Publishing Design Guide.
     link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
+    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
@@ -219,21 +220,26 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: There is no visual differentiation between navigating within a page and across pages.
     link: https://github.com/alphagov/govuk_publishing_components/issues/4261
+    external: true
   1:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: The components gives very low visibility of which page in a list is active.  
     link: https://github.com/alphagov/govuk_publishing_components/issues/4262
+    external: true
   2:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: The contents list is too low in the type hierarchy.
     link: https://github.com/alphagov/govuk_publishing_components/issues/4263
+    external: true
   3:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: The m-dash is unusual as a visual marker on gov.uk.
     link: https://github.com/alphagov/govuk_publishing_components/issues/4264
+    external: true
   4:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Inconsistent position in source order
     link: https://github.com/alphagov/govuk_publishing_components/issues/4265
+    external: true
 
 ---

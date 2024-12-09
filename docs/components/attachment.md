@@ -204,7 +204,7 @@ designSystems:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the name of the Publishing Design Guide.
     link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
-    external: #Set to "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
+    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
