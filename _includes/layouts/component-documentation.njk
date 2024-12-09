@@ -21,7 +21,7 @@
             {{ listItemsWithLink("doc-design-systems__list", designSystems) }}
           {% else %}
             <p class="govuk-body">
-              <a class="govuk-link" href="{{ designSystems[0].link }}">{{ designSystems[0].title }}</a>
+              <a class="govuk-link" href="{{ designSystems[0].link }}"  rel="noopener noreferrer" target="_blank">{{ designSystems[0].title }} (opens in a new tab)</a>
             </p>
           {% endif %}
         </section>
