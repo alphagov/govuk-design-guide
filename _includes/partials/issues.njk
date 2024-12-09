@@ -23,7 +23,7 @@
         <h2 class="doc-issues__title govuk-heading-l">An existing issue with this pattern</h2>
       {% endif %}
       <p class="govuk-body">
-        <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
+        <a class="govuk-link" href="{{ issues[0].link }}" rel="noopener noreferrer" target="_blank">{{ issues[0].title }} (opens in a new link)</a>
       </p>
       {{ reportIssue("h3", "m") }}
       {% include "./instructions-report-issue.njk" %}
