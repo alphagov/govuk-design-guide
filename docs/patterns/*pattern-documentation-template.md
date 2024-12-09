@@ -62,6 +62,7 @@ components:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: #Delete this comment before entering the name of the component used within this pattern.
     link: #Delete this comment before entering the URL of the documentation for said component.
+    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
 
 # Evidence and insights for this pattern
 # List out all past documentation/supporting material with regards to or realted to this pattern. It can include (1) past design documentation, (2) research findings, and (3) presentations.
@@ -91,4 +92,5 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.
     link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
 ---

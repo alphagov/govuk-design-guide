@@ -77,22 +77,27 @@ components:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: Search
     link: https://components.publishing.service.gov.uk/component-guide/search
+    external: true
   1:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: Expander
     link: https://govuk-finder-frontend.herokuapp.com/component-guide/expander
+    external: true
   2:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: Form date input
     link: https://components.publishing.service.gov.uk/component-guide/date_input
+    external: true
   3:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: Option select
     link: https://components.publishing.service.gov.uk/component-guide/option_select
+    external: true
   4:
     # Both title and link are REQUIRED in order for this information to be displayed on the page.
     title: Form radio button
     link: https://components.publishing.service.gov.uk/component-guide/radio
+    external: true
 
 # Evidence and insights for this pattern
 # List out all past documentation/supporting material with regards to or realted to this pattern. It can include (1) past design documentation, (2) research findings, and (3) presentations.
@@ -122,4 +127,5 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.
     link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
 ---
