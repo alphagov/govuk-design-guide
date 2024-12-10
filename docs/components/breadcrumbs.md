@@ -203,7 +203,6 @@ issues:
     link: https://github.com/alphagov/govuk-design-guide/issues/144
 
 
-
 # Kati's additional suggestions
 #   0:
 #     title: Mainstream tagged to mainstream browse
