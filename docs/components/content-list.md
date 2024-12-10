@@ -130,12 +130,13 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: May 2024
+    date: August 2022
     description:
-     'A research and design project on travel advice identified that the contents list contributes to users struggling to find information they need. In the given context, working with users enabled the team to streamline the content list from 10 items down to 5. This resulted in less confusion, fewer places to look, and Emergency content info more easily found.'
-    title: Travel Advice research and design summary 2022 to 23 (pp. 8)
-    link: https://docs.google.com/presentation/d/1Qx8o2ppZgnHbXe0UAT1f5XSsTL8-QaCv/edit?usp=sharing&ouid=105832416597570443289&rtpof=true&sd=true
-    documentFormat: Google Slides
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'The content audit discovery summarised a list of inconsistencies and issues with this component and offers proposed solutions to achieve more consistency across GOV.UK.'
+    title: Content Audit Discovery – Component recommendations
+    link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
+    documentFormat: Google Docs
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
     date: November 2022
@@ -147,13 +148,12 @@ insights:
     documentFormat: Google Slides
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 2022
+    date: May 2024
     description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'The content audit discovery summarised a list of inconsistencies and issues with this component and offers proposed solutions to achieve more consistency across GOV.UK.'
-    title: Content Audit Discovery – Component recommendations
-    link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
-    documentFormat: Google Docs
+     'A research and design project on travel advice identified that the contents list contributes to users struggling to find information they need. In the given context, working with users enabled the team to streamline the content list from 10 items down to 5. This resulted in less confusion, fewer places to look, and Emergency content info more easily found.'
+    title: Travel Advice research and design summary 2022 to 23 (pp. 8)
+    link: https://docs.google.com/presentation/d/1Qx8o2ppZgnHbXe0UAT1f5XSsTL8-QaCv/edit?usp=sharing&ouid=105832416597570443289&rtpof=true&sd=true
+    documentFormat: Google Slides
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.

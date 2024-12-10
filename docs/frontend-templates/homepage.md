@@ -225,13 +225,13 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: July 2024
+    date: April 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Information regarding the design update, taken place in November 2023'
-    title: 'GOV.UK homepage'
-    link: https://gov-uk.atlassian.net/wiki/spaces/GOVUK/pages/29720672/GOV.UK+homepage
-    documentFormat: Wiki entry
+      'Holistic redesign of the homepage'
+    title: Homepage Redesign Challenge
+    link: https://docs.google.com/presentation/d/13YlznozVei-m69S0hL8VAm3mMzHMSoa88EVctgDjFm0/edit?usp=sharing
+    documentFormat: Google Slides
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
     date: July 2023
@@ -243,13 +243,13 @@ insights:
     documentFormat: Google Slides
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: April 2023
+    date: July 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Holistic redesign of the homepage'
-    title: Homepage Redesign Challenge
-    link: https://docs.google.com/presentation/d/13YlznozVei-m69S0hL8VAm3mMzHMSoa88EVctgDjFm0/edit?usp=sharing
-    documentFormat: Google Slides
+      'Information regarding the design update, taken place in November 2023'
+    title: 'GOV.UK homepage'
+    link: https://gov-uk.atlassian.net/wiki/spaces/GOVUK/pages/29720672/GOV.UK+homepage
+    documentFormat: Wiki entry
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
