@@ -152,17 +152,20 @@ designSystems:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: GOV.UK Design System
     link: https://design-system.service.gov.uk/components/breadcrumbs/
-    external: true
+    external:
+      true
   1:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: NHS Digital service manual
     link: https://service-manual.nhs.uk/design-system/components/breadcrumbs
-    external: true
+    external:
+      true
   2:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Ministry of Defence Design System
     link: https://design-system.service.mod.gov.uk/components/breadcrumbs/
-    external: true
+    external:
+      true
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
@@ -172,22 +175,26 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Breadcrumbs don't show the page you are on. Is that a problem?
     link: https://github.com/alphagov/govuk_publishing_components/issues/4257
-    external: true
+    external:
+      true
   1:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: We can’t give specialist document finders a parent taxonomy topic, because there’s no route back. 
     link: https://github.com/alphagov/govuk_publishing_components/issues/4258
-    external: true
+    external:
+      true
   2:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Parts or all of breadcrumbs missing on some pages
     link: https://github.com/alphagov/govuk_publishing_components/issues/4259
-    external: true
+    external:
+      true
   3:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: When content is tagged to multiple topics the breadcrumb component selects one in alphabetical order. Are there alternatives that would work better for users?
     link: https://github.com/alphagov/govuk_publishing_components/issues/4260
-    external: true
+    external:
+      true
 
 
 # Kati's additional suggestions
