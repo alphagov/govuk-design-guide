@@ -50,7 +50,9 @@ howItWorks:
 
   View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.
 
-  <iframe src="https://components.publishing.service.gov.uk/component-guide/back_link"></iframe>'
+  <!-- <iframe src="https://components.publishing.service.gov.uk/component-guide/attachment"></iframe> -->
+  <!-- <iframe src="http://0.0.0.0:3212/component-guide/attachment/default/preview"></iframe> -->
+  <iframe src="http://govuk-publishing-components.dev.gov.uk/component-guide/attachment/default/preview"></iframe>'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
