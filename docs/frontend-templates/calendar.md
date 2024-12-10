@@ -34,7 +34,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly descibe how this frontend template works. For instance, listing out what end-user can do on a page that uses this frontend template, as well as it's relation to other pages and its associated frontend templates on GOV.UK.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'According to the <a class="govuk-link" href="https://gov-uk.atlassian.net/wiki/spaces/CC/pages/2293202956/Updating+the+GOV.UK+bank+holidays+page" rel="noopener noreferrer" target="_blank">wiki post</a>, Blue team are responsible for working with developers in the homepage and navigation team to add bank holiday information on /bank-holidays. They should arrange for `/when-do-the-clocks-change` to be updated at the same time, including its meta description.
+  'According to the <a class="govuk-link" href="https://gov-uk.atlassian.net/wiki/spaces/CC/pages/2293202956/Updating+the+GOV.UK+bank+holidays+page" rel="noopener noreferrer" target="_blank">wiki post (opens in a new tab)</a>, Blue team are responsible for working with developers in the homepage and navigation team to add bank holiday information on /bank-holidays. They should arrange for `/when-do-the-clocks-change` to be updated at the same time, including its meta description.
 
 
   Blue team adds new dates to the page the October or November 2 years in advance. For example, we added all the 2020 bank holiday dates in November 2018. We should also remove the oldest year of past bank holidays from the page.
