@@ -36,9 +36,9 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 howItWorks:
   'There are two levels of mainstream browse pages:
     
-    - [Level one](./level-one) - Topic (parent)
+    - [Level one](./level-one) – Topic (parent)
     
-    - [Level two](./level-two) - Subtopic (child) 
+    - [Level two](./level-two) – Subtopic (child) 
   
   
     Mainstream browse topics are listed in the main menu and on the GOV.UK homepage under ‘Services and information’ heading.'
@@ -49,7 +49,7 @@ examples:
   # To add additional examples duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: 'Driving and transport - Level one browse page'
+    title: 'Driving and transport – Level one browse page'
     link: https://www.gov.uk/browse/driving
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
@@ -58,7 +58,7 @@ examples:
       false
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: 'Vehicle, tax MOT and insurance - Curated level two browse page'
+    title: 'Vehicle, tax MOT and insurance – Curated level two browse page'
     link: https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
@@ -67,7 +67,7 @@ examples:
       false
   2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: 'School admissions and transport to school - Alphabetical level two browse page'
+    title: 'School admissions and transport to school – Alphabetical level two browse page'
     link: https://www.gov.uk/browse/education/school-admissions-transport
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:

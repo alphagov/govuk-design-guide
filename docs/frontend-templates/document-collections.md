@@ -23,7 +23,7 @@ title: Document collections
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: Document collections group related documents on a single page that are aimed for a specific audience or around a specific theme or topic.
+description: Document collections group related documents on a single page that are aimed at a specific audience or reflect a specific theme or topic.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
@@ -51,10 +51,10 @@ howItWorks:
   
   ### Rules on how multiple collections are ordered
 
-  If more than one collection page is listed, the collections appear in the order of their relative positions within the document collections they belong to. 
+  If more than one collection page is listed, they are ordered by the respective item’s position within them. 
   
 
-  Example: [National curriculum in England: framework for key stages 1 to 4](https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4) - The content item belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection - so is the second link in the sidebar. It is the 54th item in the "Local-authority-maintained schools: governance" collection - so that is the third link.
+  Example: The content item [National curriculum in England: framework for key stages 1 to 4](https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4) belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection, making this the second link in the sidebar. It is also the 54th item in the "Local-authority-maintained schools: governance" collection, therefore showing this as the third link.
 
   ### Email sign up links on document collections
 
@@ -67,7 +67,7 @@ howItWorks:
   - the document collection is unpublished and redirected
 
 
-  There’s an exception on some HMRC document collections where users will get emails about the topic instead of the document collection. [Find out why they were set up like this](https://docs.google.com/document/d/1MR5OaFG_DOCmWGL9o9MSGIPLMFe2mmSrV6Va-99cSzw/edit#heading=h.jbja48mpt1t7).'
+  There’s an exception on some HMRC document collections where users will get emails about the topic instead of the document collection. <a class="govuk-link" href="https://docs.google.com/document/d/1MR5OaFG_DOCmWGL9o9MSGIPLMFe2mmSrV6Va-99cSzw/edit#heading=h.jbja48mpt1t7" rel="noopener noreferrer" target="_blank">Find out why they were set up like this (opens in a new tab)</a>.'
 
 # Live examples of webpages that use this frontend template
 # List out all the pages on GOV.UK that use this frontend template, by providing: (1) the title of the page, (2) the URL of the page, and (3) indicate whether the page is in Welsh in order for assistive technology to read out the page title correctly.

@@ -45,7 +45,7 @@ howItWorks:
   'This component renders two different outputs depending on whether a `href` is specified. By default, when no `href` is given, the component renders as a button and triggers a print action via JavaScript. In this case the component is hidden in environments where JavaScript is disabled and can be used as a progressive enhancement. When a `href` is specified the component renders as an anchor tag and navigates to that `href` without JavaScript, suitable for applications which have paths that trigger a print event on load.
   
   
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/print_link" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/print_link" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
