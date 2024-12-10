@@ -181,6 +181,26 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: When content is tagged to multiple topics the breadcrumb component selects one in alphabetical order. Are there alternatives that would work better for users?
     link: https://github.com/alphagov/govuk_publishing_components/issues/4260
+  4:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Manual sections should have a parent of the manual, and a grandparent of a topic.
+    link: https://github.com/alphagov/govuk-design-guide/issues/140
+  5:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: HMRC manuals should have breadcrumbs
+    link: https://github.com/alphagov/govuk-design-guide/issues/141
+  6:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Corporate information pages should have a parent of an org page
+    link: https://github.com/alphagov/govuk-design-guide/issues/142
+  7:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Worldwide offices and worldwide organisations do not have a breadcrumb
+    link: https://github.com/alphagov/govuk-design-guide/issues/143
+  8:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Are there alternatives to ordering breadcrumbs alphabetically when content is tagged to more than one topic?
+    link: https://github.com/alphagov/govuk-design-guide/issues/144
 
 
 # Kati's additional suggestions
