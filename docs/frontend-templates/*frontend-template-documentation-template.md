@@ -49,7 +49,11 @@ examples:
         # true = The webpage is in Welsh
         # false = The webpage is not in Welsh, but rather in English
       #Delete this comment before entering whether the webpage is in Welsh or not.
-    external: #Set "external" to "true" if the link is outside the Publishing Design Guide. Set "external" to "false" if the link is within the Publishing Design Guide
+    external:
+      # Options on whether the webpage is an external:
+        # true = The link is outside the Publishing Design Guide
+        # false = The link is within the Publishing Design Guide
+      #Delete this comment before entering whether the link is external or not.
     
 # The Content Data (Production) URL this frontend template
 # Filter the document type in content data and copy the URL in your browser's address bar.
