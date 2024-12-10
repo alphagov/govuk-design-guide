@@ -3,12 +3,24 @@
     {% for i in range(0, listItem | length ) %}
       {% if listItem[i].link and listItem[i].title %}
         <li>
+          <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro listItemsWithExternalLink(listClass, listItem) %}
+  <ul class="{{ listClass }} govuk-list">
+    {% for i in range(0, listItem | length ) %}
+      {% if listItem[i].link and listItem[i].title %}
+        <li>
           {% if listItem[i].welsh == true %}
             <span lang="cy">
-              <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+              <a class="govuk-link" href="{{ listItem[i].link }}" rel="noopener noreferrer" target="_blank">{{ listItem[i].title }} (opens in a new tab)</a>
             </span>
           {% else %}
-            <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+            <a class="govuk-link" href="{{ listItem[i].link }}" rel="noopener noreferrer" target="_blank">{{ listItem[i].title }} (opens in a new tab)</a>
           {% endif %}
         </li>
       {% endif %}
