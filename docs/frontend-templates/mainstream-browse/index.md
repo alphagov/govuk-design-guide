@@ -201,6 +201,34 @@ insights:
     title: 'How to curate mainstream browse pages'
     link: https://docs.google.com/presentation/d/1Kp69ojze0kbyIaE2rAyyMIB9hfOBiXNCwbQ37TxQyYQ/edit
     documentFormat: Google Slides
+  6:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: May 2024
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'A/B test analysis on using a grid vs list UI to present topics on mainstream browse pages. This informed the decision to move from a grid to a list layout.'
+    title: 'AB testing grid vs list on mainstream browse page results'
+    link: https://docs.google.com/document/d/1lJ4z5r930ExAs6ImXsphaQR2cTzuqBQkIfaEHrvYEt4/edit?tab=t.0
+    documentFormat: Google Docs
+  7:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: September 2024
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Usability testing analysis on ‘Popular tasks’ in Level One mainstream topic pages. This informed the decision to roll out the ‘popular’ links to all the level 1 mainstream browse topic pages, and to change the section title to ‘Most viewed’'
+    title: 'Popular Links Findings Report'
+    link: https://docs.google.com/presentation/d/1XpJrL9mSOdq_3n8zlUidC0xTL7gEefN0SZXVKz3z6NE/edit#slide=id.g2f08ff8b21f_0_67
+    documentFormat: Google Slides        
+  8:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: November 2024
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Findings from a Multi Variate Testing to identify and validate the most effective shortcuts to content on the sixteen Level One mainstream browse pages. These results informed the decision to present links to the three most viewed pages tagged to the Level One browse page’s subtopics at the top of the page. The links are dynamically fetched from SearchAPI'
+    title: 'Multi Variate Testing on Popular Tasks'
+    link: https://docs.google.com/document/d/1kCEnXA58R4YKJUOpMNBeqVSFHXDwbow3_GUebcK0i9M/edit?tab=t.0#heading=h.tgu1ies1hjax
+    documentFormat: Google Docs 
+ 
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
