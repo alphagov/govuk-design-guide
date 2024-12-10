@@ -48,7 +48,7 @@ howItWorks:
   It is intended to be rendered in Govspeak and as an attachment ‘preview’ in Content Publisher. It is not as rich in features as the attachment rendering provided by Whitehall, it lacks support for multiple languages, CSV previews and publication fields.
   
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -194,7 +194,7 @@ accessibilty:
   - have meaningful text
   
 
-  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.

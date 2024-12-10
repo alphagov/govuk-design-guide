@@ -57,7 +57,7 @@ howItWorks:
   This component uses JavaScript for expanding and collapsing and also for submitting form responses.
   
   
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.

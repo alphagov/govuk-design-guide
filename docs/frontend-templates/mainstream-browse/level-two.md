@@ -42,7 +42,7 @@ examples:
   # To add additional examples duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: 'Curated level two browse page - Vehicle, tax MOT and insurance'
+    title: 'Curated level two browse page – Vehicle, tax MOT and insurance'
     link: https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
@@ -51,7 +51,7 @@ examples:
       false
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    title: 'Alphabetical level two browse page - School admissions and transport to school'
+    title: 'Alphabetical level two browse page – School admissions and transport to school'
     link: https://www.gov.uk/browse/education/school-admissions-transport
     welsh:
       # Options on whether the webpage using this frontend template is in Welsh:
