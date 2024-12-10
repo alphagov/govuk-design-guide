@@ -67,21 +67,21 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: May 2024
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Information regarding the site-wide banner during the 2024 General Election'
-    title: Site-wide banner and featured homepage promo for the 2024 General Election
-    link: https://docs.google.com/document/d/16B-lygYgDHT-gwbjTHQaNsdx9_y2Ikdg2wiU5ekio4w/edit?usp=sharing
-    documentFormat: Google Docs
-  1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
     date: May 2020
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Performance of the global banner during COVID and Brexit'
     title: Global banner performance
     link: https://docs.google.com/document/d/1ltH8ydXj_W_clYimAtf1MGwQksITxz-q5Yk9E9H5yBY/edit?usp=sharing
+    documentFormat: Google Docs
+  1:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: May 2024
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Information regarding the site-wide banner during the 2024 General Election'
+    title: Site-wide banner and featured homepage promo for the 2024 General Election
+    link: https://docs.google.com/document/d/16B-lygYgDHT-gwbjTHQaNsdx9_y2Ikdg2wiU5ekio4w/edit?usp=sharing
     documentFormat: Google Docs
 
 # Accessibilty criteria for this component

@@ -295,18 +295,18 @@ insights:
     date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'A spreadsheet outlining the total number of sessions in which any page from a guide was viewed.'
-    title: 'Guides: Click-thru (any page in guide)'
-    link: https://docs.google.com/spreadsheets/d/1nMZ4yU0wOhQtPwa78n4i8GKmMuCEYvQTVtKPPVCCbk0/edit?usp=sharing
+      'Data shows how many sessions included any page from each chapter and then breaks down that figure by the number of sessions for each chapter within the guide.'
+    title: 'Guides: usage across chapters'
+    link: https://docs.google.com/spreadsheets/d/1lW8AJ1HbnFv06gkDB6OUGFPZjeXQbaECWW3t4AT2YPk/edit?gid=0#gid=0
     documentFormat: Google Sheets
   1:
     # Both title and link are REQUIRED in order for this information to render on the page.
     date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Data shows how many sessions included any page from each chapter and then breaks down that figure by the number of sessions for each chapter within the guide.'
-    title: 'Guides: usage across chapters'
-    link: https://docs.google.com/spreadsheets/d/1lW8AJ1HbnFv06gkDB6OUGFPZjeXQbaECWW3t4AT2YPk/edit?gid=0#gid=0
+      'A spreadsheet outlining the total number of sessions in which any page from a guide was viewed.'
+    title: 'Guides: Click-thru (any page in guide)'
+    link: https://docs.google.com/spreadsheets/d/1nMZ4yU0wOhQtPwa78n4i8GKmMuCEYvQTVtKPPVCCbk0/edit?usp=sharing
     documentFormat: Google Sheets
 
 # Existing issues with this frontend template

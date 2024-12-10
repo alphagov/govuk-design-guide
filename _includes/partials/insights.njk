@@ -11,7 +11,7 @@
         </tr>
       </thead>
       <tbody class="govuk-table__body">
-        {% for i in range(0, insights | length ) %}
+        {% for i in range(0, insights | length ) | reverse %}
           {% if insights[i].link and insights[i].title %}
             <tr class="govuk-table__row">
               <th scope="row" class="govuk-table__header">{{ insights[i].date }}</th>
