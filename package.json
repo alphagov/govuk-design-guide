@@ -1,4 +1,5 @@
 {
+  "name": "govuk-design-guide",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
