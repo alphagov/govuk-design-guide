@@ -17,6 +17,17 @@
 {% if howItLooks %}
   <section class="doc-how-it-looks">
     <h2 class="govuk-heading-l">How it looks</h2>
-    {{ breadcrumbsHTML }}
+    <div class="component-visual">{{ breadcrumbsHTML }}</div>
   </section>
 {% endif %}
+
+<style>
+  .doc-how-it-looks {
+    margin: 0 0 1rem;
+  }
+
+  .component-visual {
+    border: solid 1px rgb(128, 128, 128);
+    padding: 1rem;
+  }
+</style>
