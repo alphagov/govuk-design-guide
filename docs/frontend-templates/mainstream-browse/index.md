@@ -149,41 +149,14 @@ insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: July 2023
+    date: August 2018
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Guidance on how to curate mainstream browse pages'
-    title: 'How to curate mainstream browse pages'
-    link: https://docs.google.com/presentation/d/1Kp69ojze0kbyIaE2rAyyMIB9hfOBiXNCwbQ37TxQyYQ/edit
-    documentFormat: Google Slides
-  1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 2022
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-     'Findings after A/B test with introduction of accordion component to Mainstream browse page'
-    title: 'GOV.UK Navigation mainstream browse follow-up A/B test'
-    link: https://docs.google.com/presentation/d/1poSeFuf2KMR2gzMI3A2ePT2xWi7n6QXMf6cBo8aHiZ4/edit?usp=sharing
-    documentFormat: Google Slides
-  2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 2022
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'This document sets out how the new topic pages will look and work, why we are replacing the current Mainstream Browse topic page, and what we plan to do in the future'
-    title: 'GOV.UK Navigation mainstream browse A/B test'
-    link: https://docs.google.com/presentation/d/1s1d4BYJZaZmt5J0CFORRmMTKPush88_yiT7_OR8WxHw/edit?usp=sharing
-    documentFormat: Google Slides
-  3:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: January 2022
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Early-thinking overhaul design of Mainstream browse page replacing miller columns and merging Specialist topics into updated topic pages'
-    title: 'Topic page design implementation'
-    link: https://docs.google.com/document/d/1MbhUjXLMUvEvqRU_w5S7RD9_wVhB3LkcdfDIxnSOz4g/edit?usp=sharing
+      'How the design sprint will run for Mainstream Browse pages'
+    title: 'Mainstream Browse design sprint'
+    link: https://docs.google.com/document/d/1aCUbrdqaCCF6mblDfddw1Wck_DmTsHADMYR-Ny-9Xw4/edit#heading=h.yo2pwekzv7t0
     documentFormat: Google Docs
-  4:
+  1:
     # Both title and link are REQUIRED in order for this information to render on the page.
     date: August 2018
     description:
@@ -192,15 +165,42 @@ insights:
     title: What is Mainstream Browse
     link: https://docs.google.com/document/d/13IkO2ZnknFDiNTn-z9E4LwCbTTN1Dnw2xcfO3iU_v9E/edit#heading=h.yw8vk47ou0r5
     documentFormat: Google Docs
-  5:
+  2:
     # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 2018
+    date: January 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'How the design sprint will run for Mainstream Browse pages'
-    title: 'Mainstream Browse design sprint'
-    link: https://docs.google.com/document/d/1aCUbrdqaCCF6mblDfddw1Wck_DmTsHADMYR-Ny-9Xw4/edit#heading=h.yo2pwekzv7t0
+      'Early-thinking overhaul design of Mainstream browse page replacing miller columns and merging Specialist topics into updated topic pages'
+    title: 'Topic page design implementation'
+    link: https://docs.google.com/document/d/1MbhUjXLMUvEvqRU_w5S7RD9_wVhB3LkcdfDIxnSOz4g/edit?usp=sharing
     documentFormat: Google Docs
+  3:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: June 2022
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'This document sets out how the new topic pages will look and work, why we are replacing the current Mainstream Browse topic page, and what we plan to do in the future'
+    title: 'GOV.UK Navigation mainstream browse A/B test'
+    link: https://docs.google.com/presentation/d/1s1d4BYJZaZmt5J0CFORRmMTKPush88_yiT7_OR8WxHw/edit?usp=sharing
+    documentFormat: Google Slides
+  4:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: August 2022
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+     'Findings after A/B test with introduction of accordion component to Mainstream browse page'
+    title: 'GOV.UK Navigation mainstream browse follow-up A/B test'
+    link: https://docs.google.com/presentation/d/1poSeFuf2KMR2gzMI3A2ePT2xWi7n6QXMf6cBo8aHiZ4/edit?usp=sharing
+    documentFormat: Google Slides
+  5:
+    # Both title and link are REQUIRED in order for this information to render on the page.
+    date: July 2023
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Guidance on how to curate mainstream browse pages'
+    title: 'How to curate mainstream browse pages'
+    link: https://docs.google.com/presentation/d/1Kp69ojze0kbyIaE2rAyyMIB9hfOBiXNCwbQ37TxQyYQ/edit
+    documentFormat: Google Slides
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
