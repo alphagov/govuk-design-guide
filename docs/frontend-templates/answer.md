@@ -246,7 +246,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -255,7 +255,7 @@ insights:
     link: https://docs.google.com/spreadsheets/d/1f4fSsIxkCfWiKNV9qgE_sep61f5EbKxU58wTWCsGw60/edit?gid=2140166644#gid=2140166644
     documentFormat: Google Sheets
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -264,7 +264,7 @@ insights:
     link: https://docs.google.com/spreadsheets/d/1rJTOD69386X1lnpUpih3eXZoeX54kNB4u7dqIQA2oBg/edit?gid=132520947#gid=132520947
     documentFormat: Google Sheets
   2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -273,7 +273,7 @@ insights:
     link: https://docs.google.com/spreadsheets/d/1bxdQQvSUIfNdmuyF1Ws7RwZARIdgU9eQTN5jYrJeXkU/edit?gid=1433864911#gid=1433864911
     documentFormat: Google Sheets
   3:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: September 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
