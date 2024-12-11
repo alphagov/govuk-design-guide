@@ -30,7 +30,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  This component existing on all pages across GOV.UK.
+  This component exists on all pages across GOV.UK.
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -42,7 +42,13 @@ whenNotToUse:
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'There are multiple journeys in this component:
+  'This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
+
+
+  This component uses JavaScript for expanding and collapsing and also for submitting form responses.
+
+  
+  There are multiple journeys possible from this component:
   
   - Users say ‘yes’ the page is useful and get the response ‘Thank you for your feedback’.
   
@@ -50,13 +56,7 @@ howItWorks:
   
   - Users say ‘Report a problem with this page’ and we ask them ‘what were you doing?’ and ‘what went wrong?’.
 
-  
-  This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
 
-
-  This component uses JavaScript for expanding and collapsing and also for submitting form responses.
-  
-  
   View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
@@ -150,6 +150,6 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the title of the GitHub issue.
-    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
+    title: Without a change to the journey for ‘no’ and ‘report a problem’ the quality of feedback received isn’t as great as we’d like it.
+    link: https://github.com/alphagov/govuk-design-guide/issues/156
 ---
