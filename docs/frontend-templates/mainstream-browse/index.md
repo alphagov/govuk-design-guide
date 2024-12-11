@@ -148,7 +148,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2018
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -157,7 +157,7 @@ insights:
     link: https://docs.google.com/document/d/1aCUbrdqaCCF6mblDfddw1Wck_DmTsHADMYR-Ny-9Xw4/edit#heading=h.yo2pwekzv7t0
     documentFormat: Google Docs
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2018
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -166,7 +166,7 @@ insights:
     link: https://docs.google.com/document/d/13IkO2ZnknFDiNTn-z9E4LwCbTTN1Dnw2xcfO3iU_v9E/edit#heading=h.yw8vk47ou0r5
     documentFormat: Google Docs
   2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: January 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -175,7 +175,7 @@ insights:
     link: https://docs.google.com/document/d/1MbhUjXLMUvEvqRU_w5S7RD9_wVhB3LkcdfDIxnSOz4g/edit?usp=sharing
     documentFormat: Google Docs
   3:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: June 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -184,7 +184,7 @@ insights:
     link: https://docs.google.com/presentation/d/1s1d4BYJZaZmt5J0CFORRmMTKPush88_yiT7_OR8WxHw/edit?usp=sharing
     documentFormat: Google Slides
   4:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -193,7 +193,7 @@ insights:
     link: https://docs.google.com/presentation/d/1poSeFuf2KMR2gzMI3A2ePT2xWi7n6QXMf6cBo8aHiZ4/edit?usp=sharing
     documentFormat: Google Slides
   5:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: July 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -202,7 +202,7 @@ insights:
     link: https://docs.google.com/presentation/d/1Kp69ojze0kbyIaE2rAyyMIB9hfOBiXNCwbQ37TxQyYQ/edit
     documentFormat: Google Slides
   6:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -211,7 +211,7 @@ insights:
     link: https://docs.google.com/document/d/1lJ4z5r930ExAs6ImXsphaQR2cTzuqBQkIfaEHrvYEt4/edit?tab=t.0
     documentFormat: Google Docs
   7:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: September 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -220,7 +220,7 @@ insights:
     link: https://docs.google.com/presentation/d/1XpJrL9mSOdq_3n8zlUidC0xTL7gEefN0SZXVKz3z6NE/edit#slide=id.g2f08ff8b21f_0_67
     documentFormat: Google Slides        
   8:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: November 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
