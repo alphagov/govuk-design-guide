@@ -11,7 +11,7 @@
 {% endmacro %}
 
 {% macro listItemsWithExternalLink(listClass, listItem) %}
-  <ul class="{{ listClass }} govuk-list">
+  <ul class="{{ listClass }} govuk-list govuk-list--bullet">
     {% for i in range(0, listItem | length ) %}
       {% if listItem[i].link and listItem[i].title %}
         <li>
