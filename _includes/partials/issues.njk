@@ -11,7 +11,7 @@
       {% elif sectionKey === "Patterns" %}
         <h2 class="doc-issues__title govuk-heading-l">Existing issues with this pattern</h2>
       {% endif %}
-      {{ listItemsWithExternalLink("doc-issues__list", issues) }}
+      {{ listItemsWithExternalLink("doc-issues__list govuk-list--spaced", issues) }}
       {{ reportIssue("h3", "m") }}
       {% include "./instructions-report-issue.njk" %}
     {% else %}
