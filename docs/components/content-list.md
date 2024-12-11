@@ -129,7 +129,7 @@ howItWorks:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: November 2021
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -137,7 +137,7 @@ insights:
     title: Navigational behaviours – Chapter scanning and hopping – GOV.UK Explore – Research Round 5
     link: https://docs.google.com/presentation/d/1wsiH0OJPyS9DtxvUXri-tNkqFhU6N00xjdsWSAHK2Fw/edit#slide=id.g1006224b8f4_0_85
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -146,7 +146,7 @@ insights:
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
     documentFormat: Google Docs
   2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: May 2024
     description:
      'A research and design project on travel advice identified that the contents list contributes to users struggling to find information they need. In the given context, working with users enabled the team to streamline the content list from 10 items down to 5. This resulted in less confusion, fewer places to look, and Emergency content info more easily found.'

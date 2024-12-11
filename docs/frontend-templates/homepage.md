@@ -224,7 +224,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: April 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -233,7 +233,7 @@ insights:
     link: https://docs.google.com/presentation/d/13YlznozVei-m69S0hL8VAm3mMzHMSoa88EVctgDjFm0/edit?usp=sharing
     documentFormat: Google Slides
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: July 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -242,7 +242,7 @@ insights:
     link: https://docs.google.com/presentation/d/1S5pKPaeoAAzvh1axETnjd7eYY7rA-6H4/edit?usp=sharing&ouid=106613529911689872123&rtpof=true&sd=true
     documentFormat: Google Slides
   2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: July 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).

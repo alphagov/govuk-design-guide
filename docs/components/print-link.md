@@ -30,7 +30,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  #Delete this comment before entering when to use this component.
+  This component is used to print a single page. In the context of <a class="govuk-link" href="https://www.gov.uk/universal-credit" rel="noopener noreferrer" target="_blank">a multi-page guide (opens in a new tab)</a> a “View a printable version of the whole guide” link is instead added at the bottom of the page. This link leads to <a class="govuk-link" href="https://www.gov.uk/universal-credit/print" rel="noopener noreferrer" target="_blank">a print version (opens in a new tab)</a> of the complete guide which thes has the print link component at the top of the page.
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -42,7 +42,13 @@ whenNotToUse:
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'This component renders two different outputs depending on whether a `href` is specified. By default, when no `href` is given, the component renders as a button and triggers a print action via JavaScript. In this case the component is hidden in environments where JavaScript is disabled and can be used as a progressive enhancement. When a `href` is specified the component renders as an anchor tag and navigates to that `href` without JavaScript, suitable for applications which have paths that trigger a print event on load.
+  'When user selects the button the browser’s print modal appears.
+
+
+  For multi-paged content the end-user is directed to a new page that compiles the multi-page content into a single webpage, followed by the appearance of the browser’s print.
+
+
+  This component renders two different outputs depending on whether a `href` is specified. By default, when no `href` is given, the component renders as a button and triggers a print action via JavaScript. In this case the component is hidden in environments where JavaScript is disabled and can be used as a progressive enhancement. When a `href` is specified the component renders as an anchor tag and navigates to that `href` without JavaScript, suitable for applications which have paths that trigger a print event on load.
   
   
   View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/print_link" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
@@ -77,14 +83,14 @@ variations:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: #Delete this comment before entering the date when the document was published.
-    description:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: February 2024
+    description: 'The border colour was changed to a darker shade of grey to address accessibility concerns as the earlier border had little colour contrast'
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       #Delete this comment before entering a brief summary about the document being referred.
-    title: #Delete this comment before entering the name of the insight document.
-    link: #Delete this comment before entering the URL of the insight document.
-    documentFormat: #Delete this comment before entering the format of the insight document. Example: (1) Google Docs, (2) Google Sheets, and (3) Google Slides.
+    title:
+    link:
+    documentFormat:
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
