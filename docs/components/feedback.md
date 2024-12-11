@@ -152,4 +152,12 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: Without a change to the journey for ‘no’ and ‘report a problem’ the quality of feedback received isn’t as great as we’d like it.
     link: https://github.com/alphagov/govuk-design-guide/issues/156
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Some users misunderstand the feedback component as a way to contact government to make a complaint.
+    link: https://github.com/alphagov/govuk-design-guide/issues/162
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Some users are wary about giving their email address.
+    link: https://github.com/alphagov/govuk-design-guide/issues/163
 ---
