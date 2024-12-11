@@ -83,7 +83,7 @@ variations:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: September 2020
     description: 'TBC (Nikin)'
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -92,7 +92,7 @@ insights:
     link: https://docs.google.com/spreadsheets/d/1eG2FwIOnWLdhL2QND5Notkc6SB1T7i1WMA_IWl4Rajg/edit?usp=sharing
     documentFormat: Google Sheets
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: March 2021
     description: 'TBC (Nikin)'
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -101,7 +101,7 @@ insights:
     link: https://docs.google.com/spreadsheets/d/19GJHEjtv_McS4m_t1fEUAO7KfpqZbepShrp7BiiHbGw/edit?usp=sharing
     documentFormat: Google Sheets
   2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: February 2024
     description: 'The border colour was changed to a darker shade of grey to address accessibility concerns as the earlier border had little colour contrast'
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
