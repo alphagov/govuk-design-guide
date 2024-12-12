@@ -98,7 +98,7 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: Does the fact that you need a gov.uk account keep people from signing up for updates? 
+    title: Does the fact that you need a GOV.UK account keep people from signing up for updates? 
     link: https://github.com/alphagov/govuk-design-guide/issues/164
   1:
     # Both title and link are REQUIRED in order to display this information on the page.
