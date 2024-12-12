@@ -124,8 +124,13 @@ designSystems:
   # To add additional design systems duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: #Delete this comment before entering the name of the Publishing Design Guide.
-    link: #Delete this comment before entering the URL of the corresponding Publishing Design Guide.
+    title: Scottish Government Design System
+    link: https://designsystem.gov.scot/components/sequential-navigation
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: NHS Design System
+    link: https://service-manual.nhs.uk/design-system/components/pagination
+
 
 # Existing issues with this component
 # List of all the issues that are associated with this component, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
