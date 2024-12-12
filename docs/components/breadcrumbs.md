@@ -4,6 +4,10 @@ layout: component-documentation
 sectionKey: Components
 eleventyNavigation:
   parent: Components
+# title: 'breadcrumbs'
+
+# {% from "macros/code-examples.njk" import example %}
+# {% import "macros/code-examples.njk" as macro with context %}
 
 # Step 1: Duplicate and rename this file to the proposed component you want to include in the Publishing Design Guide website.
 # When duplicating and renaming this file use lowercase and replace any spaces with a dash (ie. -)
@@ -20,6 +24,8 @@ title: Breadcrumbs
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
 description: The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels by making visible the page hierarchy.
+
+# {{ example({ item: "breadcrumbs" }) }}
 
 # Embedding the figma file of the component
 # This will display a Figma embed on the page.
@@ -99,8 +105,9 @@ howItWorks:
 #       'Set a border below the breadcrumb. Off by default.'
 
 # How the component looks
-howItLooks:
-  '<div></div>'
+# howItLooks:
+#  '<div></div>'
+# {{ macro.example({item: "breadcrumbs"}) }}
 
 # Evidence and insights for this component
 # List out all past documentation/supporting material with regards to or realted to this component. It can include (1) past design documentation, (2) research findings, and (3) presentations.
