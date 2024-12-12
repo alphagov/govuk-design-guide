@@ -49,7 +49,7 @@ whenNotToUse:
 howItWorks: 'The banner is black, red, or teal depending on the type of emergency.
 
 
-It will contain a heading, and optionally a short description and URL for more information.
+At minimum it will contain a heading, with the option to add a short description and a link to more information.
 
 
 The homepage will display a variation with larger text and more spacing.
