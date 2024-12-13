@@ -235,7 +235,7 @@ insights:
     date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Migrating finders to Vertex in order to improve keyword search relevance'
+      'An analysis led to the recommendataion to Migrate 10 finders to Vertex in order to improve keyword search relevance. Some further analysis is needed before a decision can be made.'
     title: 'Should we move finders to Google Vertex AI Search?'
     link: https://docs.google.com/document/d/1x84j4IvpQcXy8WpG2Mx9YrO5GFZeOYOToiSzK9ax6Uk/edit?usp=sharing
     documentFormat: Google Docs
