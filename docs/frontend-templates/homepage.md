@@ -275,8 +275,7 @@ insights:
 
       - a visual refresh (larger font sizes, more spacing between sections, making the design clearer on mobile devices)
       
-      - changes to the page structure based on what we know about what users do and what they expect (removing unused sections, 
-      - showing list of topics as a list vs grid, adding bullets to the list of popular links)
+      - changes to the page structure based on what we know about what users do and what they expect (removing unused sections, showing list of topics as a list vs grid, adding bullets to the list of popular links)
       
       - changes to content (replacing "Topics" heading with "Services and information")'
     title: 'GOV.UK homepage'
