@@ -248,15 +248,6 @@ insights:
     title: 'Proposal to improve Specialist Finder development and efficiency'
     link: https://docs.google.com/document/d/1hZD3eJjX3qWL6ntWV_aUq0U43m5LIEblwAeIRoUY7x0/edit?usp=sharing
     documentFormat: Google Docs
-  2:
-    # A description is REQUIRED in order for this information to render on the page.
-    date: August 2024
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Findings after the search team has improved the relevancy of site search results, and what to do next'
-    title: 'GOV.UK site search: desk research, analytics findings and product solutions'
-    link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?usp=sharing
-    documentFormat: Google Slides
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
