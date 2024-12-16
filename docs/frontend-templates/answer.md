@@ -268,7 +268,7 @@ insights:
     date: August 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Pages visited after an Answer page - figures are no. of sessions'
+      'Pages visited after an Answer page – figures are no. of sessions'
     title: 'Answer pages: pages visited after'
     link: https://docs.google.com/spreadsheets/d/1bxdQQvSUIfNdmuyF1Ws7RwZARIdgU9eQTN5jYrJeXkU/edit?gid=1433864911#gid=1433864911
     documentFormat: Google Sheets
@@ -277,7 +277,7 @@ insights:
     date: September 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'List of all the answer pages and its associated data'
+      'List of all the answer pages and their associated data'
     title: 'Answer page: categorising data'
     link: https://docs.google.com/spreadsheets/d/18osY2da0SKhSTdY9FAIhKBwCd3HMKw_jqpZS-1mu8gA/edit?usp=sharing
     documentFormat: Google Sheets
