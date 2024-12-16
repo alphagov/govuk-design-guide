@@ -228,8 +228,7 @@ insights:
     date: April 2023
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'A holistic redesign of the homepage was pitched, asking "If GOV.UK was created today 
-      what would the homepage look like?"'
+      'A holistic redesign of the homepage was pitched, asking "If GOV.UK was created today what would the homepage look like?"'
     title: Homepage Redesign Challenge
     link: https://docs.google.com/presentation/d/13YlznozVei-m69S0hL8VAm3mMzHMSoa88EVctgDjFm0/edit?usp=sharing
     documentFormat: Google Slides
