@@ -1,2 +1,2 @@
 /components/attachment/
-  Content-Security-Policy: frame-ancestors 'govuk-publishing-components.dev.gov.uk';
+  Content-Security-Policy: frame-ancestors 'https://components.publishing.service.gov.uk/';
