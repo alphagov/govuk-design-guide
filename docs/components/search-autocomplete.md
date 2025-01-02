@@ -52,9 +52,9 @@ howItWorks:
 
   ### Useful reads
 
-  - <a href="https://design-system.service.gov.uk/" target="_blank">Launch blog post (opens in a new tab)</a>
+  - <a class="govuk-link" href="https://design-system.service.gov.uk/" target="_blank">Launch blog post (opens in a new tab)</a>
 
-  - <a href="https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete" target="_blank">Github page (opens in a new tab)</a>'
+  - <a class="govuk-link" href="https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete" target="_blank">Github page (opens in a new tab)</a>'
   
 
 # Variations for this component
@@ -64,7 +64,7 @@ variations:
   0:
     title: Differences with how search autocomplete is used on the Design System website
     description:
-      'The <a href="https://design-system.service.gov.uk/" target="_blank"> Design System website (opens in a new tab) </a> uses search autocomplete in a slightly different way – known internally as the <a href="https://github.com/alphagov/accessible-autocomplete" target="_blank">accessible autocomplete (opens in a new tab)</a>.
+      'The <a class="govuk-link" href="https://design-system.service.gov.uk/" target="_blank"> Design System website (opens in a new tab) </a> uses search autocomplete in a slightly different way – known internally as the <a class="govuk-link" href="https://github.com/alphagov/accessible-autocomplete" target="_blank">accessible autocomplete (opens in a new tab)</a>.
       
 
       <h4 class="govuk-heading-s">Typing and suggestions behaviour</h4>
@@ -91,7 +91,7 @@ variations:
       <h4 class="govuk-heading-s">Accessibility</h4>
 
 
-      The Design system team recently iterated the way the present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. <a href="https://github.com/alphagov/govuk-design-system/pull/4220" target="_blank"> Read more about this (opens in a new tab) </a>.
+      The Design system team recently iterated the way the present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/pull/4220" target="_blank"> Read more about this (opens in a new tab)</a>.
 
 
       The search autocomplete used on GOV.UK should follow the same approach to improve accessibility and bring consistency.'
@@ -132,7 +132,7 @@ insights:
 # List out the accessibility for this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 accessibilty:
-  '<a href="https://components.publishing.service.gov.uk/component-guide/search_with_autocomplete" target="_blank"> Read accessibility criteria on Github (opens in a new tab)</a>.'
+  '<a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/search_with_autocomplete" target="_blank"> Read accessibility criteria on Github (opens in a new tab)</a>.'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
