@@ -67,7 +67,7 @@ variations:
       'The [Design System website](https://design-system.service.gov.uk/) uses search autocomplete in a slightly different way – known internally as the [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete).
       
 
-      **Typing and suggestions behaviour**
+      <h4 class="govuk-heading-s">Typing and suggestions behaviour</h4>
 
 
       On the GOV.UK search autocomplete, a maximum of 5 search query suggestions appear in a dropdown after typing 3 characters. The suggestions show keywords to add to what the user has typed in the search bar. The dropdown pushes the content down to avoid any overlays – which are a problem for screen readers.
@@ -76,7 +76,7 @@ variations:
       On the other hand, on the Design system page autocomplete you get an unlimited amount of results in a dropdown as soon as you type, and the dropdown overlays the content and includes interal scrolling. The search results (which are NOT search query suggestions) match the keywords typed and are populated from a static data list. For example if I type ‘ra‘, I get the result ‘radio buttons‘.
 
 
-      **Styling**
+      <h4 class="govuk-heading-s">Styling</h4>
 
 
       - The hover state of the GOV.UK search autocomplete uses a light grey background and underline the text – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made this change is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestions hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit.
@@ -88,7 +88,7 @@ variations:
       Our suggestion would be to update the Design System hover state and line separators to the how they work on GOV.UK – so they are more consistent.
 
       
-      **Accessibility**
+      <h4 class="govuk-heading-s">Accessibility</h4>
 
 
       The Design system team recently iterated the way the present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. [Read more about how this](https://github.com/alphagov/govuk-design-system/pull/4220).
