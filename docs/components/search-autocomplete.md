@@ -38,16 +38,17 @@ whenToUse:
 whenNotToUse:
   '– Do not use search autocomplete when you are dealing with a limited database and users can easily find what they need with a simple search.  
 
+
   – Do not use search autocomplete unless the model is properly trained and you have validated it provides relevant and factually correct suggestions.'
 
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'The data model behind the autocomplete feature is powered by Google Vertex AI Search, the search product we launched on GOV.UK in February 2024. This model is trained on anonymised user search queries (from people who have consented to analytics tracking), which Google processes and refines to provide relevant autocomplete suggestions.  
+  'The data model behind the autocomplete feature is powered by Google Vertex AI Search, the search product that the Search team launched on GOV.UK in February 2024. This model is trained on anonymised user search queries (from people who have consented to analytics tracking), which Google processes and refines to provide relevant autocomplete suggestions.  
   
   
-  The autocomplete suggestions appear after 3 characters because we noticed that the suggestions were more relevant after that threshold. The suggested keywords to formulate the new query are highlighted in bold (as it is a standard pattern), and we limit the suggestions to 5 in order to reduce cognitive load and prevent unnecessary scrolling. Selecting a suggestion from the dropdown will update the search query in the search bar and take the user to the search results page – showing results relevant to the selected query.
+  The autocomplete suggestions appear underneath the search box after 3 characters have been typed – as suggestions are more relevant after this threshold. The suggested keywords to formulate the new query are highlighted in bold (as it is a standard pattern), and we limit the suggestions to 5 in order to reduce cognitive load and prevent unnecessary scrolling. Selecting a suggestion from the dropdown will update the search query in the search bar and take the user to the search results page – showing results relevant to the selected query.
 
 
   ### Useful reads
@@ -70,13 +71,18 @@ variations:
       **Typing and suggestions behaviour**
 
 
-      On the GOV.UK search autocomplete, a maximum of 5 search query suggestions appear in a dropdown after typing 3 characters. The suggestions show keywords to add to what the user has typed in the search bar. The dropdown pushes the content down to avoid any overlays – which are a problem for screan readers. Whilst in the Design system page autocomplete, you get an unlimited amount of results in a dropdown as soon as you type, and the dropdown overlays the content and includes interal scrolling. The search results (NOT search query suggestions) match the keywords typed and are populated from a static data list. For example if I type ‘ra‘, I get the result ‘radio buttons‘.
+      On the GOV.UK search autocomplete, a maximum of 5 search query suggestions appear in a dropdown after typing 3 characters. The suggestions show keywords to add to what the user has typed in the search bar. The dropdown pushes the content down to avoid any overlays – which are a problem for screen readers.
+      
+
+      On the other hand, on the Design system page autocomplete you get an unlimited amount of results in a dropdown as soon as you type, and the dropdown overlays the content and includes interal scrolling. The search results (which are NOT search query suggestions) match the keywords typed and are populated from a static data list. For example if I type ‘ra‘, I get the result ‘radio buttons‘.
 
 
       **Styling**
 
 
-      – On GOV.UK search autocomplete we use a light grey background and underline the text on hover state – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made the hover state different is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestion hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit. <br><br>
+      – The hover state of the GOV.UK search autocomplete uses a light grey background and underline the text – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made this change is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestions hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit.
+
+
       – The horizontal grey lines that separate the suggestions in the dropdown have a 15px padding left and right on GOV.UK – while the lines go edge to edge in the Design System search. The extra space added in the GOV.UK variation allows the list of suggestions breathe more, which contributes to having better visual harmony and a feeling of clean design.
 
 
@@ -86,10 +92,10 @@ variations:
       **Accessibility**
 
 
-      This variation was iterated recently (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. [Read more about how this](https://github.com/alphagov/govuk-design-system/pull/4220).
+      The Design system team recently iterated the way the present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. [Read more about how this](https://github.com/alphagov/govuk-design-system/pull/4220).
 
 
-      The search autocomplete used on GOV.UK should implement this to improve accessibility and bring consistency.'
+      The search autocomplete used on GOV.UK should follow the same approach to improve accessibility and bring consistency.'
 
 
 
@@ -101,7 +107,7 @@ insights:
     # A description is REQUIRED in order for this information to render on the page.
     date: June 2024 
     description:
-      Search team pop up research analysis on autocomplete (and filters)
+      Pop up research analysis on autocomplete (and filters) – Search team
     title: GOV.UK Search Autocomplete + filters pop up research findings
     link: https://docs.google.com/presentation/d/1Xkhc5ohCzFBwoFcby1CGfX_FwLRrYjIEf9VdgGVbdtE/edit?pli=1#slide=id.g10d42026b8_2_0
     documentFormat: Google Slides
@@ -109,7 +115,7 @@ insights:
     # A description is REQUIRED in order for this information to render on the page.
     date: June 2024 
     description:
-      Search team desk research analysis on how search is used on GOV.UK (before autocomplete was implemented)
+      Search team desk research analysis on how search is used on GOV.UK (before autocomplete was implemented) – Search team
     title: Site search desk research and analytics findings
     link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?pli=1#slide=id.g10d42026b8_2_0
     documentFormat: Google Slides
@@ -117,7 +123,7 @@ insights:
     # A description is REQUIRED in order for this information to render on the page.
     date: July 2024
     description:
-      Design System DAC audit reporting issues with search autocomplete dropdown
+      Design System DAC audit reporting issues with search autocomplete dropdown – Design System team
     title: Autocomplete - Lack of visual cue for results
     link: https://github.com/alphagov/govuk-design-system/issues/4015
     documentFormat: Github
