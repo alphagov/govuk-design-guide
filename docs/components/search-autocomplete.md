@@ -127,7 +127,7 @@ insights:
 # List out the accessibility for this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 accessibilty:
-  '[Read accessibility criteria on Github](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete#accessibility-acceptance-criteria)<br><br>'
+  '[Read accessibility criteria on Github](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete#accessibility-acceptance-criteria)'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
