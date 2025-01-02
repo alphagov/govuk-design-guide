@@ -30,7 +30,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  Use search autocomplete when you are dealing with dynamic data and want to reduce typing effort for users and help them formulate search queries by filling in the blanks (think of Google search).<br><br> 
+  Use search autocomplete when you are dealing with dynamic data and want to reduce typing effort for users and help them formulate search queries by filling in the blanks (think of Google search).
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
