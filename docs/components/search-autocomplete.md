@@ -36,10 +36,9 @@ whenToUse:
 # Briefly describe the situation(s) when not to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenNotToUse:
-  '– Do not use search autocomplete when you are dealing with a limited database and users can easily find what they need with a simple search.  
+  '- Do not use search autocomplete when you are dealing with a limited database and users can easily find what they need with a simple search.  
 
-
-  – Do not use search autocomplete unless the model is properly trained and you have validated it provides relevant and factually correct suggestions.'
+  - Do not use search autocomplete unless the model is properly trained and you have validated it provides relevant and factually correct suggestions.'
 
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
@@ -53,9 +52,9 @@ howItWorks:
 
   ### Useful reads
 
-  – [Launch blog post](https://design-system.service.gov.uk/)
+  - [Launch blog post](https://design-system.service.gov.uk/)
 
-  – [Github page](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete)'
+  - [Github page](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete)'
   
 
 # Variations for this component
@@ -80,10 +79,10 @@ variations:
       **Styling**
 
 
-      – The hover state of the GOV.UK search autocomplete uses a light grey background and underline the text – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made this change is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestions hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit.
+      - The hover state of the GOV.UK search autocomplete uses a light grey background and underline the text – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made this change is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestions hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit.
 
 
-      – The horizontal grey lines that separate the suggestions in the dropdown have a 15px padding left and right on GOV.UK – while the lines go edge to edge in the Design System search. The extra space added in the GOV.UK variation allows the list of suggestions breathe more, which contributes to having better visual harmony and a feeling of clean design.
+      - The horizontal grey lines that separate the suggestions in the dropdown have a 15px padding left and right on GOV.UK – while the lines go edge to edge in the Design System search. The extra space added in the GOV.UK variation allows the list of suggestions breathe more, which contributes to having better visual harmony and a feeling of clean design.
 
 
       Our suggestion would be to update the Design System hover state and line separators to the how they work on GOV.UK – so they are more consistent.
