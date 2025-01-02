@@ -97,22 +97,6 @@ variations:
 # List out all past documentation/supporting material with regards to or realted to this component. It can include (1) past design documentation, (2) research findings, and (3) presentations.
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
-  2:
-    # A description is REQUIRED in order for this information to render on the page.
-    date: July 2024
-    description:
-      Design System DAC audit reporting issues with search autocomplete dropdown
-    title: Autocomplete - Lack of visual cue for results
-    link: https://github.com/alphagov/govuk-design-system/issues/4015
-    documentFormat: Github
-  1:
-    # A description is REQUIRED in order for this information to render on the page.
-    date: June 2024 
-    description:
-      Search team desk research analysis on how search is used on GOV.UK (before autocomplete was implemented)
-    title: Site search desk research and analytics findings
-    link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?pli=1#slide=id.g10d42026b8_2_0
-    documentFormat: Google Slides
   0:
     # A description is REQUIRED in order for this information to render on the page.
     date: June 2024 
@@ -121,6 +105,24 @@ insights:
     title: GOV.UK Search Autocomplete + filters pop up research findings
     link: https://docs.google.com/presentation/d/1Xkhc5ohCzFBwoFcby1CGfX_FwLRrYjIEf9VdgGVbdtE/edit?pli=1#slide=id.g10d42026b8_2_0
     documentFormat: Google Slides
+  1:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: June 2024 
+    description:
+      Search team desk research analysis on how search is used on GOV.UK (before autocomplete was implemented)
+    title: Site search desk research and analytics findings
+    link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?pli=1#slide=id.g10d42026b8_2_0
+    documentFormat: Google Slides
+  2:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: July 2024
+    description:
+      Design System DAC audit reporting issues with search autocomplete dropdown
+    title: Autocomplete - Lack of visual cue for results
+    link: https://github.com/alphagov/govuk-design-system/issues/4015
+    documentFormat: Github
+
+
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
