@@ -44,11 +44,17 @@ whenNotToUse:
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  The data model behind the autocomplete feature is powered by Google Vertex AI Search, the search product we launched on GOV.UK in February 2024. This model is trained on anonymised user search queries (from people who have consented to analytics tracking), which Google processes and refines to provide relevant autocomplete suggestions.  
-  The autocomplete suggestions appear after 3 characters because we noticed that the suggestions were more relevant after that threshold. The suggested keywords to formulate the new query are highlighted in bold (as it's a standard pattern), and we limit the suggestions to 5 in order to reduce cognitive load and prevent unnecessary scrolling. Selecting a suggestion from the dropdown will update the search query in the search bar and take the user to the search results page – showing results relevant to the selected query.<br><br>
-  **Useful reads**<br>
-  [Launch blog post](https://design-system.service.gov.uk/)<br>
-  [Github page](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete)<br><br>
+  'The data model behind the autocomplete feature is powered by Google Vertex AI Search, the search product we launched on GOV.UK in February 2024. This model is trained on anonymised user search queries (from people who have consented to analytics tracking), which Google processes and refines to provide relevant autocomplete suggestions.  
+  
+  
+  The autocomplete suggestions appear after 3 characters because we noticed that the suggestions were more relevant after that threshold. The suggested keywords to formulate the new query are highlighted in bold (as it is a standard pattern), and we limit the suggestions to 5 in order to reduce cognitive load and prevent unnecessary scrolling. Selecting a suggestion from the dropdown will update the search query in the search bar and take the user to the search results page – showing results relevant to the selected query.
+
+
+  ### Useful reads
+
+  – [Launch blog post](https://design-system.service.gov.uk/)
+
+  – [Github page](https://govuk-finder-frontend.herokuapp.com/component-guide/search_with_autocomplete)'
   
 
 # Variations for this component
