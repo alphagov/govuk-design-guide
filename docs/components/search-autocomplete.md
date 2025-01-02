@@ -64,18 +64,28 @@ variations:
   0:
     title: Differences with how search autocomplete is used on the Design System website
     description:
-      'The [Design System website](https://design-system.service.gov.uk/) uses search autocomplete in a slightly different way – known internally as the [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete). <br>
+      'The [Design System website](https://design-system.service.gov.uk/) uses search autocomplete in a slightly different way – known internally as the [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete).
+      
 
-      **Typing and suggestions behaviour** <br>
-      On the GOV.UK search autocomplete, a maximum of 5 search query suggestions appear in a dropdown after typing 3 characters. The suggestions show keywords to add to what the user has typed in the search bar. The dropdown pushes the content down to avoid any overlays – which are a problem for screan readers. Whilst in the Design system page autocomplete, you get an unlimited amount of results in a dropdown as soon as you type, and the dropdown overlays the content and includes interal scrolling. The search results (NOT search query suggestions) match the keywords typed and are populated from a static data list. For example if I type ‘ra‘, I get the result ‘radio buttons‘.<br>
+      **Typing and suggestions behaviour**
 
-      **Styling** <br>
+      On the GOV.UK search autocomplete, a maximum of 5 search query suggestions appear in a dropdown after typing 3 characters. The suggestions show keywords to add to what the user has typed in the search bar. The dropdown pushes the content down to avoid any overlays – which are a problem for screan readers. Whilst in the Design system page autocomplete, you get an unlimited amount of results in a dropdown as soon as you type, and the dropdown overlays the content and includes interal scrolling. The search results (NOT search query suggestions) match the keywords typed and are populated from a static data list. For example if I type ‘ra‘, I get the result ‘radio buttons‘.
+
+
+      **Styling**
+
       – On GOV.UK search autocomplete we use a light grey background and underline the text on hover state – while the hover state used in the design systems uses a blue background and white text. The reason why the Search team made the hover state different is because on GOV.UK sometimes the search autocomplete dropdown sits on top of a blue background (for example on the homepage), which merges with the blue colour on hover and makes the autocomplete suggestion hard to read. For this reason we changed it to a light grey background with text underline, which passed the DAC usability audit. <br><br>
-      – The horizontal grey lines that separate the suggestions in the dropdown have a 15px padding left and right on GOV.UK – while the lines go edge to edge in the Design System search. The extra space added in the GOV.UK variation allows the list of suggestions breathe more, which contributes to having better visual harmony and a feeling of clean design.<br><br>
-      Our suggestion would be to update the Design System hover state and line separators to the how they work on GOV.UK – so they are more consistent.<br><br>
-      **Accessibility** <br>
+      – The horizontal grey lines that separate the suggestions in the dropdown have a 15px padding left and right on GOV.UK – while the lines go edge to edge in the Design System search. The extra space added in the GOV.UK variation allows the list of suggestions breathe more, which contributes to having better visual harmony and a feeling of clean design.
+
+
+      Our suggestion would be to update the Design System hover state and line separators to the how they work on GOV.UK – so they are more consistent.
+
+      
+      **Accessibility**
       This variation was iterated recently (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. <a href="https://github.com/alphagov/govuk-design-system/pull/4220"> Read more about this. </a> <br>
-      The search autocomplete used on GOV.UK should implement this to improve accessibility and bring consistency.<br><br>'
+      The search autocomplete used on GOV.UK should implement this to improve accessibility and bring consistency.'
+
+
 
 # Evidence and insights for this component
 # List out all past documentation/supporting material with regards to or realted to this component. It can include (1) past design documentation, (2) research findings, and (3) presentations.
