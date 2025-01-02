@@ -38,7 +38,7 @@ whenToUse:
 whenNotToUse:
   – Do not use search autocomplete when you are dealing with a limited database and users can easily find what they need with a simple search.  
 
-  – Do not use search autocomplete unless the model is properly trained and you have validated it provides relevant and factually correct suggestions.  <br><br>
+  – Do not use search autocomplete unless the model is properly trained and you have validated it provides relevant and factually correct suggestions.
 
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
