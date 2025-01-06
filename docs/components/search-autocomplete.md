@@ -91,7 +91,7 @@ variations:
       <h4 class="govuk-heading-s">Accessibility</h4>
 
 
-      The Design system team recently iterated the way the present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/pull/4220" target="_blank" rel="noopener noreferrer"> Read more about this (opens in a new tab)</a>.
+      The Design system team recently iterated the way they present search suggestions (Dec 2024) to make it more accessible for users who use accessibility functionalities that enlarge the content on the screen to make it easier to see and read. <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/pull/4220" target="_blank" rel="noopener noreferrer"> Read more about this (opens in a new tab)</a>.
 
 
       The search autocomplete used on GOV.UK should follow the same approach to improve accessibility and bring consistency.'
