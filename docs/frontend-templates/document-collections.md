@@ -47,21 +47,21 @@ howItWorks:
   The contents list on a document collection page is created automatically from the groups of documents on the page. Each group has a H2 that appears in the contents list.
 
 
-  H2s in the body section are also automatically added to the contents list ([change made in Jan 2025](https://github.com/alphagov/government-frontend/pull/3507)). Departments might do this when they need to link to external websites which they cannot add to a group. [An example of a page with H2s in the body](https://www.gov.uk/government/collections/technical-guidance-for-regulated-industry-sectors-environmental-permitting). 
+  H2s in the body section are also automatically added to the contents list <a class="govuk-link" href="https://github.com/alphagov/government-frontend/pull/3507" rel="noopener noreferrer" target="_blank">change made in Jan 2025 (opens in a new tab)</a>. Departments might do this when they need to link to external websites which they cannot add to a group. <a class="govuk-link" href="https://www.gov.uk/government/collections/technical-guidance-for-regulated-industry-sectors-environmental-permitting" rel="noopener noreferrer" target="_blank">An example of a page with H2s in the body (opens in a new tab)</a>. 
   
   ### Contextual sidebar
   
   If a page is part of a document collection, the document collection that it’s part of will automatically appear in the sidebar under the related content section. 
 
 
-  If a page is part of multiple collections, all the collections are displayed. Examples: [Register a trademark](https://www.gov.uk/how-to-register-a-trade-mark), [Self Assessment forms and helpsheets for trusts and estates](https://www.gov.uk/government/collections/self-assessment-helpsheets-trusts-and-estates)
+  If a page is part of multiple collections, all the collections are displayed. Examples: <a class="govuk-link" href="https://www.gov.uk/how-to-register-a-trade-mark" rel="noopener noreferrer" target="_blank">Register a trademark (opens in a new tab)</a>, <a class="govuk-link" href="https://www.gov.uk/government/collections/self-assessment-helpsheets-trusts-and-estates" rel="noopener noreferrer" target="_blank">Self Assessment forms and helpsheets for trusts and estates (opens in a new tab)</a>.
   
   ### Rules on how multiple collections are ordered in the sidebar
 
   Collection pages appear in the sidebar under related content links on pages that are part of a document collection. If more than one collection page is listed, they are ordered by the respective item’s position within them. 
   
 
-  Example: The content item [National curriculum in England: framework for key stages 1 to 4](https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4) belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection, making this the second link in the sidebar. It is also the 54th item in the "Local-authority-maintained schools: governance" collection, therefore showing this as the third link.
+  Example: The content item <a class="govuk-link" href="https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4" rel="noopener noreferrer" target="_blank">National curriculum in England: framework for key stages 1 to 4 (opens in a new tab)</a> belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection, making this the second link in the sidebar. It is also the 54th item in the "Local-authority-maintained schools: governance" collection, therefore showing this as the third link.
 
   ### Email sign up links on document collections
 
