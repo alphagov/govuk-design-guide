@@ -56,6 +56,11 @@ howItWorks:
   - Variations include breadcrumbs without Home at the start and breadcrumbs with a single section.
 
   - On mobile, breadcrumbs are shortened to fit on a single line.
+
+  - The breadcrumb component should be contained within a navigation landmark region.
+
+  - The link to the current page has the attribute aria-current set to page.
+
   
 
   The component accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
