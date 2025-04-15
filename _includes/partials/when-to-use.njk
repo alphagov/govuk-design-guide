@@ -1,6 +1,6 @@
 {% if whenToUse %}
   <section class="doc-when-to-use-component">
-    <h2 class="govuk-heading-l">When to use this component</h2>
+    <h2 class="govuk-heading-l">When to use this {% if layout==="component-documentation" %}component{% elif layout==="pattern-documentation" %}pattern{% endif %}</h2>
     {{ whenToUse | markdown }}
   </section>
 {% endif %}

@@ -15,11 +15,11 @@ eleventyExcludeFromCollections: false
 
 # Name of the component
 # This is the name of the component (ex. Attachment). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the components page.
-title: Feedback
+title: Emergency banner
 
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
-description: The feedback component invites user feedback on the current page they are on.
+description: In the event of an emergency, a site-wide banner is displayed with important information.
 
 # Embedding the figma file of the component
 # This will display a Figma embed on the page.
@@ -29,8 +29,13 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # When to use this component
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-whenToUse:
-  This component exists on all pages across GOV.UK.
+whenToUse: 'An emergency banner is used in the event of:
+
+- a notable death
+
+- a national emergency
+
+- a local emergency'
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -41,33 +46,29 @@ whenNotToUse:
 # How the component works
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-howItWorks:
-  'This component is designed to sit at the bottom of pages on GOV.UK to allow users to submit feedback on that page.
+howItWorks: 'The banner is black, red, or teal depending on the type of emergency.
 
 
-  This component uses JavaScript for expanding and collapsing and also for submitting form responses.
-
-  
-  There are multiple journeys possible from this component:
-  
-  - Users say ‘yes’ the page is useful and get the response ‘Thank you for your feedback’.
-  
-  - Users say ‘no’ and it opens to allow the user to enter their email address where they will be able to input their email address to receive a feedback form.
-  
-  - Users say ‘Report a problem with this page’ and we ask them ‘what were you doing?’ and ‘what went wrong?’.
+At minimum it will contain a heading, with the option to add a short description and a link to more information.
 
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+The homepage will display a variation with larger text and more spacing.
+
+
+GA4 tracking is enabled by default, but can be switched off.
+
+
+View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/emergency_banner" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
-# variations:
-#   # To add additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
-#   0:
-#     title: With GA4 tracking disabled
-#     description:
-#       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-#       'This varation disables GA4 tracking on the feedback component. Tracking is enabled by default, which adds a data module and data-attributes with JSONs to the feedback buttons. See the [ga4-event-tracker documentation](https://github.com/alphagov/govuk_publishing_components/blob/main/docs/analytics-ga4/ga4-event-tracker.md) for more information.'
+variations:
+  # To add additional variations duplicate the the fields below (adhering to the formating) but increase the count by one integer.
+  0:
+    title: #Delete this comment before entering the name of the variation that exists for this component.
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      #Delete this comment before entering a description of variation.
 
 # Evidence and insights for this component
 # List out all past documentation/supporting material with regards to or realted to this component. It can include (1) past design documentation, (2) research findings, and (3) presentations.
@@ -86,54 +87,30 @@ insights:
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-accessibilty:
-  'The form must:
+accessibilty: 'Links in the component must:
 
-  - be functional and accessible with JavaScript disabled
+- accept focus
 
-  - be usable and accessible with stylesheets disabled
-  
+- be focusable with a keyboard
 
-  Form elements in the component must:
+- be usable with a keyboard
 
-  - accept focus
+- indicate when they have focus
 
-  - be focusable with a keyboard
+- change in appearance when touched (in the touch-down state)
 
-  - be usable with a keyboard
+- change in appearance when hovered
 
-  - be usable with touch
+- be usable with touch
 
-  - indicate when they have focus
+- be usable with voice commands
 
-  - be recognisable as form input elements
+- have visible text
 
-  - have correctly associated labels
+- have meaningful text
 
-  - be of the appropriate type for their use, e.g. password inputs should be of type `password`
-    
-    
-  Links in the component must:
 
-  - accept focus
-  
-  - be focusable with a keyboard
-  
-  - be usable with a keyboard
-  
-  - indicate when they have focus
-  
-  - change in appearance when touched (in the touch-down state)
-    
-  - change in appearance when hovered
-  
-  - be usable with touch
-  
-  - be usable with [voice commands](https://www.w3.org/WAI/perspectives/voice.html)
-  
-  - have visible text
-  
-  - have meaningful text'
+ Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/emergency_banner#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
@@ -150,14 +127,6 @@ issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
     # Both title and link are REQUIRED in order to display this information on the page.
-    title: Without a change to the journey for ‘no’ and ‘report a problem’ the quality of feedback received isn’t as great as we’d like it.
-    link: https://github.com/alphagov/govuk-design-guide/issues/156
-  1:
-    # Both title and link are REQUIRED in order to display this information on the page.
-    title: Some users misunderstand the feedback component as a way to contact government to make a complaint.
-    link: https://github.com/alphagov/govuk-design-guide/issues/162
-  2:
-    # Both title and link are REQUIRED in order to display this information on the page.
-    title: Some users are wary about giving their email address.
-    link: https://github.com/alphagov/govuk-design-guide/issues/163
+    title: #Delete this comment before entering the title of the GitHub issue.
+    link: #Delete this comment before entering the URL of the corresponding GitHub issue.
 ---

@@ -231,31 +231,22 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 7 August 2024
+    # A description is REQUIRED in order for this information to render on the page.
+    date: May 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Findings after the search team has improved the relevancy of site search results, and what to do next'
-    title: 'GOV.UK site search: desk research, analytics findings and product solutions'
-    link: https://docs.google.com/presentation/d/1IoupQiEuCLMc-AOEUntGeKwQPIG-cWmnleuHOgujOuI/edit?usp=sharing
-    documentFormat: Google Slides
+      'An analysis led to the recommendataion to Migrate 10 finders to Vertex in order to improve keyword search relevance. Some further analysis is needed before a decision can be made.'
+    title: 'Should we move finders to Google Vertex AI Search?'
+    link: https://docs.google.com/document/d/1x84j4IvpQcXy8WpG2Mx9YrO5GFZeOYOToiSzK9ax6Uk/edit?usp=sharing
+    documentFormat: Google Docs
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 1 July 2024
+    # A description is REQUIRED in order for this information to render on the page.
+    date: July 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'This document outlines the reasons and benefits to improve specialist finder'
     title: 'Proposal to improve Specialist Finder development and efficiency'
     link: https://docs.google.com/document/d/1hZD3eJjX3qWL6ntWV_aUq0U43m5LIEblwAeIRoUY7x0/edit?usp=sharing
-    documentFormat: Google Docs
-  2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: 10 May 2024
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Migrating finders to Vertex in order to improve keyword search relevance'
-    title: 'Should we move finders to Google Vertex AI Search?'
-    link: https://docs.google.com/document/d/1x84j4IvpQcXy8WpG2Mx9YrO5GFZeOYOToiSzK9ax6Uk/edit?usp=sharing
     documentFormat: Google Docs
 
 # Existing issues with this frontend template
