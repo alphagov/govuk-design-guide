@@ -46,10 +46,13 @@ howItWorks:
 
 
   Once a user selects the button, they are redirected to a page where they can create a GOV.UK One Login.
-  [Example](https://www.gov.uk/email/subscriptions/single-page/new?topic_id=download-the-hmrc-app)
+  <a class="govuk-link" href="https://www.gov.uk/email/subscriptions/single-page/new?topic_id=download-the-hmrc-app" rel="noopener noreferrer" target="_blank">Example (opens in a new tab)</a>
 
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/single_page_notification_button" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  If the user has already subscribed to email notifications about the current page, display the “Stop getting emails about this page” state.
+
+
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/single_page_notification_button" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -66,8 +69,8 @@ variations:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: Feb 2024
+    # A description is REQUIRED in order for this information to render on the page.
+    date: February 2024
     description:
       'A write up of the Email notification sign-up journey.'
     title: Email notification sign-up journeys
@@ -94,6 +97,18 @@ designSystems:
 issues:
   # To add additional issues duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Does the fact that you need a GOV.UK account keep people from signing up for updates? 
+    link: https://github.com/alphagov/govuk-design-guide/issues/164
+  1:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The difference between this component and the Subscription Link is unclear.
+    link: https://github.com/alphagov/govuk-design-guide/issues/165
+  2:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: The component lives in context of other components but the lockup is inconsistent.
+    link: https://github.com/alphagov/govuk-design-guide/issues/166
+  3:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: #Delete this comment before entering the title of the GitHub issue.
     link: #Delete this comment before entering the URL of the corresponding GitHub issue.

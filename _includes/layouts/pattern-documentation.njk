@@ -1,5 +1,5 @@
 {% extends "layouts/main.njk" %}
-{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithExternalLink %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -16,7 +16,7 @@
         <section class="doc-components">
           <h2 class="govuk-heading-l">Components</h2>
           <p class="govuk-body">The components used within the {{ title | lower }} pattern:</p>
-          {{ listItemsWithLink("doc-components__list", components) }}
+          {{ listItemsWithExternalLink("doc-components__list", components) }}
         </section>
       {% endif %}
       

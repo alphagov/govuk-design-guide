@@ -1,5 +1,5 @@
 <div class="govuk-grid-column-one-quarter-from-desktop">
   {{ xGovukSubNavigation({
-    items: collections.ordered | eleventyNavigation(sectionKey or options.homeKey) | itemsFromNavigation(page.url, { pathPrefix: options.pathPrefix })
+    items: collections.navigation | eleventyNavigation(sectionKey or options.homeKey) | itemsFromNavigation(page.url, { pathPrefix: options.pathPrefix })
   }) }}
 </div>

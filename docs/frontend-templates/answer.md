@@ -114,7 +114,7 @@ renderingApp:
     # government frontend
     # smart answers
     # static
-  government frontend
+  frontend
 
 # Components that make-up this frontend template
 # List out all the components that make-up this frontend template, by (1) providing the name of the component, (2) a link to the documentation for said component, (3) how is this component generated on the page and (4) the associated publishing input fields within the publishing app.
@@ -246,40 +246,40 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: September 17, 2024
+    # A description is REQUIRED in order for this information to render on the page.
+    date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'List of all the answer pages and its associated data'
-    title: 'Answer page: categorising data'
-    link: https://docs.google.com/spreadsheets/d/18osY2da0SKhSTdY9FAIhKBwCd3HMKw_jqpZS-1mu8gA/edit?usp=sharing
+      'Data on exiting from DWP answer pages'
+    title: 'Answer pages: exits'
+    link: https://docs.google.com/spreadsheets/d/1f4fSsIxkCfWiKNV9qgE_sep61f5EbKxU58wTWCsGw60/edit?gid=2140166644#gid=2140166644
     documentFormat: Google Sheets
   1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: August 28, 2024
-    description:
-      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Pages visited after an Answer page - figures are no. of sessions'
-    title: 'Answer pages: pages visited after'
-    link: https://docs.google.com/spreadsheets/d/1bxdQQvSUIfNdmuyF1Ws7RwZARIdgU9eQTN5jYrJeXkU/edit?gid=1433864911#gid=1433864911
-    documentFormat: Google Sheets
-  2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 10, 2024
+    # A description is REQUIRED in order for this information to render on the page.
+    date: June 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Time on page against word count for DWP answer pages'
     title: 'Answer pages: average engagement time/word count'
     link: https://docs.google.com/spreadsheets/d/1rJTOD69386X1lnpUpih3eXZoeX54kNB4u7dqIQA2oBg/edit?gid=132520947#gid=132520947
     documentFormat: Google Sheets
-  3:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: June 6, 2024
+  2:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: August 2024
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Data on exiting from DWP answer pages'
-    title: 'Answer pages: exits'
-    link: https://docs.google.com/spreadsheets/d/1f4fSsIxkCfWiKNV9qgE_sep61f5EbKxU58wTWCsGw60/edit?gid=2140166644#gid=2140166644
+      'Pages visited after an Answer page – figures are no. of sessions'
+    title: 'Answer pages: pages visited after'
+    link: https://docs.google.com/spreadsheets/d/1bxdQQvSUIfNdmuyF1Ws7RwZARIdgU9eQTN5jYrJeXkU/edit?gid=1433864911#gid=1433864911
+    documentFormat: Google Sheets
+  3:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: September 2024
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'List of all the answer pages and their associated data'
+    title: 'Answer page: categorising data'
+    link: https://docs.google.com/spreadsheets/d/18osY2da0SKhSTdY9FAIhKBwCd3HMKw_jqpZS-1mu8gA/edit?usp=sharing
     documentFormat: Google Sheets
 
 # Existing issues with this frontend template

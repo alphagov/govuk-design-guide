@@ -57,7 +57,7 @@ howItWorks:
   It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document.
 
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -129,24 +129,15 @@ howItWorks:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: May 2024
-    description:
-     'A research and design project on travel advice identified that the contents list contributes to users struggling to find information they need. In the given context, working with users enabled the team to streamline the content list from 10 items down to 5. This resulted in less confusion, fewer places to look, and Emergency content info more easily found.'
-    title: Travel Advice research and design summary 2022 to 23 (pp. 8)
-    link: https://docs.google.com/presentation/d/1Qx8o2ppZgnHbXe0UAT1f5XSsTL8-QaCv/edit?usp=sharing&ouid=105832416597570443289&rtpof=true&sd=true
-    documentFormat: Google Slides
-  1:
-    # Both title and link are REQUIRED in order for this information to render on the page.
-    date: November 2022
+    # A description is REQUIRED in order for this information to render on the page.
+    date: November 2021
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'A research project in context of a new page level design explored “How are users who need to *advise on a thing* orientating themselves and navigating at a content page level?”. Under “Chapter scanning and hopping” it summarises that “Participants displayed a strong inclination to engage with table-of-contents style links, which allow them to move across different sections within a piece of content.” The research was done on users that advise others on building works.'
     title: Navigational behaviours – Chapter scanning and hopping – GOV.UK Explore – Research Round 5
     link: https://docs.google.com/presentation/d/1wsiH0OJPyS9DtxvUXri-tNkqFhU6N00xjdsWSAHK2Fw/edit#slide=id.g1006224b8f4_0_85
-    documentFormat: Google Slides
-  2:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+  1:
+    # A description is REQUIRED in order for this information to render on the page.
     date: August 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -154,6 +145,14 @@ insights:
     title: Content Audit Discovery – Component recommendations
     link: https://docs.google.com/document/d/1Gb3P2lQVGjdfhBnz19FDX4coWTpbKGIpZABNnQ7iLl0/edit#heading=h.llzp42bd0b76
     documentFormat: Google Docs
+  2:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: May 2024
+    description:
+     'A research and design project on travel advice identified that the contents list contributes to users struggling to find information they need. In the given context, working with users enabled the team to streamline the content list from 10 items down to 5. This resulted in less confusion, fewer places to look, and Emergency content info more easily found.'
+    title: Travel Advice research and design summary 2022 to 23 (pp. 8)
+    link: https://docs.google.com/presentation/d/1Qx8o2ppZgnHbXe0UAT1f5XSsTL8-QaCv/edit?usp=sharing&ouid=105832416597570443289&rtpof=true&sd=true
+    documentFormat: Google Slides
 
 # Accessibilty criteria for this component
 # List out the accessibility for this component.
@@ -200,7 +199,7 @@ accessibilty:
   - have meaningful text
   
 
-  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.
