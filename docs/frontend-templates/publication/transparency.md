@@ -13,7 +13,7 @@ sectionKey: Frontend templates
 # The relationship between frontend templates will be demonstrated visually via levels on the left-hand navigation menu. For instance, "GitHub smart answers" is only revealed when the end-user selects "Smart answer" since "GitHub smart answers" a child template to the "Smart answer" frontend template.
 eleventyNavigation:
   # If this frontend template is not associated with or a child to another frontend template, set the field below ("parent") to "Frontend templates"
-  parent: Frontend templates
+  parent: Publication
 
 # Step 4: Input data points according to fields below to the best of your ability. Any fields without any data points will not be displayed on the website.
 
@@ -381,7 +381,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: #Delete this comment before entering the date when the document was published.
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
