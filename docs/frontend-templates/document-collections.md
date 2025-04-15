@@ -23,7 +23,7 @@ title: Document collections
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: Document collections group related documents on a single page that are aimed for a specific audience or around a specific theme or topic.
+description: Document collections group related documents on a single page that are aimed at a specific audience or reflect a specific theme or topic.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
@@ -41,20 +41,27 @@ howItWorks:
   - publications in the same series
 
   - a mix of document types related to the same task or event
+
+  ### Contents list
+
+  The contents list on a document collection page is created automatically from the groups of documents on the page. Each group has a H2 that appears in the contents list.
+
+
+  H2s in the body section are also automatically added to the contents list <a class="govuk-link" href="https://github.com/alphagov/government-frontend/pull/3507" rel="noopener noreferrer" target="_blank">change made in Jan 2025 (opens in a new tab)</a>. Departments might do this when they need to link to external websites which they cannot add to a group. <a class="govuk-link" href="https://www.gov.uk/government/collections/technical-guidance-for-regulated-industry-sectors-environmental-permitting" rel="noopener noreferrer" target="_blank">An example of a page with H2s in the body (opens in a new tab)</a>. 
   
   ### Contextual sidebar
   
   If a page is part of a document collection, the document collection that it’s part of will automatically appear in the sidebar under the related content section. 
 
 
-  If a page is part of multiple collections, all the collections are displayed. Examples: [Register a trademark](https://www.gov.uk/how-to-register-a-trade-mark), [Self Assessment forms and helpsheets for trusts and estates](https://www.gov.uk/government/collections/self-assessment-helpsheets-trusts-and-estates)
+  If a page is part of multiple collections, all the collections are displayed. Examples: <a class="govuk-link" href="https://www.gov.uk/how-to-register-a-trade-mark" rel="noopener noreferrer" target="_blank">Register a trademark (opens in a new tab)</a>, <a class="govuk-link" href="https://www.gov.uk/government/collections/self-assessment-helpsheets-trusts-and-estates" rel="noopener noreferrer" target="_blank">Self Assessment forms and helpsheets for trusts and estates (opens in a new tab)</a>.
   
-  ### Rules on how multiple collections are ordered
+  ### Rules on how multiple collections are ordered in the sidebar
 
-  If more than one collection page is listed, the collections appear in the order of their relative positions within the document collections they belong to. 
+  Collection pages appear in the sidebar under related content links on pages that are part of a document collection. If more than one collection page is listed, they are ordered by the respective item’s position within them. 
   
 
-  Example: [National curriculum in England: framework for key stages 1 to 4](https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4) - The content item belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection - so is the second link in the sidebar. It is the 54th item in the "Local-authority-maintained schools: governance" collection - so that is the third link.
+  Example: The content item <a class="govuk-link" href="https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4" rel="noopener noreferrer" target="_blank">National curriculum in England: framework for key stages 1 to 4 (opens in a new tab)</a> belongs to 3 document collections. It’s the first item in "National curriculum", so that document collection appears first in the list. It’s the 17th item in the "Schools: statutory guidance" document collection, making this the second link in the sidebar. It is also the 54th item in the "Local-authority-maintained schools: governance" collection, therefore showing this as the third link.
 
   ### Email sign up links on document collections
 
@@ -67,7 +74,7 @@ howItWorks:
   - the document collection is unpublished and redirected
 
 
-  There’s an exception on some HMRC document collections where users will get emails about the topic instead of the document collection. [Find out why they were set up like this](https://docs.google.com/document/d/1MR5OaFG_DOCmWGL9o9MSGIPLMFe2mmSrV6Va-99cSzw/edit#heading=h.jbja48mpt1t7).'
+  There’s an exception on some HMRC document collections where users will get emails about the topic instead of the document collection. <a class="govuk-link" href="https://docs.google.com/document/d/1MR5OaFG_DOCmWGL9o9MSGIPLMFe2mmSrV6Va-99cSzw/edit#heading=h.jbja48mpt1t7" rel="noopener noreferrer" target="_blank">Find out why they were set up like this (opens in a new tab)</a>.'
 
 # Live examples of webpages that use this frontend template
 # List out all the pages on GOV.UK that use this frontend template, by providing: (1) the title of the page, (2) the URL of the page, and (3) indicate whether the page is in Welsh in order for assistive technology to read out the page title correctly.
@@ -444,7 +451,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: September 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).

@@ -1,26 +1,26 @@
-{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithExternalLink %}
 
 {% if examples[0].link and examples[0].title %}
   <section class="doc-examples">
     {% if (examples | length ) > 1 %}
       <h2 class="doc-examples__title govuk-heading-l">Live examples</h2>
-      {{ listItemsWithLink("doc-examples__list", examples) }}
+      {{ listItemsWithExternalLink("doc-examples__list govuk-list--spaced", examples) }}
       {% if contentDataLink %}
-        <p class="govuk-body">Complete list of examples available and page data on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state">Content Data</a>.</p>
+        <p class="govuk-body">Complete list of examples available and page data on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state" rel="noopener noreferrer" target="_blank">Content Data  (opens in a new tab)</a>.</p>
       {% endif %}
     {% else %}
       <h2 class="doc-examples__title govuk-heading-l">Live example</h2>
       <p class="govuk-body">
         {% if examples[0].welsh == true %}
           <span lang="cy">
-            <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+            <a class="govuk-link" href="{{ examples[0].link }}" rel="noopener noreferrer" target="_blank">{{ examples[0].title }} (opens in a new tab)</a>
           </span>
         {% else %}
-          <a class="govuk-link" href="{{ examples[0].link }}">{{ examples[0].title }}</a>
+          <a class="govuk-link" href="{{ examples[0].link }}" rel="noopener noreferrer" target="_blank">{{ examples[0].title }} (opens in a new tab)</a>
         {% endif %}
       </p>
       {% if contentDataLink %}
-        <p class="govuk-body">Page data available on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state">Content Data</a>.</p>
+        <p class="govuk-body">Page data available on <a href="{{ contentDataLink }}" class="govuk-link govuk-link--no-visited-state" rel="noopener noreferrer" target="_blank">Content Data (opens in a new tab)</a>.</p>
       {% endif %}
     {% endif %}
   </section>      

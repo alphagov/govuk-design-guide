@@ -56,12 +56,17 @@ howItWorks:
   - Variations include breadcrumbs without Home at the start and breadcrumbs with a single section.
 
   - On mobile, breadcrumbs are shortened to fit on a single line.
+
+  - The breadcrumb component should be contained within a navigation landmark region.
+
+  - The link to the current page has the attribute aria-current set to page.
+
   
 
   The component accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
   
   
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/breadcrumbs" rel="noopener noreferrer" target="_blank">Component Guide (open in a new tab)</a>.'
+  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/breadcrumbs" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -103,7 +108,7 @@ howItWorks:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: March 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
@@ -181,6 +186,26 @@ issues:
     # Both title and link are REQUIRED in order to display this information on the page.
     title: When content is tagged to multiple topics the breadcrumb component selects one in alphabetical order. Are there alternatives that would work better for users?
     link: https://github.com/alphagov/govuk_publishing_components/issues/4260
+  4:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Manual sections should have a parent of the manual, and a grandparent of a topic.
+    link: https://github.com/alphagov/govuk-design-guide/issues/140
+  5:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: HMRC manuals should have breadcrumbs
+    link: https://github.com/alphagov/govuk-design-guide/issues/141
+  6:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Corporate information pages should have a parent of an org page
+    link: https://github.com/alphagov/govuk-design-guide/issues/142
+  7:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Worldwide offices and worldwide organisations do not have a breadcrumb
+    link: https://github.com/alphagov/govuk-design-guide/issues/143
+  8:
+    # Both title and link are REQUIRED in order to display this information on the page.
+    title: Are there alternatives to ordering breadcrumbs alphabetically when content is tagged to more than one topic?
+    link: https://github.com/alphagov/govuk-design-guide/issues/144
 
 
 # Kati's additional suggestions
