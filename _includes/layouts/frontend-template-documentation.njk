@@ -20,7 +20,7 @@
               <div class="govuk-grid-column-one-half">
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content schema</h3>
                 <p class="govuk-body">
-                  <a href="{{ contentSchema.link }}" class="govuk-link">{{ contentSchema.title }}</a>
+                  <a href="{{ contentSchema.link }}" class="govuk-link" rel="noopener noreferrer" target="_blank">{{ contentSchema.title }} (opens in a new tab)</a>
                 </p>
                 {{ govukDetails({
                   summaryText: "What is a content schema?",
@@ -32,7 +32,7 @@
               <div class="govuk-grid-column-one-half">
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Content type</h3>
                 <p class="govuk-body">
-                  <a href="{{ contentType.link }}" class="govuk-link">{{ contentType.title }}</a>
+                  <a href="{{ contentType.link }}" class="govuk-link" rel="noopener noreferrer" target="_blank">{{ contentType.title }} (opens in a new tab)</a>
                 {{ govukDetails({
                   summaryText: "What is a content type?",
                   text: "Content type describes the types of pages that exist on GOV.UK. It’s stored in the content item (JSON) as <code class='x-govuk-code x-govuk-code--inline'>document_type</code>. It powers search filters in all finders and changes the content type label users see on GOV.UK pages."
@@ -44,59 +44,59 @@
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Publishing app</h3>
                 {% if publishingApp === "collections publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/collections-publisher.html" class="govuk-link">collections-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/collections-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">collections-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "contacts admin" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/contacts-admin.html" class="govuk-link">contacts-admin</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/contacts-admin.html" class="govuk-link" rel="noopener noreferrer" target="_blank">contacts-admin (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "content publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/content-publisher.html" class="govuk-link">content-admin</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/content-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">content-admin (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "content tagger" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/content-tagger.html" class="govuk-link">content-tagger</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/content-tagger.html" class="govuk-link" rel="noopener noreferrer" target="_blank">content-tagger (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "local links manager" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/local-links-manager.html" class="govuk-link">local-links-manager</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/local-links-manager.html" class="govuk-link" rel="noopener noreferrer" target="_blank">local-links-manager (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "mainstream publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/publisher.html" class="govuk-link">mainstream-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">mainstream-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "manuals publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/manuals-publisher.html" class="govuk-link">manuals-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/manuals-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">manuals-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "maslow" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/maslow.html" class="govuk-link">maslow</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/maslow.html" class="govuk-link" rel="noopener noreferrer" target="_blank">maslow (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "service manual publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/service-manual-publisher.html" class="govuk-link">service-manual-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/service-manual-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">service-manual-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "short url manager" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/short-url-manager.html" class="govuk-link">short-url-manager</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/short-url-manager.html" class="govuk-link" rel="noopener noreferrer" target="_blank">short-url-manager (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "special route publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/special-route-publisher.html" class="govuk-link">special-route-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/special-route-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">special-route-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "specialist publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/specialist-publisher.html" class="govuk-link">specialist-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/specialist-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">specialist-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "travel advice publisher" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/travel-advice-publisher.html" class="govuk-link">travel-advice-publisher</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/travel-advice-publisher.html" class="govuk-link" rel="noopener noreferrer" target="_blank">travel-advice-publisher (opens in a new tab)</a>
                   </p>
                 {% elif publishingApp === "whitehall" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/whitehall.html" class="govuk-link">whitehall</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/whitehall.html" class="govuk-link" rel="noopener noreferrer" target="_blank">whitehall (opens in a new tab)</a>
                   </p>
                 {% endif %}
                 {{ govukDetails({
@@ -110,35 +110,35 @@
                 <h3 class="doc-how-its-built__subtitle govuk-heading-m">Rendering app</h3>
                 {% if renderingApp === "collections" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/collections.html" class="govuk-link">collections</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/collections.html" class="govuk-link" rel="noopener noreferrer" target="_blank">collections (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "email alert frontend" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/email-alert-frontend.html" class="govuk-link">email-alert-frontend</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/email-alert-frontend.html" class="govuk-link" rel="noopener noreferrer" target="_blank">email-alert-frontend (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "feedback" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/feedback.html" class="govuk-link">feedback</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/feedback.html" class="govuk-link" rel="noopener noreferrer" target="_blank">feedback (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "finder frontend" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/finder-frontend.html" class="govuk-link">finder-frontend</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/finder-frontend.html" class="govuk-link" rel="noopener noreferrer" target="_blank">finder-frontend (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "frontend" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/frontend.html" class="govuk-link">frontend</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/frontend.html" class="govuk-link" rel="noopener noreferrer" target="_blank">frontend (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "government frontend" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/government-frontend.html" class="govuk-link">government-frontend</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/government-frontend.html" class="govuk-link" rel="noopener noreferrer" target="_blank">government-frontend (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "smart answers" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/smart-answers.html" class="govuk-link">smart-answers</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/smart-answers.html" class="govuk-link" rel="noopener noreferrer" target="_blank">smart-answers (opens in a new tab)</a>
                   </p>
                 {% elif renderingApp === "static" %}
                   <p class="govuk-body">
-                    <a href="https://docs.publishing.service.gov.uk/repos/static.html" class="govuk-link">static</a>
+                    <a href="https://docs.publishing.service.gov.uk/repos/static.html" class="govuk-link" rel="noopener noreferrer" target="_blank">static (opens in a new tab)</a>
                   </p>
                 {% endif %}
                 {{ govukDetails({
