@@ -23,7 +23,7 @@ title: Travel advice index
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: #Delete this comment before entering the description of the frontend template.
+description: An index of all the countries with foreign travel advice available.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
