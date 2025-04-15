@@ -1,5 +1,5 @@
 {% extends "layouts/main.njk" %}
-{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithExternalLink %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -18,10 +18,10 @@
         <section class="doc-other-design-systems">
           <h2 class="govuk-heading-l">How other design systems document this component</h2>
           {% if (designSystems | length ) > 1 %}
-            {{ listItemsWithLink("doc-design-systems__list", designSystems) }}
+            {{ listItemsWithExternalLink("doc-design-systems__list", designSystems) }}
           {% else %}
             <p class="govuk-body">
-              <a class="govuk-link" href="{{ designSystems[0].link }}">{{ designSystems[0].title }}</a>
+              <a class="govuk-link" href="{{ designSystems[0].link }}" rel="noopener noreferrer" target="_blank">{{ designSystems[0].title }} (opens in a new tab)</a>
             </p>
           {% endif %}
         </section>
