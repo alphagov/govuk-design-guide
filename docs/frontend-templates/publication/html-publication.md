@@ -23,7 +23,7 @@ title: HTML publication
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: #Delete this comment before entering the description of the frontend template.
+description: HTML publications are a specific format used by the UK government to present long-form content like reports, guidance documents, or policy papers directly as web pages, instead of traditional PDF or Word attachments.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
