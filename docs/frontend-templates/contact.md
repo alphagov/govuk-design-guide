@@ -23,7 +23,7 @@ title: Contact
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: #Delete this comment before entering the description of the frontend template.
+description: Contact information such as phone numbers, email addresses, webchat links, or postal addresses for general enquiries around a government service, or for technical support for an online services.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
@@ -246,7 +246,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: #Delete this comment before entering the date when the document was published.
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
