@@ -23,7 +23,7 @@ title: About our services
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: #Delete this comment before entering the description of the frontend template.
+description: Used by UK government departments and public bodies to explain what their services are, who they're for, and how they work.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
@@ -34,7 +34,14 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly descibe how this frontend template works. For instance, listing out what end-user can do on a page that uses this frontend template, as well as it's relation to other pages and its associated frontend templates on GOV.UK.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  #Delete this comment before entering how this frontend template works.
+  'It’s primarily used by service teams to provide users with contextual, clear, and trustworthy information about a particular government service.
+  
+  
+  Key Characteristics:
+  
+  - Aimed at people who need to understand what a service does before or while using it.
+
+  - Typically linked from or to a service start page or detailed guidance.'
 
 # Live examples of webpages that use this frontend template
 # List out all the pages on GOV.UK that use this frontend template, by providing: (1) the title of the page, (2) the URL of the page, and (3) indicate whether the page is in Welsh in order for assistive technology to read out the page title correctly.
@@ -261,7 +268,7 @@ components:
 insights:
   # To add additional insights duplicate the the fields below (adhering to the formating) but increase the count by one integer.
   0:
-    # Both title and link are REQUIRED in order for this information to render on the page.
+    # A description is REQUIRED in order for this information to render on the page.
     date: #Delete this comment before entering the date when the document was published.
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
