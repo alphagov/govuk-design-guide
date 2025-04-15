@@ -1,4 +1,4 @@
-{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithLink %}
+{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithExternalLink %}
 {% from 'macros/report-issue.njk' import reportIssue %}
 
 {% if issues[0].link and issues[0].title %}
@@ -11,7 +11,7 @@
       {% elif sectionKey === "Patterns" %}
         <h2 class="doc-issues__title govuk-heading-l">Existing issues with this pattern</h2>
       {% endif %}
-      {{ listItemsWithLink("doc-issues__list", issues) }}
+      {{ listItemsWithExternalLink("doc-issues__list govuk-list--spaced", issues) }}
       {{ reportIssue("h3", "m") }}
       {% include "./instructions-report-issue.njk" %}
     {% else %}
@@ -23,7 +23,7 @@
         <h2 class="doc-issues__title govuk-heading-l">An existing issue with this pattern</h2>
       {% endif %}
       <p class="govuk-body">
-        <a class="govuk-link" href="{{ issues[0].link }}">{{ issues[0].title }}</a>
+        <a class="govuk-link" href="{{ issues[0].link }}" rel="noopener noreferrer" target="_blank">{{ issues[0].title }} (opens in a new tab)</a>
       </p>
       {{ reportIssue("h3", "m") }}
       {% include "./instructions-report-issue.njk" %}
