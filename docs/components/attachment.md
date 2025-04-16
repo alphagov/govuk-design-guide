@@ -192,7 +192,9 @@ accessibilty:
   - have visible text
   
   - have meaningful text
-  
+
+  - if the link is intended for downloading a file rather than directing to a webpage, specify the file type and size
+
 
   Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
 
