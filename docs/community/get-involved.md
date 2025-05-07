@@ -9,7 +9,7 @@ details:
   <ol class="govuk-list govuk-list--number govuk-heading-m">
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Join the conversation on Slack</h2>
-      <p class="govuk-body">To get involved in current conversations about the library <a class="govuk-link" href="https://join.slack.com/share/enQtNzc0ODgwMDM4ODcyMC04YjhkN2U2OTdkMmVlMjdkNTI5ZmYxOGE4Y2QwNGI4ZmFjZWU4ZGQzNTEzNzk4MGQ2YjY2YzU5NDcxMDc3YmM5" rel="noopener noreferrer" target="_blank">join our Slack channel (opens in a new tab)</a>. Here you can find out about what the community is up to and offer or ask for support.</p>
+      <p class="govuk-body">To get involved or if you have any questions join <strong>#community-govuk-publishing-design-guide</strong> Slack channel.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Give feedback on GitHub</h2>
@@ -22,11 +22,6 @@ details:
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Share information, examples and research</h2>
       <p class="govuk-body">Each piece of documentation aims to include information and insights from many disciplines. Add what you know or help us dig out documents and data on older designs and add them to the documentation on GitHub.</p>
-    </li>
-    <li class="govuk-!-margin-bottom-6">
-      <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Join a workshop</h2>
-      <p class="govuk-body">We regularly run cross-community workshops to document together.</p>
-      <p class="govuk-body">We also run sessions to get people set up and trained in GitHub. If you would like to attend, contact us via Slack.</p>
     </li>
     <li class="govuk-!-margin-bottom-6">
       <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Contribute new documentation </h2>
