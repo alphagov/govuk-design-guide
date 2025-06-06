@@ -30,8 +30,8 @@ export default function(eleventyConfig) {
     header: {
       productName: "Publishing Design Guide"
     },
-    navigation: {
-      items: [
+    serviceNavigation: {
+      navigation: [
         {
           text: "Components",
           href: "/components"
