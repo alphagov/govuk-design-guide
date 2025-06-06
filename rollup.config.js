@@ -1,13 +1,13 @@
-const babel = require('@rollup/plugin-babel')
-const commonjs = require('@rollup/plugin-commonjs')
-const resolve = require('@rollup/plugin-node-resolve')
-const terser = require('@rollup/plugin-terser')
-const { defineConfig } = require('rollup')
+import babel from '@rollup/plugin-babel'
+import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
+import terser from '@rollup/plugin-terser'
+import { defineConfig } from 'rollup'
 
 /**
  * Rollup config
  */
-module.exports = defineConfig({
+export default defineConfig({
   input: 'docs/javascripts/application.mjs',
   output: {
     sourcemap: true,
