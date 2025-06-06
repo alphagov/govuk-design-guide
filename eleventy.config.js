@@ -1,8 +1,10 @@
-const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
-const { rollup } = require('rollup')
-const rollupConfig = require('./rollup.config.js')
+import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin';
+import { rollup } from 'rollup';
+import rollupConfig from './rollup.config.js';
 
-module.exports = function(eleventyConfig) {
+const { output } = rollupConfig;
+
+export default function(eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('./docs/assets')
@@ -13,7 +15,7 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.on('beforeBuild', async () => {
     const bundle = await rollup(rollupConfig)
-    await bundle.write(rollupConfig.output)
+    await bundle.write(output)
   })
   
   // Register the plugin
