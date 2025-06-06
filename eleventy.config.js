@@ -1,8 +1,10 @@
-const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
-const { rollup } = require('rollup')
-const rollupConfig = require('./rollup.config.js')
+import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin';
+import { rollup } from 'rollup';
+import rollupConfig from './rollup.config.js';
 
-module.exports = function(eleventyConfig) {
+const { output } = rollupConfig;
+
+export default function(eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('./docs/assets')
@@ -13,21 +15,23 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.on('beforeBuild', async () => {
     const bundle = await rollup(rollupConfig)
-    await bundle.write(rollupConfig.output)
+    await bundle.write(output)
   })
   
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
     showBreadcrumbs: false,
-    stylesheets: ['/assets/application.css'],
+    stylesheets: [
+      '/assets/styles.css' // Renamed from application.css --> Looks like if you remove this it won't appear borked...
+    ],
     titleSuffix: 'GOV.UK Publishing Design Guide',
     opengraphImageUrl: '/assets/images/opengraph.png',
     header: {
       productName: "Publishing Design Guide"
     },
-    navigation: {
-      items: [
+    serviceNavigation: {
+      navigation: [
         {
           text: "Components",
           href: "/components"
