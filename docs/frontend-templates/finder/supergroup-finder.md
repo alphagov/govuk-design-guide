@@ -118,7 +118,6 @@ publishingApp:
   # The GOV.UK [browser extension](https://github.com/alphagov/govuk-browser-extension) can help indentify the publishing app associated with adding content to this frontend template.
   # Publishing app options:
     # collections publisher
-    # contacts admin
     # content publisher
     # content tagger
     # local links manager
