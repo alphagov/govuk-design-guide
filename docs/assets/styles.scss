@@ -5,5 +5,11 @@
 @use "pkg:@x-govuk/govuk-eleventy-plugin";
 
 .x-govuk-masthead {
-    background-color: #263135;
+    background-color: #d2e2f1;
+}
+
+.x-govuk-masthead__title,
+.x-govuk-masthead__description
+ {
+    color: #0b0c0c;
 }
