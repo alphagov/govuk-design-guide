@@ -1,5 +1,5 @@
 // Use GOV.UK Frontend
-@use "pkg:govuk-frontend/dist/govuk";
+@use "pkg:govuk-frontend/dist/govuk/settings";
 
 // Use GOV.UK Eleventy Plugin components
 @use "pkg:@x-govuk/govuk-eleventy-plugin";
@@ -11,5 +11,5 @@
 .x-govuk-masthead__title,
 .x-govuk-masthead__description
  {
-    color: #0b0c0c;
+    color: settings.$govuk-text-colour;
 }
