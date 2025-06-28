@@ -30,7 +30,6 @@ export default function(eleventyConfig) {
     header: {
       productName: "Publishing Design Guide"
     },
-    rebrand: true,
     serviceNavigation: {
       navigation: [
         {
