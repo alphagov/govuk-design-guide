@@ -22,15 +22,11 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     homeKey: "",
     showBreadcrumbs: false,
-    stylesheets: [
-      '/assets/styles.css' // Renamed from application.css --> Looks like if you remove this it won't appear borked...
-    ],
     titleSuffix: 'GOV.UK Publishing Design Guide',
     opengraphImageUrl: '/assets/images/opengraph.png',
     header: {
       productName: "Publishing Design Guide"
     },
-    rebrand: true,
     serviceNavigation: {
       navigation: [
         {
