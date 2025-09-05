@@ -42,6 +42,10 @@ export default function(eleventyConfig) {
           href: "/frontend-templates"
         },
         {
+          text: "Glossary",
+          href: "/glossary"
+        },
+        {
           text: "Community",
           href: "/community"
         },
