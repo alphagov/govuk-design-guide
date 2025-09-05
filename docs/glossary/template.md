@@ -5,5 +5,7 @@ eleventyNavigation:
   parent: Glossary
 title: Template
 theme: Presentation layer
-details: Test
 ---
+A template is a pre-designed layout that defines the structure, style, and components of a content type.
+
+It serves as a reusable starting point for building consistent and visually cohesive outputs across digital channels.
