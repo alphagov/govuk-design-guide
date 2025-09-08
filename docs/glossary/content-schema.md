@@ -17,5 +17,5 @@ Content format
 
 ## Do not confuse with
 
-+ [Content type](/glossary/content-type)
-+ [Template](/glossary/template) 
+- [Content type](/glossary/content-type)
+- [Template](/glossary/template) 

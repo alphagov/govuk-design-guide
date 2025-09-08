@@ -13,8 +13,8 @@ Components are the building blocks of a user interface. Things like buttons, for
 
 ## Non-preferred terms
 
-+ Block
-+ Module
+- Block
+- Module
 
 ## Do not confuse with
 

@@ -13,5 +13,5 @@ Common GOV.UK layouts include the single column, two-thirds, two-thirds and one-
 
 ## Non-preferred terms
 
-+ Grid
-+ Pattern
+- Grid
+- Pattern

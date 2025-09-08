@@ -16,9 +16,9 @@ Containers are intended to be populated with content and metadata attributes, us
 
 ## Non-preferred terms
 
-+ Block
-+ Section
-+ Module
+- Block
+- Section
+- Module
 
 ## Do not confuse with
 

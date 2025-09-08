@@ -23,5 +23,5 @@ Content format
 
 ## Do not confuse with
 
-+ [Content schema](/glossary/content-schema)
-+ [Template](/glossary/template) 
+- [Content schema](/glossary/content-schema)
+- [Template](/glossary/template) 

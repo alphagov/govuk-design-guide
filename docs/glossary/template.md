@@ -13,10 +13,10 @@ It serves as a reusable starting point for building consistent and visually cohe
 
 ## Non-preferred terms
 
-+ Format
-+ Layout
+- Format
+- Layout
 
 ## Do not confuse with
 
-+ [Content type](/glossary/content-type)
-+ [Content schema](/glossary/content-schema)
+- [Content type](/glossary/content-type)
+- [Content schema](/glossary/content-schema)
