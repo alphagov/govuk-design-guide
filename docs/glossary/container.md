@@ -19,4 +19,7 @@ Containers are intended to be populated with content and metadata attributes, us
 + Block
 + Section
 + Module
-+ Component
+
+## Do not confuse with
+
+[Component](/glossary/component)

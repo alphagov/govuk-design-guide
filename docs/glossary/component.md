@@ -15,4 +15,7 @@ Components are the building blocks of a user interface. Things like buttons, for
 
 + Block
 + Module
-+ Container
+
+## Do not confuse with
+
+[Container](/glossary/container)

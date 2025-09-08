@@ -11,6 +11,11 @@ A GOV.UK content schema is a JSON schema that defines the underlying structure a
 
 The schema also contains data on the relationships with other schemas, classification systems and content types.
 
+## Non-preferred term
+
+Content format
+
 ## Do not confuse with
 
-[Content type](/glossary/content-type) – this is a line of code inside the schema itself
++ [Content type](/glossary/content-type)
++ [Template](/glossary/template) 

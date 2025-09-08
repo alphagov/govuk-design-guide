@@ -9,7 +9,7 @@ order: 1
 ---
 The content model is the output of doing content modelling.
 
-Content modelling divides content into it's smallest reasonable pieces. Organising and classifiing content so it can be understood and used by computers and humans.
+Content modelling divides content into its smallest reasonable pieces. Organising and classifying content so it can be understood and used by computers and humans.
 
 Content modelling defines:
 

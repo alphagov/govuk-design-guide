@@ -18,5 +18,5 @@ It serves as a reusable starting point for building consistent and visually cohe
 
 ## Do not confuse with
 
-+ Content type
-+ Content schema
++ [Content type](/glossary/content-type)
++ [Content schema](/glossary/content-schema)

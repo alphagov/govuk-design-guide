@@ -20,3 +20,8 @@ Document type – term used in our code and developer documentation (co-exists w
 ## Non-preferred term
 
 Content format
+
+## Do not confuse with
+
++ [Content schema](/glossary/content-schema)
++ [Template](/glossary/template) 
