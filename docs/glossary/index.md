@@ -20,9 +20,9 @@ details:
   - improves collaboration across teams 
   
   - supports onboarding for new team members
-  
+
   - keeps systems coherent as they grow"
-# image:
-#   src: /assets/images/frontend-templates.svg
-#   alt: One single board with multiple separate building block pieces, plus a structure made up of three building block pieces.
+image:
+  src: /assets/images/glossary.svg
+  alt: Three vertical stacks of colorful blocks, each topped with the GOV.UK crown as its connector.
 ---
