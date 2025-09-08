@@ -1,11 +1,11 @@
 ---
-order: 2
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content schema
 theme: Information layer
+order: 2
 ---
 A GOV.UK content schema is a JSON schema that defines the underlying structure and properties of a piece of content.
 

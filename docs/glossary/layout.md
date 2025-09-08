@@ -1,11 +1,11 @@
 ---
-order: 6
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Layout
 theme: Presentation layer
+order: 2
 ---
 Layout refers to the arrangement of visual and interactive elements in a user interface. The term encompasses hierarchy, alignment, spacing, screen sizes, and consistency to improve usability and accessibility.
 

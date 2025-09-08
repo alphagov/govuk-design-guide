@@ -1,11 +1,11 @@
 ---
-order: 7
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Container
 theme: Presentation layer
+order: 3
 ---
 
 *Note: Currently in development.*

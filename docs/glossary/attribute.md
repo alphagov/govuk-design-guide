@@ -1,11 +1,11 @@
 ---
-order: 4
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Attribute
 theme: Information layer
+order: 4
 ---
 Attributes describe the characteristics of a content type. For example, a news article has a title, summary, author, date, body, location and tags. 
 

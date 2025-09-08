@@ -1,11 +1,11 @@
 ---
-order: 1
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content model
 theme: Information layer
+order: 1
 ---
 The content model is the output of doing content modelling.
 

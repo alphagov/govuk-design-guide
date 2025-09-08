@@ -1,11 +1,11 @@
 ---
-order: 5
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Template
 theme: Presentation layer
+order: 1
 ---
 A template is a pre-designed layout that defines the structure, style and components of a content type.
 
