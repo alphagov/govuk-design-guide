@@ -20,6 +20,7 @@ details:
   - improves collaboration across teams 
   
   - supports onboarding for new team members
+  
   - keeps systems coherent as they grow"
 # image:
 #   src: /assets/images/frontend-templates.svg
