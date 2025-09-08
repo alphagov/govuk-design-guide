@@ -1,4 +1,5 @@
 ---
+order: 7
 layout: landing-page
 sectionKey: Glossary
 eleventyNavigation:
