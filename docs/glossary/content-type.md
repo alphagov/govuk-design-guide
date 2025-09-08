@@ -11,4 +11,11 @@ A content type is a reusable container for organising content that has a common 
 Information architects model the attributes that make up the content types (including core content or metadata) and the relationships between content types.
 
 In GOV.UK's tech stack, the content type is coded into the broader content schema.
-Synonyms: document type (used in our code and developer documentation)
+
+## Synonym 
+
+Document type – term used in our code and developer documentation (co-exists with content type)
+
+## Non-preferred term
+
+Content format
