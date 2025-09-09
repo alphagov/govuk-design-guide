@@ -7,8 +7,9 @@ title: Container
 theme: Presentation layer
 order: 3
 ---
-
-*Note: Currently in development.*
+<div class="govuk-inset-text">
+  Note: Currently in development.
+</div>
 
 Containers will be flexible sections within a broader template. They'll give publishers more choice over how they display their content and how they structure the user interface.
 
