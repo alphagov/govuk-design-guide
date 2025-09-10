@@ -49,7 +49,7 @@ howItWorks:
   - likely to generate a high volume of content (not just one or two news stories)
   
 
-  Also worth noting that there may be a corresponding topical event’s about page, which is made using the [topical event about frontend template](../about/topical-events).'
+  Also worth noting that there may be a corresponding topical event’s about page, which is made using the [topical event about frontend template](../topical-events/about).'
 
 # Live examples of webpages that use this frontend template
 # List out all the pages on GOV.UK that use this frontend template, by providing: (1) the title of the page, (2) the URL of the page, and (3) indicate whether the page is in Welsh in order for assistive technology to read out the page title correctly.
