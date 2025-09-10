@@ -4,6 +4,7 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Component
+description: Components are reusable parts of a user interface that serve as pre-built, core elements for building consistent pages.
 details:
   'Components are reusable parts of a user interface. They are pre-built, core elements that allow designers and developers to build consistent pages on GOV.UK (source: [GOV.UK Design System](https://design-system.service.gov.uk/components/)).
   

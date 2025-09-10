@@ -4,6 +4,7 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content model
+description: Content modelling organizes and classifies content into its smallest reasonable pieces so it can be understood and used by both computers and humans.
 details:
   'The content model is the output of doing content modelling.
   

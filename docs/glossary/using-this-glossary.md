@@ -4,6 +4,7 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Using this glossary
+description: Learn about preferred terms, synonyms, and non-preferred terms to effectively navigate this glossary.
 details:
   'Here’s a summary of the terminology used in this glossary:
 

@@ -4,6 +4,7 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content type
+description: Content types provide a framework for structuring and categorizing content.
 details:
   'Content types are a way of organising content that has a common structure and purpose. For example, if you had a group of content items that are all types of speech, you’d create a "speech" content type so they share a consistent structure and classification.
   
