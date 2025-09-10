@@ -7,9 +7,9 @@ title: Layout
 theme: Presentation layer
 order: 2
 ---
-Layout refers to the arrangement of visual and interactive elements in a user interface. The term encompasses hierarchy, alignment, spacing, screen sizes, and consistency to improve usability and accessibility.
+Layout is the high-level arrangement of [components](/glossary/component) and content in a user interface. The term encompasses hierarchy, alignment, spacing and screen sizes.
 
-Common GOV.UK layouts include the single column, two-thirds, two-thirds and one-third or 50/50. The layouts adapt to different screen sizes using responsive design.
+[Common GOV.UK layouts](https://design-system.service.gov.uk/styles/layout/#common-layouts) include the single column, two-thirds, and two-thirds and one-third.
 
 ## Non-preferred terms
 
