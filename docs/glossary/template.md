@@ -4,7 +4,6 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Template
-description: A template defines the structure and visual elements for a specific content type.
 details:
   'A template contains the layouts and components for a content type.
   

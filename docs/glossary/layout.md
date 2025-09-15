@@ -4,7 +4,6 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Layout
-description: A layout defines how components and content are organized and positioned within a user interface.
 details:
   'A layout is the high-level arrangement of [components](/glossary/component) and content in a user interface. The term encompasses hierarchy, alignment, spacing and screen sizes.
   

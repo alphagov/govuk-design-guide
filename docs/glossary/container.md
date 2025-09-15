@@ -4,7 +4,6 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Container
-description: Containers are flexible sections within templates that give publishers choice over content display and user interface structure.
 details:
   '<div class="govuk-inset-text">
     Note: Currently in development.
