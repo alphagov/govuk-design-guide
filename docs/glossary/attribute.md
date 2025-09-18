@@ -32,7 +32,15 @@ synonym:
     link:
     definition: a term used by publishers to describe the input space in a Content Management System
 nonPreferred:
+  0:
+    title:
+    link:
+    definition:
 doNotConfuse:
+    0:
+      title:
+      link:
+      definition:
 theme: Information layer
 order: 4
 ---

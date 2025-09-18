@@ -12,13 +12,23 @@ synonym:
     link:
     definition:
 nonPreferred:
-  '- Format
-
-  - Layout'
+  0:
+    title: Format
+    link:
+    definition:
+  1:
+    title: Layout
+    link:
+    definition:
 doNotConfuse:
-  '- [Content type](/glossary/content-type)
-
-  - [Content schema](/glossary/content-schema)'
+    0:
+      title: Content type
+      link: /glossary/content-type
+      definition:
+    1:
+      title: Content schema
+      link: /glossary/content-schema
+      definition:
 theme: Presentation layer
 order: 1
 ---

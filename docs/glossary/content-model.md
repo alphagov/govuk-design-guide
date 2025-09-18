@@ -24,7 +24,15 @@ synonym:
     link:
     definition:
 nonPreferred:
-doNotConfuse: Domain model — maps the core concepts and relationships of an organisation’s operating context
+  0:
+    title:
+    link:
+    definition:
+doNotConfuse:
+    0:
+      title: Domain model
+      link:
+      definition: maps the core concepts and relationships of an organisation’s operating context
 theme: Information layer
 order: 1
 ---

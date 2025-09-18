@@ -20,13 +20,23 @@ synonym:
     link:
     definition:
 nonPreferred:
-  '- Block
-
-  - Section
-
-  - Module'
+  0:
+    title: Block
+    link:
+    definition:
+  1:
+    title: Section
+    link:
+    definition:
+  2:
+    title: Module
+    link:
+    definition:
 doNotConfuse:
-  '[Component](/glossary/component)'
+    0:
+      title: Component
+      link: /glossary/component
+      definition:
 theme: Presentation layer
 order: 3
 ---

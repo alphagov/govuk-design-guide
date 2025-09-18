@@ -15,11 +15,19 @@ synonym:
     link:
     definition:
 nonPreferred:
-  '- Block
-  
-  - Module'
+  0:
+    title: Block
+    link:
+    definition:
+  1:
+    title: Module
+    link:
+    definition:
 doNotConfuse:
-  '[Container](/glossary/container)'
+    0:
+      title: Container
+      link: /glossary/container
+      definition:
 theme: Presentation layer
 order: 4
 ---

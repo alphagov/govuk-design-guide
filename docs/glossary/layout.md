@@ -15,10 +15,19 @@ synonym:
     link:
     definition:
 nonPreferred:
-  '- Grid
-
-  - Pattern'
+  0:
+    title: Grid
+    link:
+    definition:
+  1:
+    title: Pattern
+    link:
+    definition:
 doNotConfuse:
+    0:
+      title:
+      link:
+      definition:
 theme: Presentation layer
 order: 2
 ---

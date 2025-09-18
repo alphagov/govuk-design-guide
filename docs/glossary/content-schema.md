@@ -14,11 +14,20 @@ synonym:
     title:
     link:
     definition:
-nonPreferred: Content format
+nonPreferred:
+  0:
+    title: Content format
+    link:
+    definition:
 doNotConfuse:
-  '- [Content type](/glossary/content-type)
-
-  - [Template](/glossary/template)'
+    0:
+      title: Content type
+      link: /glossary/content-type
+      definition:
+    1:
+      title: Template
+      link: /glossary/template
+      definition:
 theme: Information layer
 order: 2
 ---

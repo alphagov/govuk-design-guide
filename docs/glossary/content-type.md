@@ -17,11 +17,20 @@ synonym:
     title: Document type
     link: 
     definition: term used in our code and developer documentation (co-exists with content type)
-nonPreferred: Content format
+nonPreferred:
+  0:
+    title: Content format
+    link:
+    definition:
 doNotConfuse:
-  '- [Content schema](/glossary/content-schema)
-
-  - [Template](/glossary/template)'
+    0:
+      title: Content schema
+      link: /glossary/content-schema
+      definition:
+    1:
+      title: Template
+      link: /glossary/template
+      definition:
 theme: Information layer
 order: 3
 ---
