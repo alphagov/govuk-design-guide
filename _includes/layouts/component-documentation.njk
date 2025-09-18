@@ -16,7 +16,7 @@
 
       {% if designSystems[0].link and designSystems[0].title %}
         <section class="doc-other-design-systems">
-          <h2 class="govuk-heading-l">How other design systems document this component</h2>
+          <h2 id="how-other-design-systems-document-this-component" tabindex="-1" class="govuk-heading-l govuk-!-padding-top-4">How other design systems document this component</h2>
           {% if (designSystems | length ) > 1 %}
             {{ listItemsWithExternalLink("doc-design-systems__list", designSystems) }}
           {% else %}

@@ -1,12 +1,14 @@
 {% if howItWorks %}
   <section class="doc-how-it-works">
-    <h2 class="govuk-heading-l">How it works</h2>
+    <h2 id="how-it-works" tabindex="-1" class="govuk-heading-l govuk-!-padding-top-4">How it works</h2>
     {{ howItWorks | markdown }}
-    {% for i in range(0, variations | length ) %}
-      <h3 class="govuk-heading-m">{{ variations[i].title }}</h3>
-      {% if variations[i].description %}
-        {{ variations[i].description | markdown }}
-      {% endif %}
-    {% endfor %}
+    {% if variations[0].description %}
+      {% for i in range(0, variations | length ) %}
+        <h3 class="govuk-heading-m">{{ variations[i].title }}</h3>
+        {% if variations[i].description %}
+          {{ variations[i].description | markdown }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </section>
 {% endif %}
