@@ -1,5 +1,5 @@
 ---
-layout: landing-page
+layout: glossary-documentation
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
@@ -11,23 +11,12 @@ details:
   Information architects model the attributes that make up the content types (including core content or metadata) and the relationships between content types.
   
   
-  In GOV.UK’s tech stack, the content type is coded into the broader content schema.
-  
-  
-  ## Synonym
-  
-  Document type — term used in our code and developer documentation (co-exists with content type)
-  
+  In GOV.UK’s tech stack, the content type is coded into the broader content schema.'
+synonym: Document type — term used in our code and developer documentation (co-exists with content type)
+nonPreferred: Content format
+doNotConfuse:
+  '- [Content schema](/glossary/content-schema)
 
-  ## Non-preferred term
-  
-  Content format
-  
-  
-  ## Do not confuse with
-  
-  - [Content schema](/glossary/content-schema)
-  
   - [Template](/glossary/template)'
 theme: Information layer
 order: 3

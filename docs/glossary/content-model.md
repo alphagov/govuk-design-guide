@@ -1,5 +1,5 @@
 ---
-layout: landing-page
+layout: glossary-documentation
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
@@ -17,12 +17,10 @@ details:
   
   - the [attributes](/glossary/attribute) that make up each content type
   
-  - the relationships between the [content types](/glossary/content-type) and how they work together
-
-
-  ## Do not confuse with
-  
-  Domain model — maps the core concepts and relationships of an organisation’s operating context'
+  - the relationships between the [content types](/glossary/content-type) and how they work together'
+synonym:
+nonPreferred:
+doNotConfuse: Domain model — maps the core concepts and relationships of an organisation’s operating context
 theme: Information layer
 order: 1
 ---
