@@ -27,3 +27,49 @@
     {% endfor %}
   </ul>
 {% endmacro %}
+
+{% macro glossaryListItems(listItem, sectionTitle, sectionId) %}
+  {% if (listItem | length ) > 1 %}
+    <h2 id="{{ sectionId }}s" tabindex="-1" class="govuk-heading-l govuk-!-padding-top-4">{{ sectionTitle }}s</h2>
+    <ul class="govuk-list govuk-list--bullet">
+      {% for i in range(0, listItem | length ) %}
+        {% if listItem[i].title and listItem[i].link and listItem[i].definition %}
+          <li>
+            <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a> — {{ listItem[i].definition }}
+          </li>
+        {% elif listItem[i].title and listItem[i].definition %}
+          <li>
+            {{ listItem[i].title }} — {{ listItem[i].definition }}
+          </li>
+        {% elif listItem[i].title and listItem[i].link %}
+          <li>
+            <a class="govuk-link" href="{{ listItem[i].link }}">{{ listItem[i].title }}</a>
+          </li>
+        {% elif listItem[i].title %}
+          <li>
+            {{ listItem[i].title }}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% else %}
+    <h2 id="{{ sectionId }}" tabindex="-1" class="govuk-heading-l govuk-!-padding-top-4">{{ sectionTitle }}</h2>
+    {% if listItem[0].title and listItem[0].link and listItem[0].definition %}
+      <p>
+        <a class="govuk-link" href="{{ listItem[0].link }}">{{ listItem[0].title }}</a> — {{ listItem[0].definition }}
+      </p>
+    {% elif listItem[0].title and listItem[0].definition %}
+      <p>
+        {{ listItem[0].title }} — {{ listItem[0].definition }}
+      </p>
+    {% elif listItem[0].title and listItem[0].link %}
+      <p>
+        <a class="govuk-link" href="{{ listItem[0].link }}">{{ listItem[0].title }}</a>
+      </p>
+    {% elif listItem[0].title %}
+      <p>
+        {{ listItem[0].title }}
+      </p>
+    {% endif %}
+  {% endif %}
+{% endmacro %}
