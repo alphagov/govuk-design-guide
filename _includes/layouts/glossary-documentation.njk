@@ -1,5 +1,5 @@
 {% extends "layouts/main.njk" %}
-{% from 'macros/unordered-list-item-with-link.njk' import listItemsWithExternalLink %}
+{% from 'macros/unordered-list-item-with-link.njk' import glossaryListItems %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -14,19 +14,17 @@
       {% endif %}
       {% if synonym[0].title %}
         <section class="doc-synonym">
-          {% include 'partials/synonym.njk' %}
+          {{ glossaryListItems(synonym, 'Synonym', 'synonym') }}
         </section>
       {% endif %}
-      {% if nonPreferred %}
+      {% if nonPreferred[0].title %}
         <section class="doc-non-preferred">
-          <h2 class="govuk-heading-l">Non-preferred term</h2>
-          <p>{{ nonPreferred | markdown }}</p>
+          {{ glossaryListItems(nonPreferred, 'Non-preferred term', 'non-preferred') }}
         </section>
       {% endif %}
-      {% if doNotConfuse %}
+      {% if doNotConfuse[0].title %}
         <section class="doc-do-not-confuse">
-          <h2 class="govuk-heading-l">Do not confuse with</h2>
-          <p>{{ doNotConfuse | markdown }}</p>
+          {{ glossaryListItems(doNotConfuse, 'Do not confuse with the following term', 'do-not-confuse') }}
         </section>
       {% endif %}
       {% if image.src %}
