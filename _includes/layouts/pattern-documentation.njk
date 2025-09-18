@@ -14,7 +14,7 @@
 
       {% if components[0].title and components[0].link %}
         <section class="doc-components">
-          <h2 class="govuk-heading-l">Components</h2>
+          <h2 id="components" tabindex="-1" class="govuk-heading-l govuk-!-padding-top-4">Components</h2>
           <p class="govuk-body">The components used within the {{ title | lower }} pattern:</p>
           {{ listItemsWithExternalLink("doc-components__list", components) }}
         </section>
