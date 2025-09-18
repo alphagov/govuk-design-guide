@@ -15,6 +15,10 @@ details:
   
   Containers are intended to be populated with content and metadata attributes, user interface (UI) components and reusable content blocks.'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred:
   '- Block
 

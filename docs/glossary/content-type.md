@@ -12,7 +12,11 @@ details:
   
   
   In GOV.UK’s tech stack, the content type is coded into the broader content schema.'
-synonym: Document type — term used in our code and developer documentation (co-exists with content type)
+synonym: 
+  0:
+    title: Document type
+    link: 
+    definition: term used in our code and developer documentation (co-exists with content type)
 nonPreferred: Content format
 doNotConfuse:
   '- [Content schema](/glossary/content-schema)

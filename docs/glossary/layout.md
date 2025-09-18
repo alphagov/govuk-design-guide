@@ -10,6 +10,10 @@ details:
   
   [Common GOV.UK layouts](https://design-system.service.gov.uk/styles/layout/#common-layouts) include the single column, two-thirds and one-third, and two-thirds.'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred:
   '- Grid
 

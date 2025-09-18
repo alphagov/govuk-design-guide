@@ -10,6 +10,10 @@ details:
 
   Components are the building blocks of a user interface. Things like buttons, forms or navigation menus. For reference, this is the [GOV.UK Component Guide](https://components.publishing.service.gov.uk/component-guide)'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred:
   '- Block
   

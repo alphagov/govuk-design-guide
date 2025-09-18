@@ -7,6 +7,10 @@ title: Template
 details:
   'A template contains the layouts and components for a content type.'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred:
   '- Format
 

@@ -12,10 +12,9 @@
           {{ details | markdown }}
         </section>
       {% endif %}
-      {% if synonym %}
+      {% if synonym[0].title %}
         <section class="doc-synonym">
-          <h2 class="govuk-heading-l">Synonyms</h2>
-          <p>{{ synonym | markdown }}</p>
+          {% include 'partials/synonym.njk' %}
         </section>
       {% endif %}
       {% if nonPreferred %}

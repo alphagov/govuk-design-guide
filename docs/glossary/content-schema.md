@@ -10,6 +10,10 @@ details:
 
   The schema also contains data on the relationships with other schemas, classification systems and content types.'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred: Content format
 doNotConfuse:
   '- [Content type](/glossary/content-type)

@@ -23,9 +23,14 @@ details:
 
   Attributes become properties when the model is translated into a [content schema](/glossary/content-schema).'
 synonym:
-  '- Property — a term used in our schemas and codebase
-
-  - Field — a term used by publishers to describe the input space in a Content Management System'
+  0:
+    title: Property
+    link:
+    definition: a term used in our schemas and codebase
+  1:
+    title: Field
+    link:
+    definition: a term used by publishers to describe the input space in a Content Management System
 nonPreferred:
 doNotConfuse:
 theme: Information layer

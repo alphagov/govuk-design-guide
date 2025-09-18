@@ -19,6 +19,10 @@ details:
   
   - the relationships between the [content types](/glossary/content-type) and how they work together'
 synonym:
+  0:
+    title:
+    link:
+    definition:
 nonPreferred:
 doNotConfuse: Domain model — maps the core concepts and relationships of an organisation’s operating context
 theme: Information layer
