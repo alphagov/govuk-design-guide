@@ -4,8 +4,9 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Template
+description: A template contains the layouts and components for a content type.
 details:
-  'A template contains the layouts and components for a content type.'
+
 synonym:
   0:
     title:

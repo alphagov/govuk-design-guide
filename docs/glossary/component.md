@@ -4,11 +4,17 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Component
+description: Components are pre-built, core elements that allow teams to build consistent pages on GOV.UK. 
 details:
-  'Components are reusable parts of a user interface. They are pre-built, core elements that allow designers and developers to build consistent pages on GOV.UK (source: [GOV.UK Design System](https://design-system.service.gov.uk/components/)).
-  
+  'Components are the reusable building blocks of the user interface. Things like buttons, forms and navigation menus. 
 
-  Components are the building blocks of a user interface. Things like buttons, forms or navigation menus. For reference, this is the [GOV.UK Component Guide](https://components.publishing.service.gov.uk/component-guide)'
+  
+  For more information on components, see the:
+
+  - [GOV.UK Design System](https://design-system.service.gov.uk/components/)
+
+  - [GOV.UK Component Guide](https://components.publishing.service.gov.uk/component-guide)'
+
 synonym:
   0:
     title:

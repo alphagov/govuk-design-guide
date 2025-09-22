@@ -4,16 +4,14 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Container
+description: Containers will be flexible sections within a template. They'll contain content and metadata attributes, user interface components and reusable content blocks.
 details:
   '<div class="govuk-inset-text">
     Note: Currently in development.
   </div>
   
 
-  Containers will be flexible sections within a broader template. They’ll give publishers more choice over how they display their content and how they structure the user interface.
-  
-  
-  Containers are intended to be populated with content and metadata attributes, user interface (UI) components and reusable content blocks.'
+  Containers are intended to give publishers more choice in how they display their content and how they structure the user experience.'
 synonym:
   0:
     title:
