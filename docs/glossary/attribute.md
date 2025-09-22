@@ -1,5 +1,5 @@
 ---
-layout: landing-page
+layout: glossary-documentation
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
@@ -21,14 +21,26 @@ details:
   Attributes are captured at a conceptual level in the [content model](/glossary/content-model).
   
 
-  Attributes become properties when the model is translated into a [content schema](/glossary/content-schema).
-  
-
-  ## Synonyms
-  
-  - Property — a term used in our schemas and codebase
-
-  - Field — a term used by publishers to describe the input space in a Content Management System'
+  Attributes become properties when the model is translated into a [content schema](/glossary/content-schema).'
+synonym:
+  0:
+    title: Property
+    link:
+    definition: a term used in our schemas and codebase
+  1:
+    title: Field
+    link:
+    definition: a term used by publishers to describe the input space in a Content Management System
+nonPreferred:
+  0:
+    title:
+    link:
+    definition:
+doNotConfuse:
+    0:
+      title:
+      link:
+      definition:
 theme: Information layer
 order: 4
 ---

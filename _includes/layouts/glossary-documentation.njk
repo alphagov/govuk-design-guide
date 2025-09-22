@@ -1,0 +1,40 @@
+{% extends "layouts/main.njk" %}
+{% from 'macros/unordered-list-item-with-link.njk' import glossaryListItems %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    {% include 'partials/sub-navigation.njk' %}
+    
+    <div class="govuk-grid-column-three-quarters-from-desktop">
+      {% include 'partials/header.njk' %}
+      {% if details %}
+        <section class="doc-details">
+          {{ details | markdown }}
+        </section>
+      {% endif %}
+      {% if synonym[0].title %}
+        <section class="doc-synonym">
+          {{ glossaryListItems(synonym, 'Synonym', 'synonym') }}
+        </section>
+      {% endif %}
+      {% if nonPreferred[0].title %}
+        <section class="doc-non-preferred">
+          {{ glossaryListItems(nonPreferred, 'Non-preferred term', 'non-preferred') }}
+        </section>
+      {% endif %}
+      {% if doNotConfuse[0].title %}
+        <section class="doc-do-not-confuse">
+          {{ glossaryListItems(doNotConfuse, 'Do not confuse with the term', 'do-not-confuse') }}
+        </section>
+      {% endif %}
+      {% if image.src %}
+        <section class="doc-icon govuk-!-margin-top-7">
+          <img class="govuk-!-width-full" src="{{ image.src }}" alt="{{ image.alt }}">
+        </section>
+      {% endif %}
+      {{ appProseScope(content) if content }}
+
+      {% include "layouts/shared/related.njk" %}
+    </div>
+  </div>
+{% endblock %}

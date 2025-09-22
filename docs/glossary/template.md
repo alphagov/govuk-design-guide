@@ -1,25 +1,34 @@
 ---
-layout: landing-page
+layout: glossary-documentation
 sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Template
 details:
-  'A template contains the layouts and components for a content type.
-  
-  
-  ## Non-preferred terms
-  
-  - Format
-
-  - Layout
-  
-  
-  ## Do not confuse with
-  
-  - [Content type](/glossary/content-type)
-
-  - [Content schema](/glossary/content-schema)'
+  'A template contains the layouts and components for a content type.'
+synonym:
+  0:
+    title:
+    link:
+    definition:
+nonPreferred:
+  0:
+    title: Format
+    link:
+    definition:
+  1:
+    title: Layout
+    link:
+    definition:
+doNotConfuse:
+    0:
+      title: Content type
+      link: /glossary/content-type
+      definition:
+    1:
+      title: Content schema
+      link: /glossary/content-schema
+      definition:
 theme: Presentation layer
 order: 1
 ---
