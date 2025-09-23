@@ -12,7 +12,6 @@ details:
   Giving content structure at a more granular level than the ‘page’ enables better search, knowledge organisation and AI outcomes.
 
 
-
   Content modelling defines:
   
   - the different [content types](/glossary/content-type) you have (or could have) in your domain
