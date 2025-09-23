@@ -4,11 +4,9 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Attribute
+description: Attributes describe the characteristics of a content type. For example, a news article has a title, summary, author, date, body and location.
 details:
-  'Attributes describe the characteristics of a content type. For example, a news article has a title, summary, author, date, body, location and tags.
-  
-
-  Attributes create consistent structure to make it easier to understand, manage, display and reuse content.
+  'Attributes create consistent structure to make it easier to understand, manage, display and reuse content.
 
 
   Attributes can be:
@@ -30,7 +28,7 @@ synonym:
   1:
     title: Field
     link:
-    definition: a term used by publishers to describe the input space in a Content Management System
+    definition: a term used by publishers to describe the input space in a content management system
 nonPreferred:
   0:
     title:

@@ -6,12 +6,12 @@ description: This glossary (or controlled vocabulary) captures the preferred and
 details:
   'It covers terminology in the:
 
-  - backend information layer – content models, content schemas and content types
+  - backend information layer — for example, content type or attribute
   
-  - frontend presentation layer – templates, layouts, components and containers
+  - frontend presentation layer — for example, template or component 
 
 
-  The benefits of having a shared vocabulary are:
+  The benefits of having a shared vocabulary are that it:
 
   - creates collective understanding and consistency
   

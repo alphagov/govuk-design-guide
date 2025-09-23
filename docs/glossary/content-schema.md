@@ -4,11 +4,9 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content schema
+description: A GOV.UK content schema is a JSON schema that defines the underlying structure and properties of a piece of content.
 details:
-  'A GOV.UK content schema is a JSON schema that defines the underlying structure and properties of a piece of content.
-  
-
-  The schema also contains data on the relationships with other schemas, classification systems and content types.'
+  'The schema contains data on the content type, and the relationships with other schemas and GOV.UK classification systems.'
 synonym:
   0:
     title:

@@ -4,11 +4,12 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Content type
+description: Content types provide a reusable stencil for organising content that has a common structure and purpose. 
 details:
-  'Content types are a way of organising content that has a common structure and purpose. For example, if you had a group of content items that are all types of speech, you’d create a "speech" content type so they share a consistent structure and classification.
+  'For example, GOV.UK has content types for things like speeches, news articles, guidance and consultations. These content types provide the content items with consistent classification and structure.
+
   
-  
-  Information architects model the attributes that make up the content types (including core content or metadata) and the relationships between content types.
+  Content types contain [attributes](/glossary/attribute) — these can be core content or metadata. 
   
   
   In GOV.UK’s tech stack, the content type is coded into the broader content schema.'
