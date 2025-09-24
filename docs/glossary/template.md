@@ -17,10 +17,7 @@ nonPreferred:
     title: Format
     link:
     definition:
-  1:
-    title: Layout
-    link:
-    definition:
+  
 doNotConfuse:
     0:
       title: Content type
@@ -29,6 +26,10 @@ doNotConfuse:
     1:
       title: Content schema
       link: /glossary/content-schema
+      definition:
+    2:
+      title: Layout
+      link: /glossary/layout
       definition:
 theme: Presentation layer
 order: 1
