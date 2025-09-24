@@ -4,8 +4,7 @@ sectionKey: Glossary
 eleventyNavigation:
   parent: Glossary
 title: Using this glossary
-description: A guide to the terminology used in the GOV.UK glossary. 
-
+description: A guide to the terminology used in the GOV.UK glossary.
 details:
   'The entries in this glossary all contain a preferred term (the term to use) and a definition (what the term means). They can also contain:
 
