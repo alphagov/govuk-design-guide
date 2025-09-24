@@ -6,7 +6,6 @@ eleventyNavigation:
 title: Template
 description: A template contains the layouts and components for a content type.
 details:
-
 synonym:
   0:
     title:
@@ -17,7 +16,6 @@ nonPreferred:
     title: Format
     link:
     definition:
-  
 doNotConfuse:
     0:
       title: Content type
