@@ -23,7 +23,7 @@ title: Simple smart answer
 
 # Description of the frontend template
 # This briefly describes what the frontend template is. It is required to display the description on the page, and in the <head> meta description.
-description: A simple smart answer are simple in nature and is can be built and managed by publishers.
+description: Simple smart answers are simple in nature and can be built and managed by publishers.
 
 # Embedding the figma file of the frontend template
 # This will display a Figma embed on the page.
