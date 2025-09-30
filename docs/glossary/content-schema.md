@@ -17,7 +17,7 @@ nonPreferred:
     title: Content format
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title: Content type
       link: /glossary/content-type

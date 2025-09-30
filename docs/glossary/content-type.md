@@ -23,7 +23,7 @@ nonPreferred:
     title: Content format
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title: Content schema
       link: /glossary/content-schema

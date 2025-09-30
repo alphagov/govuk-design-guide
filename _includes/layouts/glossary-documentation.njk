@@ -22,9 +22,9 @@
           {{ glossaryListItems(nonPreferred, 'Non-preferred term', 'non-preferred') }}
         </section>
       {% endif %}
-      {% if doNotConfuse[0].title %}
-        <section class="doc-do-not-confuse">
-          {{ glossaryListItems(doNotConfuse, 'Do not confuse with the term', 'do-not-confuse') }}
+      {% if relatedTerm[0].title %}
+        <section class="doc-related-term">
+          {{ glossaryListItems(relatedTerm, 'Related term', 'related-term') }}
         </section>
       {% endif %}
       {% if image.src %}
