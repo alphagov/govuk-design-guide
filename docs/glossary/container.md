@@ -30,7 +30,7 @@ nonPreferred:
     title: Module
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title: Component
       link: /glossary/component

@@ -29,7 +29,7 @@ nonPreferred:
     title: Module
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title: Container
       link: /glossary/container

@@ -29,7 +29,7 @@ nonPreferred:
     title:
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title: Domain model
       link:
