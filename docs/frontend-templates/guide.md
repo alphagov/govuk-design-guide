@@ -67,7 +67,7 @@ examples:
         # true = The webpage is in Welsh
         # false = The webpage is not in Welsh, but rather in English
       false
-    
+
 # The Content Data (Production) URL this frontend template
 # Filter the document type in content data and copy the URL in your browser's address bar.
 contentDataLink: https://content-data.publishing.service.gov.uk/content?submitted=true&date_range=past-30-days&search_term=&document_type=guide&organisation_id=all
@@ -113,7 +113,7 @@ renderingApp:
     # government frontend
     # smart answers
     # static
-  government frontend
+  frontend
 
 # Components that make-up this frontend template
 # List out all the components that make-up this frontend template, by (1) providing the name of the component, (2) a link to the documentation for said component, (3) how is this component generated on the page and (4) the associated publishing input fields within the publishing app.
