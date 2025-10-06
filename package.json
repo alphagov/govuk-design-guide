@@ -11,6 +11,6 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@x-govuk/govuk-eleventy-plugin": "^8.0.4",
-    "rollup": "^4.52.3"
+    "rollup": "^4.52.4"
   }
 }
