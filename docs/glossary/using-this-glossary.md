@@ -13,7 +13,7 @@ details:
 
   - non-preferred terms — terms that should not be used, for example because they have an existing meaning or cause unnecessary confusion for users
 
-  - do not confuse with terms — terms that are closely related to the preferred term but are not the same
+  - related terms — terms that are closely related to the preferred term but are not the same
 
   ## Get involved
   
