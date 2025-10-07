@@ -24,7 +24,7 @@ nonPreferred:
     title: Pattern
     link:
     definition:
-doNotConfuse:
+relatedTerm:
     0:
       title:
       link:
