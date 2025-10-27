@@ -10,7 +10,7 @@
     "@rollup/plugin-babel": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@x-govuk/govuk-eleventy-plugin": "^8.0.4",
+    "@x-govuk/govuk-eleventy-plugin": "^8.1.0",
     "rollup": "^4.52.5"
   }
 }
