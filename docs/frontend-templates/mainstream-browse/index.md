@@ -227,6 +227,15 @@ insights:
     title: 'Multi Variate Testing on Popular Tasks'
     link: https://docs.google.com/document/d/1kCEnXA58R4YKJUOpMNBeqVSFHXDwbow3_GUebcK0i9M/edit?tab=t.0#heading=h.tgu1ies1hjax
     documentFormat: Google Docs 
+  9:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: November 2025
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Following the brand refresh, the page headers, which use the brand blue background, didn’t contrast well visually with the new Welcome to GOV.UK  header. Several options were explored, as shown in the attached Figma file, and the header was updated to a 95% tint of the brand blue for a more balanced look.'
+    title: 'Blue header with blue banners'
+    link: https://www.figma.com/design/MVhsnvkYk12VSNnxTyeYaI/Blue-header-with-blue-banners?node-id=0-1&p=f
+    documentFormat: Figma 
  
 
 # Existing issues with this frontend template

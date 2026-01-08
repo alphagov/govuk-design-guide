@@ -247,6 +247,15 @@ insights:
     title: 'Proposal to improve Specialist Finder development and efficiency'
     link: https://docs.google.com/document/d/1hZD3eJjX3qWL6ntWV_aUq0U43m5LIEblwAeIRoUY7x0/edit?usp=sharing
     documentFormat: Google Docs
+  2:
+    # A description is REQUIRED in order for this information to render on the page.
+    date: November 2025
+    description:
+      # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
+      'Following the brand refresh, the page headers, which use the brand blue background, didn’t contrast well visually with the new Welcome to GOV.UK  header. Several options were explored, as shown in the attached Figma file, and the header was updated to a 95% tint of the brand blue for a more balanced look.'
+    title: 'Blue header with blue banners'
+    link: https://www.figma.com/design/MVhsnvkYk12VSNnxTyeYaI/Blue-header-with-blue-banners?node-id=0-1&p=f
+    documentFormat: Figma 
 
 # Existing issues with this frontend template
 # List of all the issues that are associated with this frontend template, (1) containing the title used to describe the issue on GitHub, and (2) the link to the GitHub issue itself.
