@@ -57,7 +57,7 @@ howItWorks:
   It depends on the content type it shows on, but usually this component is rendered based on a publisher-provided list of parts in a document.
 
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contents_list" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/contents_list).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.

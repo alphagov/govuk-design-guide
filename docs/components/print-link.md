@@ -30,7 +30,10 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  This component is used to print a single page. In the context of <a class="govuk-link" href="https://www.gov.uk/universal-credit" rel="noopener noreferrer" target="_blank">a multi-page guide (opens in a new tab)</a> a “View a printable version of the whole guide” link is instead added at the bottom of the page. This link leads to <a class="govuk-link" href="https://www.gov.uk/universal-credit/print" rel="noopener noreferrer" target="_blank">a print version (opens in a new tab)</a> of the complete guide which thes has the print link component at the top of the page.
+  This component is used to print a single page. 
+
+  
+  In the context of a multi-page guide, for example [Universal Credit](https://www.gov.uk/universal-credit), a “View a printable version of the whole guide” link is added to the bottom of the page. The link leads to [a print version](https://www.gov.uk/universal-credit/print) of the complete guide which  has the print link component at the top of the page.
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -51,7 +54,7 @@ howItWorks:
   This component renders two different outputs depending on whether a `href` is specified. By default, when no `href` is given, the component renders as a button and triggers a print action via JavaScript. In this case the component is hidden in environments where JavaScript is disabled and can be used as a progressive enhancement. When a `href` is specified the component renders as an anchor tag and navigates to that `href` without JavaScript, suitable for applications which have paths that trigger a print event on load.
   
   
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/print_link" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/print_link).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
