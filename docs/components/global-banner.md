@@ -32,9 +32,9 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 whenToUse:
   'The global banner is activated in the following event:
 
-  - General election
+  - general election
 
-  - Special topic that Number 10 wants us to promote'
+  - special topic that Number 10 wants us to promote'
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -49,7 +49,7 @@ howItWorks:
   'A site-wide (global) banner can be activated to convey important information on GOV.UK which is not deemed emergency-level information. Unlike the emergency banner, we show a user the global banner no more than 3 times, by storing the view count in a cookie.
 
 
-  Information and image of this component is available on the <a class="govuk-link" href="https://docs.publishing.service.gov.uk/manual/global-banner.html" rel="noopener noreferrer" target="_blank">Developer docs (opens in a new tab)</a>.'
+  Information and image of this component is available on the [Developer docs](https://docs.publishing.service.gov.uk/manual/global-banner.html).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
