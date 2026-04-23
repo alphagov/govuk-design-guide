@@ -19,7 +19,7 @@ title: Breadcrumbs
 
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
-description: The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels by making visible the page hierarchy.
+description: The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels by making the page hierarchy visible.
 
 # Embedding the figma file of the component
 # This will display a Figma embed on the page.
@@ -30,7 +30,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  'Breadcrumbs create an explicit path in the hierarchical structure, from the homepage to, but not including, the current page. In most cases, they relate to the topic the relevant content page is tagged as.'
+  'Breadcrumbs show the hierarchical structure from the homepage. In most cases they show the topic the page is tagged to. Breadcrumbs do not include the current page.'
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -47,26 +47,26 @@ whenNotToUse:
 howItWorks:
   'Breadcrumbs provide a way of navigating and orienting users:
   
-  - Each section of the path is a direct link to the page it represents in the hierarchy.
+  - each section of the path is a direct link to the page it represents in the hierarchy
   
-  - Links are in consecutive order and separated by a right pointing chevron to denote order.
+  - links are in consecutive order and separated by a right pointing chevron to denote order
   
-  - The text for each section represents the title of the page it links to.
+  - the text for each section represents the title of the page it links to
   
-  - Variations include breadcrumbs without Home at the start and breadcrumbs with a single section.
+  - variations include breadcrumbs without Home at the start and breadcrumbs with a single section
 
-  - On mobile, breadcrumbs are shortened to fit on a single line.
+  - breadcrumbs are shortened on mobile
 
-  - The breadcrumb component should be contained within a navigation landmark region.
+  - the breadcrumb component should be contained within a navigation landmark region
 
-  - The link to the current page has the attribute aria-current set to page.
+  - the link to the current page has the attribute aria-current set to page
 
   
 
   The component accepts an array of breadcrumb objects. Each crumb must have a title and a URL. Links are tracked, but in Universal Analytics, links to the homepage (any link with a url of `/`) will be tracked separately as `homeLinkClicked`.
   
   
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/breadcrumbs" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/breadcrumbs).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -112,7 +112,7 @@ insights:
     date: March 2022
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'The Homepage and Navigation Team did a complete audit of the logic and all iterations of this component.'
+      'The Navigation Team audited the logic and all iterations of this component.'
     title: Breadcrumbs logic
     link: https://docs.google.com/document/d/10k_LzO_JGqARIccAkL7aEgS0Ft9PSe7D0UC87akaUNo/edit#heading=h.yb5qbwi6tisj
     documentFormat: Google Docs

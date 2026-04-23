@@ -54,7 +54,7 @@ There is also an option to provide labels for additional context, for example, t
 GA4 tracking is enabled by default, but can be switched off.
 
 
-View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -116,7 +116,7 @@ Links in the component must:
 - have meaningful text
 
 
-Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+Considerations and criteria taken from the [Component Guide](https://components.publishing.service.gov.uk/component-guide/previous_and_next_navigation#accessibility-acceptance-criteria).'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.

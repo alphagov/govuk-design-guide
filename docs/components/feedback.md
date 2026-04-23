@@ -50,14 +50,14 @@ howItWorks:
   
   There are multiple journeys possible from this component:
   
-  - Users say ‘yes’ the page is useful and get the response ‘Thank you for your feedback’.
+  - users say ‘yes’ the page is useful and get the response ‘Thank you for your feedback’
   
-  - Users say ‘no’ and it opens to allow the user to enter their email address where they will be able to input their email address to receive a feedback form.
+  - users say ‘no’ and it opens to allow the user to enter their email address where they will be able to input their email address to receive a feedback form
   
-  - Users say ‘Report a problem with this page’ and we ask them ‘what were you doing?’ and ‘what went wrong?’.
+  - users say ‘Report a problem with this page’ and we ask them ‘what were you doing?’ and ‘what went wrong?’
 
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/feedback" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/feedback).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
