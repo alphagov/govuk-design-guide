@@ -6,8 +6,8 @@
         <tr class="govuk-table__row">
           <th scope="col" class="govuk-table__header">Date</th>
           <th scope="col" class="govuk-table__header">Description</th>
-          <th scope="col" class="govuk-table__header">Document</th>
-          <th scope="col" class="govuk-table__header">Format</th>
+          {# <th scope="col" class="govuk-table__header">Document</th> #}
+          {# <th scope="col" class="govuk-table__header">Format</th> #}
         </tr>
       </thead>
       <tbody class="govuk-table__body">
@@ -16,12 +16,12 @@
             <tr class="govuk-table__row">
               <th scope="row" class="govuk-table__header">{{ insights[i].date }}</th>
               <td class="govuk-table__cell">{{ insights[i].description | markdown }}</td>
-              <td class="govuk-table__cell">
+              {# <td class="govuk-table__cell">
                 {% if insights[i].link and insights[i].title %}
                   <a href="{{ insights[i].link }}" class="govuk-link" rel="noopener noreferrer" target="_blank">{{ insights[i].title }} (opens in a new tab)</a>
                 {% endif %}
-              </td>
-              <td class="govuk-table__cell">{{ insights[i].documentFormat }}</td>
+              </td> #}
+              {#<td class="govuk-table__cell">{{ insights[i].documentFormat }}</td>#}
             </tr>
           {% endif %}
         {% endfor %}
