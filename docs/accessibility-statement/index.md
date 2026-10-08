@@ -33,7 +33,7 @@ We do not currently make any claims of disproportionate burden for any parts of 
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on 26 September 2024. It was last reviewed and updated on 26 September 2024.
+This statement was prepared on 26 September 2024. It was last reviewed and updated on 8 October 2026.
 
 <!-- The GOV.UK Publishing Design Guide website was last audited for accessibility issues by .  -->
 
