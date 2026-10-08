@@ -1,4 +1,5 @@
 <div class="govuk-grid-column-one-quarter-from-desktop">
+  <a href="#content" class="govuk-skip-link" data-module="govuk-skip-link" data-govuk-skip-link-init="">Skip past section navigation</a>
   {{ xGovukSubNavigation({
     items: collections.navigation | eleventyNavigation(sectionKey or options.homeKey) | itemsFromNavigation(page.url, options, true)
   }) }}
