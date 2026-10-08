@@ -30,7 +30,7 @@ figmaLink: #Delete this comment before entering the Figma embed URL of the Figma
 # Briefly describe the situation(s) when to use this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 whenToUse:
-  This component is exclusively used on guidance pages with document attachments
+  This component is exclusively used on guidance pages with document attachments.
 
 # When not to use this component
 # Briefly describe the situation(s) when not to use this component.
@@ -42,13 +42,23 @@ whenNotToUse:
 # Briefly descibe how this component works. For instance, listing out what happens when an end-user interacts with this component.
 # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
 howItWorks:
-  'This component displays a link to a document that is attached to GOV.UK content along with a thumbnail and relevant file data (title of the document, format type, file size, link to view online, and request accessible format details). 
+  'This component displays a link to a document that is attached to GOV.UK content along with a thumbnail and relevant file data, including:
+
+   - title of the document
+
+   - format type
+
+   - file size
+
+   - link to view online
+
+   - request accessible format details 
 
 
   It is intended to be rendered in Govspeak and as an attachment ‘preview’ in Content Publisher. It is not as rich in features as the attachment rendering provided by Whitehall, it lacks support for multiple languages, CSV previews and publication fields.
   
 
-  View this component and all its variations in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  View this component and all its variations in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/attachment).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -196,7 +206,7 @@ accessibilty:
   - if the link is intended for downloading a file rather than directing to a webpage, specify the file type and size
 
 
-  Considerations and criteria taken from the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a>.'
+  Considerations and criteria taken from the [Component Guide](https://components.publishing.service.gov.uk/component-guide/attachment#accessibility-acceptance-criteria).'
 
 # Other design systems
 # List out all the other design systems that have documented this exact same component. This includes the GOV.UK Design System, along with other UK government departments.

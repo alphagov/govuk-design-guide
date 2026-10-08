@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: false
 
 # Name of the component
 # This is the name of the component (ex. Attachment). It is required to display the title on the page, in the meta data, and in the left-hand navigation menu of the components page.
-title: Related Navigation
+title: Related navigation
 
 # Description of the component
 # This briefly describes what the component is. It is required to display the description on the page, and in the <head> meta description.
@@ -48,13 +48,13 @@ howItWorks:
 
   - by itself (usually in the sidebar)
 
-  - as part of the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contextual_sidebar" rel="noopener noreferrer" target="_blank">contextual sidebar (opens in a new tab)</a> or <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/contextual_footer" rel="noopener noreferrer" target="_blank">contextual footer (opens in a new tab)</a>
+  - as part of the [contextual sidebar](https://components.publishing.service.gov.uk/component-guide/contextual_sidebar)  or [contextual footer](https://components.publishing.service.gov.uk/component-guide/contextual_footer)
 
   
-  View this component in the <a class="govuk-link" href="https://components.publishing.service.gov.uk/component-guide/related_navigation" rel="noopener noreferrer" target="_blank">Component Guide (opens in a new tab)</a> and the <a class="govuk-link" href="https://docs.publishing.service.gov.uk/manual/related-links.html" rel="noopener noreferrer" target="_blank">Developer Docs (opens in a new tab)</a>.
+  View this component in the [Component Guide](https://components.publishing.service.gov.uk/component-guide/related_navigation) and the [Developer Docs](https://docs.publishing.service.gov.uk/manual/related-links.html).
 
   
-  The component can be used with a variation of contents listed below. Find out more in <a class="govuk-link" href="https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1" rel="noopener noreferrer" target="_blank">this report (opens in a new tab)</a>.'
+  The component can be used with a variation of contents listed below. Find out more in the [navigational elements document](https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1).'
 
 # Variations for this component
 # List out any variations that exist for this component by providing (1) the name of said variation and (2) a brief description of that variation.
@@ -71,21 +71,21 @@ variations:
       - added by a content designer 
 
       
-      Find out more in <a class="govuk-link" href="https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1" rel="noopener noreferrer" target="_blank">this report (opens in a new tab)</a>.'
+      Find out more in the [navigational elements document](https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1).'
   1:
-    title: Document Collections
+    title: Document collections
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
       'Collections appear under the related content section on specialist and mainstream content.
 
 
-      If a content item is part of a collection, the collection links appear in the right-hand column. 
+      If a content item is part of a collection, the collection pages it appear in the right-hand column. 
 
 
       If the content item is part of multiple collections, all the collections are displayed.
 
       
-      Find out more in <a class="govuk-link" href="https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1" rel="noopener noreferrer" target="_blank">this report (opens in a new tab)</a>.'
+      Find out more in the [navigational elements document](https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1).'
   2:
     title: Explore the topic
     description:
@@ -93,12 +93,12 @@ variations:
       'Explore the topic shows the topics the content has been tagged to. This appears on mainstream content pages as well as specialist content pages. It is usually displayed in the Contextual Footer component. E.g. Mainstream guide: <a class="govuk-link" href="https://www.gov.uk/pay-corporation-tax" rel="noopener noreferrer" target="_blank">Pay your Corporation Tax bill: Overview - GOV.UK (opens in a new tab)</a>.
       
 
-      Find out more in <a class="govuk-link" href="https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1" rel="noopener noreferrer" target="_blank">this report (opens in a new tab)</a>.'
+      Find out more in the [navigational elements document](https://docs.google.com/document/d/1G8wz6D8O1B8wd77NPTr2iNqSV4tktO164GRL_cgK6Cw/edit#heading=h.khn7dphyjgi1).'
   3:
     title: Topical event
     description:
       # You MUST wrap this in single quotation marks (ie. ' '), since markdown can be used to enter this information. To create a heading, use three hashes (ie. ###).
-      'Gov publishers can add a link to a topic event page on the content page in Whitehall when needed. This can be done on most content types. Some examples are:
+      'Goverment publishers can add a link to a topical event page on the content page in Whitehall when needed. This can be done on most content types. Some examples are:
 
       - Policy papers, e.g. <a class="govuk-link" href="https://www.gov.uk/government/publications/charter-for-budget-responsibility-autumn-2022-update" rel="noopener noreferrer" target="_blank">Charter for Budget Responsibility: Autumn 2022 update (opens in a new tab)</a>
       
